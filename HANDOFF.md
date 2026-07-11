@@ -1,0 +1,55 @@
+# HANDOFF — gooaye-tracker
+
+- 最後更新：Claude Code / 2026-07-12
+
+## 任務 / 目標
+追蹤台灣 podcast《股癌 Gooaye》（謝孟恭，每週三/六更新）：自動抓新集數 → Gemini 音訊
+理解出摘要 → 記錄每集提及的產業與個股（含多空立場），累積成立場時間軸（比照
+serenity-tracker 的模式）。每集處理完推 Telegram 摘要。
+
+## 架構（一條管線）
+RSS(SoundOn) → `fetch_feed.py`(episodes.json) → `analyze.py`(下載 mp3 → Gemini 2.5
+Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json / industries.json)
+→ `build_dashboard.py`(dashboard.html) → `notify.py`(Telegram)。
+`daily.py` 串全流程，`run_daily.bat` 給排程呼叫。
+
+## 已完成
+- 全套腳本（scripts/，只用標準庫 + google-genai）。
+- feed 驗證：678 集全數入庫（RSS 含完整歷史），近 3 個月 26 集標 pending。
+- Windows 排程 **GooayeDaily** 已註冊（每日 22:00，`run_daily.bat`，每次最多處理 4 集
+  → 回填約一週自然補完，新集數優先）。
+- 推播沿用 `~/.claude/telegram.env` 的 bot；回填靜音（只推發布 5 天內的集數）。
+
+## 進行中 / 卡點
+⛔ **等使用者提供 Gemini API key**（AI Studio、AIza 開頭）→ 填進 repo `.env` 的
+`GOOAYE_GEMINI_KEY=`。填好後跑 `python scripts/daily.py` 端到端驗證一集。
+（EP678 音檔已下載在 data/audio/ 可直接測）
+
+## 下一步
+1. key 到位 → 跑 `python scripts/analyze.py --ep EP678` 驗證單集品質（摘要/標的抽取）。
+2. 驗證 OK → `python scripts/daily.py` 全流程 + 確認 Telegram 收到。
+3. 選配：回填加深到一年/全歷史 → 手動把 episodes.json 裡 skipped 改 pending
+   （或改 common.py 的 BACKFILL_SINCE 後寫個小工具重標），排程會每天自動消化 4 集。
+
+## 關鍵決策 + 為什麼
+- **不用 NotebookLM**：無公開 API，只能瀏覽器模擬，脆弱且違 ToS。等效方案 = Gemini API
+  直接吃音檔（NotebookLM 底層同引擎），免費層額度夠（flash 250 req/day、250k TPM，
+  一集約 10 萬 token，逐集間隔 30s）。詳見 docs/adr/0002。
+- **不用 YouTube 字幕**：@Gooaye 頻道字幕已關閉（yt-dlp 與 youtube-transcript-api 雙重
+  確認），免費字幕路線不通。
+- **不做本機 whisper**：8GB CPU 筆電轉一集 ~30 分鐘，Gemini 幾分鐘且零本機負載；
+  whisper 留作 Gemini 不可用時的備援。
+- 環境變數的 `GEMINI_API_KEY`（AQ. 開頭）是 Antigravity 的 OAuth 憑證，**打不通**
+  Gemini API；本專案用自己 .env 的 `GOOAYE_GEMINI_KEY`。
+
+## 雷區 / 別碰
+- SoundOn 音檔 URL 帶 timestamp 參數會過期 → fetch_feed 每次更新 audio_url，別存死鏈。
+- Gemini 免費層 429：analyze.py 已逐集間隔 30 秒，`--limit` 別開太大一次灌。
+- 音檔用完即刪（50MB/集），別改成保留，磁碟會爆。
+- 免責：AI 生成摘要與立場標籤可能有誤，非投資建議（dashboard 與推播已標註）。
+
+## 怎麼跑 / 怎麼測
+    cp .env.example .env   # 填 GOOAYE_GEMINI_KEY=AIza...
+    python scripts/daily.py --limit 4     # 全流程
+    python scripts/analyze.py --ep EP678  # 單集重跑
+    start data/dashboard.html             # 看儀表板

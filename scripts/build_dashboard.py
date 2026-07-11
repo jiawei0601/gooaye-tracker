@@ -1,0 +1,106 @@
+#!/usr/bin/env python3
+"""產出單檔 data/dashboard.html：每集摘要 / 標的追蹤 / 產業追蹤 三個分頁。"""
+import json
+
+from common import ANALYSES, DATA
+
+TEMPLATE = """<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>股癌 Podcast 追蹤器</title><style>
+:root{--bg:#111418;--card:#1b2027;--fg:#e6e9ee;--dim:#8a93a3;--acc:#4da3ff;
+--bull:#e05656;--bear:#39b56a;--flat:#8a93a3}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);
+font:15px/1.6 "Noto Sans TC",system-ui,sans-serif}
+header{padding:14px 20px;border-bottom:1px solid #2a303a;display:flex;gap:16px;
+align-items:baseline;flex-wrap:wrap}
+h1{font-size:18px;margin:0}#meta{color:var(--dim);font-size:12px}
+nav button{background:none;border:1px solid #2a303a;color:var(--fg);padding:6px 14px;
+border-radius:6px;cursor:pointer;font-size:14px}
+nav button.on{background:var(--acc);border-color:var(--acc);color:#08131f}
+main{max-width:1080px;margin:0 auto;padding:16px 20px}
+input{width:100%;max-width:360px;background:var(--card);border:1px solid #2a303a;
+color:var(--fg);padding:8px 12px;border-radius:6px;margin-bottom:12px}
+.card{background:var(--card);border:1px solid #2a303a;border-radius:10px;
+padding:14px 16px;margin-bottom:12px}
+.card h3{margin:0 0 6px;font-size:16px}.dim{color:var(--dim);font-size:12px}
+.tag{display:inline-block;padding:1px 8px;border-radius:10px;font-size:12px;
+margin-right:6px;border:1px solid}
+.看多,.持有中{color:var(--bull);border-color:var(--bull)}
+.看空,.已出場{color:var(--bear);border-color:var(--bear)}
+.中性,.觀察{color:var(--flat);border-color:var(--flat)}
+details{margin-top:6px}summary{cursor:pointer;color:var(--acc);font-size:13px}
+.tl{margin:6px 0 0;padding-left:0;list-style:none}
+.tl li{padding:6px 0;border-top:1px dashed #2a303a;font-size:14px}
+ul.plain{margin:6px 0;padding-left:18px}
+.disc{color:var(--dim);font-size:11px;padding:20px;text-align:center}
+</style></head><body>
+<header><h1>🎙️ 股癌 Gooaye 追蹤器</h1>
+<nav><button data-v="eps" class="on">每集摘要</button>
+<button data-v="tk">標的追蹤</button><button data-v="ind">產業追蹤</button></nav>
+<span id="meta"></span></header>
+<main><input id="q" placeholder="搜尋 代號 / 公司 / 關鍵字…"><div id="view"></div></main>
+<div class="disc">純資訊彙整、AI 生成摘要可能有誤，非投資建議。</div>
+<script>
+const EPS=__EPS__,TK=__TK__,IND=__IND__;
+let cur="eps";
+const $=s=>document.querySelector(s);
+const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const tag=s=>`<span class="tag ${esc(s)}">${esc(s)}</span>`;
+function render(){
+ const q=$("#q").value.trim().toLowerCase(),v=$("#view");let h="";
+ if(cur==="eps"){
+  for(const a of EPS){
+   const txt=JSON.stringify(a).toLowerCase();
+   if(q&&!txt.includes(q))continue;
+   h+=`<div class="card"><h3>${esc(a.ep_key)} ｜ ${esc(a.title)}</h3>
+   <div class="dim">${esc(a.pubdate)} · ${Math.round(a.duration_s/60)} 分鐘</div>
+   <p>${esc(a.summary)}</p>
+   ${a.market_view?`<p>📊 <b>大盤觀點：</b>${esc(a.market_view)}</p>`:""}
+   <div>${(a.tickers||[]).map(t=>tag(t.stance)+esc(t.symbol)).join(" ")}</div>
+   <details><summary>主題與論點</summary>
+   <ul class="plain">${(a.topics||[]).map(t=>`<li>${esc(t)}</li>`).join("")}</ul>
+   <ul class="plain">${(a.quotes||[]).map(t=>`<li>💬 ${esc(t)}</li>`).join("")}</ul>
+   <ul class="tl">${(a.tickers||[]).map(t=>`<li>${tag(t.stance)}<b>${esc(t.symbol)}</b> ${esc(t.name)} — ${esc(t.argument)}</li>`).join("")}</ul>
+   </details></div>`;}
+ }else{
+  const src=cur==="tk"?TK:IND;
+  const keys=Object.keys(src).sort((a,b)=>src[b].mentions-src[a].mentions);
+  for(const k of keys){
+   const r=src[k],txt=(k+JSON.stringify(r)).toLowerCase();
+   if(q&&!txt.includes(q))continue;
+   h+=`<div class="card"><h3>${esc(k)} ${r.name&&r.name!==k?esc(r.name):""}
+   ${tag(r.latest_stance)}</h3>
+   <div class="dim">提及 ${r.mentions} 次 · 最近 ${esc(r.latest_date)}</div>
+   <details ${q?"open":""}><summary>立場時間軸</summary><ul class="tl">
+   ${r.timeline.map(e=>`<li>${tag(e.stance)}<b>${esc(e.ep)}</b> <span class="dim">${esc(e.date)}</span> ${esc(e.argument||e.view)}</li>`).join("")}
+   </ul></details></div>`;}
+ }
+ v.innerHTML=h||'<p class="dim">沒有符合的資料</p>';
+}
+document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
+ cur=b.dataset.v;document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));render();});
+$("#q").oninput=render;
+$("#meta").textContent=`${EPS.length} 集 · ${Object.keys(TK).length} 檔標的 · ${Object.keys(IND).length} 個產業`;
+render();
+</script></body></html>"""
+
+
+def main():
+    eps = [json.loads(f.read_text(encoding="utf-8"))
+           for f in ANALYSES.glob("*.json") if not f.name.startswith(".")]
+    eps.sort(key=lambda a: a["pubdate"], reverse=True)
+    tk = json.loads((DATA / "tickers.json").read_text(encoding="utf-8")) \
+        if (DATA / "tickers.json").exists() else {}
+    ind = json.loads((DATA / "industries.json").read_text(encoding="utf-8")) \
+        if (DATA / "industries.json").exists() else {}
+    html = (TEMPLATE
+            .replace("__EPS__", json.dumps(eps, ensure_ascii=False))
+            .replace("__TK__", json.dumps(tk, ensure_ascii=False))
+            .replace("__IND__", json.dumps(ind, ensure_ascii=False)))
+    out = DATA / "dashboard.html"
+    out.write_text(html, encoding="utf-8")
+    print(f"dashboard: {out} ({out.stat().st_size >> 10}KB, {len(eps)} 集)")
+
+
+if __name__ == "__main__":
+    main()

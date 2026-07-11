@@ -1,0 +1,5 @@
+.env
+data/audio/
+data/daily.log
+data/analyses/.last_processed.json
+__pycache__/
