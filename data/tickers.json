@@ -1,18 +1,303 @@
 {
- "NVDA": {
-  "name": "Nvidia",
+ "EV OASIS": {
+  "name": "EV OASIS",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "中性",
+    "argument": "本集節目贊助商，提供電動車充電服務。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "中性",
+  "latest_date": "2026-06-27"
+ },
+ "PLTR": {
+  "name": "Palantir",
   "market": "US",
   "timeline": [
    {
-    "ep": "EP678",
-    "date": "2026-07-11",
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "持有中",
+    "argument": "個人最喜歡的軟體股之一，形態良好，若持續上漲會考慮加碼。"
+   },
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "看空",
+    "argument": "近期表現相對疲弱。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-08"
+ },
+ "CRWD": {
+  "name": "CrowdStrike",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "持有中",
+    "argument": "個人最喜歡的軟體股之一，形態良好，若持續上漲會考慮加碼。"
+   },
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
     "stance": "看多",
-    "argument": "股價再次攻上200美元，重新站上季線，走勢看好。"
+    "argument": "近期表現良好。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-08"
+ },
+ "GOOGL": {
+  "name": "Google",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "看多",
+    "argument": "在降本增效和AI發展方面表現出色。"
    }
   ],
   "mentions": 1,
   "latest_stance": "看多",
+  "latest_date": "2026-06-27"
+ },
+ "AAPL": {
+  "name": "Apple",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "觀察",
+    "argument": "若資金從CPU轉出，可能會考慮轉向蘋果等巨頭。"
+   },
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "觀察",
+    "argument": "在AI邊緣運算有潛力，但需等待合適切入點；近期漲價值得關注。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-08"
+ },
+ "TSLA": {
+  "name": "Tesla",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "已出場",
+    "argument": "為購買SpaceX而賣出部分持股。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "已出場",
+  "latest_date": "2026-06-27"
+ },
+ "MSFT": {
+  "name": "Microsoft",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "觀察",
+    "argument": "在市場表現不佳時仍有反彈。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-27"
+ },
+ "SPACEX": {
+  "name": "SpaceX",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "持有中",
+    "argument": "透過調節其他持股買入。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "持有中",
+  "latest_date": "2026-06-27"
+ },
+ "MTK": {
+  "name": "聯發科",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "觀察",
+    "argument": "主持人認為是許多人夢寐以求的工作地點。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-27"
+ },
+ "2327": {
+  "name": "國巨",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "觀察",
+    "argument": "期貨在市場下跌時跌停，顯示有槓桿資金被迫平倉。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-27"
+ },
+ "0050": {
+  "name": "元大台灣50",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "持有中",
+    "argument": "今年報酬率已達50%以上，吸引更多人進入市場，改變了對颱風假等議題的看法。"
+   },
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "觀察",
+    "argument": "許多人會投資的標的，今年仍有不錯的報酬率。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "持有中",
   "latest_date": "2026-07-11"
+ },
+ "006208": {
+  "name": "富邦台50",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "觀察",
+    "argument": "許多人會投資的標的，今年仍有不錯的報酬率。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-27"
+ },
+ "南電": {
+  "name": "南電",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "觀察",
+    "argument": "其財測上修可能觸發了ABF載板板塊的再次走強。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-01"
+ },
+ "聯發科": {
+  "name": "聯發科",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "看多",
+    "argument": "作為IC設計大廠，從跌破支撐後反彈並走強。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-01"
+ },
+ "創意": {
+  "name": "創意",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "看多",
+    "argument": "IC設計公司，從低點反彈並走強。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-01"
+ },
+ "世芯": {
+  "name": "世芯",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "看多",
+    "argument": "IC設計公司，從低點反彈並走強。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-01"
+ },
+ "2330": {
+  "name": "台積電",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "看多",
+    "argument": "AI核心，儘管預期高，但長期仍看好其產業地位。"
+   },
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "觀察",
+    "argument": "受再平衡影響後開始反彈，其法說會將是接下來的市場關鍵事件。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-08"
+ },
+ "ON": {
+  "name": "Onsemi",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "觀察",
+    "argument": "因併購案股價下跌，但基本面與未來展望仍佳，可能為市場對併購的反應。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-01"
  },
  "META": {
   "name": "Meta",
@@ -23,11 +308,83 @@
     "date": "2026-07-11",
     "stance": "看多",
     "argument": "大舉投入AI基礎設施，出售閒置算力並非退出競爭，而是「滿倉殺進去」的積極策略，對其AI發展是極度看漲的訊號。"
+   },
+   {
+    "ep": "EP676",
+    "date": "2026-07-04",
+    "stance": "看多",
+    "argument": "出售多餘AI算力是為加速未來AI投資的策略性舉動，而非退出AI競賽。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-11"
+ },
+ "NVDA": {
+  "name": "輝達",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "看多",
+    "argument": "股價再次攻上200美元，重新站上季線，走勢看好。"
+   },
+   {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "持有中",
+    "argument": "AI核心強者，價格便宜且具成長潛力，長期持有。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-11"
+ },
+ "TESLA": {
+  "name": "特斯拉",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "持有中",
+    "argument": "偏信仰股，個人看好馬斯克及其公司發展，儘管有波動仍持有。"
    }
   ],
   "mentions": 1,
-  "latest_stance": "看多",
-  "latest_date": "2026-07-11"
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-08"
+ },
+ "CLSK": {
+  "name": "CleanSpark",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "持有中",
+    "argument": "個人最喜歡的軟體股之一，形態良好，若持續上漲會考慮加碼。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-08"
+ },
+ "GOOG": {
+  "name": "Google",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "觀察",
+    "argument": "若資金從CPU轉出，可能會考慮轉向Google等巨頭。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-08"
  },
  "CRDO": {
   "name": "Credo",
@@ -72,21 +429,6 @@
   ],
   "mentions": 1,
   "latest_stance": "看多",
-  "latest_date": "2026-07-11"
- },
- "0050": {
-  "name": "元大台灣50",
-  "market": "TW",
-  "timeline": [
-   {
-    "ep": "EP678",
-    "date": "2026-07-11",
-    "stance": "持有中",
-    "argument": "今年報酬率已達50%以上，吸引更多人進入市場，改變了對颱風假等議題的看法。"
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "持有中",
   "latest_date": "2026-07-11"
  }
 }

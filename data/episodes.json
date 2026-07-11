@@ -21,7 +21,7 @@
   "duration_s": 2999,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/2d7b77d8-c828-43f9-b835-5a1a72aa2e38/rssFileVip.mp3?timestamp=1783202559711",
   "guid": "2d7b77d8-c828-43f9-b835-5a1a72aa2e38",
-  "status": "pending"
+  "status": "done"
  },
  "EP675": {
   "title": "EP675 | 🎢",
@@ -29,7 +29,7 @@
   "duration_s": 2998,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/31e6121a-9d45-4204-aac1-f3a2cd7cd5fe/rssFileVip.mp3?timestamp=1782931888270",
   "guid": "31e6121a-9d45-4204-aac1-f3a2cd7cd5fe",
-  "status": "pending"
+  "status": "done"
  },
  "EP674": {
   "title": "EP674 | 🦋",
@@ -37,7 +37,7 @@
   "duration_s": 3181,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/1b5e1964-2bc3-4634-80c6-228c02e87474/rssFileVip.mp3?timestamp=1782588316074",
   "guid": "1b5e1964-2bc3-4634-80c6-228c02e87474",
-  "status": "pending"
+  "status": "done"
  },
  "EP673": {
   "title": "EP673 | 🥬",
