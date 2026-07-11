@@ -21,15 +21,14 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
 - 推播沿用 `~/.claude/telegram.env` 的 bot；回填靜音（只推發布 5 天內的集數）。
 
 ## 進行中 / 卡點
-⛔ **等使用者提供 Gemini API key**（AI Studio、AIza 開頭）→ 填進 repo `.env` 的
-`GOOAYE_GEMINI_KEY=`。填好後跑 `python scripts/daily.py` 端到端驗證一集。
-（EP678 音檔已下載在 data/audio/ 可直接測）
+✅ 金鑰到位（2026-07-12，新版 AI Studio 金鑰為 **AQ. 開頭**，已填 .env）。
+✅ EP678 端到端驗證通過：摘要/產業多空/標的論點品質良好，Telegram 已收到推播。
+背景正在回填 EP677–674，其餘 pending 由排程每晚消化 4 集，約一週補完近 3 個月。
 
 ## 下一步
-1. key 到位 → 跑 `python scripts/analyze.py --ep EP678` 驗證單集品質（摘要/標的抽取）。
-2. 驗證 OK → `python scripts/daily.py` 全流程 + 確認 Telegram 收到。
-3. 選配：回填加深到一年/全歷史 → 手動把 episodes.json 裡 skipped 改 pending
-   （或改 common.py 的 BACKFILL_SINCE 後寫個小工具重標），排程會每天自動消化 4 集。
+1. 選配：回填加深到一年/全歷史 → 手動把 episodes.json 裡 skipped 改 pending
+   （或改 common.py 的 BACKFILL_SINCE 後寫個小工具重標），排程會每天自動消化。
+2. 選配：標的代號校正表（見雷區的 ASTS/ALAB 問題）。
 
 ## 關鍵決策 + 為什麼
 - **不用 NotebookLM**：無公開 API，只能瀏覽器模擬，脆弱且違 ToS。等效方案 = Gemini API
@@ -39,13 +38,18 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
   確認），免費字幕路線不通。
 - **不做本機 whisper**：8GB CPU 筆電轉一集 ~30 分鐘，Gemini 幾分鐘且零本機負載；
   whisper 留作 Gemini 不可用時的備援。
-- 環境變數的 `GEMINI_API_KEY`（AQ. 開頭）是 Antigravity 的 OAuth 憑證，**打不通**
-  Gemini API；本專案用自己 .env 的 `GOOAYE_GEMINI_KEY`。
+- 金鑰教訓：**前綴不代表有效性**。環境變數的 `GEMINI_API_KEY` 與新版 AI Studio 金鑰
+  同為 AQ. 開頭，前者 401、後者可用 → 程式不做前綴檢查，只認 .env 的
+  `GOOAYE_GEMINI_KEY`（不撿環境變數，避免撿到 Antigravity 的無效憑證）。
+- AI Pro 訂閱額度只作用於 AI Studio 網頁介面，API key 走獨立免費層（flash 免費層
+  仍在）；專案不綁 billing → 打爆頂多 429、不會扣款。
 
 ## 雷區 / 別碰
 - SoundOn 音檔 URL 帶 timestamp 參數會過期 → fetch_feed 每次更新 audio_url，別存死鏈。
 - Gemini 免費層 429：analyze.py 已逐集間隔 30 秒，`--limit` 別開太大一次灌。
 - 音檔用完即刪（50MB/集），別改成保留，磁碟會爆。
+- 標的代號可能對錯：EP678 把 Astera Labs 標成 ASTS（應為 ALAB）。純聽音檔對代號
+  有極限，重要標的下單前自行核對。
 - 免責：AI 生成摘要與立場標籤可能有誤，非投資建議（dashboard 與推播已標註）。
 
 ## 怎麼跑 / 怎麼測

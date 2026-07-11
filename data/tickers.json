@@ -1,1 +1,92 @@
-{}
+{
+ "NVDA": {
+  "name": "Nvidia",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "看多",
+    "argument": "股價再次攻上200美元，重新站上季線，走勢看好。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-11"
+ },
+ "META": {
+  "name": "Meta",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "看多",
+    "argument": "大舉投入AI基礎設施，出售閒置算力並非退出競爭，而是「滿倉殺進去」的積極策略，對其AI發展是極度看漲的訊號。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-11"
+ },
+ "CRDO": {
+  "name": "Credo",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "持有中",
+    "argument": "過去被市場看空，但現在股價已創新高，顯示市場對「光進銅退」的看法有所修正。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-11"
+ },
+ "ASTS": {
+  "name": "Astera Labs",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "持有中",
+    "argument": "過去被市場看空，但現在股價已創新高，顯示市場對「光進銅退」的看法有所修正。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-11"
+ },
+ "ADI": {
+  "name": "ADI",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "看多",
+    "argument": "作為全球大型類比IC廠商，已發出漲價通知，顯示功率元件產業的漲價趨勢。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-11"
+ },
+ "0050": {
+  "name": "元大台灣50",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "持有中",
+    "argument": "今年報酬率已達50%以上，吸引更多人進入市場，改變了對颱風假等議題的看法。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-11"
+ }
+}

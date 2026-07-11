@@ -3,7 +3,13 @@
 import json
 import os
 import re
+import sys
 from pathlib import Path
+
+# Windows 主控台預設 cp950，印中文/emoji 會炸；統一改 UTF-8
+for _s in (sys.stdout, sys.stderr):
+    if _s and _s.encoding and _s.encoding.lower() not in ("utf-8", "utf8"):
+        _s.reconfigure(encoding="utf-8", errors="replace")
 
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
@@ -30,11 +36,8 @@ def load_env():
 
 def gemini_key():
     load_env()
-    k = os.environ.get("GOOAYE_GEMINI_KEY") or os.environ.get("GEMINI_API_KEY", "")
-    # Antigravity 的 OAuth 憑證（AQ. 開頭）打不通 Gemini API，需 AIza 開頭的 AI Studio 金鑰
-    if not k.startswith("AIza"):
-        return ""
-    return k
+    # 只認本專案 .env 的金鑰；環境變數 GEMINI_API_KEY 是 Antigravity 的無效憑證，勿撿
+    return os.environ.get("GOOAYE_GEMINI_KEY", "")
 
 
 def load_episodes():
