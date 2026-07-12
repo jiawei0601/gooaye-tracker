@@ -1,0 +1,81 @@
+{
+ "summary": "本集節目由 NordVPN 贊助。主持人謝孟恭分享其在柏林觀看 Radiohead 演唱會的體驗與對家庭生活的感悟，並深入剖析博通（Broadcom, AVGO）最新財報。他指出博通的 AI 積壓訂單（backlog）達 730 億美元，未來成長無虞。同時，他確認 Google（透過其 ASIC 晶片）與博通的合作關係，並探討了 Rack-level 解決方案對毛利率的影響。此外，他也重申 AI 晶片封裝（CoWoS/OAS）產能吃緊，將持續惠及相關設備與廠務工程股，並對細光子技術的普及時程抱持務實態度。",
+ "topics": [
+  "NordVPN 贊助與遠端工作安全",
+  "柏林 Radiohead 演唱會體驗與家庭生活感悟",
+  "博通（Broadcom）最新財報與 AI 積壓訂單分析",
+  "Google ASIC 晶片與博通的合作關係（Enfrapic）",
+  "Rack-level 解決方案對毛利率與獲利的影響",
+  "細光子（Silicon Photonics）與 OCS 全光交換器技術展望",
+  "AI 晶片封裝（CoWoS）產能吃緊與廠務工程股機會"
+ ],
+ "market_view": "AI 相關的資本支出（CapEx）預期可一路延伸至 2027 年，整體 AI 基礎建設需求依然強勁，惟短期內需注意動能交易的波動風險。",
+ "industries": [
+  {
+   "name": "AI晶片/ASIC",
+   "stance": "看多",
+   "view": "博通的 AI 積壓訂單持續上升，客製化晶片（ASIC）需求強勁，Google 等大客戶合作關係穩固。"
+  },
+  {
+   "name": "細光子/光通訊",
+   "stance": "觀察",
+   "view": "細光子技術全面普及仍需時間，但光通訊與全光交換（OCS）方案在 Google 推動下正持續爆發。"
+  },
+  {
+   "name": "半導體封裝/OSET",
+   "stance": "看多",
+   "view": "先進封裝（CoWoS）產能持續吃緊，訂單外溢至 OSAT 廠，帶動相關設備與廠務工程需求。"
+  },
+  {
+   "name": "廠務工程/無塵室",
+   "stance": "看多",
+   "view": "隨著晶圓廠與封測廠持續擴產，無塵室、配管配電等廠務工程股（如長物類股）動能轉強。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "看多",
+   "argument": "財報表現優異，AI 積壓訂單達 730 億美元，且 Rack-level 解決方案將帶來更多實質獲利。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "其 TPU（ASIC 晶片）與 OCS 全光交換器方案持續引領光通訊與客製化晶片市場需求。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "先進封裝產能供不應求，擴產風險由業界共同分擔，長期地位穩固。"
+  },
+  {
+   "symbol": "LUMN",
+   "name": "Lumentum",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "受益於 Google OCS 交換器方案的需求，是美股光通訊佈局的重要標的。"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "作為 Google 光通訊方案的潛在替代或協同供應商，具備長期成長機會。"
+  }
+ ],
+ "quotes": [
+  "不要去幫每天的股價找一個答案，如果把時間維度變成以天來算的話，會有很大的問題。",
+  "毛利率（Margin %）跟毛利數字（Absolute Margin $）是一個數字遊戲，雖然整櫃出貨毛利率會下降，但其實你賺了更多的錢。",
+  "最常為難女人的，就是女人。女人何苦為難女人？"
+ ],
+ "ep_key": "EP618",
+ "title": "EP618 | 🐟",
+ "pubdate": "2025-12-13",
+ "duration_s": 3175
+}

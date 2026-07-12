@@ -1,0 +1,103 @@
+{
+ "summary": "本集節目由 iHerb 贊助。主持人謝孟恭分享了抗噪耳機對現代人生活品質與心理壓力的重要性，並探討社群媒體比較心態對心理健康的影響。在科技與市場方面，討論了 Intel 的 EMIB 封裝與 HBM 的相容性，並更新了 NVIDIA 在 PTFE 背板材料、加澤在 Codelia 平台 Socket 的供應鏈動態。此外，針對 Google TPU 晶片與 Broadcom、MTK 的合作代數（V8、V9、V10）進行了詳細的架構釐清，並分享了軟體股 Confluent 被 IBM 收購的心得，強調長期持有與配置組合在軟體股投資中的重要性。",
+ "topics": [
+  "iHerb 贊助與抗噪耳機的生活哲學",
+  "社群媒體的比較心態與心理健康",
+  "Intel EMIB 封裝與 HBM 的技術釐清",
+  "NVIDIA PTFE 材料與加澤 Socket 供應鏈更新",
+  "Google TPU 晶片代數（V8、V9、V10）與 Marvell 謠言解析",
+  "軟體股投資心得：Confluent 被 IBM 收購與長期持有策略"
+ ],
+ "market_view": "市場情緒變化非常快，投資應隨時進行滾動式修正，並在配置中拉出合理的組合以降低波動與焦慮。",
+ "industries": [
+  {
+   "name": "半導體封裝",
+   "stance": "看多",
+   "view": "Intel 的 EMIB 封裝技術確實可與 HBM 搭配使用，且已拿到相關訂單。"
+  },
+  {
+   "name": "AI伺服器供應鏈",
+   "stance": "觀察",
+   "view": "NVIDIA 晶片背板材料與 Socket 規格持續有動態調整，供應鏈廠商需滾動式追蹤。"
+  },
+  {
+   "name": "軟體股",
+   "stance": "看多",
+   "view": "軟體股適合以組合（如 Confluent、Palantir、Cloudflare）方式配置，並透過長期持有賺取倍數獲利。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "中性",
+   "argument": "其 EMIB-T 封裝技術具有 TSV 轉孔，確實可以使用 HBM，並已獲得部分訂單。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "在下一代背板材料上，近期聖興有可能會採用 PTFE 材料，技術路線仍有變動。"
+  },
+  {
+   "symbol": "3533",
+   "name": "嘉澤",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "在 Codelia 平台上的 Socket 供應有機會在後續的 Socket 規格中繼續被採用。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "看空",
+   "argument": "市場傳言其將搶下 Google TPU 訂單，但實際上在 V10 之前的代數已定案，短期內無切入機會。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "看多",
+   "argument": "持續與 Google 合作開發 TPU 的主晶片（如 V8 代數）。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "在 Google TPU 晶片合作中，負責提供 IO 晶片的設計。"
+  },
+  {
+   "symbol": "CFLT",
+   "name": "Confluent",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "雖然營收獲利未如預期開出，但最終被 IBM 溢價收購，以獲利約 20-30% 出場。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "作為軟體股組合的一部分，表現極為強勁，帶來豐厚回報。"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "屬於軟體股核心配置之一，長期看好其在應用面的發展。"
+  }
+ ],
+ "quotes": [
+  "抗噪耳機是現代人必備的東西，它的重要程度甚至不亞於你的身份證跟健保卡。",
+  "股票最大的獲利都是抱出來的。統計數據顯示，表現最好的一群人通常是買進並持有（Buy and Hold）的那群人。",
+  "基本面不會在短期內發生這麼巨大的改變，很多時候只是大家人心上的改變而已。"
+ ],
+ "ep_key": "EP617",
+ "title": "EP617 | 👾",
+ "pubdate": "2025-12-10",
+ "duration_s": 3066
+}

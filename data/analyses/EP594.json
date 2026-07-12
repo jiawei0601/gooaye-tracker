@@ -1,0 +1,83 @@
+{
+ "summary": "本集節目中，主持人謝孟恭分享了近期家庭生活與帶小孩就醫的經歷，並對近期科技產業的重大新聞進行深度解析。針對 NVIDIA 傳出入股 Intel 的市場傳聞，主持人提出與市場主流不同的「台積電利多」觀點，認為此舉能為台積電分擔反壟斷指控的政治風險，同時對 AMD 構成競爭壓力。此外，節目也詳細討論了此事件對 Astera Labs (ALAB) 及聯發科 (MTK) 的潛在影響，並介紹了 Google Chrome 瀏覽器最新整合 AI Agent 的功能與未來個人資料庫的應用願景。",
+ "topics": [
+  "個人生活近況與算命、求神經歷分享",
+  "Apple Watch 與 iPhone 16 Pro Max 使用體驗",
+  "NVIDIA 入股 Intel 傳聞之產業影響深度解析",
+  "對台積電、AMD、Astera Labs 及聯發科的利弊分析",
+  "Google Chrome 整合 AI Agent 的新功能與未來展望",
+  "聽眾問答：資產焦慮、老牌 AI 股看法、育兒觀念與 3C 管控"
+ ],
+ "market_view": "目前市場行情極度舒適，甚至讓人覺得有點罪惡，許多人的投資組合在短時間內快速增長。",
+ "industries": [
+  "半導體",
+  "看多",
+  "NVIDIA 入股 Intel 傳聞對台積電實為利多，可分擔反壟斷政治風險。",
+  "AI伺服器",
+  "中性",
+  "老牌 AI 股如廣達、緯創等業績良好，但估值與題材需有新故事支撐。",
+  "軟體/AI應用",
+  "看多",
+  "Google Chrome 整合 AI Agent 將大幅改變使用者搜尋與自動化操作的體驗。"
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "入股 Intel 是一手好牌，能將 AMD 壓在地上打，並拓展其在 x86 平台的影響力。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "若與 NVIDIA 深度結合，其 CPU 整合 NVLink C2C 技術將增加對 CSP 客戶的吸引力。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "NVIDIA 入股 Intel 對台積電是利多，能化解市場對其壟斷先進製程的政治指控。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "看空",
+   "argument": "在此次 NVIDIA 與 Intel 的潛在合作中受創最深，其 PC 與資料中心市佔可能面臨威脅。"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "短期因 NVLink C2C 減少 PCIe Retimer 需求而受挫，但長期關鍵在於 Scorpio Switch 的放量。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "與 NVIDIA 合作開發 Arm-based PC 晶片的計畫，不會因 NVIDIA 與 Intel 的合作而中止。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Chrome 瀏覽器整合 AI Agent 功能強大，看好其在 AI 時代作為大贏家的潛力。"
+  }
+ ],
+ "quotes": [
+  "人真的盡量要在兩個極端之間找到一個平衡，不要停不下來，知足常樂非常重要。",
+  "不要太早去對人生下定論，很多事情是你沒有到那個階段，你不會知道那是什麼感覺。",
+  "小孩子真的會帶財，他會帶給你很多的責任感與正向的力量，讓你的生活多出很多意義。"
+ ],
+ "ep_key": "EP594",
+ "title": "EP594 | 🪸",
+ "pubdate": "2025-09-20",
+ "duration_s": 2988
+}

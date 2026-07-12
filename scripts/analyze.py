@@ -125,7 +125,11 @@ def vertex_generate(key, mp3, prompt):
     cand = resp["candidates"][0]
     if cand.get("finishReason") not in (None, "STOP"):
         print(f"{key}: ⚠️ finish={cand.get('finishReason')}，輸出可能截斷", flush=True)
-    return "".join(p.get("text", "") for p in cand["content"]["parts"])
+    parts = (cand.get("content") or {}).get("parts") or []
+    if not parts:
+        raise RuntimeError(f"空回應 finish={cand.get('finishReason')} "
+                           f"feedback={resp.get('promptFeedback')}")
+    return "".join(p.get("text", "") for p in parts)
 
 
 def analyze_one(client, key, ep):

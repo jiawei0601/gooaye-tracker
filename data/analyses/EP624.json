@@ -1,0 +1,115 @@
+{
+ "summary": "本集節目中，主持人謝孟恭分享了近期與投資團隊參訪台灣 MR（混合實境）硬體與軟體開發公司的經驗，並對 VR/AR/MR 產業的未來發展與虛實整合趨勢表達樂觀看法。針對台股大盤，台積電在 2026 年開春首日表現強勁，主持人預期台積電在 2027 年的 Forward P/E 估值推動下，股價站上 2000 元指日可待。此外，針對市場上關於 TPU、Broadcom 及 AWS 砍單的傳言，主持人予以澄清，並指出 Google 對晶片的需求依然強勁。最後，本集也深入探討了 S-RAM、PS-RAM、VHM 與 Cube 等記憶體技術在 Edge AI 端的應用前景，並提醒投資人注意技術面與基本面的搭配使用。",
+ "topics": [
+  "MR/VR/AR 產業參訪心得與虛實整合未來趨勢",
+  "台積電 2026 年開春表現與 2027 年估值展望",
+  "澄清 Google TPU、Broadcom 及 AWS 砍單傳言",
+  "台積電 2026 年資本支出（CapEx）展望",
+  "S-RAM、PS-RAM、VHM 與 Cube 在 Edge AI 端的應用與想像",
+  "技術面（日線、週線、月線）與基本面的搭配策略"
+ ],
+ "market_view": "台積電在 2027 年估值推動下，摸到 2000 元是非常容易的事情，大盤將持續由台積電帶領向前衝。",
+ "industries": [
+  {
+   "name": "MR/VR/AR",
+   "stance": "看多",
+   "view": "虛實整合技術進步迅速，未來在 Edge 端與智慧輔助上的應用將更加模糊虛實界線。"
+  },
+  {
+   "name": "半導體代工",
+   "stance": "看多",
+   "view": "台積電不論在 GPU、ASIC 或記憶體封裝（CoWoS/HBM）都處於極佳位置，資本支出有望上修。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "Edge AI 端的記憶體需求（如 VHM、Cube）正受到市場關注，但需分清是真需求還是短期想像。"
+  },
+  {
+   "name": "被動元件",
+   "stance": "觀察",
+   "view": "近期被動元件族群股價有所表態，但部分個股上漲其實是伴隨記憶體代理等其他故事。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "2027 年估值看好，股價上 2000 元指日可待，且 2026 年資本支出有望達到 500 億美元以上。"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電ADR",
+   "market": "US",
+   "stance": "看多",
+   "argument": "開春表現強勁，溢價持續存在，反映市場對其領先地位的共識。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "對晶片需求極大、需索無度，市場傳出的砍單傳言基本上是錯誤的。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "中性",
+   "argument": "市場傳言其 TPU 訂單遭砍，但實際上 Google 的長期晶片規劃並未改變。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "中性",
+   "argument": "市場傳出 AWS 晶片訂單砍單，但近期 AWS 晶片表現其實相當不錯，傳言不實。"
+  },
+  {
+   "symbol": "ORCL",
+   "name": "Oracle",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "前陣子債務信用評等被拿出來討論，但整體 AI 資本支出趨勢未變。"
+  },
+  {
+   "symbol": "2344",
+   "name": "華邦電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "其 Cube 技術在官方網站上說明可作為 L3 Cache 使用，屬於 Edge 端的 S-RAM 概念。"
+  },
+  {
+   "symbol": "6531",
+   "name": "愛普*",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "其 VHM 技術（Wafer-on-Wafer）可被視為 L3 Cache 應用，股價已脫離盤整區間。"
+  },
+  {
+   "symbol": "2327",
+   "name": "國巨",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "作為被動元件龍頭，近期有漲價狀況，且未來資料中心對電容電感需求將直線上升。"
+  },
+  {
+   "symbol": "3034",
+   "name": "聯詠",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "在 AI 晶片領域進度較慢，需等待整體消費性電子需求回溫，目前處於 K 型經濟的下檔。"
+  }
+ ],
+ "quotes": [
+  "市場上太多 noise，這就是 noise，這就是把你洗掉的一些有得沒有的小鬼故事。",
+  "你可以用月線當成是趨勢，用日線當成是強弱。月線多頭排列的股票，日線拉回就是買點。",
+  "買到好的公司，你就算技術面買點買得很差，它終究還是會讓你賺錢。"
+ ],
+ "ep_key": "EP624",
+ "title": "EP624 | 🎥",
+ "pubdate": "2026-01-03",
+ "duration_s": 2994
+}

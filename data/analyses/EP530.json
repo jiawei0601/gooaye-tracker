@@ -1,0 +1,117 @@
+{
+ "summary": "本集節目中，主持人謝孟恭分享了近期台股與美股市場資金流向軟體股的趨勢，並指出其個人台股部位已創歷史新高。他詳細探討了 DeepSeek 橫空出世對 AI 產業帶來的變革，特別是其透過 MoE 與 MLA 技術大幅降低 AI 模型成本，將加速 AI 模型商品化（commodity）的進程。此外，主持人也分析了邊緣運算（Edge Computing）與推理（Inference）端需求爆發對工業電腦（IPC）產業的潛在機會與挑戰，並提醒投資人需留意 NVIDIA 的 GB100 等競爭產品及消費級顯卡（如 5G/5090）在 AI 部署上的替代效應。最後，他分享了對科技巨頭資本支出（CapEx）的看法，並透露其後續將採取更積極的交易策略，搭配技術面與川普政策進行汰弱留強。",
+ "topics": [
+  "台股與美股軟體股資金流向與個人部位新高",
+  "DeepSeek 對 AI 產業成本與模型商品化的衝擊",
+  "邊緣運算（Edge Computing）與工業電腦（IPC）的發展機會與競爭",
+  "NVIDIA 5090 顯卡與液態金屬散熱技術的觀察",
+  "科技巨頭（Amazon, Google, Meta, Microsoft）資本支出與市場預期",
+  "個人後續交易策略與川普政策的應對"
+ ],
+ "market_view": "市場資金已明顯往軟體方向移動，邊緣運算與推理需求將加速，但需留意硬體股可能面臨市場預期已高及重估（re-rate）的修正風險。",
+ "industries": [
+  {
+   "name": "軟體",
+   "stance": "看多",
+   "view": "資金已明顯流入軟體板塊，軟體股的潛在爆發力開始被市場認識，後續若有拉回仍會站在買方。"
+  },
+  {
+   "name": "工業電腦 (IPC)",
+   "stance": "觀察",
+   "view": "邊緣運算需求可能帶動 IPC 訂單，但 IPC 並非唯一受益者，需面臨 NVIDIA 整合方案與消費級顯卡的競爭。"
+  },
+  {
+   "name": "AI 伺服器硬體",
+   "stance": "中性",
+   "view": "科技巨頭資本支出依然強勁，但硬體股的市場預期已高，需留意 re-rate 修正風險，已設立移動止損（trailing stop）。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "收到老黃簽名版 5090 顯卡，看好其液態金屬散熱技術的後續應用，且其 GB100 方案將直接競爭邊緣運算市場。"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "其法說會指出 DeepSeek 證實了 AI 模型能更有效率，且看好 serverless 方案在推理端的需求爆發。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資本支出高達 105 Billion，但需觀察市場是否對其 AI 變現能力產生懷疑，若股價疲軟會考慮減碼。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資本支出達 80 Billion，但若股價走勢相對疲軟，會考慮將其部位移往更強勢的軟體或主流族群。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資本支出達 75 Billion，同樣需留意市場對其大量 CapEx 投入後短期變現能力的懷疑。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資本支出達 65 Billion，但因有其他廣告等業務支撐，表現可能相對其他巨頭穩健。"
+  },
+  {
+   "symbol": "3013",
+   "name": "晟銘電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾問及台股前三大持股，主持人僅就產業面分析散熱與伺服器機殼趨勢，未對個股股價做預測。"
+  },
+  {
+   "symbol": "3406",
+   "name": "玉晶光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾問及台股前三大持股，主持人僅就產業面分析散熱與伺服器機殼趨勢，未對個股股價做預測。"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "散熱片領域的頂級猛男，AVC 在伺服器領域能見度極高，但需注意散熱族群近期資金有流出跡象。"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "交換器與 AI 伺服器領域實力強勁，預期後續營運將開出不錯的成績，表現可能比散熱族群更強。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "市場目前交易的重點不只是交車數據，更在於 FSD、Dojo 訓練及機器人（Robotics）的長期潛力。"
+  }
+ ],
+ "quotes": [
+  "太舒服的時候，就是要提醒自己要好好的把握當下，因為很快那個舒服的感覺就不見了。",
+  "DeepSeek 橫空出世，展示了兩大可以去降成本的做法，這會更加加速 AI 模型在後面變成 commodity（大宗商品）。",
+  "不要跟太多人去講你在做什麼事情，因為家人、男朋友、老公、爸媽，他們不一定可以完全理解你。"
+ ],
+ "ep_key": "EP530",
+ "title": "EP530 | 🍪",
+ "pubdate": "2025-02-08",
+ "duration_s": 3081
+}

@@ -1,0 +1,74 @@
+{
+ "summary": "本集節目中，謝孟恭分享了與昔日樂團好友重聚並協助其在林口開設運動伸展店「Flex」的溫馨故事。在市場話題方面，他進一步追蹤了 Nexperia（安世半導體）的後續發展，指出荷蘭政府的干預可能導致其在中國以外的資產被強制出售，並分析了這對供應鏈轉單的持續影響。此外，他對記憶體市場（特別是 MLC NAND 與 DDR4/DDR5 的產能排擠）以及 Tesla 最新財報表現進行了深入解析，並對 AI 晶片新創 Anthropic 與 Google、Broadcom 的合作關係提出了獨特見解。",
+ "topics": [
+  "昔日樂團好友重聚與林口 Flex 運動伸展店投資",
+  "Nexperia（安世半導體）事件後續與供應鏈轉單效應",
+  "記憶體市場報價與三星 MLC NAND 產能調整分析",
+  "Tesla 第三季財報解析與 Robotaxi、Cybercab 未來展望",
+  "Anthropic、Google 與 Broadcom 的 AI 晶片合作關係解密"
+ ],
+ "market_view": "當前市場部分板塊已出現狂歡與離群值的超額利潤，投資人應注意風險並設定移動停損。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "Nexperia 事件將持續引發車用與工業晶片的供應鏈轉單效應。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "記憶體報價持續上漲，HBM 與先進製程產能排擠效應將惠及二三線廠商。"
+  },
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "Tesla 財報表現亮眼，未來估值將逐漸由 Robotaxi 與自動駕駛願景主導。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "Nexperia",
+   "name": "安世半導體",
+   "market": "other",
+   "stance": "觀察",
+   "view": "荷蘭政府可能強制其進行股權與資產分割，中國以外資產或將出售。"
+  },
+  {
+   "symbol": "2344",
+   "name": "旺宏",
+   "market": "TW",
+   "stance": "看多",
+   "view": "受益於三星淡出 MLC NAND 領域的產能排擠與轉單效應。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "看多",
+   "view": "第三季財報毛利與交車庫存表現優異，未來重點在於自動駕駛與 Cybercab 的量產進度。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "看多",
+   "view": "其第四大 ASIC 客戶極可能為 Anthropic，雙方在 AI 晶片設計上有深度合作。"
+  },
+  {
+   "symbol": "6206",
+   "name": "飛捷",
+   "market": "TW",
+   "stance": "持有中",
+   "view": "主持人投資的林口運動伸展店名為 Flex，與此代號無直接關聯，僅作名稱趣味對照。"
+  }
+ ],
+ "quotes": [
+  "當你沒有朋友的時候，你就可以自己把朋友做出來（指投資支持朋友創業）。",
+  "Tesla 已經不是單純的汽車公司，而是一大堆新創事業所組成的大型科技公司。",
+  "在面對無法改變的絕望與無助時，信仰與寄託能給予人繼續前行的力量。"
+ ],
+ "ep_key": "EP604",
+ "title": "EP604 | 🦚",
+ "pubdate": "2025-10-25",
+ "duration_s": 3197
+}

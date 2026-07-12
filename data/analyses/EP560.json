@@ -1,0 +1,67 @@
+{
+ "summary": "本集節目中，主持人謝孟恭分享了參加 NVIDIA 私人展示會（Enterprise 與 Consumer 展區）的見聞。在 Enterprise 展區，他重點分析了 NVIDIA 新一代 GB200/GB300 伺服器架構，特別是其關鍵新構造 Midplane（中介板）的設計與供應鏈機會，並指出 GB200 的量產良率已顯著改善。在 Consumer 展區，他實測了 50 系列顯示卡（如 5090）在 AI 補幀與遊戲效能上的突破，並探討了 AI 助理（如 Sidekick）在實況與日常生活中的應用前景。最後，他分析了 Google I/O 大會展示的 Gemini 應用，認為 Google 透過將 AI 與雲端硬碟等服務打包（Bundle）銷售，將在 AI 變現上取得優勢，但也可能面臨 AI Search 導致點擊率下降、進而壓縮廣告毛利的挑戰。",
+ "topics": [
+  "NVIDIA 私人展示會（Enterprise 展區）見聞與 GB200/GB300 供應鏈分析",
+  "NVIDIA 50 系列顯示卡實測效能與 AI 補幀技術體驗",
+  "AI 助理（Sidekick）在實況主與日常生活中的應用前景",
+  "Google I/O 大會與 Gemini 變現模式分析（Bundle 銷售與廣告毛利挑戰）",
+  "聽眾問答：詐騙防範、台指期轉倉操作、留鬍子的好處與家庭趣事"
+ ],
+ "market_view": "市場大趨勢仍由 AI 基礎建設主導，短期內相關供應鏈營收將顯著反映良率提升與量產展開。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "GB200 量產良率已顯著提升，新架構如 Midplane 將為特定供應商帶來新機會。"
+  },
+  {
+   "name": "顯示卡",
+   "stance": "看多",
+   "view": "50 系列顯示卡結合硬體提升與 AI 補幀技術，實際遊戲與 AI 運算體驗遠超預期。"
+  },
+  {
+   "name": "AI軟體與搜尋",
+   "stance": "中性",
+   "view": "AI 搜尋（如 Google AI Overview）將改變使用者行為，可能導致網站點擊率下降並壓縮廣告毛利。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "其 Enterprise 伺服器新架構與 Consumer 50 系列顯卡皆展現極強的技術領先與市場競爭力。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "透過將 Gemini 與雲端硬碟等服務打包銷售具備競爭力，但 AI 搜尋可能壓縮其高毛利的廣告業務。"
+  },
+  {
+   "symbol": "Amphenol",
+   "name": "安費諾",
+   "market": "US",
+   "stance": "看多",
+   "argument": "預期為 NVIDIA 新伺服器架構中關鍵 Midplane（中介板）的主要供應商。"
+  },
+  {
+   "symbol": "Rogers",
+   "name": "羅傑斯",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "先前市場謠傳其可能參與 Midplane 相關材料供應，但主持人已因股價下跌停損出場。"
+  }
+ ],
+ "quotes": [
+  "買股票最終是要去套用凱因斯的選美理論，你並不是要去選一個你覺得是最正的，你要選的是市場最後面會覺得是最正的那一個，這樣才可以賺錢。",
+  "最正確的東西，其實是沒有辦法幫你賺到錢的，很難幫你賺到錢。在我們的認知裡面，有時候就是要直接站出來給大家打臉，反而能更快獲得正確的答案。",
+  "不要把錢給任何人。只要你有這樣的一個大原則，你就很難被騙。每個人要從我的口袋拿錢的時候，都要是一個很困難的事情。"
+ ],
+ "ep_key": "EP560",
+ "title": "EP560 | 🪹",
+ "pubdate": "2025-05-24",
+ "duration_s": 3083
+}

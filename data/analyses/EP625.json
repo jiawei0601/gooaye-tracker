@@ -1,0 +1,76 @@
+{
+ "summary": "本集節目中，主持人謝孟恭分享了新年伊始的市場觀察。他指出，雖然加權指數與櫃買指數表現平穩甚至創高，但過去被視為市場共識的強勢股（如建策、茂聯、世芯、台光電等）近期出現重挫，暗示市場資金可能正在進行板塊輪動。此外，他深入解析了 NVIDIA 在 CES 宣布的 Vera Rubin 架構，特別聚焦於新推出的「NVIDIA Inference Context Memory Platform (ICMS)」，並探討其如何透過 DPU 驅動的儲存伺服器與 pseudo-SLC 技術，解決 AI 運算中 context 儲存與 HBM/RAM 負載過重的痛點，這將為 SSD 與相關控制晶片廠商（如群聯）帶來新的產業機會。",
+ "topics": [
+  "新年打手遊與跨年感言",
+  "台股大盤與強勢共識股的資金輪動",
+  "NVIDIA Vera Rubin 與 ICMS 平台解析",
+  "群聯控制晶片在 NVIDIA 供應鏈的發現與 pseudo-SLC 技術",
+  "聽眾問答：職涯建議、NVIDIA 儲存架構、個股與生活問題解答"
+ ],
+ "market_view": "大盤氣氛依舊熱絡，但近期許多法人共識強勢股出現重挫，暗示資金偏好可能正在發生轉變與輪動。",
+ "industries": [
+  {
+   "name": "記憶體/儲存",
+   "stance": "看多",
+   "view": "NVIDIA 推出 ICMS 平台將帶動 DPU 儲存伺服器需求，對 pseudo-SLC 與高階 SSD 需求有長期正面影響。"
+  },
+  {
+   "name": "光通訊",
+   "stance": "觀察",
+   "view": "市場出現氣通轉光的趨勢，雖然 Google OCS 曾傳出利空，但長期來看光通訊與 CPO 仍是發展方向。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Rubin 架構與 ICMS 平台展現其領先市場解決 AI 運算痛點的強大硬體整合能力。"
+  },
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "其控制晶片被發現用於 NVIDIA 的 Switch Tray 中，且採用 pseudo-SLC 技術，為其帶來實質利多。"
+  },
+  {
+   "symbol": "3653",
+   "name": "健策",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "近期股價出現重挫，可能面臨資金提款與輪動。"
+  },
+  {
+   "symbol": "3665",
+   "name": "貿聯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "股價重挫，市場傳言與 NVIDIA 採用 cableless 設計有關，但實際上其產品並非 in-rack cable，利空邏輯有待商榷。"
+  },
+  {
+   "symbol": "2383",
+   "name": "台光電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "股價重挫，市場傳言與 Rubin 架構材料規格變更有關，但同體系材料股並未同步下跌，邏輯有些奇特。"
+  },
+  {
+   "symbol": "00981A",
+   "name": "國泰數位支付服務",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "買入 0050 的操作被市場質疑是套娃與重複收取手續費。"
+  }
+ ],
+ "quotes": [
+  "長期持有標的其實非常不容易，因為每次壞消息出來，你就要做出當下的判斷，你到底要繼續持有還是要賣。",
+  "老黃真的沒有騙你，就是買越多省越多，買最新的東西，你可能還會意外地又再省更多。",
+  "人生之中的一些決定，我都有辦法把它腦補成為是好的，你沒有在一些關鍵的時間回頭看，你不會知道這個選擇到底是好還是壞。"
+ ],
+ "ep_key": "EP625",
+ "title": "EP625 | 🧸",
+ "pubdate": "2026-01-07",
+ "duration_s": 3001
+}

@@ -1,0 +1,74 @@
+{
+ "summary": "本集節目中，主持人謝孟恭分享了近期參與台通與軟劇場舞台劇、迪士尼音樂劇的觀後感。針對股市，他分析了近期美股與台股的震盪走勢，指出高檔出現大K棒可能預示趨勢轉折，因此他已提前將整體持股部位降至八成以下以控制風險。此外，本集重點討論了 Broadcom 與 OpenAI 的合作重申、10B 訂單的真實客戶（推測為 Anthropic 採購 Google 的 TPU），以及 Broadcom 新成立的乙太網路聯盟（ESUN）對 AWS 供應鏈的衝擊，並深入探討 Google 在 ASIC 晶片與伺服器整機外賣的潛在商機。",
+ "topics": [
+  "舞台劇與迪士尼音樂劇觀後感分享",
+  "美股與台股近期震盪走勢與個人減碼策略",
+  "Broadcom 與 OpenAI 合作重申及 10B 訂單客戶推測",
+  "Google TPU 透過 Broadcom 授權外賣給 Anthropic 的商業模式",
+  "Broadcom 成立 ESUN 乙太網路聯盟對 AWS 供應鏈的影響",
+  "Google ASIC 晶片與伺服器整機外賣的潛在商機與供應鏈機會"
+ ],
+ "market_view": "高檔出現大K棒可能預示趨勢轉折，在震盪放大且可能進入橫盤整理的格局下，應主動調降持股部位、保留現金以應對波動。",
+ "industries": [
+  {
+   "name": "半導體/ASIC",
+   "stance": "看多",
+   "view": "Google 的 TPU 透過 Broadcom 授權外賣給 Anthropic，顯示 ASIC 晶片外賣市場比預期更早發生且商機龐大。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "若 Google 未來不只賣晶片，而是整機外賣，後端代工廠如 Celestica 與 Flextronics 將迎來新機會。"
+  },
+  {
+   "name": "光通訊/乙太網路",
+   "stance": "觀察",
+   "view": "Broadcom 成立 ESUN 聯盟推動乙太網路架構，導致 AWS 供應鏈出現大跌，但整體仍屬增量市場的競爭。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "看多",
+   "view": "重申與 OpenAI 合作並主導 ESUN 聯盟，且透過授權 Google TPU 給 Anthropic 展現強大的生態系影響力。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "view": "其 TPU 表現優異且已開始透過 Broadcom 授權外賣，未來若進一步外賣整機伺服器，將帶來全新成長動能。"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "market": "US",
+   "stance": "觀察",
+   "view": "作為 Google 伺服器組裝廠，主要負責新產品 Kick-off 階段，產能擴張幅度較 Flex 有限。"
+  },
+  {
+   "symbol": "FLEX",
+   "name": "Flextronics",
+   "market": "US",
+   "stance": "觀察",
+   "view": "作為 Google 伺服器組裝廠，未來可能成為最主要負責量產的合作夥伴。"
+  },
+  {
+   "symbol": "3363",
+   "name": "茂林-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "view": "股價創下新高，可能與 NVIDIA 重申 800G 架構及 Busbar、Power Whip 的供應鏈需求有關。"
+  }
+ ],
+ "quotes": [
+  "當今天整個盤已經開始波動放到很大的時候，如果你的部位還是有維持槓桿，你就會很常發生所謂的紀律停損與紀律追回，最後發現你的錢就不見了。",
+  "時間到了你自己就會懂。你要自己去經歷過才知道，不用急著在還沒到那個階段時，就硬要去花錢買時間或做不適合的決定。"
+ ],
+ "ep_key": "EP601",
+ "title": "EP601 | 🐜",
+ "pubdate": "2025-10-15",
+ "duration_s": 3123
+}

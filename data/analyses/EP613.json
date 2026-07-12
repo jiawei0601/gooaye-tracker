@@ -1,0 +1,83 @@
+{
+ "summary": "本集節目中，主持人謝孟恭分享了其參與 NMMEA 亞洲新媒體高峰會的經驗，並重申其「消難資本」與「烏山資本」在台灣遊戲產業的投資規劃，強調以資本介入加速台灣遊戲走向國際。在市場分析方面，本集聚焦於 Google 股價強勢背後的供應鏈動態，詳細解析 TPU（特別是 V7/Ironwood）的市場需求與封裝瓶頸。主持人指出，雖然 Google TPU 需求極為強勁，但這並不意味著 GPU（如 NVIDIA）會被完全取代，兩者為並存關係。此外，亦探討了台積電 CoWoS 產能限制對供應鏈的影響，以及聯發科、博通在 TPU 專案中的角色與獲利模式差異，並提醒投資人注意市場對 AI 題材的過度反應與動態調整。",
+ "topics": [
+  "Sony WH-1000XM6 降噪耳機贊助合作",
+  "NMMEA 亞洲新媒體高峰會與台灣遊戲產業投資規劃",
+  "Google 股價強勢與 TPU 供應鏈深度解析",
+  "博通（Broadcom）與聯發科（MediaTek）在 Google TPU 專案的獲利與角色差異",
+  "台積電 CoWoS 產能瓶頸與後段封測廠（如 Amkor、ASE）的潛在機會",
+  "NVIDIA GPU 與 ASIC（TPU）的市場定位與並存關係",
+  "聽眾問答：ESG 看法、交易心態調整、台股期貨槓桿、個股與產業配置探討"
+ ],
+ "market_view": "目前 AI 產業仍處於嬰兒期，市場常出現過度反應（Overhype）與「捧 A 踩 B」的現象，投資人應保持動態調整的心態，不宜過早下定論。",
+ "industries": [
+  {
+   "name": "遊戲產業",
+   "stance": "看多",
+   "view": "台灣有許多優秀的遊戲開發團隊，透過資本介入與資源整合，有機會將台灣遊戲推向全球市場。"
+  },
+  {
+   "name": "AI 半導體 / ASIC",
+   "stance": "看多",
+   "view": "Google TPU 等 ASIC 需求極為強勁，但與 GPU 為並存關係，並非絕對的替代關係。"
+  },
+  {
+   "name": "半導體封測 (CoWoS)",
+   "stance": "看多",
+   "view": "台積電 CoWoS 產能供不應求，瓶頸可能導致訂單外溢至其他後段封裝測試廠。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "TPU 需求極為強勁，部署速度極快，且新一代 Gemini 模型表現亮眼，供應鏈動能強勁。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "看多",
+   "argument": "作為 Google TPU 的主要 ASIC 合作夥伴，提供整顆晶片解決方案，單價高且獲利空間大。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "切入 Google 新一代 TPU 的 IO 與 CoW 封裝設計，但因手機市場疲軟及記憶體漲價壓抑毛利，股價表現較為疲弱。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "市場因 Google 強勢而恐慌性拋售 NVIDIA 是不理性的，GPU 的廣泛適用性與生態系優勢依然無可替代。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "作為全球先進製程與 CoWoS 封裝的絕對龍頭，其產能擴充速度是整體 AI 晶片出貨的最大關鍵。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "其 EMIB 封裝技術未來有機會獲得微軟或 Google 新一代晶片的採用，作為台積電產能不足的備案。"
+  }
+ ],
+ "quotes": [
+  "不要把股票市場當成球賽在看，非得拼個你死我活。投資是來賺錢的，保持動態調整的心態最重要。",
+  "當一個族群開始有超多人去盯的時候，一般來講，超多人盯卻還沒有反應的東西，可能真的有問題。",
+  "散戶千萬不要自視甚高，認為自己可以買在主力前面。追高動能題材股是合理的，因為你不可能比消息人士更早知道。"
+ ],
+ "ep_key": "EP613",
+ "title": "EP613 | 🦔",
+ "pubdate": "2025-11-26",
+ "duration_s": 2994
+}

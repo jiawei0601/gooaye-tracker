@@ -1,0 +1,83 @@
+{
+ "summary": "本集節目由眠豆腐贊助。主持人謝孟恭分享了近期對中國與台灣人共識的觀察，並探討了愛國流量變現的荒謬現象。針對美股與台股大盤，他指出雖然近期出現回檔，但只要川普不釋出利空，市場仍有機會迎來反彈。此外，他深入分析了 GTC 大會後 ASIC 產業的發展，認為雖然 NVIDIA 推出 Rubin 平台，但 CSP 廠商與特斯拉等大買家仍有強烈動機開發自研 ASIC，並看好聯發科與 NVIDIA 合作的 Premium ASIC 服務將成為其未來重要成長動能。",
+ "topics": [
+  "眠豆腐 2.0 與芝麻豆腐床墊推薦",
+  "愛國流量變現與背骨仔現象觀察",
+  "美股與台股大盤走勢與反彈預期",
+  "NVIDIA GTC 大會後的 ASIC 產業趨勢",
+  "聯發科與 NVIDIA 合作 Premium ASIC 服務",
+  "聽眾問答：投資心態、體檢、ASIC 股、CB 債與生活分享"
+ ],
+ "market_view": "雖然近期大盤出現回檔，但只要川普不釋出利空，市場仍有機會迎來反彈，目前操作上偏向挑選穩健便宜、估值較低的股票。",
+ "industries": [
+  {
+   "name": "ASIC",
+   "stance": "看多",
+   "view": "雖然 NVIDIA 推出 Rubin 平台，但 CSP 廠商與特斯拉等大買家仍有強烈動機開發自研 ASIC，產業能見度持續看好。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "NVIDIA 產品線更新速度極快，雖然對供應鏈帶來拉動，但也需注意 component 備料與實際出貨量之間的落差風險。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MTK",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "與 NVIDIA 合作 Premium ASIC 服務，未來在 ASIC 與 AI 相關收入可望顯著成長，成為重要動能。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "產品線更新速度極快，透過 NVLink 與交換器等技術優勢，持續擴大其在 AI 領域的生態系與影響力。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雖然積極採購 NVIDIA GPU，但其自研的 Dojo 晶片仍貢獻了 10% 到 20% 的算力，並將持續推進。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "作為主要的 ASIC 合作夥伴之一，持續受益於 CSP 廠商的自研晶片需求。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "在 ASIC 領域與 CSP 廠商有密切合作，雖然部分業者表現有起伏，但整體趨勢仍向上。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "作為台股指標性 ASIC 業者，持續受到市場關注其在自研晶片市場的定位。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台股大型 ASIC 業者之一，在整體自研晶片趨勢下具備市場期待。"
+  }
+ ],
+ "quotes": [
+  "如果一個人他講的話跟他做的事情是有衝突的話，你儘量都是先相信他做的事情，他的身體在哪，那個是很老實的。",
+  "不要去相信說有人可以知道什麼地方是行情的最高點和最低點，那個是沒有意義的事情，你就是儘量的還是要去做出對應的調整。"
+ ],
+ "ep_key": "EP542",
+ "title": "EP542 | 🤡",
+ "pubdate": "2025-03-22",
+ "duration_s": 3016
+}

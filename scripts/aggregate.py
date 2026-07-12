@@ -29,6 +29,8 @@ def main():
         a = json.loads(fp.read_text(encoding="utf-8"))
         ep, date = a["ep_key"], a["pubdate"]
         for t in a.get("tickers") or []:
+            if isinstance(t, str):  # 模型偶爾輸出純字串而非物件
+                t = {"symbol": t}
             sym = norm_symbol(t)
             if not sym:
                 continue
@@ -39,6 +41,8 @@ def main():
                                     "stance": t.get("stance") or "?",
                                     "argument": t.get("argument") or ""})
         for ind in a.get("industries") or []:
+            if isinstance(ind, str):  # 模型偶爾輸出純字串而非物件
+                ind = {"name": ind}
             name = (ind.get("name") or "").strip()
             if not name:
                 continue
