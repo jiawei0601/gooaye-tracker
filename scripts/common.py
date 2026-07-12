@@ -15,6 +15,7 @@ ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 ANALYSES = DATA / "analyses"
 AUDIO = DATA / "audio"
+TRANSCRIPTS = DATA / "transcripts"
 EPISODES_JSON = DATA / "episodes.json"
 
 FEED_URL = "https://feeds.soundon.fm/podcasts/954689a5-3096-43a4-a80b-7810b219cef3.xml"

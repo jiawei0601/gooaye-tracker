@@ -2,7 +2,7 @@
 """產出單檔 data/dashboard.html：每集摘要 / 標的追蹤 / 產業追蹤 三個分頁。"""
 import json
 
-from common import ANALYSES, DATA
+from common import ANALYSES, DATA, TRANSCRIPTS
 
 TEMPLATE = """<!doctype html><html lang="zh-Hant"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -53,7 +53,7 @@ function render(){
    const txt=JSON.stringify(a).toLowerCase();
    if(q&&!txt.includes(q))continue;
    h+=`<div class="card"><h3>${esc(a.ep_key)} ｜ ${esc(a.title)}</h3>
-   <div class="dim">${esc(a.pubdate)} · ${Math.round(a.duration_s/60)} 分鐘</div>
+   <div class="dim">${esc(a.pubdate)} · ${Math.round(a.duration_s/60)} 分鐘${a.has_tr?` · <a href="transcripts/${esc(a.ep_key)}.md" style="color:var(--acc)">📄 逐字稿</a>`:""}</div>
    <p>${esc(a.summary)}</p>
    ${a.market_view?`<p>📊 <b>大盤觀點：</b>${esc(a.market_view)}</p>`:""}
    <div>${(a.tickers||[]).map(t=>tag(t.stance)+esc(t.symbol)).join(" ")}</div>
@@ -88,6 +88,8 @@ render();
 def main():
     eps = [json.loads(f.read_text(encoding="utf-8"))
            for f in ANALYSES.glob("*.json") if not f.name.startswith(".")]
+    for a in eps:
+        a["has_tr"] = (TRANSCRIPTS / f"{a['ep_key']}.md").exists()
     eps.sort(key=lambda a: a["pubdate"], reverse=True)
     tk = json.loads((DATA / "tickers.json").read_text(encoding="utf-8")) \
         if (DATA / "tickers.json").exists() else {}

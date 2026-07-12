@@ -5,7 +5,8 @@
 
 ## 專案慣例
 - 語言 / 框架：Python 3.11+，只用標準庫（唯一外部依賴 google-genai，僅 analyze.py 用）。
-- 風格 / 命名：腳本放 scripts/、資料放 data/；分析結果一集一檔 data/analyses/EPxxx.json。
+- 風格 / 命名：腳本放 scripts/、資料放 data/；分析結果一集一檔 data/analyses/EPxxx.json，
+  逐字稿一集一檔 data/transcripts/EPxxx.md。
 - 測試怎麼跑：`python scripts/fetch_feed.py && python scripts/aggregate.py &&
   python scripts/build_dashboard.py`（不需金鑰）；端到端 `python scripts/daily.py`。
 - build / run：`python scripts/daily.py --limit 20`；排程 GooayeDaily 每日 22:00 跑

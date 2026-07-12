@@ -31,8 +31,16 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
    若想加速：可考慮第二模型分流（per-model 各有 20/天，如 gemini-3.1-flash-lite，
    品質稍弱）或短期綁計費，都需使用者拍板。
 
+## 逐字稿（2026-07-12 加入）
+✅ 同一次 Gemini 呼叫多輸出 transcript（不佔額度），獨立存 `data/transcripts/EPxxx.md`
+（[mm:ss] 段落格式），dashboard 每集卡片有「📄 逐字稿」連結。
+EP678 已實測：52分鐘全集 60 段 22,884 字、finish=STOP 無截斷（用舊金鑰+2.5-flash 驗證；
+3.5-flash 首晚跑完要抽查 finish_reason 與逐字稿完整性）。
+⚠️ 既有 33 集（EP678 以外）沒有逐字稿；要補得重聽一次、每集佔 1 次額度，選配。
+
 ## 下一步
-1. 看 `data/daily.log` 與 episodes.json pending 數，確認回填每日消化進度。
+1. 看 `data/daily.log` 與 episodes.json pending 數，確認回填每日消化進度；
+   抽查 3.5-flash 產出的逐字稿品質。
 2. 選配：再加深到全歷史（2020 起 518 集 skipped）→ 改 BACKFILL_SINCE 後重標。
 3. 選配：標的代號校正表（見雷區的 ASTS/ALAB 問題）。
 
