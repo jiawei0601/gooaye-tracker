@@ -15,8 +15,8 @@ import urllib.request
 
 from common import ANALYSES, AUDIO, gemini_key, load_episodes, save_episodes
 
-MODEL = "gemini-2.5-flash"
-PAUSE_S = 30  # 免費層 250k TPM，一集約 10 萬 token，逐集間隔避免 429
+MODEL = "gemini-3.5-flash"  # 2.5-flash 已不開放給新帳號（2026-07 換帳號時發現）
+PAUSE_S = 30  # 免費層 TPM 有限，一集約 10 萬 token，逐集間隔避免 429
 
 PROMPT = """你是台股/美股 podcast 內容分析師。這是台灣 podcast《股癌》(主持人謝孟恭) 第 {key} 集
 「{title}」({pubdate}) 的完整音檔。請仔細聽完後輸出 JSON（繁體中文），格式：
