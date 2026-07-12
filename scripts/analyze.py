@@ -90,7 +90,7 @@ def main():
     args = ap.parse_args()
 
     if not gemini_key():
-        print("❌ 缺 AIza 開頭的 Gemini 金鑰：請在 repo .env 填 GOOAYE_GEMINI_KEY=AIza...")
+        print("❌ 缺 Gemini 金鑰：請在 repo .env 填 GOOAYE_GEMINI_KEY=（AI Studio 金鑰）")
         return 1
 
     from google import genai
@@ -115,6 +115,9 @@ def main():
             processed.append(key)
         except Exception as e:
             print(f"{key}: ❌ {e}", flush=True)
+            if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
+                print("免費層限流，本批停止；剩餘集數留給下次排程", flush=True)
+                break
         if i < len(todo) - 1:
             time.sleep(PAUSE_S)
     print(f"完成 {len(processed)}/{len(todo)}: {', '.join(processed)}")

@@ -23,12 +23,13 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
 ## 進行中 / 卡點
 ✅ 金鑰到位（2026-07-12，新版 AI Studio 金鑰為 **AQ. 開頭**，已填 .env）。
 ✅ EP678 端到端驗證通過：摘要/產業多空/標的論點品質良好，Telegram 已收到推播。
-背景正在回填 EP677–674，其餘 pending 由排程每晚消化 4 集，約一週補完近 3 個月。
+🔄 回填加深到 **2025-01-01**（2026-07-12 使用者拍板）：重標 134 集，佇列 155 集。
+   背景大批次跑中（analyze 撞 429 會自動停批、剩餘留給排程）；夜間排程額度 4→8 集。
 
 ## 下一步
-1. 選配：回填加深到一年/全歷史 → 手動把 episodes.json 裡 skipped 改 pending
-   （或改 common.py 的 BACKFILL_SINCE 後寫個小工具重標），排程會每天自動消化。
-2. 選配：標的代號校正表（見雷區的 ASTS/ALAB 問題）。
+1. 看 `data/daily.log` 與 episodes.json pending 數，確認回填每日消化進度。
+2. 選配：再加深到全歷史（2020 起 518 集 skipped）→ 改 BACKFILL_SINCE 後重標。
+3. 選配：標的代號校正表（見雷區的 ASTS/ALAB 問題）。
 
 ## 關鍵決策 + 為什麼
 - **不用 NotebookLM**：無公開 API，只能瀏覽器模擬，脆弱且違 ToS。等效方案 = Gemini API

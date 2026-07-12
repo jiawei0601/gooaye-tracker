@@ -18,7 +18,7 @@ AUDIO = DATA / "audio"
 EPISODES_JSON = DATA / "episodes.json"
 
 FEED_URL = "https://feeds.soundon.fm/podcasts/954689a5-3096-43a4-a80b-7810b219cef3.xml"
-BACKFILL_SINCE = "2026-04-12"  # 近 3 個月回填起點（使用者 2026-07-12 拍板）
+BACKFILL_SINCE = "2025-01-01"  # 回填起點（2026-07-12 使用者拍板加深到 2025 年 1 月）
 
 TELEGRAM_ENV = Path.home() / ".claude" / "telegram.env"
 
