@@ -20,13 +20,13 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
   → 回填約一週自然補完，新集數優先）。
 - 推播沿用 `~/.claude/telegram.env` 的 bot；回填靜音（只推發布 5 天內的集數）。
 
-## Vertex 衝刺（2026-07-13）
-🔄 背景大批次跑 109 集 Vertex 付費回填（~7hr，吃 GCP $300 試用額度，預估 ~US$15）。
-⚠️ **GooayeDaily 排程已暫停**（避免與批次併發寫 episodes.json），批次收工後要做：
-1. `schtasks /change /tn GooayeDaily /enable` 恢復排程
-2. 刪 `vertex-sa.json`（回免費層模式）＋提醒使用者在主控台解除專案帳單連結
-   （帳單連著時 GenLang 免費層不存在，日常排程會 429「預付點數耗盡」）
-3. 提醒使用者可刪 gooaye-vertex 服務帳戶與多餘的 API 金鑰
+## Vertex 衝刺 = ✅ 完成（2026-07-13）
+160/160 集全數完成（2025-01-01 起），排程已恢復。EP605 模型怪癖（MAX_TOKENS 空回應）
+用「無逐字稿降級」處理，是唯一沒有逐字稿的 Vertex 集數（另 EP678 之前的 33 集也無）。
+⚠️ **過渡狀態**：帳單仍連著專案 → GenLang 免費層不存在（會 429 預付點數錯誤），
+所以 `vertex-sa.json` 先保留、日常排程暫走 Vertex（無新集數時零成本）。
+**待使用者解除專案帳單連結後**：刪 vertex-sa.json → 驗證免費層回歸 → 回到 $0 常態。
+使用者屆時可順手刪 gooaye-vertex 服務帳戶與多餘的第三支 API 金鑰。
 
 ## 進行中 / 卡點
 ✅ 金鑰到位（2026-07-12，新版 AI Studio 金鑰為 **AQ. 開頭**，已填 .env）。

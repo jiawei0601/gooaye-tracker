@@ -589,7 +589,7 @@
   "duration_s": 3132,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/f00112fa-fa21-4781-9b6a-6073342d92e9/rssFileVip.mp3?timestamp=1761952332470",
   "guid": "f00112fa-fa21-4781-9b6a-6073342d92e9",
-  "status": "pending"
+  "status": "done"
  },
  "EP604": {
   "title": "EP604 | 🦚",
@@ -645,7 +645,7 @@
   "duration_s": 3041,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/25b5d8d9-e25d-4d82-9580-8668ae881161/rssFileVip.mp3?timestamp=1759615053419",
   "guid": "25b5d8d9-e25d-4d82-9580-8668ae881161",
-  "status": "pending"
+  "status": "done"
  },
  "EP597": {
   "title": "EP597 | 🦔",
@@ -725,7 +725,7 @@
   "duration_s": 2986,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/c4d5bc11-975f-4443-a8f4-ed74c86a8c6f/rssFileVip.mp3?timestamp=1756695487038",
   "guid": "c4d5bc11-975f-4443-a8f4-ed74c86a8c6f",
-  "status": "pending"
+  "status": "done"
  },
  "EP587": {
   "title": "EP587 | 🍯",
@@ -805,7 +805,7 @@
   "duration_s": 2998,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/8147ed67-376e-41d2-8493-35cbe190fa09/rssFileVip.mp3?timestamp=1753515996662",
   "guid": "8147ed67-376e-41d2-8493-35cbe190fa09",
-  "status": "pending"
+  "status": "done"
  },
  "EP577": {
   "title": "EP577 | 🪿",
@@ -901,7 +901,7 @@
   "duration_s": 2995,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/3e0a2c07-ea04-490c-8c47-332bec480af4/rssFileVip.mp3?timestamp=1749896633662",
   "guid": "3e0a2c07-ea04-490c-8c47-332bec480af4",
-  "status": "pending"
+  "status": "done"
  },
  "EP565": {
   "title": "EP565 | 🦛",
@@ -909,7 +909,7 @@
   "duration_s": 3057,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/2c22f8cb-acc4-475f-9624-ee095f5b717c/rssFileVip.mp3?timestamp=1749637709043",
   "guid": "2c22f8cb-acc4-475f-9624-ee095f5b717c",
-  "status": "pending"
+  "status": "done"
  },
  "EP564": {
   "title": "EP564 | 🍙",
@@ -957,7 +957,7 @@
   "duration_s": 2991,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/7e0fb049-5344-4bb7-849e-767ab687707f/rssFileVip.mp3?timestamp=1747813482606",
   "guid": "7e0fb049-5344-4bb7-849e-767ab687707f",
-  "status": "pending"
+  "status": "done"
  },
  "EP558": {
   "title": "EP558 | 🌷",
@@ -965,7 +965,7 @@
   "duration_s": 3062,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/41ef3f68-3c32-4d5a-9fed-0cacb9d8ca8e/rssFileVip.mp3?timestamp=1747472596160",
   "guid": "41ef3f68-3c32-4d5a-9fed-0cacb9d8ca8e",
-  "status": "pending"
+  "status": "done"
  },
  "EP557": {
   "title": "EP557 | 🐠",
@@ -1109,7 +1109,7 @@
   "duration_s": 2989,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/657f32b0-4f7b-49de-9c50-d93395980cd4/rssFileVip.mp3?timestamp=1742024022451",
   "guid": "657f32b0-4f7b-49de-9c50-d93395980cd4",
-  "status": "pending"
+  "status": "done"
  },
  "EP539": {
   "title": "EP539 | 🕊️",
@@ -1157,7 +1157,7 @@
   "duration_s": 2998,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/30045575-f329-4aae-ad13-ca30304be64b/rssFileVip.mp3?timestamp=1740214723043",
   "guid": "30045575-f329-4aae-ad13-ca30304be64b",
-  "status": "pending"
+  "status": "done"
  },
  "EP533": {
   "title": "EP533 | 👾",

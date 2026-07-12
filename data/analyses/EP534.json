@@ -1,0 +1,66 @@
+{
+ "summary": "本集節目中，主持人謝孟恭分享了近期體驗遠端紫微斗數算命的趣事，並藉此探討面對人生未知與風險的心理建設。他認為算命可作為消遣，但真正的強者在於面對壞事時如何將其轉化為轉機。在科技與產業方面，他高度評價了 X 平台（前 Twitter）推出的 Grok-Free AI 模型，並詳細分析了 xAI 在伺服器與 GPU（如 H100、GB300）的龐大採購量與佈局。此外，針對 Apple 即將推出的新機 16e，他分析了其硬體配置、Apple Intelligence 的定位，以及 Apple 自研數據機晶片（C1）與 Wi-Fi 晶片對 Broadcom 和 Qualcomm 等供應鏈的長遠影響。",
+ "topics": [
+  "遠端紫微斗數算命體驗與人生風險管理哲學",
+  "xAI 的 Grok-Free AI 模型體驗與高度評價",
+  "xAI 伺服器建置與 GPU（H100、GB300）採購量分析",
+  "Apple 新機 16e 的規格、定價與 Apple Intelligence 定位",
+  "Apple 自研數據機晶片（C1）與 Wi-Fi 晶片對 Broadcom、Qualcomm 供應鏈的影響"
+ ],
+ "market_view": "市場上的各種預測應該都會開始去上修 xAI 的採購量，其硬體需求不輸其他大型雲端服務商（CSP）。",
+ "industries": [
+  {
+   "name": "AI 伺服器",
+   "stance": "看多",
+   "view": "xAI 在伺服器與 GPU 的投入持續加大，對硬體供應鏈帶來顯著貢獻。"
+  },
+  {
+   "name": "智慧型手機",
+   "stance": "中性",
+   "view": "Apple 16e 作為平價 AI 機款具備吸引力，但硬體規格有部分閹割。"
+  },
+  {
+   "name": "手機晶片供應鏈",
+   "stance": "觀察",
+   "view": "Apple 逐步走向自研數據機與 Wi-Fi 晶片，將對既有晶片供應商產生排擠效應。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "xAI 採購了大量的 H100 以及未來的 GB300 系列晶片。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "中性",
+   "argument": "推出 16e 作為最便宜的 AI 機種，並首度採用自研數據機晶片 C1。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Apple 未來將使用自研 Wi-Fi 晶片取代 Broadcom 的產品，對其營收有潛在影響。"
+  },
+  {
+   "symbol": "QCOM",
+   "name": "Qualcomm",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Apple 16e 採用自研 C1 數據機晶片，長遠來看將逐步取代 Qualcomm 的產品。"
+  }
+ ],
+ "quotes": [
+  "真正的一個差別，去區別出你是一個強者還是一個弱者，其實就是我們都一定會遇到壞事，所有人都會遇到壞事，只是我們在每次的遇到壞事裡面怎麼樣去把它變成是一種轉機。",
+  "Apple 16e 是一個最便宜的 AI 機，雖然硬體有閹割，但用兩萬出頭的價格就可以買到可以使用 AI 功能的機子，本身是非常非常有吸引力的。"
+ ],
+ "ep_key": "EP534",
+ "title": "EP534 |🍋",
+ "pubdate": "2025-02-22",
+ "duration_s": 2998
+}
