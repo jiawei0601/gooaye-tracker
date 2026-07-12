@@ -42,6 +42,20 @@ def parse_json(text):
     return json.loads(text)
 
 
+def trim_loop(transcript):
+    """3.5-flash 長音訊會陷入重複迴圈（同段文字反覆出現、時間戳持續虛增）。
+    同一段文字（≥20字）第 3 次出現即判定迴圈，截斷該處後回傳。"""
+    counts = {}
+    for i, seg in enumerate(transcript):
+        t = seg.get("text", "")
+        if len(t) < 20:
+            continue
+        counts[t] = counts.get(t, 0) + 1
+        if counts[t] >= 3:
+            return transcript[:i], i
+    return transcript, None
+
+
 def download(url, dest):
     if dest.exists() and dest.stat().st_size > 1_000_000:
         return
@@ -70,8 +84,13 @@ def analyze_one(client, key, ep):
             model=MODEL,
             contents=[f, PROMPT.format(key=key, title=ep["title"], pubdate=ep["pubdate"])],
             config=types.GenerateContentConfig(
-                temperature=0.2, max_output_tokens=65536),  # 逐字稿一集約 3 萬 token
+                temperature=0.2, max_output_tokens=65536,  # 逐字稿一集約 3 萬 token
+                # 3.5-flash 預設 thinking 會吃 output 額度（實測 65536 可全燒在思考、正文剩 1 字）
+                thinking_config=types.ThinkingConfig(thinking_budget=0)),
         )
+        finish = resp.candidates[0].finish_reason.name if resp.candidates else "?"
+        if finish != "STOP":
+            print(f"{key}: ⚠️ finish={finish}，輸出可能截斷", flush=True)
         result = parse_json(resp.text)
     finally:
         try:
@@ -81,8 +100,13 @@ def analyze_one(client, key, ep):
     # 逐字稿獨立存 md（分析 JSON 保持精簡，dashboard 用相對路徑連過去）
     transcript = result.pop("transcript", None)
     if transcript:
+        transcript, cut = trim_loop(transcript)
+        if cut is not None:
+            print(f"{key}: ⚠️ 逐字稿在第 {cut} 段偵測到重複迴圈，已截斷", flush=True)
         TRANSCRIPTS.mkdir(exist_ok=True)
         lines = [f"# {key} ｜ {ep['title']} — {ep['pubdate']}", ""]
+        if cut is not None:
+            lines.insert(1, "> ⚠️ 模型輸出在此集尾段進入重複迴圈，逐字稿於迴圈起點截斷、不完整。")
         lines += [f"[{s.get('t', '?')}] {s.get('text', '')}" for s in transcript]
         (TRANSCRIPTS / f"{key}.md").write_text("\n".join(lines), encoding="utf-8")
     result.update(ep_key=key, title=ep["title"], pubdate=ep["pubdate"],

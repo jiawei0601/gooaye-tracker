@@ -34,8 +34,11 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
 ## 逐字稿（2026-07-12 加入）
 ✅ 同一次 Gemini 呼叫多輸出 transcript（不佔額度），獨立存 `data/transcripts/EPxxx.md`
 （[mm:ss] 段落格式），dashboard 每集卡片有「📄 逐字稿」連結。
-EP678 已實測：52分鐘全集 60 段 22,884 字、finish=STOP 無截斷（用舊金鑰+2.5-flash 驗證；
-3.5-flash 首晚跑完要抽查 finish_reason 與逐字稿完整性）。
+EP678 已實測：52分鐘全集 60 段 22,884 字、finish=STOP 無截斷（用舊金鑰+2.5-flash 驗證）。
+⚠️ **3.5-flash 兩個實測坑已修**（2026-07-12，外部轉寫 110 分音檔踩到）：
+1. 預設 thinking 會吃光 output token（65536 全燒在思考、正文剩 1 字）→ analyze.py 已加
+   `thinking_budget=0`；2. 長音訊會陷入重複迴圈＋時間戳虛增 → 已加 `trim_loop()` 偵測
+   截斷＋finish_reason 警告。首晚回填仍要抽查 2-3 集逐字稿結尾完整性。
 ⚠️ 既有 33 集（EP678 以外）沒有逐字稿；要補得重聽一次、每集佔 1 次額度，選配。
 
 ## 下一步
