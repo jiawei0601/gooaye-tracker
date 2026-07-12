@@ -1,0 +1,96 @@
+{
+ "summary": "主持人謝孟恭分享峇里島度假心得，並探討近期美股軟體股與資安股的修正。他認為市場對 AI 取代軟體開發的擔憂導致軟體股面臨全面性通殺（Overshoot），但這也創造了尋找被錯殺標的的機會。他看好 Cloudflare (NET) 與 CrowdStrike (CRWD) 等在 AI 時代中物理層需求不減反增的資安與基礎設施公司，並對微軟 (MSFT) 的算力自主策略表示肯定，對 Google (GOOGL) 則持中性觀望態度。",
+ "topics": [
+  "峇里島度假體驗與頂級 Villa 服務觀察",
+  "美股大盤震盪格局與科技股、軟體股修正分析",
+  "AI 趨勢下軟體股被全面通殺（Overshoot）的投資機會",
+  "Cloudflare、CrowdStrike 等資安與基礎設施股的競爭優勢",
+  "微軟與 Google 在 AI 算力與應用上的佈局看法",
+  "Apple Intelligence 與 OpenCOBOL/OpenCloud 等 AI Agent 的安全隱憂與硬體優勢"
+ ],
+ "market_view": "美股大盤目前處於相對疲軟的震盪格局下緣，軟體股面臨全面性通殺，但這屬於市場過度反應（Overshoot），提供了篩選優質錯殺股的時機。",
+ "industries": [
+  {
+   "name": "軟體與 SaaS",
+   "stance": "觀察",
+   "view": "多數軟體股因 AI 取代隱憂面臨估值修正，需篩選真正能結合 AI 變現或具備高成長率的標的。"
+  },
+  {
+   "name": "資訊安全",
+   "stance": "看多",
+   "view": "在 AI Agent 與開源工具普及下，企業對資安防護與合規性的要求（如低延遲、防洩密）不減反增。"
+  },
+  {
+   "name": "半導體與光通訊",
+   "stance": "觀察",
+   "view": "光通訊板塊近期表現強勁，但需注意強勢股在市場回穩後可能面臨補跌或資金抽離的風險。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI 時代對低延遲、CDN 與資安防護的物理需求不變，流量增加將帶動其收費站模式持續受益。"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "market": "US",
+   "stance": "看多",
+   "argument": "毛利率不減反增，在企業導入 AI 工具時，其端點安全與合規防護具備不可替代性。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "看多",
+   "argument": "決定將算力留給自家 ASIC 使用是強烈的自主宣告，未來在 ASIC 佈局上將獲得更多討論與優勢。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet (Google)",
+   "market": "US",
+   "stance": "中性",
+   "argument": "市場已普遍預期其為 AI 贏家，估值已反映，預期未來股價可能呈現相對橫盤整理。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Apple Intelligence 結合硬體端安全與隱私保護，有望使蘋果成為 AI Agent 趨勢下的最終贏家。"
+  },
+  {
+   "symbol": "CRM",
+   "name": "Salesforce",
+   "market": "US",
+   "stance": "看空",
+   "argument": "營收增速放緩，且非個人偏好的軟體類型，在軟體股修正潮中較不具吸引力。"
+  },
+  {
+   "symbol": "PANW",
+   "name": "Palo Alto Networks",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "公司承認為了推動平台化而對客戶進行讓利折讓，短期財務表現可能承壓，需等待股價修正更深再考慮。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "營收年增率極高，不應與一般低成長的軟體股放在同一個估值模型比較。"
+  }
+ ],
+ "quotes": [
+  "市場在恐慌時往往會 Overshoot（過度反應），這時候全面通殺軟體股，反而創造了去尋找被錯殺優質公司的機會。",
+  "AI 讓很多事情變得可能（Make everything possible），但可能不代表可行（Possible doesn't mean viable），後續的維護、安全與合規成本才是關鍵。",
+  "不要過度仰賴單一估值指標（如 PS ratio），營收年增率 10% 與 50% 的公司，就算當下 PS 相同，未來的發展與評價也完全不同。"
+ ],
+ "ep_key": "EP637",
+ "title": "EP637 | 🦖",
+ "pubdate": "2026-02-18",
+ "duration_s": 3084
+}
