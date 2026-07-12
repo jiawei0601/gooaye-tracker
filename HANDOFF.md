@@ -20,6 +20,14 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
   → 回填約一週自然補完，新集數優先）。
 - 推播沿用 `~/.claude/telegram.env` 的 bot；回填靜音（只推發布 5 天內的集數）。
 
+## Vertex 衝刺（2026-07-13）
+🔄 背景大批次跑 109 集 Vertex 付費回填（~7hr，吃 GCP $300 試用額度，預估 ~US$15）。
+⚠️ **GooayeDaily 排程已暫停**（避免與批次併發寫 episodes.json），批次收工後要做：
+1. `schtasks /change /tn GooayeDaily /enable` 恢復排程
+2. 刪 `vertex-sa.json`（回免費層模式）＋提醒使用者在主控台解除專案帳單連結
+   （帳單連著時 GenLang 免費層不存在，日常排程會 429「預付點數耗盡」）
+3. 提醒使用者可刪 gooaye-vertex 服務帳戶與多餘的 API 金鑰
+
 ## 進行中 / 卡點
 ✅ 金鑰到位（2026-07-12，新版 AI Studio 金鑰為 **AQ. 開頭**，已填 .env）。
 🔁 2026-07-12 晚間換到使用者的新帳號金鑰：新帳號不開放 gemini-2.5-flash，
