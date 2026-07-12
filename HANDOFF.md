@@ -25,8 +25,11 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
 🔁 2026-07-12 晚間換到使用者的新帳號金鑰：新帳號不開放 gemini-2.5-flash，
    模型改 **gemini-3.5-flash**（analyze.py）。舊金鑰待批次收工後由使用者自行刪除。
 ✅ EP678 端到端驗證通過：摘要/產業多空/標的論點品質良好，Telegram 已收到推播。
-🔄 回填加深到 **2025-01-01**（2026-07-12 使用者拍板）：重標 134 集，佇列 155 集。
-   背景大批次跑中（analyze 撞 429 會自動停批、剩餘留給排程）；夜間排程額度 4→8 集。
+🔄 回填加深到 **2025-01-01**（2026-07-12 使用者拍板）：已完成 34 集、剩 126 集。
+   ⚠️ 實測新帳號免費層 = **20 次/天/模型**（GenerateRequestsPerDayPerProjectPerModel），
+   夜間排程額度已對齊 20，預計 **約 7 天**補完（新集數優先、回填吃剩餘額度）。
+   若想加速：可考慮第二模型分流（per-model 各有 20/天，如 gemini-3.1-flash-lite，
+   品質稍弱）或短期綁計費，都需使用者拍板。
 
 ## 下一步
 1. 看 `data/daily.log` 與 episodes.json pending 數，確認回填每日消化進度。

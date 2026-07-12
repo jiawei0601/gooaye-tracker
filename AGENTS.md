@@ -8,7 +8,7 @@
 - 風格 / 命名：腳本放 scripts/、資料放 data/；分析結果一集一檔 data/analyses/EPxxx.json。
 - 測試怎麼跑：`python scripts/fetch_feed.py && python scripts/aggregate.py &&
   python scripts/build_dashboard.py`（不需金鑰）；端到端 `python scripts/daily.py`。
-- build / run：`python scripts/daily.py --limit 8`；排程 GooayeDaily 每日 22:00 跑
+- build / run：`python scripts/daily.py --limit 20`；排程 GooayeDaily 每日 22:00 跑
   run_daily.bat。金鑰在 .env 的 GOOAYE_GEMINI_KEY（AI Studio 金鑰、AQ. 開頭，勿 commit）。
 
 ## 跨 agent 交接紀律

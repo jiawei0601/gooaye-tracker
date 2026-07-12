@@ -1,0 +1,82 @@
+{
+ "summary": "Computex 2024 focused on practical, human-centric AI. The host lauded Nvidia's RTX Spark for its unified memory and AI acceleration in creative (Adobe) and gaming sectors, recommending high-end models. ASUS ROG's consumer innovations and AR glasses also impressed. The host discussed evolving tech exhibitions and shared personal insights on financial anxiety, market volatility, and life's challenges, advocating for proactive problem-solving and a positive outlook, prioritizing tangible advancements over futuristic promises.",
+ "topics": [
+  "Computex 2024 Insights and Trends",
+  "Practical AI Applications in Tech",
+  "Nvidia's RTX Spark and Unified Memory",
+  "AI in Creative Software (Adobe) and Gaming",
+  "Consumer Tech Innovations (ASUS ROG, AR Glasses)",
+  "Investment Philosophy and Market Volatility",
+  "Personal Growth and Overcoming Challenges",
+  "Relationship Dynamics and Support"
+ ],
+ "market_view": "The market is currently experiencing volatility and corrections, requiring investors to brace for impact.",
+ "industries": [
+  {
+   "name": "AI Servers",
+   "stance": "看多",
+   "view": "AI servers are crucial for current and future AI applications, with demand increasing as costs decrease."
+  },
+  {
+   "name": "Consumer Electronics",
+   "stance": "觀察",
+   "view": "Companies are focusing on innovative designs and AI integration to attract consumers amidst a challenging market."
+  },
+  {
+   "name": "Gaming",
+   "stance": "看多",
+   "view": "AI and advanced hardware like RTX Spark will significantly enhance gaming experiences and performance."
+  },
+  {
+   "name": "Software (Creative Tools)",
+   "stance": "看多",
+   "view": "AI integration in creative software, especially with optimized hardware, will boost productivity and user experience."
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Nvidia's RTX Spark with unified memory and AI capabilities is a game-changer for creative and gaming applications, driving future demand."
+  },
+  {
+   "symbol": "ASUS",
+   "name": "華碩",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "ASUS ROG is innovating with consumer products and AR glasses, showing strong potential in design and user experience."
+  },
+  {
+   "symbol": "MediaTek",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "MediaTek is involved in the RTX Spark ecosystem, but specific product details were limited."
+  },
+  {
+   "symbol": "Adobe",
+   "name": "Adobe",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Adobe is deeply collaborating with Nvidia to integrate AI into its software, enhancing user productivity."
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "Mentioned in the context of past stock prices, not a current investment argument."
+  }
+ ],
+ "quotes": [
+  "你不是要玩一個隨機捲出來的東西，你就是因為知道這款遊戲好玩，或者說你知道這個就是小島秀夫做的，你才要去玩嘛。",
+  "你絕對不會想要把我的在網路上的各種形象或什麼的，去完全的做自動化。",
+  "錢可以解決的，真的都不是問題。"
+ ],
+ "ep_key": "EP668",
+ "title": "EP668 | 🦞",
+ "pubdate": "2026-06-06",
+ "duration_s": 3002
+}

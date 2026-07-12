@@ -1,0 +1,122 @@
+{
+ "summary": "主持人謝孟恭回顧四、五月市場，儘管許多股票進入處置，但隨後仍強勁上漲，個人投資表現亮眼。他分享紅酒收藏的樂趣，揭露在餐廳以半價購得頂級紅酒的秘訣，並探討奢侈品市場的消費行為與炒作現象。本集主要市場分析聚焦AI產業，Anthropic的獲利被視為AI模型可行的證明，預示AI硬體投資將大幅增加，駁斥AI泡沫論。Google與Blackstone合作推動TPU雲服務，直接挑戰Nvidia等晶片大廠，加劇晶片產能爭奪戰。被動元件產業受AI需求帶動全面噴發，鋁電容、高壓MLCC等關鍵零組件供不應求，導致原物料價格上漲，可能引發通膨螺旋。主持人建議投資人應關注市場回檔時的真正瓶頸與稀缺標的，並強調資料安全的重要性。此外，他也分享對房市冷卻、房貸困境的看法，以及他以孩子健康快樂為核心的育兒哲學。",
+ "topics": [
+  "AI產業獲利能力與硬體投資",
+  "Google TPU策略與AI晶片競爭",
+  "晶片產能爭奪與供應鏈影響",
+  "被動元件與功率元件市場展望",
+  "原物料價格上漲與通膨螺旋",
+  "紅酒投資與市場分析",
+  "房市現況與購屋建議",
+  "AI對工作與社會的影響"
+ ],
+ "market_view": "過去一個禮拜市場有點不知道發生什麼事情，但個人投資在五月表現比四月更為誇張，許多股票在處置後仍噴出。",
+ "industries": [
+  {
+   "name": "AI伺服器/半導體",
+   "stance": "看多",
+   "view": "Anthropic獲利證明AI模型可行，將帶動AI硬體投資增加；Google TPU策略加劇晶片競爭，產能爭奪將是關鍵。"
+  },
+  {
+   "name": "被動元件",
+   "stance": "看多",
+   "view": "全面噴射，MLCC、鋁電容、電感、電阻等皆上漲，受AI需求帶動。"
+  },
+  {
+   "name": "功率元件",
+   "stance": "看多",
+   "view": "受AI資料中心高密度需求帶動，表現轉好，未來需求將持續增加。"
+  },
+  {
+   "name": "房地產",
+   "stance": "看空",
+   "view": "房市冷卻，房貸政策緊縮，可能需待政府釋出更多資金才會再次啟動。"
+  },
+  {
+   "name": "紅酒",
+   "stance": "觀察",
+   "view": "市場存在炒作與價格操縱，但也有機會在特定通路找到超值品項。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "Anthropic",
+   "name": "Anthropic",
+   "market": "US",
+   "stance": "看多",
+   "argument": "獲利證明AI模型公司可行，推翻AI泡沫論，預示AI硬體投資將增加。"
+  },
+  {
+   "symbol": "xAI",
+   "name": "xAI",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "發展不順利，轉租算力，但其投資回本速度快，仍是AI硬體投資的強心針。"
+  },
+  {
+   "symbol": "Google",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "積極發展TPU雲服務，與Blackstone合作，外銷比例快速成長，直接競爭Nvidia等晶片業者。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Google TPU競爭可能導致股價壓制，但整體AI硬體需求仍大。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Google TPU競爭可能導致股價壓制，但整體AI硬體需求仍大。"
+  },
+  {
+   "symbol": "Intel",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Google TPU競爭可能導致股價壓制，同時面臨增加產能的壓力。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "作為AI晶片生產的限制器，未來可能面臨更大擴產壓力，其產能影響AI產業發展速度。"
+  },
+  {
+   "symbol": "紅眼路比",
+   "name": "紅眼路比",
+   "market": "other",
+   "stance": "看多",
+   "argument": "推薦的台灣遊戲，其投資公司開發，希望銷售長紅。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "曾被處置，法人對處置制度不滿。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "曾被處置，法人對處置制度不滿。"
+  }
+ ],
+ "quotes": [
+  "誰可以拿到更多晶片，誰可以更快地把這些cluster鋪出去，誰就能複製像是馬斯克的成功案例。",
+  "Corruption is bad, only when I'm not in it。",
+  "我必須得說目前在AI的使用上，它真的改善我的生活工作非常多，但我並沒有因為這樣工時下降，我工時反而上升了。"
+ ],
+ "ep_key": "EP664",
+ "title": "EP664 | 🐟",
+ "pubdate": "2026-05-23",
+ "duration_s": 2999
+}

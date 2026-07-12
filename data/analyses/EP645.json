@@ -1,0 +1,114 @@
+{
+ "summary": "在本集中，主持人謝孟恭回顧了自己從事交易與 Podcast 的心路歷程，指出交易策略需隨盤勢動態調整，並分享他如何從追求產業內線轉向注重風險管理與期望值。針對近期 NVIDIA GTC 大會，他認為市場對台積電「裂口」的擔憂屬過度解讀，NVIDIA 採雙軌制（台積電與三星）行之有年。NVIDIA 已轉型為 AI 工廠的系統解決方案供應商，長期前景看好。此外，他分析了廣達的長期成長潛力、ASIC 市場競爭格局（Meta 與微軟面臨瓶頸，Google 傳引入第三家設計服務廠 Marvell），以及 SRAM/PSRAM 概念股（華邦電、愛普）的技術與實質貢獻。",
+ "topics": [
+  "主持人交易心路歷程與策略演變",
+  "NVIDIA GTC 大會重點與系統解決方案轉型",
+  "廣達（2382）的長期成長與評價展望",
+  "ASIC 晶片市場動態與 Google 供應鏈傳聞",
+  "SRAM 與 Pseudo SRAM（華邦電、愛普）技術解析與投資看法"
+ ],
+ "market_view": "大盤估值可能需要降息預期支持才能進一步推升，否則當前價格可能已定價。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "NVIDIA 轉型為 AI 工廠系統解決方案供應商，廣達等台廠供應鏈在未來幾年成長能見度極高。"
+  },
+  {
+   "name": "ASIC",
+   "stance": "觀察",
+   "view": "Meta 與微軟自主研發面臨產能或效率瓶頸，Broadcom 仍具優勢，Google 傳尋找第三家合作夥伴。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "SRAM 概念多為 PSRAM 題材（如華邦電、愛普），實質貢獻尚需時間觀察；低價庫存效應對部分模組廠非一次性。"
+  },
+  {
+   "name": "銅資源",
+   "stance": "觀察",
+   "view": "正在思考銅相關類股的估值，可能需要降息循環啟動才能進一步推升。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "已轉型為 AI 工廠的 Total Solution 供應商，長期競爭力極強，發表會後股價震盪屬預期內。"
+  },
+  {
+   "symbol": "2382",
+   "name": "廣達",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "未來幾年成長性明確，預期 2027-2028 年將迎來出貨大爆發，拉回是極佳的佈局點。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "先進製程產能供不應求，NVIDIA 尋求三星雙軌制並非台積電出現裂口。"
+  },
+  {
+   "symbol": "2344",
+   "name": "華邦電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "其 Cube 技術可作為 L3 Cache，概念接近 SRAM，傳 AMD 為其客戶，屬題材性機會。"
+  },
+  {
+   "symbol": "6531",
+   "name": "愛普*",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "其 VHBM/Z-HBM 技術具想像空間，但屬於客製化產品，實質產能與貢獻仍需時間驗證。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "看多",
+   "argument": "在 ASIC 領域依然是最具競爭力的老牌玩家。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "市場傳言其可能成為 Google TPU 的第三家 ASIC 設計服務合作夥伴。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "與 Broadcom 同為 Google TPU 目前的主要設計服務合作夥伴。"
+  },
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "受惠於低價庫存成本優勢，且此效應預期為複數季度而非一次性。"
+  },
+  {
+   "symbol": "3260",
+   "name": "威剛",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "受惠於低價庫存成本優勢，且此效應預期為複數季度而非一次性。"
+  }
+ ],
+ "quotes": [
+  "交易最難的是在當下做出判斷，事後諸葛的檢討都很容易，但我們實際上是在跟機率做對抗。",
+  "NVIDIA 已經不是單純的晶片供應商，而是 AI 工廠的系統解決方案供應商（Total Solution Supplier）。",
+  "就算題材是對的、基本面也會跟上，不代表股價現在就會發酵，仍必須參考市場情緒進行調整。"
+ ],
+ "ep_key": "EP645",
+ "title": "EP645 | 🎱",
+ "pubdate": "2026-03-18",
+ "duration_s": 2999
+}

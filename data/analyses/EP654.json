@@ -1,0 +1,130 @@
+{
+ "summary": "本集節目中，主持人首先分享了對讀者來信的感觸，並探討人生、健康與成功的定義。在市場分析方面，美股與台股均呈現極強的牛市格局，大盤拉回皆是買點。產業部分，台積電法說會釋出樂觀展望，資本支出達標上限顯現強烈信心。此外，被動元件產業（如國巨、Vishay、Eaton）在全球市場全面噴發，顯示產業復甦跡象。主持人亦指出，未來 CPU 的缺貨情況可能比記憶體更為嚴峻，並看好 NVIDIA Blackwell 晶片出貨帶動的拉貨潮。最後，針對 AI 應用的實際變現能力與 Token 消耗，主持人提醒投資人應關注實質財務回報而非僅看概念炒作。",
+ "topics": [
+  "讀者來信感悟與對健康、成功的定義探討",
+  "美股與台股強勢牛市格局及操作策略（拉回即買點）",
+  "台積電法說會展望與資本支出解讀",
+  "被動元件（MLCC）全球市場全面噴發與國巨法說會觀察",
+  "CPU 潛在缺貨危機與 Intel、AMD 的定價權探討",
+  "NVIDIA Blackwell 晶片出貨與供應鏈拉貨效應",
+  "AI 應用的 Token 消耗與實質變現能力反思（以 Uber 為例）"
+ ],
+ "market_view": "美股與台股大盤皆處於極強的多頭格局，任何拉回都是買點。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電展望極佳，Blackwell 晶片出貨將帶動強勁拉貨潮。"
+  },
+  {
+   "name": "被動元件",
+   "stance": "看多",
+   "view": "全球被動元件（MLCC）全面噴發，行業復甦訊號明確。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "中性",
+   "view": "價格上漲但台股相關標的走勢疲弱，資金可能已轉移。"
+  },
+  {
+   "name": "光通訊",
+   "stance": "觀察",
+   "view": "目前資金過度集中，若轉弱資金可能流向記憶體或被動元件。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "法說會展望極佳，資本支出達上限顯現強烈信心，未來仍有上修空間。"
+  },
+  {
+   "symbol": "2327",
+   "name": "國巨",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "法說會對 CPU 催化劑態度保守，但 MLCC 供需改善符合預期。"
+  },
+  {
+   "symbol": "6548",
+   "name": "長華科",
+   "market": "TW",
+   "stance": "已出場",
+   "argument": "股性較慢因而減碼換股，但目前確實處於便宜的評價區塊。"
+  },
+  {
+   "symbol": "2404",
+   "name": "漢唐",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "近期股價強勢表態，發動時間點令人意外且有趣。"
+  },
+  {
+   "symbol": "8358",
+   "name": "金居",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "基本面表現良好且市場看好，但股價已整理盤整許久。"
+  },
+  {
+   "symbol": "VSH",
+   "name": "Vishay",
+   "market": "US",
+   "stance": "看多",
+   "argument": "股價強勢大噴發，反映全球被動元件市場的強勁復甦。"
+  },
+  {
+   "symbol": "VPG",
+   "name": "Vishay Precision Group",
+   "market": "US",
+   "stance": "看多",
+   "argument": "身為 Vishay 旗下公司，也已做好隨之起飛的準備。"
+  },
+  {
+   "symbol": "ETN",
+   "name": "Eaton",
+   "market": "US",
+   "stance": "看多",
+   "argument": "股價出乎意料地強勢拉出，顯示整體電力與被動元件板塊動能強勁。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "目前漲幅落後，但若未來 CPU 出現嚴重缺貨，將具備漲價題材。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "目前漲幅落後，但若未來 CPU 出現嚴重缺貨，將具備漲價題材。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Blackwell 晶片準備出貨且產能利用率極高，拉貨效應將非常恐怖。"
+  },
+  {
+   "symbol": "UBER",
+   "name": "Uber",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "短期內大量消耗 AI Token 顯示需求強勁，但仍需觀察實質財務回報。"
+  }
+ ],
+ "quotes": [
+  "健康是前面那個 1，財富與工作都是後面的 0，沒有健康一切都是零。",
+  "多頭市場的拉回，不論跌勢多恐怖，都是尋找支撐做多的好機會。",
+  "AI 時代不能只看 Token 消耗量（Token Maximizer），最終還是要回歸實質的財務回報（Result-based）。"
+ ],
+ "ep_key": "EP654",
+ "title": "EP654 | 🌵",
+ "pubdate": "2026-04-18",
+ "duration_s": 2999
+}

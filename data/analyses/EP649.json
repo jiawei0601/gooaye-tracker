@@ -1,0 +1,84 @@
+{
+ "summary": "本集主持人謝孟恭分享了個人使用瘦瘦針與學習網球的近況。針對大盤，他指出台股表現極為強勢，回測均線後若能持續創高，則僅屬多頭回檔；而美股則暫視為走空後的死貓跳反彈。由於油價與 VIX 波動度仍維持高檔，主持人選擇不開槓桿並適度減碼以因應連假。此外，本集重點分析了 Nvidia 投資 Marvell 20 億美元的戰略意圖，主持人認為此舉旨在推廣 NVLink Fusion 生態系並圍堵 Broadcom，但整體 AI 傳輸市場仍屬藍海，Broadcom 與 Astera Labs 等競爭對手受到的實質衝擊有限。",
+ "topics": [
+  "個人近況：瘦瘦針減重進度與網球運動體驗分享",
+  "台股與美股大盤走勢、反彈性質與減碼策略",
+  "高油價與高波動度對投資槓桿的警示",
+  "Nvidia 投資 Marvell 20 億美元之戰略意圖與 NVLink Fusion 生態系分析",
+  "Marvell 與 Astera Labs (ALAB) 在高速傳輸與記憶體池化市場的共存關係",
+  "玻璃基板題材的時程展望與 CPO 概念股的類比"
+ ],
+ "market_view": "台股回測均線後強勢反彈，若再創高則屬多頭回檔；美股則暫視為走空後的死貓跳反彈，需留意高油價與高波動度風險。",
+ "industries": [
+  {
+   "name": "AI高速傳輸/半導體",
+   "stance": "看多",
+   "view": "Nvidia 透過投資 Marvell 擴大 NVLink 生態系，整體 AI 傳輸與客製化晶片市場（藍海）持續擴大。"
+  },
+  {
+   "name": "玻璃基板",
+   "stance": "觀察",
+   "view": "屬於未來題材，實際放量預估需 1.5 至 2 年，營收認列較慢，類似早期的 CPO 概念。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "獲 Nvidia 投資 20 億美元合作 NVLink Fusion，短期屬戰略宣告，長期看好其在交換機與客製化晶片的發展。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "透過投資 Marvell 推廣 NVLink Fusion 生態系，鞏固其在 AI 晶片與周邊傳輸的霸主地位。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雖然 Nvidia 投資 Marvell 意在搶奪其客製化晶片與傳輸市場，但整體 AI 藍海市場持續擴大，Broadcom 仍能成長。"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "與 Marvell 的解決方案並非完全在同一賽道，兩者在主機端與 GPU 端可共存，市場過度擔憂其競爭衝擊。"
+  },
+  {
+   "symbol": "CRDO",
+   "name": "Credo",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "與 Astera Labs 同屬高速傳輸概念股，近期因市場擔憂競爭而受挫，但實際影響有限。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人認為最該投資或購買 Marvell 的其實是 AMD，因為 AMD 缺乏這一塊生態系。"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾提到女兒投資此 ETF 報酬率突破 100%，主持人表示讚許。"
+  }
+ ],
+ "quotes": [
+  "在市場波動放大的時候，理論上你的部位就要稍微扣一點現金回來。",
+  "當你覺得最不舒服、最想一鍵出清的時候，往往反而是相對好的買點。",
+  "Nvidia 投資 Marvell 並不是要去消滅 Broadcom 或 Astera Labs，而是要把整塊餅做大，大家在藍海市場裡都還是能分到一杯羹。"
+ ],
+ "ep_key": "EP649",
+ "title": "EP649 | 💌",
+ "pubdate": "2026-04-01",
+ "duration_s": 3038
+}

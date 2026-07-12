@@ -1,23 +1,4 @@
 {
- "半導體": {
-  "timeline": [
-   {
-    "ep": "EP677",
-    "date": "2026-07-08",
-    "stance": "看多",
-    "view": "儘管有短期逆風和延遲，長期趨勢不變，仍是核心投資主軸。"
-   },
-   {
-    "ep": "EP674",
-    "date": "2026-06-27",
-    "stance": "觀察",
-    "view": "部分記憶體和功率元件價格上漲，但整體產業情緒複雜。"
-   }
-  ],
-  "mentions": 2,
-  "latest_stance": "看多",
-  "latest_date": "2026-07-08"
- },
  "AI伺服器": {
   "timeline": [
    {
@@ -31,50 +12,202 @@
     "date": "2026-06-27",
     "stance": "看多",
     "view": "持續看好AI相關科技，特別是Google在成本效益和應用方面的努力。"
+   },
+   {
+    "ep": "EP672",
+    "date": "2026-06-20",
+    "stance": "看多",
+    "view": "作為當前市場成長的主要驅動力，對特定零組件產生巨大需求，並帶動整個功率半導體供應鏈。"
+   },
+   {
+    "ep": "EP671",
+    "date": "2026-06-17",
+    "stance": "看多",
+    "view": "AI伺服器是市場的「鯰魚」，帶動了功率半導體等相關產業的需求。"
+   },
+   {
+    "ep": "EP669",
+    "date": "2026-06-10",
+    "stance": "觀察",
+    "view": "AI相關零組件（如HBM、光通訊）短期雖有回檔，但長期需求趨勢仍看好，只是時間點可能延後。"
+   },
+   {
+    "ep": "EP665",
+    "date": "2026-05-27",
+    "stance": "看多",
+    "view": "資料中心是未來趨勢，特別是衛星上的AI資料中心（New Cloud）具有巨大潛力。"
+   },
+   {
+    "ep": "EP645",
+    "date": "2026-03-18",
+    "stance": "看多",
+    "view": "NVIDIA 轉型為 AI 工廠系統解決方案供應商，廣達等台廠供應鏈在未來幾年成長能見度極高。"
+   }
+  ],
+  "mentions": 7,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-08"
+ },
+ "ASIC": {
+  "timeline": [
+   {
+    "ep": "EP659",
+    "date": "2026-05-06",
+    "stance": "看多",
+    "view": "台股 ASIC 類股持續輪動，世芯受惠於亞馬遜 Trainium 晶片，創意受惠於 Google TPU。"
+   },
+   {
+    "ep": "EP645",
+    "date": "2026-03-18",
+    "stance": "觀察",
+    "view": "Meta 與微軟自主研發面臨產能或效率瓶頸，Broadcom 仍具優勢，Google 傳尋找第三家合作夥伴。"
    }
   ],
   "mentions": 2,
   "latest_stance": "看多",
-  "latest_date": "2026-07-08"
+  "latest_date": "2026-05-06"
  },
- "科技股": {
+ "記憶體": {
   "timeline": [
    {
-    "ep": "EP674",
-    "date": "2026-06-27",
+    "ep": "EP678",
+    "date": "2026-07-11",
     "stance": "看多",
-    "view": "儘管近期回檔，但主持人仍相信其長期潛力，尤其是Google和Apple等主要公司。"
+    "view": "記憶體價格持續上漲，但漲幅有所收斂，產業巨頭採購力強勁，預期價格仍會向上。"
+   },
+   {
+    "ep": "EP673",
+    "date": "2026-06-24",
+    "stance": "已出場",
+    "view": "主持人已很久沒有買進記憶體股票，轉向其他題材。"
+   },
+   {
+    "ep": "EP671",
+    "date": "2026-06-17",
+    "stance": "觀察",
+    "view": "記憶體市場因極度缺貨而大漲，但主持人已提早出場。"
+   },
+   {
+    "ep": "EP658",
+    "date": "2026-05-02",
+    "stance": "觀察",
+    "view": "基本面確實好轉且面臨缺貨，但台灣記憶體類股的股價反應通常較美股市場慢。"
+   },
+   {
+    "ep": "EP657",
+    "date": "2026-04-29",
+    "stance": "觀察",
+    "view": "經歷長期低迷後出現集體反彈，旺宏董事長釋出超級利多，產品線迎來漲價。"
+   },
+   {
+    "ep": "EP655",
+    "date": "2026-04-22",
+    "stance": "觀察",
+    "view": "台股記憶體表現相對疲軟，但美股與韓股的記憶體巨頭依然非常強勢。"
+   },
+   {
+    "ep": "EP654",
+    "date": "2026-04-18",
+    "stance": "中性",
+    "view": "價格上漲但台股相關標的走勢疲弱，資金可能已轉移。"
+   },
+   {
+    "ep": "EP648",
+    "date": "2026-03-28",
+    "stance": "看多",
+    "view": "雖然市場擔憂 KV Cache 等壓縮技術減少記憶體需求，但根據傑文斯悖論，效率提升反而會刺激更大的記憶體總需求。"
+   },
+   {
+    "ep": "EP646",
+    "date": "2026-03-21",
+    "stance": "中性",
+    "view": "美光財報利多不漲，板塊可能進入橫盤，但 NAND 漲幅預期將優於 DRAM。"
+   },
+   {
+    "ep": "EP645",
+    "date": "2026-03-18",
+    "stance": "觀察",
+    "view": "SRAM 概念多為 PSRAM 題材（如華邦電、愛普），實質貢獻尚需時間觀察；低價庫存效應對部分模組廠非一次性。"
    }
   ],
-  "mentions": 1,
+  "mentions": 10,
   "latest_stance": "看多",
-  "latest_date": "2026-06-27"
+  "latest_date": "2026-07-11"
  },
- "房地產": {
+ "銅資源": {
   "timeline": [
    {
-    "ep": "EP674",
-    "date": "2026-06-27",
+    "ep": "EP645",
+    "date": "2026-03-18",
     "stance": "觀察",
-    "view": "過去炒房資金流入股市，若股市降溫，資金可能回流房市。"
+    "view": "正在思考銅相關類股的估值，可能需要降息循環啟動才能進一步推升。"
    }
   ],
   "mentions": 1,
   "latest_stance": "觀察",
-  "latest_date": "2026-06-27"
+  "latest_date": "2026-03-18"
  },
- "遊戲開發": {
+ "AI伺服器/散熱": {
   "timeline": [
    {
-    "ep": "EP675",
-    "date": "2026-07-01",
-    "stance": "看多",
-    "view": "主持人基金積極投資具潛力的台灣遊戲開發團隊，看好其顯著成長空間與創業路徑的清晰化。"
+    "ep": "EP646",
+    "date": "2026-03-21",
+    "stance": "觀察",
+    "view": "晶片 TDP 持續提高，浸沒式散熱技術指標公司進度落後，短期仍以水冷、冰水為主。"
    }
   ],
   "mentions": 1,
-  "latest_stance": "看多",
-  "latest_date": "2026-07-01"
+  "latest_stance": "觀察",
+  "latest_date": "2026-03-21"
+ },
+ "光通訊": {
+  "timeline": [
+   {
+    "ep": "EP678",
+    "date": "2026-07-11",
+    "stance": "觀察",
+    "view": "產業內部出現類股輪動，部分「慢而廣」的技術路線（如Vicsel）開始受到關注，而過去熱門的「窄而快」技術則相對疲軟。"
+   },
+   {
+    "ep": "EP663",
+    "date": "2026-05-20",
+    "stance": "看多",
+    "view": "雖然短期股價因市場獲利了結而回檔，但長期成長趨勢不變，未來仍是 AI 投資的重點領域。"
+   },
+   {
+    "ep": "EP654",
+    "date": "2026-04-18",
+    "stance": "觀察",
+    "view": "目前資金過度集中，若轉弱資金可能流向記憶體或被動元件。"
+   },
+   {
+    "ep": "EP652",
+    "date": "2026-04-11",
+    "stance": "看多",
+    "view": "需求持續強勁，且出現美系大廠自帶設備委託台灣具 SMT 產線之廠商代工的新趨勢。"
+   },
+   {
+    "ep": "EP651",
+    "date": "2026-04-08",
+    "stance": "看多",
+    "view": "美股市場強勢板塊，看好上游磊晶、雷射晶片、CPO 設備及 AOI 檢測設備的發展。"
+   },
+   {
+    "ep": "EP650",
+    "date": "2026-04-04",
+    "stance": "看多",
+    "view": "在美股市場中表現相對強勢。"
+   },
+   {
+    "ep": "EP646",
+    "date": "2026-03-21",
+    "stance": "看多",
+    "view": "被視為 AI 2.0，CPO 與網路互連需求強勁，雖估值高波動大，但拉回仍是極佳買點。"
+   }
+  ],
+  "mentions": 7,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-11"
  },
  "被動元件": {
   "timeline": [
@@ -101,24 +234,502 @@
     "date": "2026-07-01",
     "stance": "觀察",
     "view": "經歷普遍漲價和強勁反彈後，在高點出現軟化跡象，可能為中期反彈。"
+   },
+   {
+    "ep": "EP673",
+    "date": "2026-06-24",
+    "stance": "看多",
+    "view": "整體仍處於強勢多頭格局，預期將有新一波漲價，且需求緊俏。"
+   },
+   {
+    "ep": "EP672",
+    "date": "2026-06-20",
+    "stance": "觀察",
+    "view": "部分大型被動元件表現強勁，但市場關注點已轉移，部分領域出現震盪。"
+   },
+   {
+    "ep": "EP671",
+    "date": "2026-06-17",
+    "stance": "觀察",
+    "view": "市場已從半信半疑走向全面相信，但過熱可能導致波動，資金可能從中流出尋找新機會。"
+   },
+   {
+    "ep": "EP670",
+    "date": "2026-06-13",
+    "stance": "看多",
+    "view": "ODM/EMS廠商成功漲價，且廠商謹慎擴產，預期將迎來較長期的成長週期。"
+   },
+   {
+    "ep": "EP667",
+    "date": "2026-06-03",
+    "stance": "觀察",
+    "view": "AI PC將使用更高規格的被動元件，若AI PC銷量好可望受惠。"
+   },
+   {
+    "ep": "EP666",
+    "date": "2026-05-30",
+    "stance": "看多",
+    "view": "MLCC、鋁電容等持續強勢，市場討論度雖慢但仍有上漲空間，且缺口大。"
+   },
+   {
+    "ep": "EP665",
+    "date": "2026-05-27",
+    "stance": "看多",
+    "view": "全球被動元件市場趨勢向上，國巨BB Ratio上升，與2018年行情有相似之處。"
+   },
+   {
+    "ep": "EP664",
+    "date": "2026-05-23",
+    "stance": "看多",
+    "view": "全面噴射，MLCC、鋁電容、電感、電阻等皆上漲，受AI需求帶動。"
+   },
+   {
+    "ep": "EP663",
+    "date": "2026-05-20",
+    "stance": "看多",
+    "view": "大廠 Panasonic 已發出部分漲價信，現貨市場出現掃貨潮，供需失衡將推動漲價潮持續延續。"
+   },
+   {
+    "ep": "EP662",
+    "date": "2026-05-16",
+    "stance": "看多",
+    "view": "電阻因銀價上漲、電容因松下（Panasonic）大漲 SP-CAP 價格三成，預期將迎來全面漲價潮。"
+   },
+   {
+    "ep": "EP661",
+    "date": "2026-05-13",
+    "stance": "看多",
+    "view": "MLCC 與鋁電容產業需求強勁，高階產品由日韓主導，台廠則受惠於排擠效應與中低階需求，漲價趨勢明確。"
+   },
+   {
+    "ep": "EP660",
+    "date": "2026-05-09",
+    "stance": "看多",
+    "view": "MLCC、電容等產品提前出現復甦與缺貨跡象，日美相關個股表現強勁。"
+   },
+   {
+    "ep": "EP659",
+    "date": "2026-05-06",
+    "stance": "觀察",
+    "view": "高階被動元件供需吃緊，台廠主要受惠於 AI 伺服器帶來的訂單排擠與溢出效應。"
+   },
+   {
+    "ep": "EP657",
+    "date": "2026-04-29",
+    "stance": "觀察",
+    "view": "台廠表現落後外國同業，但近期出現報價上漲與補漲行情。"
+   },
+   {
+    "ep": "EP655",
+    "date": "2026-04-22",
+    "stance": "看多",
+    "view": "日本與韓國（如三星電機）的被動元件股表現極強，台股被動元件雖在歷史高點但走勢較慢，主持人為此直接佈局日股被動元件。"
+   },
+   {
+    "ep": "EP654",
+    "date": "2026-04-18",
+    "stance": "看多",
+    "view": "全球被動元件（MLCC）全面噴發，行業復甦訊號明確。"
+   },
+   {
+    "ep": "EP653",
+    "date": "2026-04-15",
+    "stance": "觀察",
+    "view": "因CPU等硬體需求爆發出現漲價潮，國巨創歷史新高，需觀察缺貨潮能否持續。"
+   },
+   {
+    "ep": "EP652",
+    "date": "2026-04-11",
+    "stance": "看多",
+    "view": "鉭質電容、鋁電容與高階 MLCC 因 AI 伺服器需求嚴重缺貨，看好後續報價上漲與產業復甦。"
+   },
+   {
+    "ep": "EP651",
+    "date": "2026-04-08",
+    "stance": "看多",
+    "view": "鉭電容與鋁電容持續缺貨緊俏，未來可望迎來循環大潮。"
+   },
+   {
+    "ep": "EP646",
+    "date": "2026-03-21",
+    "stance": "觀察",
+    "view": "需區分成本推升與需求驅動，高階 MLCC 與 TLVR 電感具備實質需求驅動的漲價空間。"
    }
   ],
-  "mentions": 4,
+  "mentions": 24,
   "latest_stance": "看多",
   "latest_date": "2026-07-11"
  },
- "主動元件": {
+ "AI影片生成": {
   "timeline": [
    {
-    "ep": "EP675",
-    "date": "2026-07-01",
+    "ep": "EP647",
+    "date": "2026-03-25",
     "stance": "觀察",
-    "view": "漲價趨勢日益明顯且交期拉長，類似被動元件但反應稍早，MOSFET等已出現缺貨。"
+    "view": "長期趨勢不變，但短期受限於高昂算力成本、版權爭議與技術瓶頸，OpenAI 已暫緩 Sora 項目。"
    }
   ],
   "mentions": 1,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-01"
+  "latest_date": "2026-03-25"
+ },
+ "光通訊/CPO": {
+  "timeline": [
+   {
+    "ep": "EP647",
+    "date": "2026-03-25",
+    "stance": "看多",
+    "view": "持續看好光通訊與共同封裝光學（CPO）的發展，已將台美股部分資金往此領域配置。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-03-25"
+ },
+ "半導體/CPU": {
+  "timeline": [
+   {
+    "ep": "EP659",
+    "date": "2026-05-06",
+    "stance": "看多",
+    "view": "AI 應用與伺服器工作負載持續推升 CPU 需求，AMD 與 Intel 展望樂觀。"
+   },
+   {
+    "ep": "EP647",
+    "date": "2026-03-25",
+    "stance": "看多",
+    "view": "CPU 在 AI 推論（Inference）的應用開始受到市場重視，AMD 已包下相關產能，後續表現值得期待。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-06"
+ },
+ "晶片代工": {
+  "timeline": [
+   {
+    "ep": "EP647",
+    "date": "2026-03-25",
+    "stance": "觀察",
+    "view": "馬斯克因成本考量將 AI 晶片代工轉向三星，但垂直整合晶片製造難度極高，短期仍需依賴傳統代工廠。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-03-25"
+ },
+ "半導體/先進封裝": {
+  "timeline": [
+   {
+    "ep": "EP651",
+    "date": "2026-04-08",
+    "stance": "看多",
+    "view": "Intel 的先進封裝（如 EMIB）與晶圓代工業務可望因與 Tesla 合作而受惠，且 AI 時代 CPU 出現缺口。"
+   },
+   {
+    "ep": "EP648",
+    "date": "2026-03-28",
+    "stance": "觀察",
+    "view": "玻璃基板（GCS）與 TGV 是未來大晶片封裝趨勢，但放量時程預計在 2027 至 2028 年，晚於 CPO。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2026-04-08"
+ },
+ "AI高速傳輸/半導體": {
+  "timeline": [
+   {
+    "ep": "EP649",
+    "date": "2026-04-01",
+    "stance": "看多",
+    "view": "Nvidia 透過投資 Marvell 擴大 NVLink 生態系，整體 AI 傳輸與客製化晶片市場（藍海）持續擴大。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-04-01"
+ },
+ "玻璃基板": {
+  "timeline": [
+   {
+    "ep": "EP649",
+    "date": "2026-04-01",
+    "stance": "觀察",
+    "view": "屬於未來題材，實際放量預估需 1.5 至 2 年，營收認列較慢，類似早期的 CPO 概念。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-04-01"
+ },
+ "AI伺服器 / CPU": {
+  "timeline": [
+   {
+    "ep": "EP650",
+    "date": "2026-04-04",
+    "stance": "看多",
+    "view": "Agentic AI 時代需要大量推理與調用，CPU 將從配角轉為主角，需求顯著提升。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-04-04"
+ },
+ "被動元件 (鋁電容)": {
+  "timeline": [
+   {
+    "ep": "EP650",
+    "date": "2026-04-04",
+    "stance": "觀察",
+    "view": "中東鋁廠遭炸可能引發鋁電容缺貨，但需注意 MLCC 加電感（TLVR）有替代效應，非無上限暴漲。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-04-04"
+ },
+ "塑化": {
+  "timeline": [
+   {
+    "ep": "EP650",
+    "date": "2026-04-04",
+    "stance": "觀察",
+    "view": "部分投資人預期中國因伊朗石油受阻而轉向台廠，但非主持人首選。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-04-04"
+ },
+ "電動車": {
+  "timeline": [
+   {
+    "ep": "EP651",
+    "date": "2026-04-08",
+    "stance": "中性",
+    "view": "Tesla 投入大量資金進行晶圓生產製造，在初期良率未拉升前，恐持續面臨高額折舊與虧損隱憂。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "中性",
+  "latest_date": "2026-04-08"
+ },
+ "智慧型手機": {
+  "timeline": [
+   {
+    "ep": "EP651",
+    "date": "2026-04-08",
+    "stance": "觀察",
+    "view": "產業面臨兩極分化，Apple 逆勢不漲價搶佔份額，而中國平價手機供應鏈則面臨高達 40% 的嚴重砍單潮。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-04-08"
+ },
+ "半導體/AI晶片": {
+  "timeline": [
+   {
+    "ep": "EP663",
+    "date": "2026-05-20",
+    "stance": "觀察",
+    "view": "Broadcom 與 MediaTek 在客製化 AI 晶片（ASIC）領域持續競爭，產品線規劃出現雙拼（Chiplet）等新設計。"
+   },
+   {
+    "ep": "EP653",
+    "date": "2026-04-15",
+    "stance": "看多",
+    "view": "台積電上檔空間仍大，聯發科與Google合作的AI晶片將帶來極大貢獻。"
+   },
+   {
+    "ep": "EP652",
+    "date": "2026-04-11",
+    "stance": "看多",
+    "view": "AI 時代除了 GPU，CPU 的調度與客製化 ASIC 需求也大增，出現供不應求與短缺現象。"
+   }
+  ],
+  "mentions": 3,
+  "latest_stance": "觀察",
+  "latest_date": "2026-05-20"
+ },
+ "SaaS/軟體": {
+  "timeline": [
+   {
+    "ep": "EP652",
+    "date": "2026-04-11",
+    "stance": "觀察",
+    "view": "長期持有中，等待下一波行情，短期受 AI 模型更新消息影響波動。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-04-11"
+ },
+ "半導體": {
+  "timeline": [
+   {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "看多",
+    "view": "儘管有短期逆風和延遲，長期趨勢不變，仍是核心投資主軸。"
+   },
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "觀察",
+    "view": "部分記憶體和功率元件價格上漲，但整體產業情緒複雜。"
+   },
+   {
+    "ep": "EP673",
+    "date": "2026-06-24",
+    "stance": "觀察",
+    "view": "聯發科有新晶片獲得Google採用，博通也有新產品推出，顯示產業持續創新。"
+   },
+   {
+    "ep": "EP672",
+    "date": "2026-06-20",
+    "stance": "看多",
+    "view": "AI伺服器需求帶動功率半導體產業，歐美大廠交期過長使台灣供應商受惠，產能是關鍵瓶頸。"
+   },
+   {
+    "ep": "EP671",
+    "date": "2026-06-17",
+    "stance": "看多",
+    "view": "功率半導體（如DRMOS、SiC）因供應鏈重組和AI伺服器需求，將迎來顯著增長，可能成為新興機會。"
+   },
+   {
+    "ep": "EP669",
+    "date": "2026-06-10",
+    "stance": "觀察",
+    "view": "儘管近期因分析師報告引發市場震盪，但長期趨勢不變，短期修正為洗籌碼，需觀察資金流向。"
+   },
+   {
+    "ep": "EP666",
+    "date": "2026-05-30",
+    "stance": "看多",
+    "view": "台積電等前端製程持續釋出利好消息，產業健康。"
+   },
+   {
+    "ep": "EP657",
+    "date": "2026-04-29",
+    "stance": "看多",
+    "view": "台積電與聯發科長線看好，Intel 封裝良率超預期將帶動相關供應鏈。"
+   },
+   {
+    "ep": "EP654",
+    "date": "2026-04-18",
+    "stance": "看多",
+    "view": "台積電展望極佳，Blackwell 晶片出貨將帶動強勁拉貨潮。"
+   }
+  ],
+  "mentions": 9,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-08"
+ },
+ "半導體/ASIC": {
+  "timeline": [
+   {
+    "ep": "EP655",
+    "date": "2026-04-22",
+    "stance": "觀察",
+    "view": "聯發科與Marvell在客製化晶片（ASIC）領域持續競爭，但需注意與Intel先進封裝合作的潛在良率風險。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-04-22"
+ },
+ "VR/虛擬實境": {
+  "timeline": [
+   {
+    "ep": "EP655",
+    "date": "2026-04-22",
+    "stance": "觀察",
+    "view": "下半年VR產品可能面臨遞延，但供應鏈問題通常會逐步解決，若因遞延傳聞導致股價修正，反而是加碼機會。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-04-22"
+ },
+ "AI伺服器/CPU": {
+  "timeline": [
+   {
+    "ep": "EP656",
+    "date": "2026-04-25",
+    "stance": "觀察",
+    "view": "CPU類股全面噴出，但市場傳言CPU與GPU配比達1:1過於樂觀，實際觀察約為2:11或4:1。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-04-25"
+ },
+ "ASIC/TPU": {
+  "timeline": [
+   {
+    "ep": "EP656",
+    "date": "2026-04-25",
+    "stance": "看多",
+    "view": "Google發表TPU 8T/8I，聯發科負責Training、博通負責Inference，兩者出貨量預期相當，看好後續表現。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-04-25"
+ },
+ "半導體代工": {
+  "timeline": [
+   {
+    "ep": "EP656",
+    "date": "2026-04-25",
+    "stance": "看多",
+    "view": "台積電受惠於政策放寬投信持股上限，預期將有大量被動與主動資金流入，且估值相較其他AI股仍屬便宜。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-04-25"
+ },
+ "AI伺服器/雲端": {
+  "timeline": [
+   {
+    "ep": "EP657",
+    "date": "2026-04-29",
+    "stance": "看多",
+    "view": "Meta 大舉採購 AWS Graviton 5，CPU 需求依然火熱。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-04-29"
+ },
+ "軟體/SaaS": {
+  "timeline": [
+   {
+    "ep": "EP658",
+    "date": "2026-05-02",
+    "stance": "看多",
+    "view": "市場對AI取代軟體工程師與SaaS服務的擔憂過度，看好具備實質產品交付與客製化部署能力的軟體公司。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-02"
+ },
+ "半導體先進封裝": {
+  "timeline": [
+   {
+    "ep": "EP658",
+    "date": "2026-05-02",
+    "stance": "看多",
+    "view": "先進封裝（如CoWoS）需求持續強勁，聯發科與Google等大廠正積極佈局多元封裝供應鏈以確保產能。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-02"
  },
  "IC設計": {
   "timeline": [
@@ -127,24 +738,222 @@
     "date": "2026-07-01",
     "stance": "看多",
     "view": "大廠從低點反彈並突破新高，受成本與需求雙重驅動的漲價影響，顯示資金高度關注。"
+   },
+   {
+    "ep": "EP659",
+    "date": "2026-05-06",
+    "stance": "中性",
+    "view": "聯發科股價已快速反應未來預期，短期內可能需要時間橫盤整理。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-01"
+ },
+ "企業軟體": {
+  "timeline": [
+   {
+    "ep": "EP659",
+    "date": "2026-05-06",
+    "stance": "看多",
+    "view": "看好具備解決企業精準度問題、避免 AI 垃圾內容（AI Slop）的龍頭軟體股。"
    }
   ],
   "mentions": 1,
   "latest_stance": "看多",
-  "latest_date": "2026-07-01"
+  "latest_date": "2026-05-06"
  },
- "ABF載板": {
+ "矽晶圓": {
   "timeline": [
    {
-    "ep": "EP675",
-    "date": "2026-07-01",
+    "ep": "EP671",
+    "date": "2026-06-17",
     "stance": "觀察",
-    "view": "在南電上修財測後再次展現強勢，顯示其受歡迎程度不減。"
+    "view": "矽晶圓市場表現良好，主持人認為其反應時間比預期早。"
+   },
+   {
+    "ep": "EP659",
+    "date": "2026-05-06",
+    "stance": "觀察",
+    "view": "矽晶圓產業週期預期將開始往上。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-17"
+ },
+ "晶圓代工": {
+  "timeline": [
+   {
+    "ep": "EP659",
+    "date": "2026-05-06",
+    "stance": "觀察",
+    "view": "成熟製程廠房產能利用率高，甚至有供不應求的狀況。"
    }
   ],
   "mentions": 1,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-01"
+  "latest_date": "2026-05-06"
+ },
+ "半導體/晶圓代工": {
+  "timeline": [
+   {
+    "ep": "EP660",
+    "date": "2026-05-09",
+    "stance": "看多",
+    "view": "成熟製程（如世界先進）產能利用率高，客戶甚至願意加價搶產能，整體展望佳。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-09"
+ },
+ "散熱/電子零組件": {
+  "timeline": [
+   {
+    "ep": "EP660",
+    "date": "2026-05-09",
+    "stance": "觀察",
+    "view": "受 Nvidia 散熱材料修改傳聞影響，短期波動劇烈，但長期需求仍在。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-05-09"
+ },
+ "消費性電子": {
+  "timeline": [
+   {
+    "ep": "EP672",
+    "date": "2026-06-20",
+    "stance": "看空",
+    "view": "市場表現疲軟，但這反而有助於抑制通膨，讓AI產業的成長得以持續而不致過熱。"
+   },
+   {
+    "ep": "EP669",
+    "date": "2026-06-10",
+    "stance": "觀察",
+    "view": "目前資金尚未明顯流向消費性電子，但長期來看，蘋果在AI時代的策略佈局仍具潛力。"
+   },
+   {
+    "ep": "EP660",
+    "date": "2026-05-09",
+    "stance": "中性",
+    "view": "近期拉貨潮可能源於供應鏈恐慌性提前備貨，而非終端需求（手機、PC）真正復甦，下半年需防拉貨動能放緩。"
+   }
+  ],
+  "mentions": 3,
+  "latest_stance": "看空",
+  "latest_date": "2026-06-20"
+ },
+ "房地產": {
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "觀察",
+    "view": "過去炒房資金流入股市，若股市降溫，資金可能回流房市。"
+   },
+   {
+    "ep": "EP671",
+    "date": "2026-06-17",
+    "stance": "觀察",
+    "view": "台灣房地產市場，特別是林口地區，展現出驚人的韌性，即使市場普遍降溫，房東仍不願降價。"
+   },
+   {
+    "ep": "EP664",
+    "date": "2026-05-23",
+    "stance": "看空",
+    "view": "房市冷卻，房貸政策緊縮，可能需待政府釋出更多資金才會再次啟動。"
+   },
+   {
+    "ep": "EP661",
+    "date": "2026-05-13",
+    "stance": "觀察",
+    "view": "林口與台中房市近年因人口移入與建設呈現爆發性成長，價格漲幅顯著。"
+   }
+  ],
+  "mentions": 4,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-27"
+ },
+ "半導體/台積電": {
+  "timeline": [
+   {
+    "ep": "EP662",
+    "date": "2026-05-16",
+    "stance": "看多",
+    "view": "金管會放寬投信持股上限，未來一兩個月投信修改條款後將有更多資金流入台積電。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-16"
+ },
+ "AI伺服器/老AI": {
+  "timeline": [
+   {
+    "ep": "EP662",
+    "date": "2026-05-16",
+    "stance": "中性",
+    "view": "老AI因毛利表現不如預期而修正，但這僅是短期研發與迭代成本上升，長期趨勢並未看空。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "中性",
+  "latest_date": "2026-05-16"
+ },
+ "資安/軟體": {
+  "timeline": [
+   {
+    "ep": "EP662",
+    "date": "2026-05-16",
+    "stance": "看多",
+    "view": "美股資安股如 CrowdStrike 逆勢創新高，軟體板塊在經歷修正後開始出現轉強訊號。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-16"
+ },
+ "功率元件/電源": {
+  "timeline": [
+   {
+    "ep": "EP662",
+    "date": "2026-05-16",
+    "stance": "看多",
+    "view": "新電源櫃對功率元件需求大增，美系大廠與日廠羅姆（Rohm）皆陸續調升價格。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-16"
+ },
+ "載板": {
+  "timeline": [
+   {
+    "ep": "EP663",
+    "date": "2026-05-20",
+    "stance": "看多",
+    "view": "受惠於晶片雙拼（雙晶片封裝在同一載板上）等大顆晶片設計趨勢，載板產業後續仍有新的故事與成長空間。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-20"
+ },
+ "AI伺服器/半導體": {
+  "timeline": [
+   {
+    "ep": "EP664",
+    "date": "2026-05-23",
+    "stance": "看多",
+    "view": "Anthropic獲利證明AI模型可行，將帶動AI硬體投資增加；Google TPU策略加劇晶片競爭，產能爭奪將是關鍵。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-23"
  },
  "功率元件": {
   "timeline": [
@@ -165,11 +974,341 @@
     "date": "2026-07-04",
     "stance": "看多",
     "view": "跟隨被動元件轉強，面臨MOSFET短缺及價格上漲30-50%。"
+   },
+   {
+    "ep": "EP673",
+    "date": "2026-06-24",
+    "stance": "看多",
+    "view": "整體形態仍非常漂亮，但需克服產能問題，才能開出營收獲利。"
+   },
+   {
+    "ep": "EP664",
+    "date": "2026-05-23",
+    "stance": "看多",
+    "view": "受AI資料中心高密度需求帶動，表現轉好，未來需求將持續增加。"
    }
   ],
-  "mentions": 3,
+  "mentions": 5,
   "latest_stance": "看多",
   "latest_date": "2026-07-11"
+ },
+ "紅酒": {
+  "timeline": [
+   {
+    "ep": "EP664",
+    "date": "2026-05-23",
+    "stance": "觀察",
+    "view": "市場存在炒作與價格操縱，但也有機會在特定通路找到超值品項。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-05-23"
+ },
+ "衛星網路/SpaceX": {
+  "timeline": [
+   {
+    "ep": "EP665",
+    "date": "2026-05-27",
+    "stance": "看多",
+    "view": "SpaceX的IPO值得關注，Starlink是其金雞母，但真正的潛力在於提供衛星運算服務（New Cloud）。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-27"
+ },
+ "散熱": {
+  "timeline": [
+   {
+    "ep": "EP665",
+    "date": "2026-05-27",
+    "stance": "看多",
+    "view": "作為AI伺服器關鍵零組件，尤其在太空環境下的散熱技術將有巨大需求。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-27"
+ },
+ "機器人": {
+  "timeline": [
+   {
+    "ep": "EP672",
+    "date": "2026-06-20",
+    "stance": "觀察",
+    "view": "仍處於萌芽階段，部分工業零件廠商的機器人相關營收有所增加，但需等待更實質的營收獲利驗證。"
+   },
+   {
+    "ep": "EP665",
+    "date": "2026-05-27",
+    "stance": "觀察",
+    "view": "目前營收佔比雖小，但成長潛力巨大，是值得關注的題材。"
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-20"
+ },
+ "AI軟體": {
+  "timeline": [
+   {
+    "ep": "EP666",
+    "date": "2026-05-30",
+    "stance": "看多",
+    "view": "從「取代」論轉向「提升效率」，營收獲利表現佳，資金開始回流，未來應用層面廣闊。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-30"
+ },
+ "AI硬體/ODM/OEM": {
+  "timeline": [
+   {
+    "ep": "EP666",
+    "date": "2026-05-30",
+    "stance": "看多",
+    "view": "持續交出好成績，有論述被帶起，市場表現健康。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-05-30"
+ },
+ "半導體/AI伺服器": {
+  "timeline": [
+   {
+    "ep": "EP667",
+    "date": "2026-06-03",
+    "stance": "看多",
+    "view": "NVIDIA引領AI發展，從GPU擴展至整體解決方案，光學互連是未來趨勢。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-06-03"
+ },
+ "AI PC": {
+  "timeline": [
+   {
+    "ep": "EP667",
+    "date": "2026-06-03",
+    "stance": "觀察",
+    "view": "AI PC若能實現離線AI處理將有巨大潛力，帶動新一波銷量，但仍需觀察其市場接受度。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-03"
+ },
+ "資料中心": {
+  "timeline": [
+   {
+    "ep": "EP667",
+    "date": "2026-06-03",
+    "stance": "看多",
+    "view": "光學互連將取代銅線，CPO是關鍵，資料中心仍會成長但部分工作將轉移至地端。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-06-03"
+ },
+ "功率半導體": {
+  "timeline": [
+   {
+    "ep": "EP667",
+    "date": "2026-06-03",
+    "stance": "觀察",
+    "view": "基本面改善，可能成為下一波題材，但市場偏好高本益比的「雙擊」股。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-03"
+ },
+ "AI Servers": {
+  "timeline": [
+   {
+    "ep": "EP668",
+    "date": "2026-06-06",
+    "stance": "看多",
+    "view": "AI servers are crucial for current and future AI applications, with demand increasing as costs decrease."
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-06-06"
+ },
+ "Consumer Electronics": {
+  "timeline": [
+   {
+    "ep": "EP668",
+    "date": "2026-06-06",
+    "stance": "觀察",
+    "view": "Companies are focusing on innovative designs and AI integration to attract consumers amidst a challenging market."
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-06"
+ },
+ "Gaming": {
+  "timeline": [
+   {
+    "ep": "EP668",
+    "date": "2026-06-06",
+    "stance": "看多",
+    "view": "AI and advanced hardware like RTX Spark will significantly enhance gaming experiences and performance."
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-06-06"
+ },
+ "Software (Creative Tools)": {
+  "timeline": [
+   {
+    "ep": "EP668",
+    "date": "2026-06-06",
+    "stance": "看多",
+    "view": "AI integration in creative software, especially with optimized hardware, will boost productivity and user experience."
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-06-06"
+ },
+ "衛星/太空": {
+  "timeline": [
+   {
+    "ep": "EP670",
+    "date": "2026-06-13",
+    "stance": "看多",
+    "view": "SpaceX的衛星業務是當前獲利引擎，火箭是未來夢想，AI則有潛力用於低軌衛星資料中心。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-06-13"
+ },
+ "AI": {
+  "timeline": [
+   {
+    "ep": "EP670",
+    "date": "2026-06-13",
+    "stance": "觀察",
+    "view": "AI模型發展面臨監管挑戰，可能促使市場轉向邊緣運算，且AI算力出租市場有潛力。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-13"
+ },
+ "金融": {
+  "timeline": [
+   {
+    "ep": "EP671",
+    "date": "2026-06-17",
+    "stance": "觀察",
+    "view": "即使是傳統上較穩定的金融股也出現大幅上漲，顯示市場資金充沛。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-17"
+ },
+ "半導體導線架": {
+  "timeline": [
+   {
+    "ep": "EP671",
+    "date": "2026-06-17",
+    "stance": "觀察",
+    "view": "導線架市場有潛力跟隨記憶體和被動元件的漲勢，一些公司表現不錯。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-17"
+ },
+ "車用電子": {
+  "timeline": [
+   {
+    "ep": "EP672",
+    "date": "2026-06-20",
+    "stance": "看空",
+    "view": "與消費性電子類似，市場表現不佳，有助於維持整體經濟的穩定，避免AI帶來的過度通膨。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看空",
+  "latest_date": "2026-06-20"
+ },
+ "生技股": {
+  "timeline": [
+   {
+    "ep": "EP672",
+    "date": "2026-06-20",
+    "stance": "觀察",
+    "view": "主持人表示不甚了解，認為許多公司缺乏營收獲利卻股價飆漲，屬於高風險的「深水區」投資。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-06-20"
+ },
+ "科技股": {
+  "timeline": [
+   {
+    "ep": "EP674",
+    "date": "2026-06-27",
+    "stance": "看多",
+    "view": "儘管近期回檔，但主持人仍相信其長期潛力，尤其是Google和Apple等主要公司。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-06-27"
+ },
+ "遊戲開發": {
+  "timeline": [
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "看多",
+    "view": "主持人基金積極投資具潛力的台灣遊戲開發團隊，看好其顯著成長空間與創業路徑的清晰化。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-01"
+ },
+ "主動元件": {
+  "timeline": [
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "觀察",
+    "view": "漲價趨勢日益明顯且交期拉長，類似被動元件但反應稍早，MOSFET等已出現缺貨。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-01"
+ },
+ "ABF載板": {
+  "timeline": [
+   {
+    "ep": "EP675",
+    "date": "2026-07-01",
+    "stance": "觀察",
+    "view": "在南電上修財測後再次展現強勢，顯示其受歡迎程度不減。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-01"
  },
  "封測": {
   "timeline": [
@@ -247,32 +1386,6 @@
   ],
   "mentions": 1,
   "latest_stance": "看多",
-  "latest_date": "2026-07-11"
- },
- "記憶體": {
-  "timeline": [
-   {
-    "ep": "EP678",
-    "date": "2026-07-11",
-    "stance": "看多",
-    "view": "記憶體價格持續上漲，但漲幅有所收斂，產業巨頭採購力強勁，預期價格仍會向上。"
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "看多",
-  "latest_date": "2026-07-11"
- },
- "光通訊": {
-  "timeline": [
-   {
-    "ep": "EP678",
-    "date": "2026-07-11",
-    "stance": "觀察",
-    "view": "產業內部出現類股輪動，部分「慢而廣」的技術路線（如Vicsel）開始受到關注，而過去熱門的「窄而快」技術則相對疲軟。"
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "觀察",
   "latest_date": "2026-07-11"
  },
  "半導體封裝": {

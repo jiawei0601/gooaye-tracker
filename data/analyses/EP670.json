@@ -1,0 +1,126 @@
+{
+ "summary": "本集節目探討了個人生活與投資策略中的多個面向。主持人強調閱讀說明書的重要性，並分享了自己因未讀說明書而誤打減肥針劑量的經驗。在人際關係方面，他建議學會「靜音」那些負面或過度奉承的人，將注意力視為寶貴資產，並專注於正向的人際互動。投資方面，他討論了SpaceX的投資邏輯，認為其估值難以用傳統方式衡量，更重要的是能預見市場趨勢。他判斷台股修正可能已告一段落，並持續加碼。被動元件產業因廠商謹慎擴產及成功漲價，預期將迎來較長期的成長週期。AI模型發展則面臨監管挑戰，可能促使市場轉向邊緣運算。主持人也分享了自己對投資和生活的彈性態度，不執著於單一做法，並鼓勵聽眾專注於自身價值與成長。",
+ "topics": [
+  "閱讀說明書的重要性",
+  "人際關係與注意力管理",
+  "SpaceX投資與估值觀點",
+  "台股大盤與產業展望",
+  "被動元件產業趨勢",
+  "AI模型發展與監管",
+  "邊緣運算（Edge Computing）的未來",
+  "個人生活與投資的彈性態度"
+ ],
+ "market_view": "台灣股市修正可能已結束，除非有新的重大事件發生。",
+ "industries": [
+  {
+   "name": "衛星/太空",
+   "stance": "看多",
+   "view": "SpaceX的衛星業務是當前獲利引擎，火箭是未來夢想，AI則有潛力用於低軌衛星資料中心。"
+  },
+  {
+   "name": "AI",
+   "stance": "觀察",
+   "view": "AI模型發展面臨監管挑戰，可能促使市場轉向邊緣運算，且AI算力出租市場有潛力。"
+  },
+  {
+   "name": "被動元件",
+   "stance": "看多",
+   "view": "ODM/EMS廠商成功漲價，且廠商謹慎擴產，預期將迎來較長期的成長週期。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "SpaceX",
+   "name": "SpaceX",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "視為夢想型投資，包含衛星、火箭、AI業務，衛星是當前獲利引擎，估值難以用傳統方式衡量。"
+  },
+  {
+   "symbol": "RKLB",
+   "name": "Rocket Lab",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "SpaceX上市後，相關衛星/火箭概念股出現獲利了結賣壓。"
+  },
+  {
+   "symbol": "VAST",
+   "name": "Vast Space",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "SpaceX上市後，相關衛星/火箭概念股出現獲利了結賣壓。"
+  },
+  {
+   "symbol": "ASTS",
+   "name": "AST SpaceMobile",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "SpaceX上市後，相關衛星/火箭概念股出現獲利了結賣壓。"
+  },
+  {
+   "symbol": "FLY",
+   "name": "Flywire",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "SpaceX上市後，相關衛星/火箭概念股出現獲利了結賣壓。"
+  },
+  {
+   "symbol": "MediaTek",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "被動元件漲價趨勢下，券商報告開始上修目標價。"
+  },
+  {
+   "symbol": "Murata",
+   "name": "村田",
+   "market": "other",
+   "stance": "觀察",
+   "argument": "被動元件漲價趨勢下，券商報告開始上修目標價。"
+  },
+  {
+   "symbol": "Nvidia",
+   "name": "輝達",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "在被動元件供應鏈中，其需求與定價策略影響產業。"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "在創投圈中，常被問為何不直接投資台積電，而非選擇創投項目。"
+  },
+  {
+   "symbol": "Anthropic",
+   "name": "Anthropic",
+   "market": "other",
+   "stance": "觀察",
+   "argument": "其AI模型Claude 3.5 Sonnet雖強大，但因CEO不斷強調AI危險性而面臨美國出口管制。"
+  },
+  {
+   "symbol": "OpenAI",
+   "name": "OpenAI",
+   "market": "other",
+   "stance": "觀察",
+   "argument": "其CEO Sam Altman被批評不了解外界對其AI發展的看法。"
+  },
+  {
+   "symbol": "Palantir",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "其CEO Alex Karp批評OpenAI和Anthropic不了解外界對其AI發展的看法。"
+  }
+ ],
+ "quotes": [
+  "投資不能夠凹單，久坐不能夠委屈。",
+  "你不可能去在意每一個笨蛋的感受。",
+  "估值的重點並不是在估的當下去爭一個對錯，而是你估在別人的前面。"
+ ],
+ "ep_key": "EP670",
+ "title": "EP670 | 🫡",
+ "pubdate": "2026-06-13",
+ "duration_s": 3127
+}

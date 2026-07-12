@@ -1,0 +1,158 @@
+{
+ "summary": "本集節目中，主持人首先分享了個人的減重與功能性健身訓練心得，強調身體掌控度提升帶來的正面影響。隨後深入分析科技產業動態，指出被動元件產業在高階需求吃緊下，台廠受惠於 AI 伺服器與訂單排擠效應而轉強。此外，CPU 與 ASIC 產業趨勢依舊強勁，AMD 展望樂觀，台股 ASIC 族群如世芯、創意等持續輪動。主持人也對聯發科大漲後的估值提出看法，並分享其在美股軟體股（如 Palantir、CrowdStrike）的布局，最後提出在當前高斜率盤勢下適度降槓桿的交易策略。",
+ "topics": [
+  "主持人近期減重與功能性健身訓練心得",
+  "被動元件產業因 AI 伺服器與訂單排擠效應轉強",
+  "CPU 與 ASIC 產業趨勢與台美股相關標的表現",
+  "聯發科大漲後的估值與未來展望",
+  "總體盤勢看法與槓桿調整策略",
+  "Palantir 財報與企業級 AI 應用（避免 AI Slop）",
+  "軟體股與硬體股（如工業電腦）的強弱勢對比"
+ ],
+ "market_view": "盤勢斜率極高，即便出現回檔修正，預期也會很快出現反彈，目前操作上會適度進行降槓桿。",
+ "industries": [
+  {
+   "name": "被動元件",
+   "stance": "觀察",
+   "view": "高階被動元件供需吃緊，台廠主要受惠於 AI 伺服器帶來的訂單排擠與溢出效應。"
+  },
+  {
+   "name": "半導體/CPU",
+   "stance": "看多",
+   "view": "AI 應用與伺服器工作負載持續推升 CPU 需求，AMD 與 Intel 展望樂觀。"
+  },
+  {
+   "name": "ASIC",
+   "stance": "看多",
+   "view": "台股 ASIC 類股持續輪動，世芯受惠於亞馬遜 Trainium 晶片，創意受惠於 Google TPU。"
+  },
+  {
+   "name": "IC設計",
+   "stance": "中性",
+   "view": "聯發科股價已快速反應未來預期，短期內可能需要時間橫盤整理。"
+  },
+  {
+   "name": "企業軟體",
+   "stance": "看多",
+   "view": "看好具備解決企業精準度問題、避免 AI 垃圾內容（AI Slop）的龍頭軟體股。"
+  },
+  {
+   "name": "矽晶圓",
+   "stance": "觀察",
+   "view": "矽晶圓產業週期預期將開始往上。"
+  },
+  {
+   "name": "晶圓代工",
+   "stance": "觀察",
+   "view": "成熟製程廠房產能利用率高，甚至有供不應求的狀況。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2327",
+   "name": "國巨",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "董事長陳泰銘舉辦 AI 大會，帶動被動元件板塊轉強。"
+  },
+  {
+   "symbol": "2492",
+   "name": "華新科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "旗下新昌電因出貨交期拉長通知激勵股價漲停，帶動族群效應。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "股價快速反應預期，可能已漲得有點太滿，預期會橫盤整理一陣子。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "與亞馬遜 Trainium 晶片高度綁定，股價表現強勢。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "與 Google TPU 合作關係緊密，先前已提前發動。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "看多",
+   "argument": "上修伺服器 CPU TAM，對市佔率與 AI 營收能見度極具信心。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "法說會提及生成式 AI 工作負載推升 CPU 需求。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "財報表現佳，其 FDE 模式能協助企業降低 AI 產生垃圾內容（AI Slop）的風險。"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "屬於主持人看好並長期持有的美股軟體標的之一。"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "屬於主持人看好並長期持有的美股軟體標的之一。"
+  },
+  {
+   "symbol": "ASAN",
+   "name": "Asana",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人有在觀察，但認為其在軟體股中表現相對較弱。"
+  },
+  {
+   "symbol": "6451",
+   "name": "訊芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾問答提及標的，主持人未深入評論。"
+  },
+  {
+   "symbol": "6488",
+   "name": "環球晶",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "矽晶圓產業週期預期將開始往上。"
+  },
+  {
+   "symbol": "5347",
+   "name": "世界先進",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "成熟製程產能利用率高，廠房產能甚至已賣光。"
+  }
+ ],
+ "quotes": [
+  "現在的網路就是大家都宣稱自己有傳說廚具，但我們至今還沒有看到傳說料理的誕生。",
+  "我寧願等到派對開到一半，警察進來臨檢，大家一起被帶回派出所，也不要在派對結束前就自己先走掉。"
+ ],
+ "ep_key": "EP659",
+ "title": "EP659 | 🦤",
+ "pubdate": "2026-05-06",
+ "duration_s": 3105
+}
