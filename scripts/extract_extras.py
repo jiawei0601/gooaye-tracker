@@ -34,6 +34,9 @@ WMRS = DATA / "external" / "wmrs" / "transcripts.json"
 
 NIM_URL = "https://integrate.api.nvidia.com/v1/chat/completions"
 NIM_MODEL = "deepseek-ai/deepseek-v4-pro"  # 勿用 z-ai/glm-5.2，另一個回填程序在用，避開限流桶
+# DeepSeek 官方＝付費快速通道（~US$0.003-0.005/集、7-12秒/集），比照 analyze_text.py
+DS_URL = "https://api.deepseek.com/chat/completions"
+DS_MODEL = "deepseek-chat"
 MAX_TX_CHARS = 60_000  # 逐字稿防護，超長截斷並在輸出標記 truncated
 
 PROMPT = """你是台灣 podcast《股癌 Gooaye》(主持人謝孟恭) 第 {key} 集「{title}」({date}) 的
@@ -72,18 +75,22 @@ def parse_json(text):
         raise
 
 
-def nim_generate(key, prompt, transcript_text):
+def nim_generate(key, prompt, transcript_text, provider="nim"):
+    url, model, key_env = {
+        "nim": (NIM_URL, NIM_MODEL, "NVIDIA_NIM_API_KEY"),
+        "deepseek": (DS_URL, DS_MODEL, "DEEPSEEK_API_KEY"),
+    }[provider]
     body = {
-        "model": NIM_MODEL,
+        "model": model,
         "temperature": 0.2,
         "max_tokens": 8192,
         "messages": [{"role": "user",
                       "content": f"{prompt}\n\n=== 逐字稿全文 ===\n{transcript_text}"}],
     }
     req = urllib.request.Request(
-        NIM_URL, data=json.dumps(body).encode(),
+        url, data=json.dumps(body).encode(),
         headers={"Content-Type": "application/json",
-                 "Authorization": f"Bearer {os.environ['NVIDIA_NIM_API_KEY']}"})
+                 "Authorization": f"Bearer {os.environ[key_env]}"})
     last_err = None
     for attempt in range(3):
         try:
@@ -100,14 +107,14 @@ def nim_generate(key, prompt, transcript_text):
     raise last_err
 
 
-def extract_one(ep):
+def extract_one(ep, provider="nim"):
     key = f"EP{ep['n']}"
     tx = ep.get("tx") or ""
     truncated = len(tx) > MAX_TX_CHARS
     if truncated:
         tx = tx[:MAX_TX_CHARS]
     prompt = PROMPT.format(key=key, title=ep.get("t", ""), date=ep.get("d", ""))
-    result = parse_json(nim_generate(key, prompt, tx))
+    result = parse_json(nim_generate(key, prompt, tx, provider))
     out = {
         "ep_key": key,
         "date": ep.get("d", ""),
@@ -128,10 +135,12 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=10**6)
     ap.add_argument("--ep", help="指定單集如 EP534，可逗號分隔多集")
+    ap.add_argument("--provider", choices=["nim", "deepseek"], default="nim")
     args = ap.parse_args()
 
-    if not os.environ.get("NVIDIA_NIM_API_KEY"):
-        print("❌ 缺 NVIDIA_NIM_API_KEY", flush=True)
+    key_env = "NVIDIA_NIM_API_KEY" if args.provider == "nim" else "DEEPSEEK_API_KEY"
+    if not os.environ.get(key_env):
+        print(f"❌ 缺 {key_env}", flush=True)
         return 1
 
     EXTRAS.mkdir(parents=True, exist_ok=True)
@@ -154,7 +163,7 @@ def main():
             print(f"{key}: ⚠️ 逐字稿缺此集，跳過", flush=True)
             continue
         try:
-            key, out = extract_one(ep)
+            key, out = extract_one(ep, args.provider)
             (EXTRAS / f"{key}.json").write_text(
                 json.dumps(out, ensure_ascii=False, indent=1), encoding="utf-8")
             done += 1

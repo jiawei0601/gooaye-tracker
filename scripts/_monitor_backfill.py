@@ -8,7 +8,7 @@ import urllib.request
 from pathlib import Path
 
 OUT = Path(sys.argv[1])
-TOTAL = 517
+TOTAL = int(sys.argv[2]) if len(sys.argv) > 2 else 517
 
 cfg = {}
 for line in (Path.home() / ".claude" / "telegram.env").read_text(encoding="utf-8").splitlines():
