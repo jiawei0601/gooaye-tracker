@@ -26530,6 +26530,12 @@
     "argument": "主持人已將光通的持股賣出，轉而買進CPU及其他股票。"
    },
    {
+    "ep": "EP673",
+    "date": "2026-06-24",
+    "stance": "持有中",
+    "argument": "主持人喜歡並持有該公司股票。"
+   },
+   {
     "ep": "EP653",
     "date": "2026-04-15",
     "stance": "持有中",
@@ -26572,7 +26578,7 @@
     "argument": "CPO 相關應用有機會，但市值較大，影響幅度待觀察。"
    }
   ],
-  "mentions": 8,
+  "mentions": 9,
   "latest_stance": "已出場",
   "latest_date": "2026-06-24"
  },
@@ -30906,21 +30912,6 @@
   ],
   "mentions": 1,
   "latest_stance": "觀察",
-  "latest_date": "2026-06-24"
- },
- "LUMN": {
-  "name": "盧門",
-  "market": "US",
-  "timeline": [
-   {
-    "ep": "EP673",
-    "date": "2026-06-24",
-    "stance": "持有中",
-    "argument": "主持人喜歡並持有該公司股票。"
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "持有中",
   "latest_date": "2026-06-24"
  },
  "TER": {

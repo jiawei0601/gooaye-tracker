@@ -86,3 +86,5 @@
   schema異常（僅此1集），本次審計範圍不含結構修正，僅記錄提醒。
 - FB/META（Facebook 2022年6月才改名改代號）：EP1-518區間多筆FB記錄實際發生於改名前，
   屬歷史正確，非誤植，未列入修正或待裁決。
+
+| EP673 | LUMN | LITE | Lumen | Lumentum | 指揮官複核抽查發現：原文為「Coherent、Lumentum 跟 Marvell」光通語境 |
