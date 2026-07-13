@@ -33,20 +33,62 @@ details{margin-top:6px}summary{cursor:pointer;color:var(--acc);font-size:13px}
 .tl li{padding:6px 0;border-top:1px dashed #2a303a;font-size:14px}
 ul.plain{margin:6px 0;padding-left:18px}
 .disc{color:var(--dim);font-size:11px;padding:20px;text-align:center}
+.lock{max-width:420px;margin:40px auto;text-align:center}
+.lock h2{font-size:18px;margin-bottom:8px}
+.lock p.dim{margin-bottom:16px}
+.lock input{display:block;margin:0 auto 10px}
+.lock details{margin:10px 0;text-align:left;color:var(--dim);font-size:13px}
+.lock summary{cursor:pointer;color:var(--acc)}
+.lock button.go{background:var(--acc);color:#08131f;border:none;padding:8px 22px;
+border-radius:6px;cursor:pointer;font-size:14px;margin-top:6px}
+.chatwrap{display:flex;flex-direction:column;height:calc(100vh - 150px);min-height:320px}
+.chathead{display:flex;justify-content:space-between;align-items:center;
+padding:0 0 8px;border-bottom:1px solid #2a303a;gap:8px}
+.logout{background:none;border:1px solid #2a303a;color:var(--dim);padding:3px 10px;
+border-radius:6px;cursor:pointer;font-size:12px;white-space:nowrap}
+.msglist{flex:1;overflow-y:auto;padding:10px 0;display:flex;flex-direction:column;gap:10px}
+.msgrow{display:flex}.msgrow.me{justify-content:flex-end}
+.bub{max-width:75%;padding:8px 12px;border-radius:12px;font-size:14px;
+white-space:pre-wrap;word-break:break-word}
+.msgrow.me .bub{background:var(--acc);color:#08131f;border-bottom-right-radius:2px}
+.msgrow.bot .bub{background:var(--card);border:1px solid #2a303a;border-bottom-left-radius:2px}
+.srcs{margin-top:6px;display:flex;flex-wrap:wrap;gap:4px}
+.srcchip{font-size:11px;color:var(--dim);border:1px solid #2a303a;border-radius:8px;
+padding:1px 6px}
+.typing span{display:inline-block;width:6px;height:6px;margin:0 2px;
+background:var(--dim);border-radius:50%;animation:blink 1.2s infinite ease-in-out}
+.typing span:nth-child(2){animation-delay:.2s}.typing span:nth-child(3){animation-delay:.4s}
+@keyframes blink{0%,80%,100%{opacity:.2}40%{opacity:1}}
+.chatbar{display:flex;gap:8px;padding:8px 0 2px;border-top:1px solid #2a303a}
+.chatbar textarea{flex:1;resize:none;background:var(--card);border:1px solid #2a303a;
+color:var(--fg);border-radius:8px;padding:8px 10px;font:14px/1.4 inherit;max-height:120px}
+.chatbar button{background:var(--acc);color:#08131f;border:none;border-radius:8px;
+padding:0 16px;cursor:pointer;font-size:14px}
+@media(max-width:600px){.bub{max-width:85%}.chatwrap{height:calc(100vh - 130px)}
+.chatbar{position:sticky;bottom:0;background:var(--bg);
+padding-bottom:env(safe-area-inset-bottom,8px)}}
 </style></head><body>
 <header><h1>🎙️ 股癌 Gooaye 追蹤器</h1>
 <nav><button data-v="eps" class="on">每集摘要</button>
-<button data-v="tk">標的追蹤</button><button data-v="ind">產業追蹤</button></nav>
+<button data-v="tk">標的追蹤</button><button data-v="ind">產業追蹤</button>
+<button data-v="chat">AI 分身</button></nav>
 <span id="meta"></span></header>
 <main><input id="q" placeholder="搜尋 代號 / 公司 / 關鍵字…"><div id="view"></div></main>
 <div class="disc">純資訊彙整、AI 生成摘要可能有誤，非投資建議。</div>
 <script>
 const EPS=__EPS__,TK=__TK__,IND=__IND__;
-let cur="eps";
+const DEF_EP="https://35-254-238-132.sslip.io/gooaye";
+let cur="eps",chatHist=[],chatBusy=false,lockErr="";
 const $=s=>document.querySelector(s);
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
 const tag=s=>`<span class="tag ${esc(s)}">${esc(s)}</span>`;
+const twinTok=()=>localStorage.getItem("twin_token")||"";
+const twinEp=()=>localStorage.getItem("twin_endpoint")||DEF_EP;
+const loadHist=()=>{try{return JSON.parse(sessionStorage.getItem("twin_hist")||"[]")}catch(e){return[]}};
+const saveHist=h=>sessionStorage.setItem("twin_hist",JSON.stringify(h));
 function render(){
+ $("#q").style.display=cur==="chat"?"none":"";
+ if(cur==="chat"){renderChat();return;}
  const q=$("#q").value.trim().toLowerCase(),v=$("#view");let h="";
  if(cur==="eps"){
   for(const a of EPS){
@@ -76,6 +118,96 @@ function render(){
    </ul></details></div>`;}
  }
  v.innerHTML=h||'<p class="dim">沒有符合的資料</p>';
+}
+function renderChat(){
+ const v=$("#view");
+ if(!twinTok()){
+  v.innerHTML=`<div class="lock"><h2>🧑‍💻 股癌 AI 分身</h2>
+  <p class="dim">輸入通行碼開始與股癌 AI 分身對談</p>
+  ${lockErr?`<p style="color:var(--bull)">${esc(lockErr)}</p>`:""}
+  <input id="tkIn" type="password" placeholder="通行碼">
+  <details><summary>進階：自訂端點</summary>
+  <input id="epIn" placeholder="端點網址" value="${esc(twinEp())}"></details>
+  <button class="go" id="enterBtn">進入</button></div>`;
+  lockErr="";
+  $("#enterBtn").onclick=()=>{
+   const tk=$("#tkIn").value.trim();
+   if(!tk)return;
+   const ep=($("#epIn").value||"").trim()||DEF_EP;
+   localStorage.setItem("twin_token",tk);
+   localStorage.setItem("twin_endpoint",ep);
+   renderChat();
+  };
+  $("#tkIn").onkeydown=e=>{if(e.key==="Enter"){e.preventDefault();$("#enterBtn").click();}};
+  return;
+ }
+ chatHist=loadHist();
+ v.innerHTML=`<div class="chatwrap">
+  <div class="chathead"><span class="dim" style="font-size:11px">AI 分身非本人・非投資建議</span>
+  <button class="logout" id="logoutBtn">登出</button></div>
+  <div class="msglist" id="msgList"></div>
+  <div class="chatbar"><textarea id="chatIn" rows="1"
+  placeholder="輸入訊息…（Enter 送出，Shift+Enter 換行）"></textarea>
+  <button id="sendBtn">送出</button></div></div>`;
+ drawMsgs(false);
+ $("#logoutBtn").onclick=()=>{
+  localStorage.removeItem("twin_token");localStorage.removeItem("twin_endpoint");renderChat();};
+ $("#sendBtn").onclick=sendMsg;
+ $("#chatIn").onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendMsg();}};
+}
+function drawMsgs(busy){
+ const list=$("#msgList");if(!list)return;
+ let h=chatHist.map(m=>{
+  const cls=m.role==="user"?"me":"bot";
+  let srcs="";
+  if(m.sources&&m.sources.length)srcs=`<div class="srcs">${m.sources.map(s=>
+   `<span class="srcchip">${esc(s.ep||"")}${s.kind?"·"+esc(s.kind):""}${s.date?"·"+esc(s.date):""}</span>`
+  ).join("")}</div>`;
+  return `<div class="msgrow ${cls}"><div class="bub">${esc(m.content)}${srcs}</div></div>`;
+ }).join("");
+ if(busy)h+=`<div class="msgrow bot"><div class="bub typing"><span></span><span></span><span></span></div></div>`;
+ list.innerHTML=h;
+ list.scrollTop=list.scrollHeight;
+}
+function sendMsg(){
+ if(chatBusy)return;
+ const ta=$("#chatIn"),msg=ta.value.trim();
+ if(!msg)return;
+ chatHist.push({role:"user",content:msg});
+ saveHist(chatHist);
+ ta.value="";
+ chatBusy=true;
+ drawMsgs(true);
+ const sb=$("#sendBtn");if(sb)sb.disabled=true;
+ const hist=chatHist.slice(0,-1).slice(-10).map(m=>({role:m.role,content:m.content}));
+ fetch(twinEp()+"/chat",{method:"POST",
+  headers:{"Content-Type":"application/json","Authorization":"Bearer "+encodeURIComponent(twinTok())},
+  body:JSON.stringify({message:msg,history:hist})
+ }).then(res=>{
+  if(res.status===401){const e=new Error("auth");e.kind="auth";throw e;}
+  if(res.status===429){const e=new Error("rate");e.kind="rate";throw e;}
+  if(!res.ok){const e=new Error("http");e.kind="http";throw e;}
+  return res.json();
+ }).then(data=>{
+  chatHist.push({role:"assistant",content:data.reply||"",sources:data.sources||[]});
+  saveHist(chatHist);
+ }).catch(err=>{
+  if(err&&err.kind==="auth"){
+   localStorage.removeItem("twin_token");
+   lockErr="通行碼錯誤，請重新輸入";
+   chatBusy=false;renderChat();return;
+  }
+  if(err&&err.kind==="rate"){
+   chatHist.push({role:"assistant",content:"⏳ 請求太頻繁，請稍等一下再試"});
+  }else{
+   chatHist.push({role:"assistant",content:"⚠️ 端點無法連線，服務可能尚未開通，請稍後再試"});
+  }
+  saveHist(chatHist);
+ }).finally(()=>{
+  chatBusy=false;
+  const sb2=$("#sendBtn");if(sb2)sb2.disabled=false;
+  drawMsgs(false);
+ });
 }
 document.querySelectorAll("nav button").forEach(b=>b.onclick=()=>{
  cur=b.dataset.v;document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("on",x===b));render();});
