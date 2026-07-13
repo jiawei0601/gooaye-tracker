@@ -1,5 +1,12 @@
 # HANDOFF — gooaye-tracker
 
+## Embedding 災備路線（2026-07-14 查證）
+主通道=NIM `baai/bge-m3`（免費）。若 NIM embedding 卡死（比照 GLM-5.2 前例）：
+OpenRouter 2025-11 起支援 embeddings（`https://openrouter.ai/api/v1/embeddings`，OpenAI 相容格式），
+**模型清單含同款 bge-m3** → 換 URL＋OPENROUTER_API_KEY 即可接續現有向量不必全庫重嵌；
+成本 ~$0.01-0.02/M tokens（全庫重嵌也才 ~$0.3、日常增量趨近 $0）。
+換「不同」embedding 模型才需要全庫重嵌（向量空間不相容）。
+
 ## 美股ticker代號誤植審計（2026-07-13）
 ✅ 用 `data/external/wmrs/transcripts.json`（678集逐字稿）比對全庫美股ticker，
 修正 51 筆誤植（39集）→ `git 962fd7f`。報告見 `data/audit_us_symbols.md`。
