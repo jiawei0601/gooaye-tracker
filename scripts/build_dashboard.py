@@ -85,8 +85,8 @@ const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&g
 const tag=s=>`<span class="tag ${esc(s)}">${esc(s)}</span>`;
 const twinTok=()=>localStorage.getItem("twin_token")||"";
 const twinEp=()=>localStorage.getItem("twin_endpoint")||DEF_EP;
-const loadHist=()=>{try{return JSON.parse(sessionStorage.getItem("twin_hist")||"[]")}catch(e){return[]}};
-const saveHist=h=>sessionStorage.setItem("twin_hist",JSON.stringify(h));
+const loadHist=()=>{try{return JSON.parse(localStorage.getItem("twin_chat")||"[]")}catch(e){return[]}};
+const saveHist=h=>localStorage.setItem("twin_chat",JSON.stringify(h));
 function render(){
  $("#q").style.display=cur==="chat"?"none":"";
  if(cur==="chat"){renderChat();return;}
@@ -145,13 +145,19 @@ function renderChat(){
  chatHist=loadHist();
  v.innerHTML=`<div class="chatwrap">
   <div class="chathead"><span class="dim" style="font-size:11px">AI 分身非本人・非投資建議</span>
-  <button class="logout" id="logoutBtn">登出</button></div>
+  <span style="display:flex;gap:6px">
+  <button class="logout" id="clearBtn">清除對話</button>
+  <button class="logout" id="logoutBtn">登出</button></span></div>
   <div class="msglist" id="msgList"></div>
   <div class="chatbar"><textarea id="chatIn" rows="1"
   placeholder="輸入訊息…（Enter 送出，Shift+Enter 換行）"></textarea>
   <button id="sendBtn">送出</button></div></div>`;
  drawMsgs(false);
+ $("#clearBtn").onclick=()=>{
+  if(!confirm("確定要清除全部對話記錄嗎？此動作無法復原（不會登出）。"))return;
+  localStorage.removeItem("twin_chat");chatHist=[];drawMsgs(false);};
  $("#logoutBtn").onclick=()=>{
+  if(!confirm("確定要登出嗎？將清除通行碼並回到鎖定畫面（對話記錄保留）。"))return;
   localStorage.removeItem("twin_token");localStorage.removeItem("twin_endpoint");renderChat();};
  $("#sendBtn").onclick=sendMsg;
  $("#chatIn").onkeydown=e=>{if(e.key==="Enter"&&!e.shiftKey){e.preventDefault();sendMsg();}};
