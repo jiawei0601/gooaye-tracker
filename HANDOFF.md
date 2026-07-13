@@ -1,5 +1,15 @@
 # HANDOFF — gooaye-tracker
 
+## 排程遷移 Hermes VM（2026-07-13）
+✅ 生產排程改在 **Hermes VM**（hermes-gw, 35.254.238.132, chang 使用者）：
+   cron `5 17,20 * * 3,6`（台北時間週三/六 17:05＋20:05 補漏；股癌約 16:00 上架）
+   → `~/gooaye-tracker/run_vm.sh`（pull→分析→commit→push），log 在 VM data/daily.log。
+- VM 端：venv `.venv/`、金鑰 `~/gooaye-tracker/.env`＋`~/.claude/telegram.env`（皆 600）、
+  push 走 deploy key（repo 設定 hermes-vm-daily-push）。
+- 本機 GooayeDaily 排程**已停用**（避免雙邊 push 衝突）；本機要手動跑先 `git pull`。
+- 公開版 dashboard 由 VM 產出（無逐字稿連結）；本機看逐字稿直接開 data/transcripts/。
+⚠️ VM 走免費層金鑰：**專案帳單解除連結前，免費層是 429 壞的**——見下方待辦。
+
 ## 公開發佈（2026-07-13）
 ✅ GitHub 公開 repo：https://github.com/jiawei0601/gooaye-tracker（MIT）
 ✅ 儀表板 GitHub Pages：https://jiawei0601.github.io/gooaye-tracker/data/dashboard.html
