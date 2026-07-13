@@ -1,5 +1,16 @@
 # HANDOFF — gooaye-tracker
 
+## 網路逐字稿源（2026-07-13）
+✅ 發現粉絲站 **whatmkreallysaid.com**：678 集全集逐字稿，站方以 `transcripts.json.br`
+單檔打包（前端搜尋用），一個請求全拿。已寫 `scripts/fetch_web_transcripts.py`
+一次性入庫 678 集 → `data/transcripts_web/`（38MB）。
+- 本機排程 **GooayeWebSync**（每日 23:00，`run_web_sync.bat`）增量同步：先抓輕量
+  episodes.json 比對，無新集數不下載大包；log 在 data/web_sync.log。
+- ⚠️ 版權雷區同 data/transcripts/：**僅存本機、已 gitignore、絕不能進公開 repo**。
+- 影響：全歷史 518 集不再需要 Gemini 音訊轉寫（原「綁計費衝刺」方案作廢）；
+  自產 transcripts/（Gemini）與站方 transcripts_web/ 並存，前者含 [mm:ss] 時間戳、
+  後者是站方清洗過的段落格式。分析管線（analyses/ 產業個股立場）不受影響、照舊。
+
 ## 排程遷移 Hermes VM（2026-07-13）
 ✅ 生產排程改在 **Hermes VM**（hermes-gw, 35.254.238.132, chang 使用者）：
    cron `5 17,20 * * 3,6`（台北時間週三/六 17:05＋20:05 補漏；股癌約 16:00 上架）
