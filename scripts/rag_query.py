@@ -36,9 +36,13 @@ def parse_args():
     p.add_argument("--stance", default=None, help="立場（精確比對，如 看多/看空/中性）")
     p.add_argument(
         "--kind", default=None,
-        choices=["transcript", "summary", "market_view", "ticker", "industry", "quote"],
-        help="塊類型",
+        choices=[
+            "transcript", "summary", "market_view", "ticker", "industry", "quote",
+            "qa", "chat", "joke", "wisdom", "macro",
+        ],
+        help="塊類型（業配/ad 依政策不進 RAG，見 HANDOFF.md）",
     )
+    p.add_argument("--category", default=None, help="extras 塊的分類（子字串比對，如 感情/其他/topic）")
     p.add_argument("--k", type=int, default=10, help="回傳筆數，預設 10")
     p.add_argument("--mode", default="hybrid", choices=["keyword", "semantic", "hybrid"])
     return p.parse_args()
@@ -79,6 +83,9 @@ def build_filters(args):
     if args.kind:
         clauses.append("c.kind = ?")
         params.append(args.kind)
+    if args.category:
+        clauses.append("c.category LIKE ?")
+        params.append(f"%{args.category}%")
     where = (" AND " + " AND ".join(clauses)) if clauses else ""
     return where, params
 
@@ -86,7 +93,7 @@ def build_filters(args):
 def fetch_filtered(conn, args, extra_where="", extra_params=(), order="c.date DESC", limit=None):
     where, params = build_filters(args)
     sql = (
-        "SELECT c.id, c.ep, c.date, c.kind, c.symbol, c.industry, c.stance, c.t_start, c.text "
+        "SELECT c.id, c.ep, c.date, c.kind, c.symbol, c.industry, c.stance, c.t_start, c.category, c.text "
         "FROM chunks c WHERE 1=1" + where + extra_where + f" ORDER BY {order}"
     )
     params = params + list(extra_params)
@@ -106,7 +113,7 @@ def _like_search(conn, args, terms, limit):
         like_clauses.append("c.text LIKE ? ESCAPE '\\'")
         like_params.append(f"%{esc}%")
     sql = (
-        "SELECT c.id, c.ep, c.date, c.kind, c.symbol, c.industry, c.stance, c.t_start, c.text, "
+        "SELECT c.id, c.ep, c.date, c.kind, c.symbol, c.industry, c.stance, c.t_start, c.category, c.text, "
         "0 AS score "
         "FROM chunks c WHERE " + " AND ".join(like_clauses) + where +
         " ORDER BY c.date DESC LIMIT ?"
@@ -124,7 +131,7 @@ def keyword_search(conn, args, limit):
     where, params = build_filters(args)
     q = args.q.replace('"', '""')
     sql = (
-        "SELECT c.id, c.ep, c.date, c.kind, c.symbol, c.industry, c.stance, c.t_start, c.text, "
+        "SELECT c.id, c.ep, c.date, c.kind, c.symbol, c.industry, c.stance, c.t_start, c.category, c.text, "
         "bm25(chunks_fts) AS score "
         "FROM chunks_fts JOIN chunks c ON c.id = chunks_fts.id "
         "WHERE chunks_fts.text MATCH ?" + where +
@@ -158,7 +165,7 @@ def semantic_search(conn, args, limit, meta):
     dim = int(meta["dim"])
     where, params = build_filters(args)
     sql = (
-        "SELECT c.id, c.ep, c.date, c.kind, c.symbol, c.industry, c.stance, c.t_start, c.text, e.vec "
+        "SELECT c.id, c.ep, c.date, c.kind, c.symbol, c.industry, c.stance, c.t_start, c.category, c.text, e.vec "
         "FROM chunks c JOIN embeddings e ON c.id = e.id WHERE 1=1" + where
     )
     rows = conn.execute(sql, params).fetchall()
@@ -174,7 +181,7 @@ def semantic_search(conn, args, limit, meta):
 def hybrid_search(conn, args, limit, meta):
     kw = keyword_search(conn, args, limit * 3)
     kw_ids = [r[0] for r in kw]
-    by_id = {r[0]: r[:9] for r in kw}
+    by_id = {r[0]: r[:10] for r in kw}
 
     if meta:
         sem = semantic_search(conn, args, limit * 3, meta)
@@ -194,14 +201,20 @@ def hybrid_search(conn, args, limit, meta):
     return [by_id[cid] for cid, _ in ranked if cid in by_id]
 
 
+EXTRAS_KINDS = {"qa", "chat", "joke", "wisdom", "macro"}
+
+
 def print_results(rows):
     if not rows:
         print("（無結果）")
         return
     for r in rows:
-        _id, ep, date, kind, symbol, industry, stance, t_start, text = r[:9]
+        _id, ep, date, kind, symbol, industry, stance, t_start, category, text = r[:10]
         tag = symbol or industry or "-"
-        head = f"[{ep or '-'} {date or '-'} {kind or '-'} {tag} {stance or '-'} {t_start or '-'}]"
+        meta = f"{tag} {stance or '-'} {t_start or '-'}"
+        if kind in EXTRAS_KINDS:
+            meta = f"category={category or '-'}"
+        head = f"[{ep or '-'} {date or '-'} {kind or '-'} {meta}]"
         snippet = (text or "").replace("\n", " ")[:200]
         print(f"{head} {snippet}")
 

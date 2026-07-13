@@ -30,6 +30,7 @@ RAG_DIR = DATA / "rag"
 DB_PATH = RAG_DIR / "gooaye.db"
 TRANSCRIPT_JSONL = RAG_DIR / "transcript_chunks.jsonl"
 ANALYSIS_JSONL = RAG_DIR / "analysis_chunks.jsonl"
+EXTRAS_JSONL = RAG_DIR / "extras_chunks.jsonl"
 
 NIM_URL = "https://integrate.api.nvidia.com/v1/embeddings"
 # (model, 是否需要 input_type 參數)；依序試，第一個能用的就採用。
@@ -70,6 +71,7 @@ def to_chunk_row(rec, default_kind=None):
         rec.get("stance"),
         rec.get("t_start"),
         rec.get("source"),
+        rec.get("category"),
         rec.get("text"),
     )
 
@@ -90,6 +92,9 @@ def ensure_schema(conn):
             text TEXT
         )
     """)
+    cols = {row[1] for row in conn.execute("PRAGMA table_info(chunks)")}
+    if "category" not in cols:
+        conn.execute("ALTER TABLE chunks ADD COLUMN category TEXT")
     conn.execute("""
         CREATE TABLE IF NOT EXISTS embeddings (
             id TEXT PRIMARY KEY,
@@ -103,12 +108,14 @@ def ensure_schema(conn):
 def upsert_chunks(conn):
     t_recs = load_jsonl(TRANSCRIPT_JSONL)
     a_recs = load_jsonl(ANALYSIS_JSONL)
+    x_recs = load_jsonl(EXTRAS_JSONL)
     rows = [to_chunk_row(r, default_kind="transcript") for r in t_recs]
     rows += [to_chunk_row(r) for r in a_recs]
+    rows += [to_chunk_row(r) for r in x_recs]
     conn.executemany(
         "INSERT OR REPLACE INTO chunks "
-        "(id, ep, ep_num, date, kind, symbol, industry, stance, t_start, source, text) "
-        "VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+        "(id, ep, ep_num, date, kind, symbol, industry, stance, t_start, source, category, text) "
+        "VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
         rows,
     )
     conn.commit()
@@ -259,6 +266,13 @@ def main():
     emb_cnt = conn.execute("SELECT COUNT(*) FROM embeddings").fetchone()[0]
     total_cnt = conn.execute("SELECT COUNT(*) FROM chunks").fetchone()[0]
     print(f"embeddings：{emb_cnt}/{total_cnt}")
+
+    print("各 kind 塊數統計：")
+    for kind, cnt in conn.execute(
+        "SELECT kind, COUNT(*) AS cnt FROM chunks GROUP BY kind ORDER BY cnt DESC"
+    ):
+        print(f"  {kind}: {cnt}")
+
     conn.close()
 
 

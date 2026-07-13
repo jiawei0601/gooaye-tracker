@@ -1,5 +1,22 @@
 # HANDOFF — gooaye-tracker
 
+## 六類抽取整合進 RAG（2026-07-14，整合 agent 交付）
+✅ `scripts/build_rag_chunks.py`／`rag_build_index.py`／`rag_query.py` 已擴充，
+把 `data/extras/EPxxx.json` 六類（qa/chat/joke/wisdom/macro，ads 依上一條政策排除）
+切塊進 `data/rag/extras_chunks.jsonl`，一語意單位一塊、id 格式 `EPxxx-x-{kind}-{序號}`。
+- `chunks` 表新增 `category` 欄（nullable，ALTER TABLE 相容既有 db，非破壞性）。
+- `rag_query.py` 新增 `--category`（子字串比對）；`--kind` 新增 qa/chat/joke/wisdom/macro
+  （不含 ad，見上一條政策）；extras 六類的 metadata 段顯示 category 而非 symbol/stance。
+- 交付時跑過一輪 build→index，49,687 塊、embeddings 全補齊（NIM 間歇 500 錯誤但重跑會
+  自動補完，非阻塞）。**注意**：交付前發現 `scripts/build_rag_chunks.py` 已被另一個
+  session（同一工作目錄）依「業配不進 RAG」政策改過並 commit（d9ea877/6278698），
+  本次交付是在該版本基礎上補上 index/query 層，未動搖該政策。
+- 觀察到 `scripts/_post_extras.py`（未進版控的滾動看門腳本）：每 10 分鐘偵測抽取批次
+  進度，偵測到本次交付（extras 支援）後會自動接手跑 build→index 直到批次 ALL_DONE，
+  期間會檢查 `rag_build_index` 是否已在跑以避免撞寫；本次交付未改動該檔，僅供知悉。
+- 之後抽取批次持續完成新集數時，重跑 `build_rag_chunks.py`→`rag_build_index.py`
+  即可增量補齊（冪等，已驗證兩次重跑 chunker 輸出逐位元組一致）。
+
 ## RAG 整理政策（2026-07-14 使用者指示）
 - **業配（ad）不進 RAG**：切塊層排除、庫中 508 塊已清（含向量與 FTS rebuild）；
   原始 sponsor 紀錄留在 data/extras/ 備查。日後改政策把 build_rag_chunks.py 的
