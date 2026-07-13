@@ -37,6 +37,7 @@ ul.plain{margin:6px 0;padding-left:18px}
 .lock h2{font-size:18px;margin-bottom:8px}
 .lock p.dim{margin-bottom:16px}
 .lock input{display:block;margin:0 auto 10px}
+.lock input.mask{-webkit-text-security:disc}
 .lock details{margin:10px 0;text-align:left;color:var(--dim);font-size:13px}
 .lock summary{cursor:pointer;color:var(--acc)}
 .lock button.go{background:var(--acc);color:#08131f;border:none;padding:8px 22px;
@@ -125,7 +126,7 @@ function renderChat(){
   v.innerHTML=`<div class="lock"><h2>🧑‍💻 股癌 AI 分身</h2>
   <p class="dim">輸入通行碼開始與股癌 AI 分身對談</p>
   ${lockErr?`<p style="color:var(--bull)">${esc(lockErr)}</p>`:""}
-  <input id="tkIn" type="password" placeholder="通行碼">
+  <input id="tkIn" type="text" class="mask" autocomplete="off" autocapitalize="off" placeholder="通行碼（可輸入中文）">
   <details><summary>進階：自訂端點</summary>
   <input id="epIn" placeholder="端點網址" value="${esc(twinEp())}"></details>
   <button class="go" id="enterBtn">進入</button></div>`;
