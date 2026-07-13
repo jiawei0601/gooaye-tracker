@@ -88,3 +88,11 @@
   屬歷史正確，非誤植，未列入修正或待裁決。
 
 | EP673 | LUMN | LITE | Lumen | Lumentum | 指揮官複核抽查發現：原文為「Coherent、Lumentum 跟 Marvell」光通語境 |
+
+## 裁決處理紀錄（2026-07-13，使用者核准「按建議處理、以逐字稿為準」）
+- 私人公司 10 筆（SpaceX×5/Anduril×2/Anthropic/xAI/Zippin）→ market=private 保留追蹤；
+  Anduril 主鍵統一（Anduril Industries→Anduril）
+- EP670 VAST → 刪除（逐字稿該段僅 RKLB/ASTS/Fly，無 VAST 佐證）
+- EP165 300750(CATL)/EP402 Hynix/EP171 KERING → market=other（非美股）
+- EP565 tickers 扁平字串 schema 異常 → DeepSeek 官方重新分析取代（5 檔正常物件）
+- 彙整後 781→758 檔（EP565 舊字串垃圾鍵清除＋合併）

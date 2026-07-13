@@ -42,14 +42,14 @@
   {
    "symbol": "Anthropic",
    "name": "Anthropic",
-   "market": "US",
+   "market": "private",
    "stance": "看多",
    "argument": "獲利證明AI模型公司可行，推翻AI泡沫論，預示AI硬體投資將增加。"
   },
   {
    "symbol": "xAI",
    "name": "xAI",
-   "market": "US",
+   "market": "private",
    "stance": "觀察",
    "argument": "發展不順利，轉租算力，但其投資回本速度快，仍是AI硬體投資的強心針。"
   },

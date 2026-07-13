@@ -1902,8 +1902,8 @@
    {
     "ep": "EP565",
     "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
+    "stance": "持有中",
+    "argument": "AI落後但硬體生態與抽稅模式仍穩，伺服器投入與AR眼鏡是未來潛力，續抱。"
    },
    {
     "ep": "EP555",
@@ -4260,8 +4260,8 @@
    {
     "ep": "EP565",
     "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
+    "stance": "觀察",
+    "argument": "美元升值1%影響毛利0.4%，匯損風險存在但市場未反應。"
    },
    {
     "ep": "EP561",
@@ -17662,7 +17662,7 @@
  },
  "300750": {
   "name": "寧德時代",
-  "market": "US",
+  "market": "other",
   "timeline": [
    {
     "ep": "EP165",
@@ -18232,7 +18232,7 @@
  },
  "KERING": {
   "name": "Kering",
-  "market": "US",
+  "market": "other",
   "timeline": [
    {
     "ep": "EP171",
@@ -21790,21 +21790,15 @@
   "market": "TW",
   "timeline": [
    {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
     "ep": "EP229",
     "date": "2022-03-23",
     "stance": "觀察",
     "argument": "航空扣件，股價已修正，事件影響有限。"
    }
   ],
-  "mentions": 2,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2022-03-23"
  },
  "AVGO": {
   "name": "博通",
@@ -22957,21 +22951,15 @@
   "market": "US",
   "timeline": [
    {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
     "ep": "EP281",
     "date": "2022-09-21",
     "stance": "觀察",
     "argument": "下修全年guidance至負4到負8衰退，反映消費電子景氣反轉。"
    }
   ],
-  "mentions": 2,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2022-09-21"
  },
  "LNG": {
   "name": "Cheniere Energy",
@@ -25630,7 +25618,7 @@
  },
  "HYNIX": {
   "name": "SK海力士",
-  "market": "US",
+  "market": "other",
   "timeline": [
    {
     "ep": "EP402",
@@ -27674,10 +27662,16 @@
   "latest_stance": "觀察",
   "latest_date": "2024-11-16"
  },
- "ANDURIL INDUSTRIES": {
+ "ANDURIL": {
   "name": "Anduril Industries",
-  "market": "US",
+  "market": "private",
   "timeline": [
+   {
+    "ep": "EP563",
+    "date": "2025-06-04",
+    "stance": "看多",
+    "argument": "台灣向其採購自殺式無人機，若該公司上市將會是非常具吸引力的投資標的。"
+   },
    {
     "ep": "EP509",
     "date": "2024-11-27",
@@ -27685,9 +27679,9 @@
     "argument": "未上市公司，主持人參與競標其創辦人簽名的無人機殘骸，對其國防科技產品深感興趣但最終未標到。"
    }
   ],
-  "mentions": 1,
-  "latest_stance": "觀察",
-  "latest_date": "2024-11-27"
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2025-06-04"
  },
  "CRM": {
   "name": "Salesforce",
@@ -27907,7 +27901,7 @@
  },
  "ZIPPIN": {
   "name": "Zippin (無人商店新創)",
-  "market": "US",
+  "market": "private",
   "timeline": [
    {
     "ep": "EP512",
@@ -28129,6 +28123,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP565",
+    "date": "2025-06-11",
+    "stance": "中性",
+    "argument": "4月暴跌時被用來拉維持率的避險工具，平常沒人買。"
+   },
+   {
     "ep": "EP531",
     "date": "2025-02-12",
     "stance": "中性",
@@ -28141,9 +28141,9 @@
     "argument": "波動低存股型，但成長性有限。"
    }
   ],
-  "mentions": 2,
+  "mentions": 3,
   "latest_stance": "中性",
-  "latest_date": "2025-02-12"
+  "latest_date": "2025-06-11"
  },
  "BILL": {
   "name": "Bill Holdings",
@@ -28478,21 +28478,6 @@
   "latest_stance": "看多",
   "latest_date": "2025-06-04"
  },
- "ANDURIL": {
-  "name": "Anduril Industries",
-  "market": "US",
-  "timeline": [
-   {
-    "ep": "EP563",
-    "date": "2025-06-04",
-    "stance": "看多",
-    "argument": "台灣向其採購自殺式無人機，若該公司上市將會是非常具吸引力的投資標的。"
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "看多",
-  "latest_date": "2025-06-04"
- },
  "CRDO": {
   "name": "Credo",
   "market": "US",
@@ -28562,397 +28547,34 @@
   "latest_stance": "持有中",
   "latest_date": "2026-07-11"
  },
- "台積電": {
-  "name": "台積電",
-  "market": "?",
+ "HDN": {
+  "name": "Harmonic Drive Systems",
+  "market": "other",
   "timeline": [
    {
     "ep": "EP565",
     "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
+    "stance": "看多",
+    "argument": "日本諧波減速器公司，機器人相關，近期加碼。"
    }
   ],
   "mentions": 1,
-  "latest_stance": "?",
+  "latest_stance": "看多",
   "latest_date": "2025-06-11"
  },
- "TW": {
-  "name": "TW",
-  "market": "?",
+ "6988": {
+  "name": "日東電工",
+  "market": "other",
   "timeline": [
    {
     "ep": "EP565",
     "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 2,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "中性": {
-  "name": "中性",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
+    "stance": "看多",
+    "argument": "玻纖布/石英布漲價題材，近期買入作為資金停泊。"
    }
   ],
   "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "公司已清楚說明美元升值對毛利的正面影響，市場對此已有所反映。": {
-  "name": "公司已清楚說明美元升值對毛利的正面影響，市場對此已有所反映。",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "LOGITECH": {
-  "name": "LOGITECH",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "US": {
-  "name": "US",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 2,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "觀察": {
-  "name": "觀察",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 4,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "公司於會議中證實確實有因應關稅而提前拉貨（PULL-IN）的現象。": {
-  "name": "公司於會議中證實確實有因應關稅而提前拉貨（PULL-IN）的現象。",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "APPLE": {
-  "name": "APPLE",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "持有中": {
-  "name": "持有中",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 2,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "WWDC 雖然缺乏驚喜且 AI 表現落後，但其軟硬體整合與生態系護城河依然強大，選擇繼續持有。": {
-  "name": "WWDC 雖然缺乏驚喜且 AI 表現落後，但其軟硬體整合與生態系護城河依然強大，選擇繼續持有。",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "6208": {
-  "name": "6208",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "富邦台美雙星高息": {
-  "name": "富邦台美雙星高息",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "聽眾提及長期持有的標的，主持人未對其前景做額外評論。": {
-  "name": "聽眾提及長期持有的標的，主持人未對其前景做額外評論。",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "6301": {
-  "name": "6301",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "小松製作所": {
-  "name": "小松製作所",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "OTHER": {
-  "name": "OTHER",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 3,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "主持人提及近期佈局日股時，東證指數（TOPIX）相關權值股為其考慮方向之一。": {
-  "name": "主持人提及近期佈局日股時，東證指數（TOPIX）相關權值股為其考慮方向之一。",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "6324": {
-  "name": "6324",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "HARMONIC DRIVE SYSTEMS": {
-  "name": "HARMONIC DRIVE SYSTEMS",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "看好其在諧波減速器領域的技術實力，為長期持有的日股機器人概念股。": {
-  "name": "看好其在諧波減速器領域的技術實力，為長期持有的日股機器人概念股。",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "昭和真空": {
-  "name": "昭和真空",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "主持人提及近期買進不少日東紡（NITTOBO）等日本玻纖與石英相關半導體材料股。": {
-  "name": "主持人提及近期買進不少日東紡（NITTOBO）等日本玻纖與石英相關半導體材料股。",
-  "market": "?",
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
+  "latest_stance": "看多",
   "latest_date": "2025-06-11"
  },
  "6104": {
@@ -29854,7 +29476,7 @@
  },
  "SPACEX": {
   "name": "SpaceX",
-  "market": "US",
+  "market": "private",
   "timeline": [
    {
     "ep": "EP674",
@@ -30547,7 +30169,7 @@
  },
  "ANTHROPIC": {
   "name": "Anthropic",
-  "market": "US",
+  "market": "private",
   "timeline": [
    {
     "ep": "EP670",
@@ -30568,7 +30190,7 @@
  },
  "XAI": {
   "name": "xAI",
-  "market": "US",
+  "market": "private",
   "timeline": [
    {
     "ep": "EP664",
@@ -30736,21 +30358,6 @@
  },
  "RKLB": {
   "name": "Rocket Lab",
-  "market": "US",
-  "timeline": [
-   {
-    "ep": "EP670",
-    "date": "2026-06-13",
-    "stance": "已出場",
-    "argument": "SpaceX上市後，相關衛星/火箭概念股出現獲利了結賣壓。"
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "已出場",
-  "latest_date": "2026-06-13"
- },
- "VAST": {
-  "name": "Vast Space",
   "market": "US",
   "timeline": [
    {

@@ -1426,8 +1426,8 @@
    {
     "ep": "EP565",
     "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
+    "stance": "觀察",
+    "view": "電子零組件與半導體尚未反應匯損與關稅提前拉貨的後續風險，第二季財報可能爆炸。"
    },
    {
     "ep": "EP556",
@@ -2787,12 +2787,6 @@
     "view": "整體消費性電子需求目前仍不被市場看好，相關個股如祥碩（5269）短期缺乏新的催化劑。"
    },
    {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
-   },
-   {
     "ep": "EP561",
     "date": "2025-05-28",
     "stance": "中性",
@@ -3003,7 +2997,7 @@
     "view": "可能因消費緊縮與供應鏈斷鏈而受影響，但需求是否遞延仍待觀察。"
    }
   ],
-  "mentions": 40,
+  "mentions": 39,
   "latest_stance": "看空",
   "latest_date": "2026-06-20"
  },
@@ -6261,6 +6255,12 @@
  "電子零組件": {
   "timeline": [
    {
+    "ep": "EP565",
+    "date": "2025-06-11",
+    "stance": "觀察",
+    "view": "上半年緊急拉貨可能變成下半年業障，需注意。"
+   },
+   {
     "ep": "EP175",
     "date": "2021-09-15",
     "stance": "看空",
@@ -6273,9 +6273,9 @@
     "view": "漲價與缺貨題材持續，但 overbooking 可能導致後續砍單風險。"
    }
   ],
-  "mentions": 2,
-  "latest_stance": "看空",
-  "latest_date": "2021-09-15"
+  "mentions": 3,
+  "latest_stance": "觀察",
+  "latest_date": "2025-06-11"
  },
  "基礎建設": {
   "timeline": [
@@ -7044,6 +7044,12 @@
     "view": "即使是傳統上較穩定的金融股也出現大幅上漲，顯示市場資金充沛。"
    },
    {
+    "ep": "EP565",
+    "date": "2025-06-11",
+    "stance": "中性",
+    "view": "壽險業已因匯率變化賣股救獲利，市場已知。"
+   },
+   {
     "ep": "EP387",
     "date": "2023-09-27",
     "stance": "看空",
@@ -7212,7 +7218,7 @@
     "view": "京城銀行確實執行庫藏股，但庫藏股不保證股價上漲。"
    }
   ],
-  "mentions": 29,
+  "mentions": 30,
   "latest_stance": "觀察",
   "latest_date": "2026-06-17"
  },
@@ -11996,8 +12002,8 @@
    {
     "ep": "EP565",
     "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
+    "stance": "看多",
+    "view": "日本機器人相關類股如諧波減速器公司是資金出路之一。"
    },
    {
     "ep": "EP527",
@@ -18110,19 +18116,13 @@
     "view": ""
    },
    {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
-   },
-   {
     "ep": "EP539",
     "date": "2025-03-12",
     "stance": "?",
     "view": ""
    }
   ],
-  "mentions": 3,
+  "mentions": 2,
   "latest_stance": "?",
   "latest_date": "2025-09-20"
  },
@@ -18448,83 +18448,6 @@
   "mentions": 1,
   "latest_stance": "看多",
   "latest_date": "2025-06-07"
- },
- "台積電等公司已明確揭露匯率對毛利的影響，市場未跌代表已反映，但其他硬體廠仍有匯損隱憂。": {
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "觀察": {
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "上半年因關稅預期出現緊急拉貨潮，需防範下半年需求放緩與庫存去化壓力。": {
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
- },
- "看多": {
-  "timeline": [
-   {
-    "ep": "EP594",
-    "date": "2025-09-20",
-    "stance": "?",
-    "view": ""
-   },
-   {
-    "ep": "EP594",
-    "date": "2025-09-20",
-    "stance": "?",
-    "view": ""
-   },
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
-   }
-  ],
-  "mentions": 3,
-  "latest_stance": "?",
-  "latest_date": "2025-09-20"
- },
- "長期看好並持有日本機器人及減速器相關供應鏈標的。": {
-  "timeline": [
-   {
-    "ep": "EP565",
-    "date": "2025-06-11",
-    "stance": "?",
-    "view": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "?",
-  "latest_date": "2025-06-11"
  },
  "算力租賃 (NeoCloud)": {
   "timeline": [
@@ -19121,6 +19044,25 @@
   "mentions": 1,
   "latest_stance": "中性",
   "latest_date": "2025-09-17"
+ },
+ "看多": {
+  "timeline": [
+   {
+    "ep": "EP594",
+    "date": "2025-09-20",
+    "stance": "?",
+    "view": ""
+   },
+   {
+    "ep": "EP594",
+    "date": "2025-09-20",
+    "stance": "?",
+    "view": ""
+   }
+  ],
+  "mentions": 2,
+  "latest_stance": "?",
+  "latest_date": "2025-09-20"
  },
  "NVIDIA 入股 Intel 傳聞對台積電實為利多，可分擔反壟斷政治風險。": {
   "timeline": [

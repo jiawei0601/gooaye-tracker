@@ -909,7 +909,8 @@
   "duration_s": 3057,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/2c22f8cb-acc4-475f-9624-ee095f5b717c/rssFileVip.mp3?timestamp=1749637709043",
   "guid": "2c22f8cb-acc4-475f-9624-ee095f5b717c",
-  "status": "done"
+  "status": "done",
+  "via": "wmrs-text"
  },
  "EP564": {
   "title": "EP564 | 🍙",

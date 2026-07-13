@@ -32,20 +32,13 @@
   {
    "symbol": "SpaceX",
    "name": "SpaceX",
-   "market": "US",
+   "market": "private",
    "stance": "持有中",
    "argument": "視為夢想型投資，包含衛星、火箭、AI業務，衛星是當前獲利引擎，估值難以用傳統方式衡量。"
   },
   {
    "symbol": "RKLB",
    "name": "Rocket Lab",
-   "market": "US",
-   "stance": "已出場",
-   "argument": "SpaceX上市後，相關衛星/火箭概念股出現獲利了結賣壓。"
-  },
-  {
-   "symbol": "VAST",
-   "name": "Vast Space",
    "market": "US",
    "stance": "已出場",
    "argument": "SpaceX上市後，相關衛星/火箭概念股出現獲利了結賣壓。"
