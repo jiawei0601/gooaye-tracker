@@ -7,8 +7,11 @@
     data/external/wmrs/transcripts.json 的 tx 欄位（無時間戳），兩者不重複。
   data/rag/analysis_chunks.jsonl — data/analyses/EPxxx.json 切塊，一個語意單位一塊
     （summary / market_view / industry / ticker / quote）。
+  data/rag/extras_chunks.jsonl — data/extras/EPxxx.json 切塊，一個語意單位一塊
+    （qa / chat / joke / wisdom / macro / ad）。extractor 批次仍在跑，讀檔逐檔
+    try/except，壞檔/半寫檔跳過不中斷；之後重跑本腳本會自動補齊新完成的集數。
 
-冪等：每次重跑整批覆寫兩個輸出檔。
+冪等：每次重跑整批覆寫三個輸出檔。
 """
 import bisect
 import json
@@ -17,6 +20,7 @@ import re
 from common import ANALYSES, DATA, TRANSCRIPTS
 
 WMRS_PATH = DATA / "external" / "wmrs" / "transcripts.json"
+EXTRAS = DATA / "extras"
 RAG_DIR = DATA / "rag"
 
 CHUNK_TARGET = 700   # 目標字數/塊
@@ -152,6 +156,7 @@ def build_transcript_chunks():
                 "t_start": t_start,
                 "industry": None,
                 "stance": None,
+                "category": None,
                 "text": text,
             })
         ep_count[source] += 1
@@ -194,7 +199,7 @@ def build_analysis_chunks():
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-summary"),
                 "ep": ep, "date": date, "type": "summary",
-                "industry": None, "stance": None,
+                "industry": None, "stance": None, "category": None,
                 "text": f"{ep}（{date}）摘要：{summary}",
             })
 
@@ -203,7 +208,7 @@ def build_analysis_chunks():
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-market_view"),
                 "ep": ep, "date": date, "type": "market_view",
-                "industry": None, "stance": None,
+                "industry": None, "stance": None, "category": None,
                 "text": f"{ep}（{date}）大盤觀點：{market_view}",
             })
 
@@ -219,7 +224,7 @@ def build_analysis_chunks():
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-industry-{slug}"),
                 "ep": ep, "date": date, "type": "industry",
-                "industry": name, "stance": stance_raw,
+                "industry": name, "stance": stance_raw, "category": None,
                 "text": f"{ep}（{date}）對產業「{name}」立場：{stance_raw or '?'}｜觀點：{view}",
             })
 
@@ -235,7 +240,7 @@ def build_analysis_chunks():
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-ticker-{symbol}"),
                 "ep": ep, "date": date, "type": "ticker", "symbol": symbol,
-                "industry": None, "stance": stance_raw,
+                "industry": None, "stance": stance_raw, "category": None,
                 "text": f"{ep}（{date}）對 {symbol}（{name}）立場：{stance_raw or '?'}｜論點：{argument}",
             })
 
@@ -246,9 +251,89 @@ def build_analysis_chunks():
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-quote-{i + 1:02d}"),
                 "ep": ep, "date": date, "type": "quote",
-                "industry": None, "stance": None,
+                "industry": None, "stance": None, "category": None,
                 "text": quote,
             })
+
+    return chunks, n_files, n_bad
+
+
+def build_extras_chunks():
+    """組出 extras_chunks.jsonl 的所有 record，回傳 (chunks, 讀取檔數, 壞檔數)。
+
+    data/extras/EPxxx.json 是另一個抽取批次程序持續在寫的目錄，逐檔 try/except，
+    壞檔/半寫檔跳過不中斷；下次重跑會自動補齊新完成的集數。
+    """
+    chunks = []
+    n_files = 0
+    n_bad = 0
+    for fp in sorted(EXTRAS.glob("EP*.json")):
+        try:
+            a = json.loads(fp.read_text(encoding="utf-8"))
+        except (json.JSONDecodeError, OSError, UnicodeDecodeError):
+            n_bad += 1
+            continue
+        if not isinstance(a, dict):
+            n_bad += 1
+            continue
+        n_files += 1
+
+        ep = a.get("ep_key") or fp.stem
+        date = a.get("date", "")
+        title = a.get("title", "")
+        counters = {}
+
+        def add(kind, category, text):
+            text = (text or "").strip()
+            if not text:
+                return
+            counters[kind] = counters.get(kind, 0) + 1
+            chunks.append({
+                "id": f"{ep}-x-{kind}-{counters[kind]:02d}",
+                "ep": ep, "date": date, "title": title, "type": kind,
+                "category": category, "symbol": None, "industry": None,
+                "stance": None, "t_start": None,
+                "text": text,
+            })
+
+        for qa in a.get("qa") or []:
+            if not isinstance(qa, dict):
+                continue
+            category = (qa.get("category") or "").strip() or None
+            question = (qa.get("question") or "").strip()
+            answer = (qa.get("answer_gist") or "").strip()
+            if not question and not answer:
+                continue
+            add("qa", category, f"[{category or '其他'}] 問：{question}｜答：{answer}")
+
+        for chat in a.get("chat") or []:
+            if not isinstance(chat, dict):
+                continue
+            topic = (chat.get("topic") or "").strip() or None
+            note = (chat.get("note") or "").strip()
+            if not note:
+                continue
+            add("chat", topic, f"{topic or '閒聊'}：{note}")
+
+        for joke in a.get("jokes") or []:
+            if isinstance(joke, str):
+                add("joke", None, joke)
+
+        for wisdom in a.get("wisdom") or []:
+            if isinstance(wisdom, str):
+                add("wisdom", None, wisdom)
+
+        for macro in a.get("macro") or []:
+            if not isinstance(macro, dict):
+                continue
+            topic = (macro.get("topic") or "").strip() or None
+            view = (macro.get("view") or "").strip()
+            if not view:
+                continue
+            add("macro", topic, f"{topic or '宏觀'}：{view}")
+
+        # ads 不進 RAG（2026-07-14 使用者指示：整理時去除所有業配）；
+        # 原始 sponsor 紀錄仍在 data/extras/ 備查
 
     return chunks, n_files, n_bad
 
@@ -264,18 +349,23 @@ def main():
 
     t_chunks, ep_count = build_transcript_chunks()
     a_chunks, n_files, n_bad = build_analysis_chunks()
+    x_chunks, xn_files, xn_bad = build_extras_chunks()
 
     t_path = RAG_DIR / "transcript_chunks.jsonl"
     a_path = RAG_DIR / "analysis_chunks.jsonl"
+    x_path = RAG_DIR / "extras_chunks.jsonl"
     write_jsonl(t_path, t_chunks)
     write_jsonl(a_path, a_chunks)
+    write_jsonl(x_path, x_chunks)
 
     t_chars = sum(len(c["text"]) for c in t_chunks)
     a_chars = sum(len(c["text"]) for c in a_chunks)
+    x_chars = sum(len(c["text"]) for c in x_chunks)
 
     print(f"逐字稿來源集數：own {ep_count['own']} 集、wmrs {ep_count['wmrs']} 集")
     print(f"{t_path.name}：{len(t_chunks)} 塊，總字元數 {t_chars}")
     print(f"{a_path.name}：讀取 {n_files} 檔（壞檔跳過 {n_bad}），{len(a_chunks)} 塊，總字元數 {a_chars}")
+    print(f"{x_path.name}：讀取 {xn_files} 檔（壞檔跳過 {xn_bad}），{len(x_chunks)} 塊，總字元數 {x_chars}")
 
 
 if __name__ == "__main__":
