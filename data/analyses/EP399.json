@@ -1,0 +1,107 @@
+{
+ "summary": "主持人謝孟恭認為市場基調可能轉向風險性資產，看好邊緣運算、CDN、記憶體與資安等領域，並逐步減持過去熱門的AI股。他強調text-to-video等新應用將帶動頻寬、儲存與延遲需求，記憶體（尤其NAND）可能在明年下半年供不應求。同時，他關注美國跌深的資安股如Fortinet，以及台灣因人力短缺而加速數位轉型的工業電腦與無人服務機台。整體對大盤不悲觀，但建議避開擁擠的熱門股，轉向低本益比的標的。",
+ "topics": [
+  "市場風格轉向：從AI熱門股轉向邊緣運算、記憶體、CDN等新題材",
+  "記憶體產業展望：NAND明年下半年可能供不應求，群聯看法呼應主持人觀點",
+  "CDN與邊緣運算：Cloudflare財報後大漲，DataDog等SaaS股反彈，關注頻寬與儲存需求",
+  "NVIDIA中國禁令：H20/L20降規產品可能再被封鎖，傳輸速度是關鍵",
+  "資安產業：Fortinet因連續下修展望大跌，但長線剛性需求仍在，可留意左側機會",
+  "台灣人力短缺與數位轉型：服務業缺工推動無人機台、工業電腦需求，三商家購等值得觀察"
+ ],
+ "market_view": "指數因權值股撐盤不易大跌，但資金可能從熱門AI股輪動至其他低基期標的，整體中性偏多但需保守選股。",
+ "industries": [
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "NAND明年下半年可能供不應求，群聯看法呼應，記憶體是市場低估的驚喜領域。"
+  },
+  {
+   "name": "CDN",
+   "stance": "看多",
+   "view": "text-to-video等應用將推升頻寬與儲存需求，Cloudflare等業者直接受惠。"
+  },
+  {
+   "name": "資安",
+   "stance": "觀察",
+   "view": "Fortinet因展望下修大跌，但剛性需求長線仍在，可等降評後左側布局。"
+  },
+  {
+   "name": "工業電腦",
+   "stance": "看多",
+   "view": "台灣人力短缺加速數位轉型，消費型工業電腦與kiosk機台需求升溫，籌碼逐漸集中。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "過去熱門的ODM/IP股肉已少，應避開擁擠交易，轉向新題材。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "看多",
+   "argument": "財報後大漲，CDN與邊緣運算需求明確，產品整合性佳。"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "DataDog",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "財報後股價噴出，SaaS股若利率穩定有機會反彈。"
+  },
+  {
+   "symbol": "PSTG",
+   "name": "Pure Storage",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Blade Flash儲存支援GPU Direct Storage，有機會受惠AI儲存需求。"
+  },
+  {
+   "symbol": "FTNT",
+   "name": "Fortinet",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "連續下修展望導致股價大跌，但資安剛性需求長線看好，可等降評後左側布局。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google (Alphabet)",
+   "market": "US",
+   "stance": "看多",
+   "argument": "股價跌深反彈強勁，主持人持有TPU供應鏈相關部位。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "中性",
+   "argument": "H20/L20降規產品可能再被封鎖，市場關注度高但肉不多。"
+  },
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "NAND controller龍頭，看好明年下半年供不應求，發債確保供應。"
+  },
+  {
+   "symbol": "2945",
+   "name": "三商家購",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "全聯社因人力短缺可能導入無人商店，數位轉型題材。"
+  }
+ ],
+ "quotes": [
+  "你必須要去尊敬並且是敬畏市場，就算你再有把握，都不要去做超出你自己能力範圍的事情。",
+  "先把自己的心態調好，就算你現在很難過、很憂鬱，還是不要把那樣的能量釋放出去，因為會影響到來的人。",
+  "如果你沒有辦法在外面找到這些小公司特別厲害的地方，或是很強的一個營收成長性，你不如直接買大型的公司。"
+ ],
+ "ep_key": "EP399",
+ "title": "EP399 | 🤩",
+ "pubdate": "2023-11-08",
+ "duration_s": 2977,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

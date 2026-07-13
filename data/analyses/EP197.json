@@ -1,0 +1,116 @@
+{
+ "summary": "主持人謝孟恭在本集討論市場波動下的風險管理，強調降槓桿是為了保命而非預測漲跌，並指出散戶的最佳避險就是減碼。他分析ARKK績效不佳的原因，認為主因是市場對成長股偏好降低，加上部位控管導致砍鮮花補雜草。他也提醒聽眾避免高溢價產品，並建議定期定額大盤ETF優於擇時進出。此外，他分享自己傾向加碼表現好的部位，而非攤平。",
+ "topics": [
+  "降槓桿與風險管理",
+  "避險與對沖策略",
+  "ARKK績效分析與部位控管",
+  "成長股與價值股的市場偏好",
+  "散戶的優勢與操作建議",
+  "支付產業（PayPal、Square）的困境"
+ ],
+ "market_view": "市場消息混亂（Omicron、聯準會鷹派），主持人選擇降低部位以保命，但認為台股尾盤強勢拉抬顯示仍有資金進場。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "台積電常被用來控盤，技術分析難做；聯發科修正後反彈，但整體成長股面臨市場偏好降低的壓力。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "主持人有佈局但最噴的沒買到，Micron有買到，台灣記憶體族群部分有佈局。"
+  },
+  {
+   "name": "網通",
+   "stance": "觀察",
+   "view": "台揚有資金炒作，但主持人因基本面不確定而避開。"
+  },
+  {
+   "name": "支付",
+   "stance": "中性",
+   "view": "PayPal、Square等支付股今年表現輸大盤，主因市場偏好降低及guidance不佳，但產業基本面未死。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "常被用來控盤，技術分析難做，漲跌跳動大。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "修正一陣子後又開始往上拉。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光科技",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "記憶體族群有佈局，有買到。"
+  },
+  {
+   "symbol": "ARKK",
+   "name": "ARK Innovation ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "績效不佳主因市場對成長股偏好降低及部位控管問題，砍鮮花補雜草。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "仍為主持人最大持股，但已漲多，現在追可能面臨市場不願再接盤的風險。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人最大持股之一，但ARKK因部位控管被迫賣出。"
+  },
+  {
+   "symbol": "PYPL",
+   "name": "PayPal",
+   "market": "US",
+   "stance": "中性",
+   "argument": "股價表現差，主因2022年guidance低於預期，且市場對支付主題偏好偏低。"
+  },
+  {
+   "symbol": "SQ",
+   "name": "Block (Square)",
+   "market": "US",
+   "stance": "中性",
+   "argument": "今年表現輸大盤，與PayPal同受市場偏好影響。"
+  },
+  {
+   "symbol": "VOO",
+   "name": "Vanguard S&P 500 ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "定期定額大盤ETF是推薦做法，擇時進出（等崩盤才買）績效反而不如定期定額。"
+  },
+  {
+   "symbol": "QQQM",
+   "name": "Invesco NASDAQ 100 ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "與VOO同為定期定額推薦標的。"
+  }
+ ],
+ "quotes": [
+  "降槓桿並不是去賭說隔天會漲還跌，這個是沒有意義的。你降槓桿是為了保命，而不是讓你去猜隔天是漲還是跌。",
+  "一般散戶最佳的避險就是減碼。你去保保險，總不是希望說飛機一定要摔一架，不然買保險幹嘛？",
+  "砍鮮花補雜草是很多散戶會做的事情，上漲的東西趕快砍掉落袋為安，跌的東西卻越買越多。"
+ ],
+ "ep_key": "EP197",
+ "title": "EP197 | 樂透仔",
+ "pubdate": "2021-12-01",
+ "duration_s": 2739,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

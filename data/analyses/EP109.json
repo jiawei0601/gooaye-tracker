@@ -1,0 +1,159 @@
+{
+ "summary": "本集主持人謝孟恭分享對台積電近期修正的看法，強調長期基本面良好但勿追高，應分批布局。他看好半導體產業鏈，介紹台股相關公司如聯發科、聯電等，並提醒車用晶片短缺可能使中芯國際有機會重啟。他重申「censorship = buy」的市場觀察，認為受打壓的資產常是買點。他也討論通膨題材、鋼鐵股的機會財特性，並在QA中建議長期投資以指數型ETF為主，避免短線進出。",
+ "topics": [
+  "台積電股價修正與長期投資心態",
+  "半導體產業鏈分析（IP設計、晶圓代工、封測）",
+  "車用晶片短缺與中芯國際的可能復甦",
+  "通膨題材與原物料、鋼鐵股的機會財",
+  "censorship = buy 的市場觀察",
+  "投資心態與分批布局策略",
+  "QA：買房資金規劃、抱股過年、5G小基站"
+ ],
+ "market_view": "長期看好人類未來與市場，但短期可能修正，提醒勿追高。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "看好整體半導體產業鏈，台積電護城河深，但需注意買點。"
+  },
+  {
+   "name": "晶圓代工",
+   "stance": "看多",
+   "view": "台積電、聯電、世界先進、力積電等皆受惠於晶圓市況佳。"
+  },
+  {
+   "name": "鋼鐵",
+   "stance": "觀察",
+   "view": "屬於資金行情下的機會財，需留意基本面是否改善，非長期持有標的。"
+  },
+  {
+   "name": "車用晶片",
+   "stance": "觀察",
+   "view": "短缺問題可能使中芯國際有機會重啟車用晶片生產，但需持續觀察。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "長期看好，但短線已price in，勿追高，應分批布局。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台灣優秀的IC設計公司，可納入半導體配置。"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "二線晶圓代工廠，有機會受惠於車用晶片需求。"
+  },
+  {
+   "symbol": "5347",
+   "name": "世界先進",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "晶圓代工產業鏈一環，可關注。"
+  },
+  {
+   "symbol": "6770",
+   "name": "力積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "老闆黃崇仁有爭議，但晶圓市況確實不錯。"
+  },
+  {
+   "symbol": "3529",
+   "name": "力旺",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "矽智財IP公司，屬於半導體上游。"
+  },
+  {
+   "symbol": "6643",
+   "name": "M31",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "矽智財IP公司，屬於半導體上游。"
+  },
+  {
+   "symbol": "2338",
+   "name": "光罩",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "未直接提及，但屬半導體鏈。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台積電集團的IP設計公司。"
+  },
+  {
+   "symbol": "2379",
+   "name": "瑞昱",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "優秀的IC設計公司。"
+  },
+  {
+   "symbol": "2354",
+   "name": "鴻準",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "主持人持有，看好第三代半導體題材，已從90元漲至160元。"
+  },
+  {
+   "symbol": "SMI",
+   "name": "中芯國際",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "車用晶片短缺可能使其有起死回生機會，股價已反彈。"
+  },
+  {
+   "symbol": "BABA",
+   "name": "阿里巴巴",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "受打壓後出現買點，呼應censorship = buy。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人曾錯過低點，受打壓後反彈。"
+  },
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人持有，censorship後股價回升。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人持有，看好其長期表現。"
+  }
+ ],
+ "quotes": [
+  "一家公司如果說你在一個很爛的位置去買，即便他是很好的公司，這也是一個很爛的投資。",
+  "censorship = buy，每一次回測都發現，只要是審查，就是買點。",
+  "在瘋狂的QE年代，沒有做投資的、領死薪水的、薪水又不會漲的，真的是被犧牲掉的一群。"
+ ],
+ "ep_key": "EP109",
+ "title": "EP109 | ==",
+ "pubdate": "2021-01-27",
+ "duration_s": 2286,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

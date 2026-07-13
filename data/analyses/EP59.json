@@ -1,0 +1,192 @@
+{
+ "summary": "主持人謝孟恭回顧2020年股市行情，指出科技股持續強勢但已非全面上漲，提醒投資人做好衝撞準備並進行汰弱留強。他分享自身操作經驗，強調長期持有與不空手的重要性，並介紹軍工股（洛克希德馬丁、諾斯洛普格魯曼等）作為當前位階偏低但具潛力的標的，同時也提及民生消費股（Costco）作為保守配置。節目中他對DRAM價格下跌、REITs等議題表達中性看法，並建議投資人關注5G射頻元件族群（穩懋、宏捷科等）的後續表現。",
+ "topics": [
+  "股市行情分化與汰弱留強策略",
+  "長期持有與交易頻率的建議",
+  "軍工股（LMT、NOC、RTX）的投資機會與風險",
+  "民生消費股（Costco）作為保守配置",
+  "5G射頻元件族群（穩懋、宏捷科、昇達科）的觀察",
+  "REITs的特性與迷思",
+  "DRAM價格波動對個股的影響"
+ ],
+ "market_view": "科技股持續強勢但已非全面上漲，投資人應做好衝撞準備並進行汰弱留強。",
+ "industries": [
+  {
+   "name": "軍工",
+   "stance": "看多",
+   "view": "軍工股位階偏低，除非美國放棄全球霸權，否則仍是不錯的投資標的。"
+  },
+  {
+   "name": "民生消費",
+   "stance": "中性",
+   "view": "民生消費股如Costco可作為資產配置中相對保守的一環，但難以期待飆漲。"
+  },
+  {
+   "name": "5G射頻元件",
+   "stance": "觀察",
+   "view": "美股5G射頻元件股已大漲，台股相關個股（穩懋、宏捷科等）表現尚未跟上，持續觀察。"
+  },
+  {
+   "name": "DRAM",
+   "stance": "中性",
+   "view": "DRAM價格本來就起起伏伏，價格下跌不代表股票必跌。"
+  },
+  {
+   "name": "REITs",
+   "stance": "中性",
+   "view": "REITs會跟著股市波動，並非穩健的資產配置工具，主持人自己沒有買。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台積電是當前市場討論焦點，鴻海與大立光則相對弱勢。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "鴻海與大立光躺在地上，表現不如台積電。"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "大立光與鴻海躺在地上，表現不如台積電。"
+  },
+  {
+   "symbol": "5269",
+   "name": "祥碩",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "祥碩是AMD合作夥伴，股價從低點漲到1000多塊。"
+  },
+  {
+   "symbol": "1215",
+   "name": "華擎",
+   "market": "TW",
+   "stance": "已出場",
+   "argument": "主持人買在80幾塊，賣在110多塊，後來漲到185，沒有抱住。"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IC載板三雄之一，股價強勢。"
+  },
+  {
+   "symbol": "3189",
+   "name": "景碩",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IC載板三雄之一，股價強勢。"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IC載板三雄之一，股價強勢。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "NVIDIA很少給買點，只能持續買進，主持人成本低所以抱得住。"
+  },
+  {
+   "symbol": "COST",
+   "name": "Costco",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "Costco生意模式厲害，能讓客戶持續回購，主持人持續布局作為保守配置。"
+  },
+  {
+   "symbol": "LMT",
+   "name": "洛克希德馬丁",
+   "market": "US",
+   "stance": "看多",
+   "argument": "軍工股三王之一，F-35肥單佔營收25%，股價在盤整區間但位階不錯。"
+  },
+  {
+   "symbol": "NOC",
+   "name": "諾斯洛普格魯曼",
+   "market": "US",
+   "stance": "看多",
+   "argument": "軍工股三王之一，B-2轟炸機聞名，股價在盤整區間但位階不錯。"
+  },
+  {
+   "symbol": "RTX",
+   "name": "雷神技術公司",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "軍工股三王中表現最差，財報Non-GAAP雖好但GAAP表現普通。"
+  },
+  {
+   "symbol": "BA",
+   "name": "波音",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "廣義軍工股，市場常聚焦的標的之一。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
+  },
+  {
+   "symbol": "SWKS",
+   "name": "Skyworks",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
+  },
+  {
+   "symbol": "QRVO",
+   "name": "Qorvo",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
+  },
+  {
+   "symbol": "3105",
+   "name": "穩懋",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台股5G射頻元件代工廠，表現不如美股相關個股，現階段不會買。"
+  },
+  {
+   "symbol": "8086",
+   "name": "宏捷科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台股5G射頻元件代工廠，表現不如美股相關個股，現階段不會買。"
+  },
+  {
+   "symbol": "3491",
+   "name": "昇達科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台股5G高頻天線廠，表現不如美股相關個股，現階段不會買。"
+  }
+ ],
+ "quotes": [
+  "努力是基本的，但會不會成功跟努力沒有太大的關係，運氣比較重要。",
+  "股價很少會冤枉一支股票，但價值股可能因市場不青睞而長期被低估。",
+  "散戶沒有獨立思考，無法決定行情，行情轉折主要還是由大型法人主導。"
+ ],
+ "ep_key": "EP59",
+ "title": "EP59 | B 咖裡面的 A 咖",
+ "pubdate": "2020-08-05",
+ "duration_s": 2466,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,115 @@
+{
+ "summary": "本集主要討論美股券商遺產稅與帳戶處理問題，並深入分析Netflix Q4財報，強調用戶增長（+850萬）遠超預期，看好其低客戶流失率與全球內容產出能力。主持人也分享自己違反紀律重壓Netflix的經驗，並反省不應賭財報。此外，觸及阿里巴巴在中國監管下的前景、第三代半導體（穩懋、宏捷科）與LiDAR產業看法，以及對短線交易、當沖的強烈警告。總經方面，認為資金可能從新興市場回流美國，推升權值股。",
+ "topics": [
+  "美股券商遺產稅與帳戶處理（直接持有 vs 複委託）",
+  "Netflix Q4財報分析與投資策略",
+  "阿里巴巴與中概股前景",
+  "第三代半導體（GaN/SiC）產業概覽",
+  "LiDAR產業與相關個股討論",
+  "右側交易與停損策略的常見迷思",
+  "對短線交易、當沖的批判與投資紀律"
+ ],
+ "market_view": "資金可能從新興市場回流美國，推升權值股，但短期科技巨頭仍在盤整。",
+ "industries": [
+  {
+   "name": "串流媒體",
+   "stance": "看多",
+   "view": "Netflix用戶增長強勁且流失率低，全球內容產出優勢難以追趕。"
+  },
+  {
+   "name": "第三代半導體",
+   "stance": "看多",
+   "view": "化合物半導體（GaN/SiC）持續看好，穩懋為產業龍頭。"
+  },
+  {
+   "name": "LiDAR",
+   "stance": "看多",
+   "view": "LiDAR價格持續下降，未來電動車供應鏈採用機會大。"
+  },
+  {
+   "name": "航運",
+   "stance": "觀察",
+   "view": "聽眾放空航運股，主持人未表態，僅提醒放空不宜長抱。"
+  },
+  {
+   "name": "太陽能/風電",
+   "stance": "觀察",
+   "view": "建議買ETF（ICLN/FAN）而非台灣供應鏈，因後者較難掌握。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "用戶增長超預期，低流失率與全球內容產出將持續推動成長，但需觀察股價能否突破前高575。"
+  },
+  {
+   "symbol": "BABA",
+   "name": "阿里巴巴",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雖遭監管打壓，但領導地位仍在，中國內需龐大，黨仍需這家公司。"
+  },
+  {
+   "symbol": "3105",
+   "name": "穩懋",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "化合物半導體代工龍頭，為LiDAR供應商Lumentum的VCSEL供應商，近期漲幅明顯。"
+  },
+  {
+   "symbol": "8086",
+   "name": "宏捷科",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "第三代半導體布局，被視為化合物半導體的聯電，主持人持有較多。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "客戶流失率低，但串流音樂利潤薄，需靠Podcast廣告等新業務創造現金流。"
+  },
+  {
+   "symbol": "VLDR",
+   "name": "Velodyne Lidar",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "LiDAR產業有機會，但股價已回跌，主持人未明確表態。"
+  },
+  {
+   "symbol": "LAZR",
+   "name": "Luminar Technologies",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "LiDAR產業有機會，但股價已回跌，主持人未明確表態。"
+  },
+  {
+   "symbol": "3019",
+   "name": "亞光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾提及LiDAR概念股，主持人未表態。"
+  },
+  {
+   "symbol": "3406",
+   "name": "玉晶光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾提及LiDAR概念股，主持人未表態。"
+  }
+ ],
+ "quotes": [
+  "股票做越短的輸的機會真的越大，因為那越短線，隨機性是越強的。",
+  "被騙，就是要嘛你想幹人家，要嘛你貪，就是這麼簡單。",
+  "你以為股票只會漲？2020年進場的人對市場過度樂觀，這觀念很危險。"
+ ],
+ "ep_key": "EP107",
+ "title": "EP107 | puipui",
+ "pubdate": "2021-01-20",
+ "duration_s": 2398,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

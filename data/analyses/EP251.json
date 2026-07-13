@@ -1,0 +1,83 @@
+{
+ "summary": "主持人對蘋果WWDC 2022給予高度評價，認為Apple Pay Later與新一代CarPlay將開拓新市場，並因此買入蘋果股票。他認為當前市場處於「sell everything」恐慌，但實質利率為負，現金長期是爛貨，反而應考慮適度使用槓桿預支未來生產力。他分享Lifecycle Investing觀念，強調年輕時有穩定現金流可考慮槓桿，但需經驗豐富且避免被掃出市場。整體對大盤看法偏保守，但認為財富重分配機會浮現。",
+ "topics": [
+  "蘋果WWDC 2022亮點：Apple Pay Later與新一代CarPlay",
+  "槓桿工具比較與Lifecycle Investing觀念",
+  "當前市場恐慌與實質利率為負的矛盾",
+  "未上市股票投資策略",
+  "工作選擇：錢多vs.興趣與未來發展",
+  "退休提領規劃與4%法則"
+ ],
+ "market_view": "市場正在恐慌性拋售各類資產，但實質利率為負，現金長期是爛貨，反而應考慮適度參與投資以抗通膨。",
+ "industries": [
+  {
+   "name": "車用",
+   "stance": "看多",
+   "view": "蘋果新一代CarPlay將暴力切入車載市場，開拓巨大獲利空間。"
+  },
+  {
+   "name": "BNPL",
+   "stance": "看多",
+   "view": "蘋果推出Apple Pay Later會加速市場滲透，整體市場做大，既有玩家衝擊有限。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "蘋果晶片設計能力世界頂尖，A系列晶片領先安卓1.5到2代。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "WWDC亮眼且大咖買進，已小量買入。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "第二季加碼的標的之一。"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "第二季加碼的標的之一。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "今年表現落後大盤，但仍是主要標的。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "今年表現落後大盤，但仍是主要標的。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "裴洛西老公用LEAPS抄底，但主持人未表態。"
+  }
+ ],
+ "quotes": [
+  "錢在資產面前為什麼會是爛貨的主因，就是因為資產價格一直在墊高。",
+  "年輕的時候你有的是時間，可是你沒有錢；等到你老的時候，你可能是有的是現金，可是你沒有時間了。",
+  "每一次的多空循環走完之後都會有新的股神產生，其實就是一個財富重分配的過程。"
+ ],
+ "ep_key": "EP251",
+ "title": "EP251 | 🍏",
+ "pubdate": "2022-06-08",
+ "duration_s": 2982,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

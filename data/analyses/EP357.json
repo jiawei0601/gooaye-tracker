@@ -1,0 +1,81 @@
+{
+ "summary": "主持人分享因行情太好導致工作壓力影響家庭情緒的反思，強調平衡生活與投資的重要性。市場方面，分析AMD MI300發表會，認為其有機會成為Nvidia的替代選擇，但量能仍遠小於Nvidia；看好AI長多題材，但提醒部分供應鏈已過度反應。同時關注車用與消費電子復甦機會，並提醒槓桿風險與熱門股資訊不對稱問題。",
+ "topics": [
+  "工作與家庭平衡的反思",
+  "AMD MI300發表會分析與供應鏈機會",
+  "AI長多題材與市場修正風險",
+  "車用與消費電子復甦布局",
+  "槓桿投資風險與正二ETF討論",
+  "熱門股資訊不對稱與營收分析陷阱"
+ ],
+ "market_view": "AI是強多長題材，但部分個股已過度反應，需留意修正；車用與消費電子可能接棒。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "長多題材，Nvidia與AMD供應鏈受惠，但部分已反應。"
+  },
+  {
+   "name": "車用",
+   "stance": "看多",
+   "view": "中國補貼出台，ADAS、鏡頭、半導體等有機會接棒AI。"
+  },
+  {
+   "name": "消費電子",
+   "stance": "觀察",
+   "view": "高速傳輸線材等純消費標的尚未被AI帶動，可留意復甦。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "中性",
+   "view": "HBM3是關鍵元件，海力士為王，美光有機會獲認證，但佔比仍小。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "看多",
+   "argument": "MI300有機會成為Nvidia替代選擇，性價比優勢，但量能仍小。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI市場龍頭，軟體生態強，供應鏈已多數反應。"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "CoWoS封裝受惠AI，但Nvidia與AMD客戶量已反映。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "HBM3傳獲Nvidia認證，速度表現佳，但尚未確認。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "連續上漲，車用供應鏈可能受惠中國補貼。"
+  }
+ ],
+ "quotes": [
+  "你以為你已經做好了某種妥協跟修正，可是等到事件觸發，你就會發現你做的其實遠遠還不夠。",
+  "熱門股有太多研調機構、法人、內線，你看營收就是一個非常落後的指標。",
+  "賺錢感到焦慮，可能是去年的後遺症，就像PTSD，要學會讓自己舒服下來。"
+ ],
+ "ep_key": "EP357",
+ "title": "EP357 | 💎",
+ "pubdate": "2023-06-14",
+ "duration_s": 3078,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

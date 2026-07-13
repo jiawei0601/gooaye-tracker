@@ -1,0 +1,107 @@
+{
+ "summary": "主持人回顧近期操作，指出美股大頭成形、AI禁令嚴重，已減碼並轉向保守。他加碼Celestica、Flex、Google等低估值標的，並在台股布局欣興等Google供應鏈。他認為2024年面板、記憶體等產業將緩步復甦，但中東戰事、中國政局等風險可能衝擊市場，因此保留現金、避免追高。他也分享育兒心得與對聽床師傳聞的質疑。",
+ "topics": [
+  "個人操作檢討與保守策略",
+  "AI禁令與CSP資本支出展望",
+  "中東局勢與地緣政治風險",
+  "台股與美股低估值標的布局",
+  "育兒經驗與個人成長反思",
+  "聽床師傳聞與中國政局觀察"
+ ],
+ "market_view": "目前應保守看待，大盤均線下壓、空頭排列心態正在形成，但若有強力紅棒改變趨勢則可跟進。",
+ "industries": [
+  {
+   "name": "EMS/ODM",
+   "stance": "看多",
+   "view": "Celestica、Flex等代工廠估值極低（PE<10倍），且受惠Google等CSP擴大投資，下檔有限。"
+  },
+  {
+   "name": "PCB",
+   "stance": "觀察",
+   "view": "欣興因法人棄養估值偏低，可左側布局；金像電交易擁擠，暫避。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "禁令影響嚴重，但CSP仍擴大投資，長期成長性不變，需關注估值調整。"
+  },
+  {
+   "name": "面板",
+   "stance": "中性",
+   "view": "2024年預期比2023年好，但需觀察總經風險。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "中性",
+   "view": "2024年預期復甦，但需觀察總經風險。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "財報符合預期，TPU伺服器需求強勁，PE不到10倍，已加碼。"
+  },
+  {
+   "symbol": "FLEX",
+   "name": "Flex",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "估值極低（PE<10倍），與Google在印度筆電及中南美伺服器有合作傳言，賭上修空間。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "七巨頭中跌最重之一，已逢低補貨，看好其擴大投資帶動供應鏈。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "已減碼，等破底再補，理想價位約170-180。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "已減碼，理想價位約180。"
+  },
+  {
+   "symbol": "IWM",
+   "name": "iShares Russell 2000 ETF",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "作為停泊資金，Russell 2000已跌深，下檔有限。"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "法人棄養，估值偏低（2024 PE<15倍），受惠Google擴大投資，左側布局。"
+  },
+  {
+   "symbol": "2368",
+   "name": "金像電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "伺服器板龍頭，但交易擁擠，暫避。"
+  }
+ ],
+ "quotes": [
+  "你明明知道山有虎，為什麼偏偏往虎山行？",
+  "誰先打人誰就是不對，因為我們自己就是那個可能會被打的。",
+  "有事情東西才會便宜，你懂嗎？所以因為現在有事情，所以東西便宜，那你敢買，你可能就是後面賺最多的。"
+ ],
+ "ep_key": "EP396",
+ "title": "EP396 | 🐥",
+ "pubdate": "2023-10-28",
+ "duration_s": 3004,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

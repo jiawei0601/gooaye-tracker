@@ -1,0 +1,89 @@
+{
+ "summary": "本集主要討論富邦金公開收購日盛金（金金併）的套利機會與風險，以及《電馭叛客2077》發售後因Bug問題導致CD Projekt股價大跌，主持人分享個人抄底經驗與遊戲產業看法。主持人認為金金併對被併方股東有利但需注意失敗風險，並看好《電馭叛客2077》修復後將大賣，但強調投資需自行判斷。同時提醒聽眾避免追高殺低，建議長期持有優質大型股。",
+ "topics": [
+  "富邦金公開收購日盛金（金金併）的套利機會與風險",
+  "《電馭叛客2077》Bug危機與CD Projekt股價大跌",
+  "遊戲產業整體表現與串流遊戲前景",
+  "投資心態：避免追高殺低、分批投入與長期持有",
+  "ADR與外國普通股的交易差異"
+ ],
+ "market_view": "主持人未對大盤/總經發表明確看法。",
+ "industries": [
+  {
+   "name": "金融",
+   "stance": "中性",
+   "view": "金金併對被併方股東有利，但需注意大股東持股過半導致收購失敗的風險。"
+  },
+  {
+   "name": "遊戲",
+   "stance": "看多",
+   "view": "整體遊戲類股表現良好，CD Projekt雖因Bug股價大跌，但看好修復後將大賣。"
+  },
+  {
+   "name": "串流遊戲",
+   "stance": "觀察",
+   "view": "NVIDIA、亞馬遜Luna、微軟xCloud等串流遊戲服務可能成為明年市場話題。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2881",
+   "name": "富邦金",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "作為併購方，股價不一定上漲，但併購日盛金對證券業務有加分效果。"
+  },
+  {
+   "symbol": "2884",
+   "name": "日盛金",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "被併方股價通常會漲，但大股東持股過半，收購失敗可能導致股價回跌。"
+  },
+  {
+   "symbol": "CDR",
+   "name": "CD Projekt",
+   "market": "other",
+   "stance": "持有中",
+   "argument": "因《電馭叛客2077》Bug導致股價大跌，但預購已回收成本，看好修復後大賣，主持人已抄底。"
+  },
+  {
+   "symbol": "OTGLY",
+   "name": "CD Projekt ADR",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "為CD Projekt在美國交易的ADR，主持人建議以此代號交易。"
+  },
+  {
+   "symbol": "ATVI",
+   "name": "動視暴雪",
+   "market": "US",
+   "stance": "看多",
+   "argument": "股價創歷史新高，旗下遊戲表現良好。"
+  },
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive",
+   "market": "US",
+   "stance": "看多",
+   "argument": "股價創歷史新高，《俠盜獵車手》系列受歡迎。"
+  },
+  {
+   "symbol": "NTDOY",
+   "name": "任天堂",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股價表現良好，因Cathie Wood買入而受關注。"
+  }
+ ],
+ "quotes": [
+  "在投資裡面就算你看對，也不代表你會賺錢，因為時機非常重要。",
+  "如果你真的看好一個東西，你甚至就可以一直抱下去了。",
+  "很多人買突破策略，但心理承受度不足，一跌就賣掉，結果錯過長多。"
+ ],
+ "ep_key": "EP98",
+ "title": "EP98 | 金金蠢驢",
+ "pubdate": "2020-12-19",
+ "duration_s": 2439,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

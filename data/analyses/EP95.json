@@ -1,0 +1,104 @@
+{
+ "summary": "本集討論金管會可能管制金融股現金股利與央行打房兩大議題。主持人認為不發股利對公司價值無損，但台灣投資人偏愛股息可能造成短期賣壓；央行信用管制與內政部修法防堵紅單炒作，是健全房市而非打房，對房價影響有限，但會重傷高槓桿投機客。他也提醒當前市場過熱，IPO 與 SPAC 炒作風險高，建議投資人保持警覺。",
+ "topics": [
+  "金管會擬管制金融股現金股利",
+  "央行打房與信用管制措施",
+  "內政部修平均地權條例防堵紅單炒作",
+  "市場過熱與 IPO/SPAC 風險",
+  "散戶投資心態與跟單風險",
+  "ETF 與個股配置建議"
+ ],
+ "market_view": "目前市場極度樂觀，散戶打敗對沖基金，但這種現象不會持久，投資人應小心炒作風險。",
+ "industries": [
+  {
+   "name": "金融",
+   "stance": "中性",
+   "view": "不發股利短期有賣壓，但長期公司價值不變，有壽險業務的金融股較不喜歡。"
+  },
+  {
+   "name": "房地產",
+   "stance": "觀察",
+   "view": "央行打房對房價影響有限，但會打擊高槓桿投機客與建商。"
+  },
+  {
+   "name": "LED",
+   "stance": "觀察",
+   "view": "mini/micro LED 題材已炒多年，較看好驅動 IC 而非 LED 本體。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "買兩張就佔一半資金算重壓，建議用零股分散。"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "之前節目提到後已大漲，不建議追高。"
+  },
+  {
+   "symbol": "5347",
+   "name": "世界先進",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "之前節目提到後已大漲，不建議追高。"
+  },
+  {
+   "symbol": "6488",
+   "name": "環球晶",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "中美晶集團漲太多，已減碼換股。"
+  },
+  {
+   "symbol": "2379",
+   "name": "瑞昱",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "減碼中美晶集團後換入，仍有上漲。"
+  },
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "潘建成買股常是低點，可參考其業績指引。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Michael Burry 放空被軋，公司趁高發股籌資。"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "IPO 後噴漲，市場過熱。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "IPO 後可能繼續炒作。"
+  }
+ ],
+ "quotes": [
+  "不要跟市場的勢頭對做，即便你覺得市場是錯的。",
+  "Diversification is protection against ignorance. 多樣化是避免無知的好方法。",
+  "今年是散戶打敗對沖基金的一年，但這種現象不會持久。"
+ ],
+ "ep_key": "EP95",
+ "title": "EP95 | 房產去槓桿 金融去股利",
+ "pubdate": "2020-12-09",
+ "duration_s": 2531,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,70 @@
+{
+ "summary": "本集主持人分享岳母來台簽證的波折，感嘆台灣護照的便利性，並呼籲珍惜。市場方面，主持人提出「先買再研究」的投資邏輯，以AOI為例說明跟單策略與風險控管。總經上，更新手機市場復甦可能延至2024年Q1，消費性電子仍疲弱。AI領域關注MosaicML測試AMD MI250接近NVIDIA A100，認為AMD有潛力但需觀察。最後提醒網通法案帶動美國本土供應鏈的投資機會。",
+ "topics": [
+  "簽證經驗與護照重要性",
+  "先買再研究的投資邏輯",
+  "AMD vs NVIDIA 在AI訓練的競爭",
+  "手機市場復甦延後至2024年Q1",
+  "美國網通法案的投資機會",
+  "DNR放棄急救同意書的個人看法",
+  "人生迷惘與生小孩的選擇"
+ ],
+ "market_view": "手機等消費性電子復甦可能延至2024年Q1，整體市場仍偏弱，但AI相關領域有亮點。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "AMD MI250在LLM訓練表現接近NVIDIA A100，但大型集群效能仍待驗證，星星之火已點起。"
+  },
+  {
+   "name": "手機",
+   "stance": "看空",
+   "view": "下半年復甦不如預期，可能持平或僅略好於上半年，復甦恐延至2024年Q1。"
+  },
+  {
+   "name": "網通",
+   "stance": "看多",
+   "view": "美國網通法案要求使用美國本土製造的光纖、交換器，相關台廠如中磊、智邦、啟碁、神準、宇智可望受惠。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AOI",
+   "name": "Alpha and Omega Semiconductor",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "因美國網通法案及微軟合作，股價已大漲，但主持人未上車，持續觀察。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "MosaicML測試MI250接近A100，若MLPerf驗證成功，可能挑戰NVIDIA，但大型集群仍待觀察。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "中性",
+   "argument": "護城河在CUDA生態系，即使AMD追上，NVIDIA可降價應戰，短期不易被顛覆。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "手機市況差導致股價疲弱，但Wi-Fi 7與博通合作可能帶來轉機，明年下半年可期。"
+  }
+ ],
+ "quotes": [
+  "先買再研究：聽到明牌先看有沒有在漲，有漲才代表真金白銀進去，才值得跟單。",
+  "不要鐵口直斷，市場會一直修正，你能做的就是跟著調整，跟得越緊、調得越好，報酬越好。",
+  "人生像DLC擴充包，生小孩是其中一種，但每個人選擇不同，覺得怪怪的就嘗試改變，好東西不要修它。"
+ ],
+ "ep_key": "EP362",
+ "title": "EP362 | ❤️‍🩹",
+ "pubdate": "2023-07-01",
+ "duration_s": 3090,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

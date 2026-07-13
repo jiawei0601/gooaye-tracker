@@ -1,0 +1,101 @@
+{
+ "summary": "主持人分享生日感悟，強調生活平衡與家庭價值，並深入分析蘋果Vision Pro發表會，認為其為劃時代MR裝置，雖價格高昂但技術領先，可能帶動供應鏈機會。同時更新先進封裝CoWoS擴產進度，認為瓶頸上游具投資價值，但已部分反映在股價。市場看法為台股漲勢驚人，但需警惕風險。",
+ "topics": [
+  "蘋果Vision Pro發表會與MR裝置前景",
+  "先進封裝CoWoS擴產與供應鏈機會",
+  "生活平衡與家庭價值反思",
+  "技術分析與交易週期討論",
+  "矽晶圓族群現況與報價觀察"
+ ],
+ "market_view": "台股漲勢凶猛，但需警惕風險，市場處於『壞掉的盤』。",
+ "industries": [
+  {
+   "name": "先進封裝",
+   "stance": "看多",
+   "view": "CoWoS為AI運算瓶頸，擴產將帶動上游設備與耗材需求，但股價已部分反映。"
+  },
+  {
+   "name": "MR/VR裝置",
+   "stance": "觀察",
+   "view": "蘋果Vision Pro技術領先，但價格高、放量慢，需觀察實際銷量與平價版推出。"
+  },
+  {
+   "name": "面板",
+   "stance": "中性",
+   "view": "面板已轉為大宗商品，操作需跟隨報價，缺乏長期想像空間。"
+  },
+  {
+   "name": "矽晶圓",
+   "stance": "觀察",
+   "view": "現貨價格下跌，但消費電子反彈可能帶來打底機會，需觀察618消費季狀況。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "加速CoWoS擴產，但股價已部分反映，需觀察後續上修幅度。"
+  },
+  {
+   "symbol": "弘塑",
+   "name": "弘塑科技",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CoWoS設備供應商，營收貢獻為畫龍點睛，非主要成長動能。"
+  },
+  {
+   "symbol": "辛耘",
+   "name": "辛耘企業",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CoWoS設備供應商，與弘塑對分市場，但營收貢獻有限。"
+  },
+  {
+   "symbol": "萬潤",
+   "name": "萬潤科技",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CoWoS耗材供應商，可能受惠擴產，但需觀察實際訂單。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Vision Pro技術領先，但價格高、放量慢，需觀察後續平價版與銷量。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "market": "US",
+   "stance": "中性",
+   "argument": "Oculus仍是優秀VR裝置，但蘋果Vision Pro可能帶來競爭壓力。"
+  },
+  {
+   "symbol": "群創",
+   "name": "群創光電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "面板報價上漲帶動股價，但產業已無想像空間，操作需跟隨報價。"
+  },
+  {
+   "symbol": "台勝科",
+   "name": "台塑勝高科技",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "矽晶圓現貨價格下跌，但消費電子反彈可能帶來機會。"
+  }
+ ],
+ "quotes": [
+  "瓶頸只要可以把它敲過去，基本上就代表說整個東西會暢旺起來。",
+  "市場裡面盡量不要太線性，因為這樣子所以一定會怎麼樣，你要去預判別人的預判。",
+  "技術分析有趣的地方就是沒有絕對的一個東西，你要找到自己的一個方法。"
+ ],
+ "ep_key": "EP355",
+ "title": "EP355 | 🤓",
+ "pubdate": "2023-06-07",
+ "duration_s": 3179,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

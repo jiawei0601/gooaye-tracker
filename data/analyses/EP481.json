@@ -1,0 +1,98 @@
+{
+ "summary": "本集主持人分享《黑神話：悟空》遊戲體驗，認為題材有效但不必過度政治化。重點分析 AMD 收購 Pensando Systems 的影響：AMD 為追趕 NVIDIA 在系統/機櫃層級的差距，買下 Pensando 的設計團隊與 know-how，短期將衝擊 ODM 供應鏈，英業達可能受害，廣達、鴻海有望受惠，緯穎、緯創則中性偏多。主持人已退出台系硬體供應鏈，提醒股價已反映預期。另回應聽眾關於房貸限縮、詐騙防範、政治正確等問題。",
+ "topics": [
+  "《黑神話：悟空》遊戲體驗與文化題材討論",
+  "AMD 收購 Pensando Systems 的產業影響分析",
+  "ODM/OEM 供應鏈重組：英業達、廣達、鴻海、緯穎、緯創",
+  "NVIDIA 與 AMD 在系統/機櫃層級的競爭態勢",
+  "房貸限縮與新青安政策風險",
+  "詐騙防範與智商稅觀點",
+  "政治正確對遊戲產業的影響"
+ ],
+ "market_view": "大盤處於高位，硬體供應鏈股價已充分反映預期，肉不多，需小心。",
+ "industries": [
+  {
+   "name": "遊戲",
+   "stance": "觀察",
+   "view": "《黑神話：悟空》證明中國神話題材有全球市場潛力，但 3A 大作需龐大內需支撐。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "AMD 收購 Pensando 將改變 ODM 生態，短期 NVIDIA 供應鏈影響有限，但系統層級競爭加劇。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "日本 Rapidus 兩奈米量產喊話不可信，台積電在先進封裝與技術整合上仍領先。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AMD",
+   "name": "超微半導體",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "收購 Pensando 是合理嘗試，但 50 億美元買 RD 是否划算待觀察，短期對 NVIDIA 版圖影響有限。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "短期受 AMD 收購影響有限，但系統層級優勢因供應鏈綁定而擴大。"
+  },
+  {
+   "symbol": "2356",
+   "name": "英業達",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "持有 Pensando 10% 股份有業外收益，但失去代工單且短期無法 pick up rack level 能力，長期受害。"
+  },
+  {
+   "symbol": "2382",
+   "name": "廣達",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "有望承接 Pensando 流失的訂單，是此事件主要受惠者之一。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "同樣有機會獲得轉單，與廣達同為受惠者。"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "若 Pensando 供貨不順，Meta AI server 訂單可能回流，但影響不如廣達/鴻海直接。"
+  },
+  {
+   "symbol": "3231",
+   "name": "緯創",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "主要做加速卡/板子，受影響小，但可能因緯穎受惠而間接受益。"
+  },
+  {
+   "symbol": "1785",
+   "name": "光洋科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "主持人已很久沒看，僅提及貴金屬冶煉與靶材業務，無明確看法。"
+  }
+ ],
+ "quotes": [
+  "你不可能他媽每個都會，一直去討論这个东西，我覺得真的是超無聊。",
+  "不要把錢給任何人，你就不會被騙。為什麼這麼簡單的事情這麼多人做不到？",
+  "氣氛對就好。氣氛對，一個東西開始有各式各樣的好消息開出來，營收獲利跟著開上去，股價就會一直往上噴。"
+ ],
+ "ep_key": "EP481",
+ "title": "EP481 | 🐯",
+ "pubdate": "2024-08-21",
+ "duration_s": 2991,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

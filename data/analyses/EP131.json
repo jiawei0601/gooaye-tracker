@@ -1,0 +1,111 @@
+{
+ "summary": "主持人分享近期買房心得，聚焦於林口與台中的看房經驗與財務規劃，強調當租金與房貸相近時，若能負擔頭期款則買房是合理選擇。他也提醒聽眾注意銀行貸款審核的風險，建議多比較且避免過早讓銀行拉聯徵。市場方面，他認為台股長期看多，但近期漲幅已高，隨時可能修正，建議投資人趁樂觀時預先列出修正後的買進清單。他看好Nvidia、Netflix等個股，並認為美國科技股權值股已回神。",
+ "topics": [
+  "買房財務規劃與貸款注意事項",
+  "台股近期盤勢與風險提醒",
+  "美國科技股與尖牙股表現",
+  "主動選股策略（短線事件驅動、長線基本面）",
+  "0050風險等級爭議與全球分散配置",
+  "Netflix基本面分析與估值",
+  "缺水對台灣科技業的影響",
+  "傘兵經驗分享"
+ ],
+ "market_view": "台股長期看多，但短期漲幅已高，隨時可能出現較大修正。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台灣半導體長期競爭力強，但短期漲多可能面臨修正。"
+  },
+  {
+   "name": "IC設計",
+   "stance": "觀察",
+   "view": "強勢IC設計股如天鈺、聯詠帶領盤勢，但漲多後有結帳賣壓。"
+  },
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "電動車是台灣股市新的成長動能。"
+  },
+  {
+   "name": "串流影音",
+   "stance": "看多",
+   "view": "Netflix用戶黏著度高、定價權強，長期看好。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "未明確表態，僅提及與GG對決已結束。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "看多",
+   "argument": "長期看好，AI布局正確，近期創歷史新高。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "看多",
+   "argument": "品牌強勢，曾重壓但提醒要控制配置。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "看多",
+   "argument": "股價持續上漲，是修正時會撿的標的。"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "market": "US",
+   "stance": "看多",
+   "argument": "基本面佳，估值有上漲空間，計畫加碼。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "列為修正時可考慮撿的標的。"
+  },
+  {
+   "symbol": "3545",
+   "name": "天鈺",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "為台股強勢IC設計股，但未表態。"
+  },
+  {
+   "symbol": "3034",
+   "name": "聯詠",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "為台股強勢IC設計股，但未表態。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "因美國制裁事件下跌，屬事件驅動。"
+  }
+ ],
+ "quotes": [
+  "每一次的修正都是給你重新檢視持股的機會，然後去調整。",
+  "不要把生殺大權交在別人的手上，大多數人都是看漲說漲、看跌說跌。",
+  "在大家都很樂觀的時候，趕快先去列清單，假設台股之後修正2、3千點，我要撿什麼？"
+ ],
+ "ep_key": "EP131",
+ "title": "EP131 | 聊個房",
+ "pubdate": "2021-04-14",
+ "duration_s": 2649,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

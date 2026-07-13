@@ -1,0 +1,114 @@
+{
+ "summary": "主持人謝孟恭回顧一個月前市場冷清到如今再度狂熱的轉變，強調修正非空頭，投資人應避免畢業。他分析特斯拉、NVIDIA 等飆股，並比較台股供應鏈與美股品牌股的差異。財報方面，他看好微軟雲端與資安布局，認為 Facebook 受隱私衝擊較小，應關注其 VR/AR 轉型。他也提醒 NFT 風險極高，並分享台股操作週期約三個月到半年，以及蘋概股今年表現不佳的經驗。",
+ "topics": [
+  "市場情緒擺盪與沉默循環",
+  "台股供應鏈 vs 美股品牌股操作邏輯",
+  "特斯拉、NVIDIA 飆股回顧",
+  "Facebook 財報與 VR/AR 轉型",
+  "微軟財報與雲端、資安布局",
+  "NFT 風險與投機本質",
+  "台股操作週期與蘋概股經驗",
+  "投資心法：避免畢業與長期存活"
+ ],
+ "market_view": "市場在極端恐慌與樂觀間擺盪，目前熱度極高，但修正並非空頭，投資人應檢視配置。",
+ "industries": [
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "特斯拉市值成長驚人，長線看好，但需注意供應鏈變化。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "NVIDIA 拆股後再創新高，台積電具品牌效應，長線成長軌道不變。"
+  },
+  {
+   "name": "社群媒體",
+   "stance": "中性",
+   "view": "Facebook 受隱私衝擊較小，但廣告業務仍有壓力，應關注 VR/AR 轉型。"
+  },
+  {
+   "name": "雲端服務",
+   "stance": "看多",
+   "view": "微軟 Azure 成長強勁，雲端與資安是長期動能。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "旺宏財報亮眼，但股價表現需觀察市場是否青睞。"
+  },
+  {
+   "name": "NFT",
+   "stance": "看空",
+   "view": "本質是資金盤與龐氏騙局，死亡率極高，不適合一般投資人。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "市值成長驚人，長線看好，但股價波動大。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "拆股後再創新高，除非被競爭者取代，否則可長期持有。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "具品牌效應，長期成長軌道不變。"
+  },
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "中性",
+   "argument": "受隱私衝擊較小，應關注 VR/AR 轉型。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "看多",
+   "argument": "財報全面優於預期，雲端與資安是長期動能。"
+  },
+  {
+   "symbol": "2337",
+   "name": "旺宏",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "財報亮眼，但股價表現需觀察市場是否青睞。"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "market": "US",
+   "stance": "看多",
+   "argument": "網路安全領域的佼佼者，值得關注。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾案例中 2014 年買入後大漲，但主持人未表態。"
+  }
+ ],
+ "quotes": [
+  "在市場存活得久，報酬率未必要很漂亮，但是存活得夠久的話，你就是贏家。",
+  "如果你連修正都閃不掉，你憑什麼覺得空頭你閃得掉？",
+  "不要做任何一個你承擔不起的風險。"
+ ],
+ "ep_key": "EP187",
+ "title": "EP187 | 一個月前安安靜靜",
+ "pubdate": "2021-10-27",
+ "duration_s": 2753,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

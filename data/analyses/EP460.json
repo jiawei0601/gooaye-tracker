@@ -1,0 +1,69 @@
+{
+ "summary": "主持人分享參觀聯發科達哥（Agent）私展的啟發，認為達哥整合多模型與插件、能直接執行訂票、智慧家庭與會議安排等任務，是LLM的進化版。由此推論蘋果可能不需自建大模型與算力，而是透過平台優勢與CSP合作，將類似達哥的服務包裝成Siri Plus訂閱或開發者抽成，成為AI時代潛在贏家。節目也討論供應鏈拆解難度、小型股不回答原則、雲端儲存機會等。",
+ "topics": [
+  "聯發科達哥Agent展示與功能解析",
+  "蘋果在AI時代的可能策略：平台與訂閱模式",
+  "供應鏈拆解的困難與資訊不對稱",
+  "小型股不回答原則與市場惡意行為",
+  "雲端儲存與AI應用的潛在機會",
+  "投資心態：不預測崩盤、不當先知"
+ ],
+ "market_view": "市場持續上漲，但主持人認為預測崩盤無意義，應專注於產業趨勢與個股基本面。",
+ "industries": [
+  {
+   "name": "AI Agent",
+   "stance": "看多",
+   "view": "聯發科達哥展示Agent能直接執行任務，是LLM的進化，看好平台型公司如蘋果可能受益。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "聯發科在AI Agent領域有進展，但需觀察後續商業化與合作。"
+  },
+  {
+   "name": "雲端儲存",
+   "stance": "看多",
+   "view": "若Sora等AI應用爆發，儲存需求將大增，NetApp、Pure Storage等有機會。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "達哥Agent展示強大功能，但需觀察後續商業化與合作進展。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "看多",
+   "argument": "可能透過平台優勢與CSP合作，將類似達哥的服務包裝成訂閱或抽成，成為AI時代潛在贏家。"
+  },
+  {
+   "symbol": "NTAP",
+   "name": "NetApp",
+   "market": "US",
+   "stance": "看多",
+   "argument": "雲端儲存需求若因AI應用爆發將受惠。"
+  },
+  {
+   "symbol": "PSTG",
+   "name": "Pure Storage",
+   "market": "US",
+   "stance": "看多",
+   "argument": "雲端儲存需求若因AI應用爆發將受惠。"
+  }
+ ],
+ "quotes": [
+  "崇拜是距離理解最遙遠的感情。",
+  "如果手上沒有劍，我就不能夠保護你；如果手上一直握著劍，我就無法抱緊你。",
+  "你買的東西你都不知道，你還問人家是要買是要出？你不賠死誰要賠死？"
+ ],
+ "ep_key": "EP460",
+ "title": "EP460 | 🍟",
+ "pubdate": "2024-06-08",
+ "duration_s": 2989,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

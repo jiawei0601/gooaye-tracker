@@ -1,0 +1,126 @@
+{
+ "summary": "本集主持人謝孟恭分享個人健康改善經驗（飲食控制、枕頭與姿勢調整），並討論市場展望。他認為2024年製造業（尤其是半導體工控）有望復甦，而消費性電子（手機、PC）復甦動能減緩。他看好AI相關個股（Nvidia、Marvell、AMD）近期表現，並預期Fed轉向降息可能引發短期市場修正，但長期仍偏多。他也開始關注小型股、SaaS股（如CrowdStrike、Datadog）在降息環境下的機會，並提醒槓桿ETF的風險。",
+ "topics": [
+  "個人健康管理（飲食控制、下背痛改善）",
+  "市場回顧與AI股表現",
+  "製造業復甦展望（半導體工控 vs 傳統工具機）",
+  "消費性電子（手機、PC）復甦動能減緩",
+  "Fed降息預期與市場影響",
+  "SaaS與小型股的潛在機會",
+  "CES亮點：AI電競螢幕與換機潮",
+  "央行匯率操作與國庫收入"
+ ],
+ "market_view": "2024年製造業有望復甦，但消費性電子動能減緩；Fed降息可能先引發修正，但長期偏多。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "工控與生產製造有望復甦，CoWoS投片數倍增長，帶動相關設計廠與IDM。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "AI相關個股（Nvidia、Marvell、AMD）近期反彈強勁，持續看好。"
+  },
+  {
+   "name": "工具機",
+   "stance": "觀察",
+   "view": "受日圓貶值與匯損影響，狀況很差，但可留意整併與復甦契機。"
+  },
+  {
+   "name": "手機",
+   "stance": "看空",
+   "view": "2024年展望差，中國手機拉貨轉弱，iPhone 16規格提升有限。"
+  },
+  {
+   "name": "PC",
+   "stance": "觀察",
+   "view": "下半年才可能正式回升，但AI螢幕等新應用可能帶動換機潮。"
+  },
+  {
+   "name": "鏡頭",
+   "stance": "看多",
+   "view": "iPhone潛望式鏡頭擴大採用，規格提升帶動價格與產品組合改善。"
+  },
+  {
+   "name": "SaaS",
+   "stance": "看多",
+   "view": "降息環境下估值有上修空間，關注CrowdStrike、Datadog等企業級標的。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI反彈有吃到，表現不錯。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "看多",
+   "argument": "CoWoS投片數倍增長，工控產品有望受惠製造業復甦。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI相關，反彈有吃到。"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "目前持有的SaaS股，看好持續性收入與企業需求。"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "Datadog",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "SaaS股，降息環境下可能受惠。"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "個人喜歡的持股，偏小型成長股。"
+  },
+  {
+   "symbol": "IWM",
+   "name": "iShares Russell 2000 ETF",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "買小型股大盤，賭降息後小型股表現。"
+  },
+  {
+   "symbol": "MCHP",
+   "name": "Microchip Technology",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "數字不好但認為已近底部，類似美光經驗。"
+  },
+  {
+   "symbol": "MU",
+   "name": "Micron Technology",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "已示範底部，數字不好時賣出可能賣在地板。"
+  }
+ ],
+ "quotes": [
+  "降息聽起來是好事情，但過往大幅升息後的降息常會先給一個surprise，然後再繼續往上攻。",
+  "不要整天想構造改革，要想有沒有辦法運用這個地方的特徵來幫你賺錢。",
+  "表白是一個非常白痴的事情，如果兩個人真的是有心要相幹，根本不用有一個確認意思表示的過程。"
+ ],
+ "ep_key": "EP417",
+ "title": "EP417 | 🐻‍❄️",
+ "pubdate": "2024-01-10",
+ "duration_s": 3112,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

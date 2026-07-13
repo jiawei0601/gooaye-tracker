@@ -1,0 +1,111 @@
+{
+ "summary": "本集主持人分享情緒控管與生活體悟，並討論日本終結負利率對工具機產業的影響。重點解析 NVIDIA GTC 大會：Blackwell GPU、GB200 水冷架構、機器人 Groot 及車載電腦 Drive Thor。主持人認為 AI 趨勢明確，但短線資金可能趁新聞熱度出貨，長線仍回歸基本面。Q&A 涉及育兒、借貸、ETF 選擇等，並點出衛星板、邊緣運算等潛在機會。",
+ "topics": [
+  "日本終結負利率與日圓走勢",
+  "工具機產業復甦與日圓關聯",
+  "NVIDIA GTC 大會重點：Blackwell、GB200、機器人 Groot",
+  "AI 伺服器供應鏈與出貨順序",
+  "邊緣運算 (H Computing) 啟動",
+  "PMIC/MCU 循環底部觀察",
+  "育兒與情緒管理心得"
+ ],
+ "market_view": "AI 趨勢基本面強勁，但短線資金可能在高檔出貨，需觀察指標股強度。",
+ "industries": [
+  {
+   "name": "工具機",
+   "stance": "看多",
+   "view": "日圓貶值壓力緩解後，工具機產業有望復甦，與日圓走勢高度相關。"
+  },
+  {
+   "name": "AI 伺服器",
+   "stance": "看多",
+   "view": "NVIDIA 新產品 Blackwell/GB200 帶動供應鏈，長線訂單與營收明確。"
+  },
+  {
+   "name": "散熱",
+   "stance": "看多",
+   "view": "GB200 水冷架構帶動散熱需求，Vertiv 為關鍵供應商。"
+  },
+  {
+   "name": "衛星板",
+   "stance": "看多",
+   "view": "低軌衛星持續發射，衛星板純度高，相關個股可期。"
+  },
+  {
+   "name": "邊緣運算",
+   "stance": "看多",
+   "view": "H Computing 已啟動，邊緣伺服器將帶動相關 ODM 營收倍增。"
+  },
+  {
+   "name": "PMIC",
+   "stance": "觀察",
+   "view": "報價持續下跌，但循環底部後可能健康反彈，時間點難抓。"
+  },
+  {
+   "name": "MCU",
+   "stance": "觀察",
+   "view": "主持人認為底部將近，但個人壓注表現不佳已減碼。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Blackwell/GB200 新產品推動資料中心成長，長線基本面強勁。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "Super Micro Computer",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "AI 伺服器出貨佔比高，但股價已領先基本面，需觀察是否導貨。"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "market": "US",
+   "stance": "看多",
+   "argument": "NVIDIA 水冷認證齊全，CDU 產能持續擴增，受惠 GB200 放量。"
+  },
+  {
+   "symbol": "2313",
+   "name": "華通",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "衛星板純度高，直接受惠低軌衛星大量出貨。"
+  },
+  {
+   "symbol": "2367",
+   "name": "燿華",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "衛星板主要供應商之一，與華通同為衛星板焦點。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "看多",
+   "argument": "長期優質公司，適合長期持有。"
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML",
+   "market": "US",
+   "stance": "看多",
+   "argument": "長期優質公司，適合長期持有。"
+  }
+ ],
+ "quotes": [
+  "不要在第一時間做太激進的反應，後面有很多手段，但第一時間衝動可能讓你人生變黑白。",
+  "AI 跟元宇宙不同，一個是真的看到訂單和錢進來，一個只是 buzzword。",
+  "長線上回歸公司實質發展，短線拚消息永遠人外有人。"
+ ],
+ "ep_key": "EP437",
+ "title": "EP437 | 🧳",
+ "pubdate": "2024-03-20",
+ "duration_s": 2998,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

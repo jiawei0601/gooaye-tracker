@@ -1,0 +1,69 @@
+{
+ "summary": "本集主持人謝孟恭討論市場處於歡樂多頭，提醒勿歐印單一個股、避免極端情緒，並以輝瑞與Moderna疫苗股為例說明短期漲跌難找理由。他批評勞動基金弊案，主張退休金應開放勞工自選指數型ETF或權值股，參考美國401K與澳洲超級年金制度。他也分享現金部位管理觀念，認為buy and hold對權值股與指數ETF常優於頻繁進出。最後回答聽眾問題，包括年輕投資優勢、數學能力、債券配置與主動/被動投資平衡。",
+ "topics": [
+  "市場多頭風險與歐印警示",
+  "疫苗股短期波動與CEO賣股誤解",
+  "勞動基金弊案與退休金改革",
+  "現金部位管理與buy and hold策略",
+  "主動投資與被動投資的平衡",
+  "年輕投資人的優勢與風險承受"
+ ],
+ "market_view": "市場處於歡樂多頭，但需警惕極度樂觀情緒與歐印風險。",
+ "industries": [
+  {
+   "name": "疫苗",
+   "stance": "觀察",
+   "view": "輝瑞與Moderna疫苗有效性約95%，但股價短期波動大，CEO賣股非下跌主因。"
+  },
+  {
+   "name": "電競",
+   "stance": "中性",
+   "view": "電競產業從無到有，頂尖選手收入可觀，但台灣市場規模有限。"
+  },
+  {
+   "name": "遊戲",
+   "stance": "觀察",
+   "view": "Roblox即將IPO，受眾以小朋友為主，主持人表示有興趣投資。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "PFE",
+   "name": "輝瑞",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "疫苗開發後股價疲弱，CEO賣股透過10b5-1計畫，非內線交易。"
+  },
+  {
+   "symbol": "MRNA",
+   "name": "Moderna",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人以80多美元買進，短時間內翻倍，驗證短期漲跌難找理由。"
+  },
+  {
+   "symbol": "WORK",
+   "name": "Slack",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "持股比例小，因CRM收購而股價上漲，屬意外事件。"
+  },
+  {
+   "symbol": "PSTH",
+   "name": "Pershing Square Tontine Holdings",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人買進少量SPAC公司參與氣氛。"
+  }
+ ],
+ "quotes": [
+  "不要幫上漲跟下跌找理由，尤其是短期一兩週內的漲跌幅，充滿隨機性與不確定性。",
+  "年輕時最大的優勢是本金小、輸得起，可以大膽嘗試，但不要槓桿借錢。",
+  "退休金改革應開放勞工自選指數型ETF或權值股，參考美國401K與澳洲超級年金。"
+ ],
+ "ep_key": "EP93",
+ "title": "EP93 | 香港特首現金水位全球之冠",
+ "pubdate": "2020-12-02",
+ "duration_s": 2539,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,89 @@
+{
+ "summary": "主持人分享近期遊戲與生活體驗，並討論市場對AI股預期過高、AMD回檔、Celestica的Google TPU業務、Apple Vision Pro開箱評價與iPhone下修等議題。強調AI伺服器出貨量預估維持不變，市場喊出的數字難以達成；Celestica估值已達合理區間；Vision Pro雖精良但缺乏驚喜，預期第二波銷售不如預期；iPhone因硬體更新有限而面臨下修壓力。",
+ "topics": [
+  "遊戲與生活分享（Doki Doki Literature Club、Undertale、哲仁王后）",
+  "AMD MI300X市場預期過高與股價回檔",
+  "Celestica（Google TPU伺服器代工）業務與估值分析",
+  "Apple Vision Pro開箱評價與市場預期",
+  "iPhone 15下修與Apple AI策略",
+  "事件交易的本質與散戶劣勢",
+  "醫生與工程師職涯選擇建議"
+ ],
+ "market_view": "市場對AI股的預期過高，短期波動正常，長線趨勢仍在。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "出貨量預估維持240萬台，市場喊出的數字（如AMD 8-9B）難以達成，需以公司guideline為準。"
+  },
+  {
+   "name": "ODM/OEM",
+   "stance": "觀察",
+   "view": "AI伺服器單價高帶動營收，但長期競爭加劇將壓縮毛利與估值，目前P/E 10-15倍為合理區間。"
+  },
+  {
+   "name": "VR/MR",
+   "stance": "中性",
+   "view": "Apple Vision Pro為精良VR裝置，但缺乏殺手級應用，第二波銷售預期下修。"
+  },
+  {
+   "name": "智慧型手機",
+   "stance": "觀察",
+   "view": "iPhone 15下修7-15%，Apple需端出AI功能以免落後Samsung。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AMD",
+   "name": "超微半導體",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "MI300X出貨量預估與公司guideline一致，市場喊到8-9B過高，短期回檔合理。"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "Google TPU server代工，P/E從10倍以下升至10倍，估值已合理，需注意v6晶片整併後訂單分配風險。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "Super Micro Computer",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "NVIDIA供貨優先，業績強勁但股價已高，未明確表態。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Vision Pro開箱無驚喜，iPhone 15下修，AI策略需加速。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet（Google）",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "TPU v5/v6 roadmap影響Celestica與Flextronics訂單分配。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "目前為Google TPU晶片供應商，下一代仍為博通，後續可能面臨MTK/Marvell競爭。"
+  }
+ ],
+ "quotes": [
+  "市場對AI股的預期已經喊到太高，砍一半之後可能才是合理的數字。",
+  "你拿全聯的塑膠袋去跟愛馬仕比，說塑膠袋很俗，這是不對的——Apple Vision Pro跟Oculus就是不同層級的產品。",
+  "事件交易對散戶來說很多時候就是內線交易，你看到的事件可能已經是市場傳了半年以上的舊聞。"
+ ],
+ "ep_key": "EP423",
+ "title": "EP423 | 🦷",
+ "pubdate": "2024-01-31",
+ "duration_s": 3054,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

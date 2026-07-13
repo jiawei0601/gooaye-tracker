@@ -1,0 +1,111 @@
+{
+ "summary": "主持人分享對股市現況的看法，認為疫情影響已鈍化，美元走弱但不必過度解讀。他強調主動選股要挑有信心標的，錯過飆股是常態，建議若無法在送分題獲利應降低主動選股部位、轉向指數化ETF。深入分析Spotify的Podcast市場布局，認為其將透過廣告分潤機制擴大創作者生態系，看好音訊串流成長空間。也回應聽眾關於媒體選擇、ETF配置、真假資訊判讀、公司派與市場派區分、Shopify看法等提問，並重申不碰不懂的投資原則。",
+ "topics": [
+  "股市現況：疫情鈍化、美元走弱",
+  "主動選股心法：挑有信心標的、錯過是常態",
+  "Spotify Podcast布局與廣告分潤機制",
+  "媒體選擇與資訊判讀",
+  "ETF配置建議（AOA系列）",
+  "公司派與市場派區分",
+  "Shopify（電商平台）看法",
+  "投資原則：不碰不懂的東西"
+ ],
+ "market_view": "疫情影響已鈍化，美元走弱但不必過度解讀，便宜美元可慢慢換入美股。",
+ "industries": [
+  {
+   "name": "雲端運算",
+   "stance": "看多",
+   "view": "雲端相關類股為美國領先族群，漲勢強勁但現階段已偏高。"
+  },
+  {
+   "name": "電玩",
+   "stance": "看多",
+   "view": "隨便亂買隨便漲，電玩相關持股組合短期獲利。"
+  },
+  {
+   "name": "串流音樂",
+   "stance": "看多",
+   "view": "Spotify將統一Podcast市場，廣告分潤機制可擴大創作者生態。"
+  },
+  {
+   "name": "電商平台",
+   "stance": "觀察",
+   "view": "Shopify為熱門電商，先炒題材，需驗證營收。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "電玩組合持股之一，短期獲利。"
+  },
+  {
+   "symbol": "UBI.PA",
+   "name": "Ubisoft",
+   "market": "other",
+   "stance": "持有中",
+   "argument": "電玩組合持股之一，短期獲利。"
+  },
+  {
+   "symbol": "EA",
+   "name": "Electronic Arts",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "電玩組合持股之一，短期獲利。"
+  },
+  {
+   "symbol": "ATVI",
+   "name": "Activision Blizzard",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "電玩組合持股之一，短期獲利。"
+  },
+  {
+   "symbol": "FSLY",
+   "name": "Fastly",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雲端邊緣運算公司，漲勢兇猛，群組內許多人持有。"
+  },
+  {
+   "symbol": "6560",
+   "name": "是方電訊",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "中華電信子公司，代理AWS機房，股價已漲至400多。"
+  },
+  {
+   "symbol": "6166",
+   "name": "凌華",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "邊緣運算工業電腦，從30元看到90元未上車。"
+  },
+  {
+   "symbol": "SHOP",
+   "name": "Shopify",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "電商平台，與Facebook、Walmart合作，先炒題材。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "看多",
+   "argument": "看好其統一Podcast市場及廣告分潤機制。"
+  }
+ ],
+ "quotes": [
+  "投資是唯一一個棒球場，它不會把你三振出局。你只要打到你有信心的球，就可能讓資產增加或翻倍。",
+  "如果你在送分題的狀況都可以選得很差，真的要考慮降低主動選股部位，轉向指數化ETF。",
+  "千萬不要碰你聽不懂的東西。如果覺得有疑義，問問社群意見，很多人都是在裡面被打醒的。"
+ ],
+ "ep_key": "EP47",
+ "title": "EP47 | Spotify 聊執念和盲點",
+ "pubdate": "2020-06-24",
+ "duration_s": 2362,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

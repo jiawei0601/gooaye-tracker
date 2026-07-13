@@ -1,0 +1,139 @@
+{
+ "summary": "主持人分享韓國旅遊經驗與帶嬰兒出國的體悟，並討論Fed放鷹對市場的影響。他認為目前市場應保守操作，AI題材雖熱但NVIDIA尚未有大拉貨，AMD伺服器展望保守但長線看好。台股車用類股（導線架、IDM）因特斯拉降低碳化矽用量而噴出，但他坦言看不懂漲勢，認為是資金與想像力驅動。他也分析台股鎖漲停、籌碼跟單等市場現象，並在Q&A中回應記憶體、AI取代工作、男女關係等問題。",
+ "topics": [
+  "韓國旅遊與帶嬰兒出國心得",
+  "Fed放鷹與市場保守操作建議",
+  "AI題材（NVIDIA/AMD）現況與展望",
+  "台股車用類股（導線架、IDM）噴出分析",
+  "台股市場現象（鎖漲停、籌碼跟單、融券軋空）",
+  "股東會紀念品獵人策略",
+  "記憶體產業（HBM、NAND、DRAM）與景氣循環",
+  "AI取代工作與科技焦慮"
+ ],
+ "market_view": "現在這一年保守的做應該是沒有什麼太大問題，上半年可能震盪盤整，下半年有機會復甦。",
+ "industries": [
+  {
+   "name": "車用",
+   "stance": "觀察",
+   "view": "短線亂噴看不懂，但長線趨勢正確，需等明確受惠者出現。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "NVIDIA尚未因AI有大拉貨，AMD展望保守但長線確定會回來。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "HBM最明確受惠，NAND與DRAM也會跟著受惠，但需注意報價循環。"
+  },
+  {
+   "name": "網通",
+   "stance": "中性",
+   "view": "啟碁、中磊體質持續變好但股價長期不動，需等突破。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "中性",
+   "argument": "AI話題到處都是，但目前還沒有看到因AI而額外的大拉貨。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "中性",
+   "argument": "伺服器出貨展望保守，但長線大趨勢確定，修正後會回來。"
+  },
+  {
+   "symbol": "台半",
+   "name": "台半",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "因特斯拉降低碳化矽用量想像題材大噴，但實際受惠不明確。"
+  },
+  {
+   "symbol": "長科",
+   "name": "長科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "導線架表現不錯，但偏消費型，車用較少。"
+  },
+  {
+   "symbol": "界霖",
+   "name": "界霖",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "車用導線架，表現不錯。"
+  },
+  {
+   "symbol": "順德",
+   "name": "順德",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "車用導線架，表現不錯。"
+  },
+  {
+   "symbol": "強茂",
+   "name": "強茂",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IDM，需注意營收佔比中消費性較多。"
+  },
+  {
+   "symbol": "德微",
+   "name": "德微",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IDM，需注意營收佔比中消費性較多。"
+  },
+  {
+   "symbol": "啟碁",
+   "name": "啟碁",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "營收獲利越來越好，但股價長期停滯，最近才開始發動。"
+  },
+  {
+   "symbol": "中磊",
+   "name": "中磊",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "體質持續變好，但股價萬年不動。"
+  },
+  {
+   "symbol": "群聯",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "記憶體廠，主持人會看，但需熟悉報價或跟投信操作。"
+  },
+  {
+   "symbol": "華邦電",
+   "name": "華邦電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "有接到一些單子，但佔比不大。"
+  },
+  {
+   "symbol": "南亞科",
+   "name": "南亞科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "較少關注。"
+  }
+ ],
+ "quotes": [
+  "想像力真的是超能力，如果你的想像力剛好跟市場情緒、資金、大戶想法契合，有時候靠想像力真的可以賺錢。",
+  "不要跟市場對著做，市場的勢頭夠強，它可以撐的時間比你維持理性的時間還久。",
+  "跟單的藝術就是 shut the fuck up，你已經當跟單仔，就不要講一堆有的沒有的意見。"
+ ],
+ "ep_key": "EP329",
+ "title": "EP329 | 🚜",
+ "pubdate": "2023-03-08",
+ "duration_s": 3001,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

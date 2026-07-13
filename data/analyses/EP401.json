@@ -1,0 +1,108 @@
+{
+ "summary": "主持人分享高雄Coldplay演唱會體驗，並反思世代差異與生活態度。市場方面，認為大盤已從反彈轉向重返多頭，但對明年整體復甦持平淡看法，建議聚焦Alpha選股而非Beta。提出新觀點：消費性電子可能淪為大宗商品，應將注意力轉向To B、工控、資料中心及政府標案市場（美國基建、中國Wi-Fi 7）。記憶體（尤其D-RAM）可留意，但需觀察。提醒勿盲目崇拜分析師，應建立自身判斷力。",
+ "topics": [
+  "Coldplay演唱會體驗與世代差異反思",
+  "市場反彈至萬七，重返多頭的可能性",
+  "消費性電子復甦不如預期，轉向To B與政府標案",
+  "記憶體（D-RAM/NAND）循環與美光展望",
+  "AI PC與邊緣運算的潛在機會",
+  "美國基建與中國標案市場的投資機會",
+  "財報地雷辨識與長期投資觀念"
+ ],
+ "market_view": "大盤已從反彈轉向重返多頭，但明年整體復甦平淡，應專注選股而非大盤加槓桿。",
+ "industries": [
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "D-RAM報價開始上漲，可能有循環機會，但需觀察拉貨力道，可試單但不宜過早重壓。"
+  },
+  {
+   "name": "消費性電子",
+   "stance": "中性",
+   "view": "復甦不如預期，可能淪為大宗商品，不再花太多心思關注，除非出現殺手級應用。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "AI相關部位考慮稍微減碼，但NVIDIA為源頭除外。"
+  },
+  {
+   "name": "基建",
+   "stance": "看多",
+   "view": "美國基建法案支出不到1%，後續肉量充足，2024-2025標案市場為重點。"
+  },
+  {
+   "name": "網通",
+   "stance": "觀察",
+   "view": "中國Wi-Fi 7佈建與標案可能帶動網通設備需求，但需注意價格競爭。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet (Google)",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "買太多，表現不如其他AI CPU標的，但知足常樂。"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "若買多一點現在狀況會更好，屬AI CPU相關。"
+  },
+  {
+   "symbol": "PSTG",
+   "name": "Pure Storage",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "若買多一點現在狀況會更好，屬AI CPU相關。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "消費性展望平淡，但HBM與LPCAMM有彎道超車機會，可留意。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "AI源頭，不在減碼範圍內。"
+  },
+  {
+   "symbol": "FTNT",
+   "name": "Fortinet",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "J.P. Morgan降評後反而可買，反著做。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "被券商看空後開始狂漲，反著做。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "新手機晶片9300可跑AI模型，但消費性整體仍平淡。"
+  }
+ ],
+ "quotes": [
+  "不要整天想要空手，因為這個在數學上跟人類的文明發展上，是完全逆勢的東西。",
+  "消費性說不定不用復甦，可能已經變成大宗商品，重點應放在To B、工控與資料中心。",
+  "你現在有多少錢，其實代表你的狀態是多少。你是守不住超過你認知範圍的錢。"
+ ],
+ "ep_key": "EP401",
+ "title": "EP401 | 🔆",
+ "pubdate": "2023-11-15",
+ "duration_s": 3138,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

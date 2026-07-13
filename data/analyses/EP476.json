@@ -1,0 +1,84 @@
+{
+ "summary": "本集主要討論近期全球股市大幅回調，主持人認為修正幅度超出預期但尚未進入熊市，強調風控與保持理智的重要性。分析日圓升值引發的carry trade去槓桿連鎖反應，並分享自身操作策略：先買大盤與半導體指數ETF/槓桿ETF，待反彈後再辨別主流標的。產業面聚焦NVIDIA，澄清GB200出貨遞延的rumor多為誇大或過時消息，認為基本面仍健康但股價波動劇烈。提醒聽眾勿在恐慌時衝動交易，並建議一般投資人可採股債配置或持續買進市值型ETF。",
+ "topics": [
+  "全球股市回調與風控心態",
+  "日圓匯率與carry trade去槓桿",
+  "NVIDIA GB200出貨遞延rumor解析",
+  "Intel財報大跌與產業困境",
+  "總經衰退風險與聯準會政策",
+  "台股融資追繳與斷頭潮策略",
+  "個人操作策略：先買beta再換主流"
+ ],
+ "market_view": "修正幅度超出預期，但尚未進入熊市，先看反彈後再判斷後續主流。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "NVIDIA為領頭羊，小弟估值若比老大貴則尚未到底，但殺深後可考慮加碼老大。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "GB200出貨有遞延但非砍單，整體CAPEX仍支撐業績，但股價波動劇烈。"
+  },
+  {
+   "name": "軟體",
+   "stance": "觀察",
+   "view": "本週開始補跌，無明顯避風港，後續將汰弱留強。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "殺深後forward PE約20幾倍，會考慮加碼，但短期賣壓重需等反彈。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "財報大跌30%，產業前景不佳，不考慮抄底。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "GPU落後NVIDIA，但有微軟支撐，非目前關注焦點。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "本波相對有撐，是手上較硬的部位之一。"
+  },
+  {
+   "symbol": "ACN",
+   "name": "Accenture",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "本波相對有撐，是手上較硬的部位之一。"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "BMC用量不受GB200架構影響，但市場預估過於樂觀。"
+  }
+ ],
+ "quotes": [
+  "不要在一開始修正時一直說基本面很好，我們不是來打嘴砲的，要盯著實際影響價格的東西。",
+  "股市是亂擺，產業是平行宇宙線，只要確定產業方向正確，後面看起來還算健康。",
+  "只會去灌溉鮮花，不會去灌溉那些賠錢的東西一直擴、一直攤。"
+ ],
+ "ep_key": "EP476",
+ "title": "EP476 | 🌼",
+ "pubdate": "2024-08-03",
+ "duration_s": 2994,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,142 @@
+{
+ "summary": "本集主持人以德州撲克比喻交易策略，強調資金控管與分批進場的重要性，反對All-in或All-out的極端操作。他認為恆大事件只是市場修正的藉口，並非主因，並指出台股部分IC設計已跌至歷史低檔，但波動大；美股成長股估值仍高，不宜用本益比評估。他建議投資人應專注於「下一步該怎麼做」而非為漲跌找理由，並分享自己短線操作上傾向第一單試單、確認方向後再加碼。最後在QA中回應網通與工業電腦因缺料受害，若缺料緩解可留意，並點出CCL、智邦、台揚等當日強勢股。",
+ "topics": [
+  "德州撲克與交易策略的相似性",
+  "資金控管與分批加碼的重要性",
+  "恆大事件僅為市場修正藉口",
+  "成長股估值方法（Forward P/S）",
+  "不預設立場、順勢而為的觀念",
+  "網通與工業電腦的缺料受害與後續機會"
+ ],
+ "market_view": "市場修正合理，台股部分標的已便宜，但美股成長股仍不便宜，應做好資金控管等待機會。",
+ "industries": [
+  {
+   "name": "IC設計",
+   "stance": "觀察",
+   "view": "部分IC設計本益比已降至10-15倍歷史低檔，但波動仍大。"
+  },
+  {
+   "name": "網通",
+   "stance": "看多",
+   "view": "網通為今年缺料受害股，若缺料緩解可留意。"
+  },
+  {
+   "name": "工業電腦",
+   "stance": "看多",
+   "view": "工業電腦同為缺料受害股，後續有機會。"
+  },
+  {
+   "name": "CCL",
+   "stance": "觀察",
+   "view": "CCL族群（聯茂、台燿、台光電）在大跌中表現強勢。"
+  },
+  {
+   "name": "伺服器",
+   "stance": "觀察",
+   "view": "伺服器相關（晶片、PCB）在大跌中相對抗跌。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "未直接討論，僅在提及台股供應鏈時間接帶到。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人曾在大跌時加碼，因認為公司夠強。"
+  },
+  {
+   "symbol": "ASML",
+   "name": "艾司摩爾",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "提及股價從800跌到600變便宜，但未表態。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "未直接討論，僅在提及臉書Portal時對比。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "評論其Portal產品發表無新意，但未對股票表態。"
+  },
+  {
+   "symbol": "6213",
+   "name": "聯茂",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CCL族群，大跌中表現強勢。"
+  },
+  {
+   "symbol": "6274",
+   "name": "台燿",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CCL族群，大跌中表現強勢。"
+  },
+  {
+   "symbol": "2388",
+   "name": "台光電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CCL族群，大跌中表現強勢。"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "網通股，大跌中表現強勢。"
+  },
+  {
+   "symbol": "2314",
+   "name": "台揚",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "網通股，大跌中表現強勢，但認為有硬拉或軋空味道。"
+  },
+  {
+   "symbol": "8155",
+   "name": "博智",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "伺服器PCB，大跌中相對抗跌。"
+  },
+  {
+   "symbol": "2368",
+   "name": "金像電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "伺服器PCB，大跌中相對抗跌。"
+  },
+  {
+   "symbol": "3034",
+   "name": "聯詠",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾提及為不會動的股票，主持人反駁說超會動。"
+  }
+ ],
+ "quotes": [
+  "你終究進來市場的目的就是賺錢，不是去跟人家辯論比賽。",
+  "不要為漲跌找理由，重點是『所以你要怎麼辦？』",
+  "估值是一門藝術，不是絕對的科學。"
+ ],
+ "ep_key": "EP177",
+ "title": "EP177 | 半夜打牌",
+ "pubdate": "2021-09-22",
+ "duration_s": 2696,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

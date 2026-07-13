@@ -1,0 +1,82 @@
+{
+ "summary": "本集主要探討期貨與指數型ETF的比較，說明為何使用期貨作為長期配置工具，包括分散度（台指期涵蓋全市場，台積電權重較低）、交易稅費優勢（期貨手續費更低）、以及稅率優勢（期貨配息以保證金退還，免課股利稅）。主持人強調工具無絕對好壞，應依個人條件選擇，並提醒期貨有斷頭風險，不適合無腦投資。QA部分則討論學生投機心態、控股公司看法、婚姻停損、社會新聞調適等。",
+ "topics": [
+  "期貨 vs ETF 的比較（分散度、稅費、稅率）",
+  "台指期與0050/006208的差異（台積電權重、全市場覆蓋）",
+  "期貨轉倉策略與逆價差套利",
+  "槓桿工具選擇（期貨、槓桿ETF、融資）",
+  "學生投資心態與生活平衡",
+  "控股公司轉型與本業關係",
+  "婚姻停損與媽寶議題",
+  "社會新聞情緒調適"
+ ],
+ "market_view": null,
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "主持人提到半導體30期貨可涵蓋上櫃半導體權值股，但未對整體產業表態"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "涵蓋50檔標的，台積電權重約四成，適合一般投資人但分散度不如台指期"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "與0050類似，但費用較低，同樣只有50檔標的"
+  },
+  {
+   "symbol": "VOO",
+   "name": "Vanguard標普500指數ETF",
+   "market": "US",
+   "stance": "中性",
+   "argument": "主持人曾為VOO信徒，後因標普委員會卡Tesla轉向VTI"
+  },
+  {
+   "symbol": "VTI",
+   "name": "Vanguard整體股市ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "全市場ETF，分散度優於VOO，主持人目前偏好"
+  },
+  {
+   "symbol": "VT",
+   "name": "Vanguard全世界股票ETF",
+   "market": "US",
+   "stance": "中性",
+   "argument": "全球市值加權，與自組VOO+VXUS概念相似，非必要額外持有"
+  },
+  {
+   "symbol": "VXUS",
+   "name": "Vanguard總體國際股票ETF",
+   "market": "US",
+   "stance": "中性",
+   "argument": "美國以外市場配置，主持人建議可拉高比例"
+  },
+  {
+   "symbol": "QLD",
+   "name": "ProShares二倍做多納斯達克指數ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "兩倍槓桿NASDAQ ETF，適合小資金，但費率較高"
+  }
+ ],
+ "quotes": [
+  "沒有人是真正笨蛋，大家都有它的盤算。",
+  "在市場裡面，會認輸、會見風轉舵是非常重要的。",
+  "投資自己，穩賺不賠？誰說的？有時候你學了半天，發現薪水沒加到，還賠掉學費和時間。"
+ ],
+ "ep_key": "EP275",
+ "title": "EP275 | 🥑",
+ "pubdate": "2022-08-31",
+ "duration_s": 3063,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

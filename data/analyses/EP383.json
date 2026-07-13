@@ -1,0 +1,49 @@
+{
+ "summary": "本集主要討論蘋果發表會後對供應鏈的影響，重點在鈦合金機殼、Type-C 導入與潛望式鏡頭，主持人認為 USB 相關高速傳輸線材與晶片是長線機會，並持續布局消費性電子，雖庫存仍在調整但已見緩步復甦。另外分析 Morgan Stanley 對特斯拉 Dojo 超級電腦的報告，認同 Dojo 能帶來附加價值，但對報告中 Network Service 的 Others 佔比過高及 Mobility 車隊規模預估過於樂觀持保留態度。最後回應聽眾提問，包含詐騙處理、語言學習歷程、政治正確與極端主義反思等。",
+ "topics": [
+  "蘋果 iPhone 15 發表會重點：鈦合金機殼、Type-C、潛望式鏡頭",
+  "Type-C 導入對 USB 高速傳輸線材與晶片產業的長線機會",
+  "消費性電子庫存調整與復甦觀察",
+  "特斯拉 Dojo 超級電腦的架構、效能與出貨量預估",
+  "Morgan Stanley 報告分析：Network Service 模型漏洞與 Mobility 過度樂觀",
+  "語言學習動機與英文能力對投資視野的幫助",
+  "對極左政治正確、ESG 與社會反噬的批判觀點"
+ ],
+ "market_view": "消費性電子雖未來三季仍差，但股價可能提前落底，已開始緩步復甦。",
+ "industries": [
+  {
+   "name": "消費性電子",
+   "stance": "觀察",
+   "view": "庫存持續下降但中國市場比預期爛，需留意打呆風險，但股價可能提前落底。"
+  },
+  {
+   "name": "USB 高速傳輸",
+   "stance": "看多",
+   "view": "蘋果導入 Type-C 後將帶動周邊線材與晶片拉貨潮，長線機會明確。"
+  },
+  {
+   "name": "AI 伺服器",
+   "stance": "觀察",
+   "view": "特斯拉 Dojo 為 ASIC 專用於視覺訓練，2024-2025 年出貨量有機會大幅成長，但自用量過大需觀察是否對外銷售。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Dojo 超級電腦有附加價值，但 Morgan Stanley 報告的 Network Service 模型有漏洞，Mobility 車隊預估過於樂觀。"
+  }
+ ],
+ "quotes": [
+  "不要覺得發表會出來就是出貨點，蘋果導入 Type-C 後整個市場會很不一樣，長線機會在 USB PD 快充與高速傳輸。",
+  "庫存降不下來的公司後面可能都要打呆，這會是幫忙測底的機會。",
+  "左派極端份子搞到最後大家都沒飯吃，看到反噬很療癒；ESG 就是保護費，但世界趨勢要推還是得上車。"
+ ],
+ "ep_key": "EP383",
+ "title": "EP383 | 🫐",
+ "pubdate": "2023-09-13",
+ "duration_s": 2974,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,73 @@
+{
+ "summary": "本集主要討論 Netflix 第三季財報，營收與 EPS 皆優於預期，全球付費訂戶淨增 440 萬，亞太市場成長最強勁。主持人看好 Netflix 中長線表現，認為其全球製片能力與低 churn rate 是護城河，第四季大作將帶動用戶增長。同時評論 Intel CEO 頻繁放話卻遭蘋果 M1 晶片打臉，認為硬體公司應專注產品而非口水戰。也提及 MacBook Pro 供應鏈表現優於 iPhone 供應鏈，並提醒投資者應以基本面為核心，避免短線追高與貪念。",
+ "topics": [
+  "Netflix 第三季財報與第四季展望",
+  "Intel 與蘋果 M1 晶片競爭",
+  "MacBook Pro 供應鏈與 iPhone 供應鏈對比",
+  "資金盤與龐氏騙局的心理陷阱",
+  "投資心態與資金控管"
+ ],
+ "market_view": "市場短期波動難預測，應專注中長線基本面，避免因情緒追高或停損在低點。",
+ "industries": [
+  {
+   "name": "串流影音",
+   "stance": "看多",
+   "view": "Netflix 全球製片能力與低 churn rate 構成強大護城河，亞太市場成長動能強勁。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "Intel 頻繁放話但產品延遲，蘋果 M1 晶片與台積電組合展現優勢，硬體公司應以產品實力說話。"
+  },
+  {
+   "name": "筆記型電腦",
+   "stance": "看多",
+   "view": "蘋果 M1 Pro/Max 筆電為目前最強產品，相關供應鏈表現優於 iPhone 供應鏈。"
+  },
+  {
+   "name": "智慧型手機",
+   "stance": "中性",
+   "view": "iPhone 供應鏈因缺料出貨遞延，股價表現後繼無力，高峰已過。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "market": "US",
+   "stance": "看多",
+   "argument": "第三季財報優於預期，亞太市場成長強勁，第四季大作將帶動用戶增長，中長線看好。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "中性",
+   "argument": "CEO 頻繁放話但產品延遲，蘋果 M1 晶片顯示 Intel 在筆電市場出局，需專注產品而非口水戰。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "看多",
+   "argument": "M1 Pro/Max 筆電為目前最強產品，供應鏈表現強勁，但手機供應鏈後繼無力。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "電動車發表會內容有矛盾，但造車趨勢未變，相關子公司股價盤整。"
+  }
+ ],
+ "quotes": [
+  "硬體是一個很實打實的地方，你根本不需要去放話，應該趕快把好東西做出來。",
+  "千萬不要想幹人家，也不要想要賺意外之財，貪念是資金盤攻陷你的心理關鍵。",
+  "你不可能每次買在起漲點，投資不用念書？一個標的聽到就去買就可以賺錢？"
+ ],
+ "ep_key": "EP185",
+ "title": "EP185 | 網飛往天上飛",
+ "pubdate": "2021-10-20",
+ "duration_s": 2372,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

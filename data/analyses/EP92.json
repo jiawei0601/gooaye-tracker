@@ -1,0 +1,111 @@
+{
+ "summary": "主持人謝孟恭分享近期市場狂熱現象，指出隨便買股都能賺錢，但提醒投資人注意風險，避免在末升段追高。他分析疫苗利多出盡的預期失靈，市場反而因疫苗消息大漲，強調不要預測行情。他詳細解釋軋空（short squeeze）機制，說明末升段急漲常來自空頭回補，隨後可能伴隨急跌。他也討論Palantir、Snowflake等高估值股票的風險，並建議散戶專注做多而非放空。此外，他看好串流遊戲產業的未來趨勢，認為可能改變遊戲生態。最後，他回應聽眾提問，對疫情受惠股持謹慎態度，並分享對微軟Game Pass的正面看法。",
+ "topics": [
+  "市場狂熱與風險管理",
+  "軋空機制與末升段現象",
+  "高估值股票分析（Palantir、Snowflake、Zoom）",
+  "串流遊戲產業前景",
+  "疫情受惠股的風險",
+  "投資心態與策略"
+ ],
+ "market_view": "市場處於狂熱狀態，隨便選股都能賺錢，但需警惕末升段後的急跌風險。",
+ "industries": [
+  {
+   "name": "串流遊戲",
+   "stance": "看多",
+   "view": "看好串流遊戲的未來發展，可能改變遊戲產業生態，帶動網通需求。"
+  },
+  {
+   "name": "疫情受惠股",
+   "stance": "看空",
+   "view": "疫情受惠股（如快篩、口罩）在疫情趨緩後風險高，國家介入可能壓縮利潤。"
+  },
+  {
+   "name": "軟體即服務",
+   "stance": "中性",
+   "view": "部分SaaS公司估值過高（如Snowflake PS ratio達300多），需謹慎評估。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "股價漲幅驚人（最高近250%），但已脫離基本面，進入多空交戰階段，需注意風險。"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake Inc.",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "PS ratio高達300多，估值極高，主持人認為可觀察但不宜追高。"
+  },
+  {
+   "symbol": "ZM",
+   "name": "Zoom Video Communications",
+   "market": "US",
+   "stance": "中性",
+   "argument": "疫情後成長可能放緩，但仍是龍頭，估值曾達PS ratio 120。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla Inc.",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人持有較多部位，表現良好，但提醒追高風險。"
+  },
+  {
+   "symbol": "JMIA",
+   "name": "Jumia Technologies AG",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "非洲電商，漲幅約170%，屬瘋狗盤之一。"
+  },
+  {
+   "symbol": "CMPS",
+   "name": "Compass Pathways PLC",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "迷幻蘑菇公司，創IPO以來新高。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft Corporation",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Game Pass訂閱服務看好，可能上PC，串流遊戲有潛力。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA Corporation",
+   "market": "US",
+   "stance": "看多",
+   "argument": "串流遊戲趨勢下，網通相關需求增加，NVIDIA是受益者之一。"
+  },
+  {
+   "symbol": "JKS",
+   "name": "JinkoSolar Holding Co., Ltd.",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "被做空機構放空後被軋空，主持人提及但未表態。"
+  },
+  {
+   "symbol": "NIO",
+   "name": "NIO Inc.",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "被做空機構放空後被軋空，主持人提及但未表態。"
+  }
+ ],
+ "quotes": [
+  "不要在每一次大家很high的時候就跑進去亂，每次大家很high的時候，你要進去，那個很高機率都會受傷。",
+  "很多時候你看到那種所謂的末升段大飆漲，其實不是什麼有資金發瘋一直進來買進，而是本來放空的人被軋到受不了了，趕快回補。",
+  "投資很重要的一件事就是成本，如果說你成本就是買得比別人高，如果你就是在每一次的大漲段都FOMO，追高的話就很難過。"
+ ],
+ "ep_key": "EP92",
+ "title": "EP92 | 真金不怕火煉",
+ "pubdate": "2020-11-28",
+ "duration_s": 2450,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

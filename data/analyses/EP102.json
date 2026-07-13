@@ -1,0 +1,104 @@
+{
+ "summary": "主持人謝孟恭在本集以「小朋友才做選擇」為題，完整傳授投資基礎架構。他提出「七三配置」法則：七成資金投入被動投資（市值型大盤ETF），三成進行主動選股，並強調此比例可依個人績效動態調整。被動投資部分，他詳細說明台灣市場可選0050或006208，美國市場可選VTI或VOO，全球配置則可用VT或自行組合（如VTI+VWO）。主動選股則分享了他對雲端、資安、旅遊等產業的觀察與操作經驗。他重申沒有絕對的投資聖杯，鼓勵聽眾多方攝取、持續修正，並對2021年經濟復甦保持樂觀，預期下半年旅遊泡泡有望重啟。",
+ "topics": [
+  "主被動投資的區別與配置策略",
+  "七三配置法則與動態調整",
+  "市值型大盤ETF的選擇（台灣/美國/全球）",
+  "海外券商與複委託的優缺點",
+  "主動選股的樂趣與風險",
+  "2021年經濟與旅遊復甦展望"
+ ],
+ "market_view": "對2021年經濟復甦保持樂觀，預期第一、二季台灣人打到疫苗，下半年各國旅遊泡泡有望重啟。",
+ "industries": [
+  {
+   "name": "雲端",
+   "stance": "觀察",
+   "view": "雲端股整體表現不如預期，相關ETF表現停滯。"
+  },
+  {
+   "name": "資安",
+   "stance": "看多",
+   "view": "近期有分享資安股票，認為該產業有投資機會。"
+  },
+  {
+   "name": "旅遊",
+   "stance": "看多",
+   "view": "看好旅遊相關股票（如Airbnb、Booking.com、Expedia），認為整體會一起上漲。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "台灣市值型大盤ETF代表，適合被動投資。"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "追蹤台灣50指數，費用較0050低，也是好選擇。"
+  },
+  {
+   "symbol": "VTI",
+   "name": "Vanguard整體股市ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "投資美國全市場，適合被動投資美國。"
+  },
+  {
+   "symbol": "VOO",
+   "name": "Vanguard標普500指數ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "追蹤標普500指數，推薦作為美國市場配置。"
+  },
+  {
+   "symbol": "VT",
+   "name": "Vanguard全世界股票ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "一次投資全球約八九千家公司的懶人配置。"
+  },
+  {
+   "symbol": "VWO",
+   "name": "Vanguard新興市場ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "可用於搭配美國ETF，拉高新興市場比例。"
+  },
+  {
+   "symbol": "VXUS",
+   "name": "Vanguard總體國際股票ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "追蹤美國以外市場，可作為全球配置的一部分。"
+  },
+  {
+   "symbol": "DIS",
+   "name": "迪士尼",
+   "market": "US",
+   "stance": "看多",
+   "argument": "早期在節目中推薦，至今表現良好。"
+  },
+  {
+   "symbol": "BKNG",
+   "name": "Booking Holdings",
+   "market": "US",
+   "stance": "看多",
+   "argument": "旅遊復甦概念股，已突破前高持續上漲。"
+  }
+ ],
+ "quotes": [
+  "不要文人相輕，投資沒有絕對的對錯，多方攝取、融會貫通才是重點。",
+  "如果你發現主動選股怎麼都打不贏大盤，就把部位降低移去被動投資；如果你真的是股神，就反過來增加主動部位。",
+  "不要急、不要貪快、不要想一步登天，長期待在市場裡的人最後收穫都會是大的。"
+ ],
+ "ep_key": "EP102",
+ "title": "EP102 | 小朋友才做選擇",
+ "pubdate": "2021-01-02",
+ "duration_s": 2176,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,96 @@
+{
+ "summary": "主持人分享近期社交與市場觀察，指出多數交易者已降低部位，認為市場短期難再突破，但可能反向噴出。AI 題材正式發酵預計在 2024-2025，Edge AI 與資安類股為後續焦點。記憶體與資安是當前較明朗的投資方向。主持人維持多頭立場，認為科技股已反映衰退，長期不悲觀。",
+ "topics": [
+  "社交疲乏與專注力分配",
+  "市場共識與反向思考",
+  "AI 與搜尋引擎競爭",
+  "Edge AI 與資料中心展望",
+  "資安產業趨勢",
+  "選擇權工具應用",
+  "資金規模與操作心態轉變"
+ ],
+ "market_view": "多數人認為市場已到高點，但主持人認為可能反向噴出，維持多頭立場。",
+ "industries": [
+  {
+   "name": "AI",
+   "stance": "看多",
+   "view": "AI 題材正式發酵在 2024-2025，2023 為試產期，資料中心與 Edge AI 將帶動硬體需求。"
+  },
+  {
+   "name": "資安",
+   "stance": "看多",
+   "view": "AI 時代資料價值提升，資安需求將成剛需，美國資安股與台灣工業電腦供應鏈可關注。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "AI 與資料中心競爭將帶動記憶體需求，為當前較明朗的投資方向。"
+  },
+  {
+   "name": "搜尋引擎",
+   "stance": "觀察",
+   "view": "微軟 Bing 挑戰 Google，可能引發軍備競賽，加速資料中心資本支出。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "market": "US",
+   "stance": "看多",
+   "argument": "知名 SaaS 資安公司，受惠於 AI 時代資安需求增長。"
+  },
+  {
+   "symbol": "CHKP",
+   "name": "Check Point",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資安大廠，與台灣硬體供應鏈有合作。"
+  },
+  {
+   "symbol": "FTNT",
+   "name": "Fortinet",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資安大廠，與台灣硬體供應鏈有合作。"
+  },
+  {
+   "symbol": "CSCO",
+   "name": "Cisco",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資安大廠，與台灣硬體供應鏈有合作。"
+  },
+  {
+   "symbol": "PANW",
+   "name": "Palo Alto Networks",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資安大廠，與台灣硬體供應鏈有合作。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意電子",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "AI 相關記憶體設計服務公司，股價已大幅上漲。"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊科技",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "BMC 晶片廠，近期營收不佳但未來有機會。"
+  }
+ ],
+ "quotes": [
+  "大家覺得不可能的方向，有可能就是最後的方向。",
+  "AI 等到大家真的發現可行的時候，應該也是很多人都會到天上去。",
+  "你會賠錢你要檢討自己，不要去檢討別人，也不要去檢討可能跟你分享的人。"
+ ],
+ "ep_key": "EP322",
+ "title": "EP322 | 👾",
+ "pubdate": "2023-02-11",
+ "duration_s": 3057,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

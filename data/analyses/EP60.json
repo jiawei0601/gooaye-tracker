@@ -1,0 +1,105 @@
+{
+ "summary": "本集主要討論美中資訊戰升溫，川普以行政命令禁止美國實體與字節跳動（TikTok）及騰訊（微信）交易，主持人認為此舉可能擴大為類似貿易戰的全面衝突，並提醒持有騰訊轉投資公司（如Sea、虎牙、鬥魚、動視暴雪等）的投資人需繃緊神經，但不必急於出場，應眼見為憑。主持人個人看好騰訊長期價值，計劃在股價止穩後右側進場。此外也探討Podcast去中心化與泡沫化風險、左側與右側交易策略的取捨，以及定期定額買原型ETF的長期投資觀念。",
+ "topics": [
+  "美中資訊戰升級：川普禁TikTok與微信",
+  "騰訊轉投資公司可能受波及",
+  "Podcast去中心化與泡沫化風險",
+  "左側與右側交易策略比較",
+  "定期定額買原型ETF的長期投資建議",
+  "朋友關係隨年齡自然篩選的觀點",
+  "養小孩非投資標的，應視為陪伴"
+ ],
+ "market_view": "美中衝突可能從貿易戰轉為資訊戰，但不必恐慌出場，應眼見為憑。",
+ "industries": [
+  {
+   "name": "遊戲",
+   "stance": "觀察",
+   "view": "騰訊轉投資的遊戲公司（如動視暴雪、Ubisoft）可能因行政命令受不確定性影響，但股價仍維持上升趨勢。"
+  },
+  {
+   "name": "串流",
+   "stance": "觀察",
+   "view": "虎牙、鬥魚等騰訊相關串流公司可能被掃到颱風尾，但尚未看到明確下跌。"
+  },
+  {
+   "name": "電商",
+   "stance": "觀察",
+   "view": "Sea（Garena/蝦皮）因騰訊持股，可能面臨政治風險。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TCEHY",
+   "name": "騰訊",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "若因政治事件殺得夠低，會考慮右側進場，因為它是中國科技巨頭且投資眼光精準。"
+  },
+  {
+   "symbol": "SE",
+   "name": "Sea Limited",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "騰訊轉投資，可能因行政命令受不確定性影響。"
+  },
+  {
+   "symbol": "HUYA",
+   "name": "虎牙",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "騰訊相關串流公司，可能被掃到颱風尾。"
+  },
+  {
+   "symbol": "DOYU",
+   "name": "鬥魚",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "騰訊相關串流公司，可能被掃到颱風尾。"
+  },
+  {
+   "symbol": "ATVI",
+   "name": "動視暴雪",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "騰訊轉投資，目前獲利但不會再加碼，因有看不到的風險。"
+  },
+  {
+   "symbol": "UBI",
+   "name": "Ubisoft",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "騰訊轉投資，可能受政治事件影響。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "騰訊持股5%，但認為火不會那麼快燒到。"
+  },
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人自己組的遊戲ETF成分股之一。"
+  },
+  {
+   "symbol": "EA",
+   "name": "Electronic Arts",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人自己組的遊戲ETF成分股之一。"
+  }
+ ],
+ "quotes": [
+  "千萬不要在還沒有眼見為憑的狀況之下，把你手上的牌給出掉。",
+  "朋友不需要多，要精。真的會出來挺你的朋友、會願意跟你一起浪費時間虛度光陰的人太少了。",
+  "如果你什麼東西都後知後覺的話，你乾脆就不要主動投資，乖乖去買ETF。"
+ ],
+ "ep_key": "EP60",
+ "title": "EP60 | WeChat TikTok 881",
+ "pubdate": "2020-08-08",
+ "duration_s": 2100,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

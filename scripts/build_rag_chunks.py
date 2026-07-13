@@ -150,6 +150,8 @@ def build_transcript_chunks():
                 "title": title,
                 "source": source,
                 "t_start": t_start,
+                "industry": None,
+                "stance": None,
                 "text": text,
             })
         ep_count[source] += 1
@@ -192,6 +194,7 @@ def build_analysis_chunks():
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-summary"),
                 "ep": ep, "date": date, "type": "summary",
+                "industry": None, "stance": None,
                 "text": f"{ep}（{date}）摘要：{summary}",
             })
 
@@ -200,6 +203,7 @@ def build_analysis_chunks():
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-market_view"),
                 "ep": ep, "date": date, "type": "market_view",
+                "industry": None, "stance": None,
                 "text": f"{ep}（{date}）大盤觀點：{market_view}",
             })
 
@@ -210,12 +214,13 @@ def build_analysis_chunks():
             if not name:
                 continue
             slug = re.sub(r"[^\w一-鿿]+", "", name) or "ind"
-            stance = ind.get("stance") or "?"
+            stance_raw = ind.get("stance")  # 原始立場字串（可能缺漏 → None）
             view = ind.get("view") or ""
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-industry-{slug}"),
                 "ep": ep, "date": date, "type": "industry",
-                "text": f"{ep}（{date}）對產業「{name}」立場：{stance}｜觀點：{view}",
+                "industry": name, "stance": stance_raw,
+                "text": f"{ep}（{date}）對產業「{name}」立場：{stance_raw or '?'}｜觀點：{view}",
             })
 
         for t in a.get("tickers") or []:
@@ -225,12 +230,13 @@ def build_analysis_chunks():
             if not symbol:
                 continue
             name = t.get("name") or symbol
-            stance = t.get("stance") or "?"
+            stance_raw = t.get("stance")  # 原始立場字串（可能缺漏 → None）
             argument = t.get("argument") or ""
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-ticker-{symbol}"),
                 "ep": ep, "date": date, "type": "ticker", "symbol": symbol,
-                "text": f"{ep}（{date}）對 {symbol}（{name}）立場：{stance}｜論點：{argument}",
+                "industry": None, "stance": stance_raw,
+                "text": f"{ep}（{date}）對 {symbol}（{name}）立場：{stance_raw or '?'}｜論點：{argument}",
             })
 
         for i, q in enumerate(a.get("quotes") or []):
@@ -240,6 +246,7 @@ def build_analysis_chunks():
             chunks.append({
                 "id": _unique_id(used_ids, f"{ep}-a-quote-{i + 1:02d}"),
                 "ep": ep, "date": date, "type": "quote",
+                "industry": None, "stance": None,
                 "text": quote,
             })
 

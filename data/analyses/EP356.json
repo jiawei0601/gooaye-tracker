@@ -1,0 +1,151 @@
+{
+ "summary": "主持人分享至金士頓演講的觀察，指出市場氛圍從半年前的悲觀轉為樂觀，投資人開始詢問槓桿操作。他強調AI是真實趨勢，但許多相關公司股價已偏離基本面，營收占比低、EPS貢獻有限，需警惕泡沫風險。他看好蘋果Vision Pro對VR/AR產業的正面影響，並分析供應鏈機會，如鏡頭廠（玉晶光、大立光）、CIS（采鈺）及小型PCB廠。他也提醒投資人避免FOMO，不要與他人比較績效，應專注長期策略。",
+ "topics": [
+  "市場氛圍轉變與投資人情緒",
+  "AI產業的估值與泡沫風險",
+  "蘋果Vision Pro與VR/AR供應鏈",
+  "Meta Oculus的競爭策略",
+  "投資心態與避免FOMO",
+  "企業演講觀察與公司文化"
+ ],
+ "market_view": "市場從悲觀轉為極度樂觀，AI股漲勢驚人但估值已偏離基本面，需警惕回檔風險。",
+ "industries": [
+  {
+   "name": "AI",
+   "stance": "中性",
+   "view": "AI是真實趨勢，但許多公司股價已過度反應，營收占比低且EPS貢獻有限，需小心泡沫。"
+  },
+  {
+   "name": "VR/AR",
+   "stance": "看多",
+   "view": "蘋果Vision Pro將帶動整體產業，供應鏈如鏡頭、CIS、小型PCB廠有顯著機會。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "中性",
+   "view": "記憶體模組廠如金士頓、群聯營運穩健，但需關注報價波動。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "晶圓代工與設備廠長期看好，但短期庫存調整仍需時間。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI最直接受惠者，但股價已高，需注意估值。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "看多",
+   "argument": "ASIC與網通設備強勁，AI受惠程度高。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "看多",
+   "argument": "ASIC與資料中心相關，AI營收貢獻顯著。"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "AI伺服器散熱供應鏈，但營收占比僅個位數。"
+  },
+  {
+   "symbol": "3324",
+   "name": "雙鴻",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "散熱廠，AI相關營收占比不高。"
+  },
+  {
+   "symbol": "3406",
+   "name": "玉晶光",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "VR/AR鏡頭供應商，營收占比可達10-20%。"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "有切入VR/AR鏡頭，但貢獻尚不明顯。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "半導體龍頭，長期看好但短期庫存調整。"
+  },
+  {
+   "symbol": "2337",
+   "name": "旺宏",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "NOR Flash應用廣泛，但常被視為新人殺手。"
+  },
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "記憶體模組廠，老闆潘健成眼光精準。"
+  },
+  {
+   "symbol": "6488",
+   "name": "環球晶",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "矽晶圓廠，老闆徐秀蘭看長遠。"
+  },
+  {
+   "symbol": "2327",
+   "name": "國巨",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "被動元件龍頭，老闆陳泰銘擅長併購。"
+  },
+  {
+   "symbol": "3105",
+   "name": "穩懋",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "砷化鎵代工，股價波動大，主持人曾賠錢。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Oculus Quest 3價格親民，將受惠蘋果帶動的VR熱潮。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Vision Pro將引領VR/AR產業，長期看好。"
+  }
+ ],
+ "quotes": [
+  "不要FOMO，不要當個fucking智障。",
+  "投資績效要看長線，不要跟別人比較，你的對手是你自己。",
+  "公司派可能看的是五年後，但我們在意一兩年的股價變化，時間軸對不上就會失望。"
+ ],
+ "ep_key": "EP356",
+ "title": "EP356 | 🕳️",
+ "pubdate": "2023-06-10",
+ "duration_s": 3135,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,89 @@
+{
+ "summary": "主持人分享近期生活與市場觀察，指出美股反彈後有望再創新高，並提醒槓桿操作的風險。他檢視Google、Microsoft、Meta財報，認為AI變現已初步成功，但Meta自研晶片可能影響NVIDIA供應鏈。他減碼Celestica與Vertiv，因競爭加劇與價格壓力，並持續關注Fabrinet與光通訊。他也強調回頭看自己成長、避免比較，以及享受過程的心態。",
+ "topics": [
+  "美股反彈與槓桿風險",
+  "科技巨頭財報分析（Google、Microsoft、Meta）",
+  "AI供應鏈調整（ODM/OEM、散熱、CDU）",
+  "Meta自研晶片（MTIA）對NVIDIA的潛在影響",
+  "Vertiv與鴻海集團的競爭",
+  "生活心態：比較與成長",
+  "Google裁員、回購與政治立場調整"
+ ],
+ "market_view": "美股反彈後有望再刷紀錄，但需注意槓桿風險與個股機會成本。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "AI變現已初步成功，但Meta自研晶片可能改變供應鏈格局，需觀察後續影響。"
+  },
+  {
+   "name": "散熱",
+   "stance": "觀察",
+   "view": "水冷產品單價高，但鴻海集團可能切入CDU市場，帶來價格競爭。"
+  },
+  {
+   "name": "光通訊",
+   "stance": "看多",
+   "view": "Fabrinet與上詮競爭，Fabrinet有望在2025-26年取得不錯成績。"
+  },
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "主持人加大電動車部位，但未說明具體標的。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "Google財報後未跟著上漲，機會成本考量下減碼。"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "CDU產品熱度高，但鴻海集團可能搶單且晶片廠商包產能壓低ASP，需小心。"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "market": "US",
+   "stance": "看多",
+   "argument": "光通產品有望在2025-26年取得佳績，持續看好。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "market": "US",
+   "stance": "看多",
+   "argument": "自研晶片MTIA有野心，廣告業務受惠AI，長期看好。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet (Google)",
+   "market": "US",
+   "stance": "看多",
+   "argument": "財報佳，回購與股利政策正面，裁員與政治立場調整有利長期發展。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI產品貢獻持續上升，遊戲業務可能成為黑馬。"
+  }
+ ],
+ "quotes": [
+  "回頭看自己就好，跟自己的過去比較就好，不用去跟別人比較。",
+  "AI不是炒作，數據擺在那邊還看不懂就是腦袋不好。",
+  "公司最主要任務就是要營利、為股東帶來收益，不需要硬灌理念到消費者身上。"
+ ],
+ "ep_key": "EP448",
+ "title": "EP448 | 🌭",
+ "pubdate": "2024-04-27",
+ "duration_s": 3001,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

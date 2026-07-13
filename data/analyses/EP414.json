@@ -1,0 +1,117 @@
+{
+ "summary": "本集為2023年終回顧與展望。主持人分享與市場前輩愛榭客的交流，強調在市場最差時往往是絕佳投資機會，並以自身操作中小型股的經驗，說明股價從左側到右側時市場情緒與消息面的變化。展望2024年，重點關注產業打底復甦的PIMIC、CIS、MCU，以及車用半導體、Apple Vision Pro供應鏈（面板、鏡頭、晶片）、AI伺服器換代與AI PC的潛在應用。同時提醒車用股需注意股本與認證時程，AI PC短期可能僅為高階筆電，但長期有換機潮機會。",
+ "topics": [
+  "2024年市場展望與產業復甦",
+  "車用半導體與認證門檻",
+  "Apple Vision Pro與MR供應鏈",
+  "AI伺服器換代與供應鏈變化",
+  "AI PC的應用與換機潮",
+  "技術分析的價值與散戶常見虧損原因"
+ ],
+ "market_view": "2024年應是更好的一年，關注產業打底復甦與新應用帶動的成長機會。",
+ "industries": [
+  {
+   "name": "PIMIC",
+   "stance": "看多",
+   "view": "產業打底復甦，明年可望回升。"
+  },
+  {
+   "name": "CIS",
+   "stance": "看多",
+   "view": "產業狀況差，但明年可能開始回升。"
+  },
+  {
+   "name": "MCU",
+   "stance": "看多",
+   "view": "產業打底復甦，明年可望回升。"
+  },
+  {
+   "name": "車用半導體",
+   "stance": "看多",
+   "view": "中國車用數據顯示短底可能已到，明年上半年特定料號將重啟拉貨。"
+  },
+  {
+   "name": "MR/VR",
+   "stance": "看多",
+   "view": "Apple Vision Pro與競爭對手產品將帶動供應鏈拉貨，關注面板、鏡頭、晶片。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "換代規格提升，但供應鏈進入模組化後競爭加劇，股價不一定隨出貨量上漲。"
+  },
+  {
+   "name": "AI筆電",
+   "stance": "觀察",
+   "view": "短期等同高階筆電，但長期有換機潮機會，需觀察殺手級應用。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "未直接評論，但提及半導體產業復甦與車用半導體相關。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "未直接評論，但提及車用半導體與AI PC相關。"
+  },
+  {
+   "symbol": "3406",
+   "name": "玉晶光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "可能為Apple Vision Pro鏡頭供應商之一。"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "可能為Apple Vision Pro鏡頭供應商之一。"
+  },
+  {
+   "symbol": "QCOM",
+   "name": "高通",
+   "market": "US",
+   "stance": "看多",
+   "argument": "在非蘋陣營VR/MR設備中主晶片與連線晶片有優勢，可能受惠於市場成長。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "AI伺服器換代（GB100/B100）將帶動規格提升，但供應鏈競爭加劇。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "AI伺服器換代競爭者之一。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "英特爾",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "AI PC Core Ultra發表會帶動話題，但實際效益待觀察。"
+  }
+ ],
+ "quotes": [
+  "最慘的時候，往往是最多收穫的時候。",
+  "當股價從左側U上去變右側之後，只會看到好新聞，即便你心中知道根本還沒有走出來。",
+  "散戶最愛的就是解套的時候把它賣掉，所以上緣永遠有限，下緣卻很深，長期下來容易賠錢。"
+ ],
+ "ep_key": "EP414",
+ "title": "EP414 | 🎆",
+ "pubdate": "2023-12-30",
+ "duration_s": 3372,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

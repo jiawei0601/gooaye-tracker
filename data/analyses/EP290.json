@@ -1,0 +1,56 @@
+{
+ "summary": "本集主持人謝孟恭分享 Naval Ravikant 的經典推文「How to get rich without getting lucky」，探討如何不靠運氣致富，強調追求能睡覺時賺錢的資產、擁有股權、利用網路與程式碼等無需許可的槓桿、培養特殊知識與可問責性，並指出快速致富的方法往往是別人從你身上致富。QA 環節回應製造業景氣預估明年第二季回溫、0056 增加成分股對高股息 ETF 的影響、八方雲集海外題材與成本結構，以及 Podcast 經營心法，認為成功難以複製，專注熱情並持續努力才是關鍵。",
+ "topics": [
+  "Naval Ravikant 致富哲學解析",
+  "資產、金錢與社會地位的區別",
+  "特殊知識、可問責性與槓桿三件套",
+  "網路與程式碼作為無需許可的槓桿",
+  "高股息 ETF 的選股邏輯缺陷",
+  "台灣製造業景氣展望與庫存調整",
+  "Podcast 經營心法與倖存者偏誤"
+ ],
+ "market_view": "市場衰退比 2008 年慘，但製造業與半導體普遍預估明年第二季回溫。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "晶圓代工與製造業普遍預估明年第二季景氣回溫，但 Elon Musk 喊 2024 年第一季。"
+  },
+  {
+   "name": "製造業",
+   "stance": "觀察",
+   "view": "傳產與電子業放無薪假，衰退嚴峻，預估明年第二季才會回來。"
+  },
+  {
+   "name": "餐飲",
+   "stance": "觀察",
+   "view": "八方雲集海外市場（美國）表現強勁，一家店營業額可抵台灣 20 家，但豬肉成本是主要變數。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "0056",
+   "name": "元大高股息",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "高股息 ETF 用後照鏡選股，長期績效打不贏市值型 ETF，成分股增加只是驗證選股方法有效性。"
+  },
+  {
+   "symbol": "2753",
+   "name": "八方雲集",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "海外題材成功，但豬肉成本是主要看點，不適合追高，適合價值投資者研究。"
+  }
+ ],
+ "quotes": [
+  "Wealth is having assets that earn while you sleep.",
+  "There are no 'get rich quick' schemes. That's just someone else getting rich off you.",
+  "你根本不知道你的每一項選擇最後面的結果是什麼，塞翁失馬很有道理。"
+ ],
+ "ep_key": "EP290",
+ "title": "EP290 | 🕸",
+ "pubdate": "2022-10-22",
+ "duration_s": 2937,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

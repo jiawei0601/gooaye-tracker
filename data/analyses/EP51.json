@@ -1,0 +1,99 @@
+{
+ "summary": "本集先總結大同案，批評公司派違法沒收投票權及部分財經KOL因討厭黃國昌而護航，強調投資人應看清事件本質。隨後更新市場看法，認為當前股市已過度樂觀，提醒空手者勿追高，建議分批布局成長股。最後分享創作心得，認為內容創作本質是擲骰子，應做自己喜歡的事並堅持，而非追逐潮流；並以自身投資Spotify、騰訊音樂為例，說明興趣與投資可形成正向循環。",
+ "topics": [
+  "大同案總結與公司治理亂象",
+  "市場現況：反彈過頭、樂觀情緒高漲",
+  "股災模擬與選股策略（護城河寬的龍頭股）",
+  "創作心得：內容創作是擲骰子，應做喜歡的事",
+  "Podcast與YouTube平台差異與內容策略",
+  "聽眾QA：資產配置、除息填息、機師培訓、股債平衡"
+ ],
+ "market_view": "當前股市已過度樂觀，反彈可能衝過頭，但主持人仍持有較長部位，會視風向分批獲利。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電及其供應鏈（創意、精材、家登、光洋科）因台積電帶動而表現強勢。"
+  },
+  {
+   "name": "雲端",
+   "stance": "觀察",
+   "view": "雲端股近期較紅，但下跌時主持人不會優先選擇，因護城河不如老牌科技龍頭。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "台灣最強企業，帶動許多供應鏈公司，是下殺時的首選標的之一。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "看多",
+   "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "看多",
+   "argument": "強勢科技公司，下殺時可考慮加碼。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "強勢科技公司，下殺時可考慮加碼。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "看多",
+   "argument": "老牌公司但轉型順利，現金流強大，是下殺時的好機會。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "看多",
+   "argument": "過去曾殺到400元讓投資人上車，是強勢科技股代表。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人因看好Podcast平台而買進，帳上報酬不錯。"
+  },
+  {
+   "symbol": "TME",
+   "name": "騰訊音樂",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人因看好Podcast平台而買進，表現不錯。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "適合資產配置，比單壓台積電更分散風險，建議分批買進。"
+  }
+ ],
+ "quotes": [
+  "愛國主義是惡棍最後的庇護所。",
+  "股市短線很多時候是隨機的，中長線趨勢才有辦法預知。",
+  "你應該是做你喜歡的東西，然後就堅持做下去，但過程中一定會遇到很多失敗。"
+ ],
+ "ep_key": "EP51",
+ "title": "EP51 | 大同結果 更新市況 創作心得分享",
+ "pubdate": "2020-07-08",
+ "duration_s": 2493,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

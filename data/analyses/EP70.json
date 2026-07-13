@@ -1,0 +1,91 @@
+{
+ "summary": "本集聚焦近期IPO狂潮與潛在風險，主持人以BigCommerce、nCino等案例提醒投資人勿追高，強調分批買進與成本控制的重要性。同時深入剖析Nikola的爭議，將其類比為Theranos 2.0，質疑其氫能源卡車技術的真實性，並點出創辦人背景、影片造假等疑點，進而看空氫能源產業鏈。總經方面，主持人認為市場過度樂觀時往往面臨修正，建議投資人保持謹慎。",
+ "topics": [
+  "IPO狂潮與風險管理",
+  "Nikola造假爭議與氫能源產業前景",
+  "台灣IPO與DR之亂",
+  "量化投資與主動投資的比較",
+  "長期投資與波段操作的策略選擇"
+ ],
+ "market_view": "市場一片樂觀時，往往就是修正要來的時候。",
+ "industries": [
+  {
+   "name": "氫能源",
+   "stance": "看空",
+   "view": "氫能源轉換效率僅20-30%，遠低於電動車的70-90%，且領先的Toyota、現代仍無法商業化突破，Nikola的炒作恐拖累相關類股。"
+  },
+  {
+   "name": "電動車",
+   "stance": "中性",
+   "view": "特斯拉面臨挑戰，但Nikola的氫能源路線被認為不可行，純電動車仍是主流。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "BIGC",
+   "name": "BigCommerce",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "IPO後股價從60多美元漲至141美元後暴跌至80美元，凸顯IPO波動劇烈，不宜追高。"
+  },
+  {
+   "symbol": "NCNO",
+   "name": "nCino",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "持續看好其發展性，但股價如雲霄飛車，需注意波動風險。"
+  },
+  {
+   "symbol": "NKLA",
+   "name": "Nikola",
+   "market": "US",
+   "stance": "看空",
+   "argument": "被質疑為Theranos 2.0，氫能源卡車影片疑似造假，創辦人背景可疑，技術為Vaporware。"
+  },
+  {
+   "symbol": "PLUG",
+   "name": "Plug Power",
+   "market": "US",
+   "stance": "看空",
+   "argument": "因Nikola炒作而大漲，若Nikola倒下，股價可能隨之下跌。"
+  },
+  {
+   "symbol": "BLDP",
+   "name": "Ballard Power",
+   "market": "US",
+   "stance": "看空",
+   "argument": "同為氫能源概念股，跟隨Nikola炒作，風險高。"
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy",
+   "market": "US",
+   "stance": "看空",
+   "argument": "氫能源相關，受Nikola題材帶動，但基本面不穩。"
+  },
+  {
+   "symbol": "2758",
+   "name": "亞洲藏壽司",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "興櫃股從50多元炒到300元，抽籤雖有獲利機會但非必勝，風險極高。"
+  },
+  {
+   "symbol": "6585",
+   "name": "汎德永業",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "BMW代理商，獲利高峰已過，媒體吹捧獲利40-50元不實，需注意追高風險。"
+  }
+ ],
+ "quotes": [
+  "一個好公司，你用超級爛的價位去買，那就是一個爛投資；即便是一個爛公司，你買到被超級低估的位置，也可以算是一個好的投資。",
+  "真的賺錢的東西，他不會拿出來跟你分；當初很賺錢的時候，想都不會想要上市。",
+  "做越短輸的機會越高，做中長期對一般人來說勝率比較高。"
+ ],
+ "ep_key": "EP70",
+ "title": "EP70 | Nikola打假 IPO之亂",
+ "pubdate": "2020-09-12",
+ "duration_s": 2454,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

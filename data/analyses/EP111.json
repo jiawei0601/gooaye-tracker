@@ -1,0 +1,56 @@
+{
+ "summary": "本集主要討論Clubhouse爆紅現象與其背後技術供應商聲網Agora，主持人認為Clubhouse不會取代Podcast，而是多一個選項，並提醒勿因FOMO追逐邀請碼。總經方面，主持人建議台股投資人不必因農曆年調整部位，歷史數據顯示新春後上漲機率高，除非有資金壓力或槓桿。同時回顧GME事件已落幕，強調多殺多風險，並指出有基本面支撐的股票如Palantir仍有機會。",
+ "topics": [
+  "Clubhouse爆紅與聲網Agora技術分析",
+  "GME事件落幕與多殺多風險",
+  "台股新春紅包行情與部位管理",
+  "私募基金風險與ETF優勢",
+  "資訊判讀與投資學習路徑"
+ ],
+ "market_view": "台股新春後上漲機率高，不建議因過年調整部位，除非有資金壓力。",
+ "industries": [
+  {
+   "name": "社交軟體",
+   "stance": "觀察",
+   "view": "Clubhouse不會取代Podcast，但可能分食用戶時間，需觀察後續發展與變現模式。"
+  },
+  {
+   "name": "雲端通訊",
+   "stance": "看多",
+   "view": "聲網Agora因Clubhouse爆紅而受關注，且Ark Invest早已布局，技術服務具稀缺性。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "GME",
+   "name": "GameStop",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "事件已落幕，股價難回高點，主持人僅留少數作為紀念。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雖被WSB帶動，但有基本面支撐，未來仍有機會。"
+  },
+  {
+   "symbol": "API",
+   "name": "聲網Agora",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Clubhouse可能使用其技術，且模仿者眾多，Ark Invest早已布局。"
+  }
+ ],
+ "quotes": [
+  "你不需要有FOMO，Clubhouse終究會開放給大家，現在只是為了把東西做得更好。",
+  "很多人思維是零和的，但東西其實可以並存，Clubhouse起來不代表會取代Podcast。",
+  "散戶最好的對沖其實就是減碼，不要以為自己是hedge fund去做對沖，容易雙巴。"
+ ],
+ "ep_key": "EP111",
+ "title": "EP111 | Clubhouse發掘一堆小說家",
+ "pubdate": "2021-02-03",
+ "duration_s": 2429,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

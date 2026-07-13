@@ -1,0 +1,69 @@
+{
+ "summary": "主持人分享參訪群聯的深入心得，詳細介紹 aiDAPTIV 方案如何讓中小企業以低成本進行 AI 訓練與推論，並看好 open-source 模型與在地算力需求爆發，認為儲存空間將嚴重不足。同時評論 AMD 財報後下跌，認為其估值過高且短期難以威脅輝達；Apple 財報符合預期，但 Vision Pro 2 可能延後。整體對 AI 長線趨勢樂觀，但提醒短線可能修正。",
+ "topics": [
+  "群聯 aiDAPTIV 方案與參訪心得",
+  "AI 訓練/推論需求與儲存空間不足的趨勢",
+  "AMD 財報與競爭力分析",
+  "Apple 財報、回購與 Vision Pro 2 延後",
+  "身心科就診經驗與自我調適",
+  "生技股波動大與投資難度",
+  "複委託手續費競爭與國泰方案",
+  "代購市場競爭與稅務風險"
+ ],
+ "market_view": "AI 長線趨勢樂觀，但短線可能出現修正，儲存與算力需求將爆發。",
+ "industries": [
+  {
+   "name": "記憶體控制 IC",
+   "stance": "看多",
+   "view": "群聯在 NAND 控制 IC 居領導地位，aiDAPTIV 方案有望受惠於 AI 推論與 fine-tune 需求爆發。"
+  },
+  {
+   "name": "AI 伺服器",
+   "stance": "觀察",
+   "view": "AMD 短期難以威脅輝達，但價格競爭力仍存在；整體 AI 伺服器需求長線看好。"
+  },
+  {
+   "name": "智慧型手機",
+   "stance": "中性",
+   "view": "Apple 手機出貨下修符合預期，回購支撐股價，AI 產品進展待觀察。"
+  },
+  {
+   "name": "VR/AR",
+   "stance": "觀察",
+   "view": "Apple Vision Pro 2 可能延後，供應鏈布局需修正。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "aiDAPTIV 方案高 CP 值，可望受惠於 AI 推論與 fine-tune 需求，儲存需求將爆發。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "看空",
+   "argument": "估值過高，MI300 出貨不如預期，短期難以威脅輝達。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "中性",
+   "argument": "財報符合預期，回購利多，但 AI 產品進展緩慢，Vision Pro 2 可能延後。"
+  }
+ ],
+ "quotes": [
+  "多聽一點你也不會比較厲害，真的。",
+  "有病就要看醫生，雖然我一直都不覺得自己有病。",
+  "你開一個先例之後，大家就可以去瘋狂地問這個問題。"
+ ],
+ "ep_key": "EP450",
+ "title": "EP450 | 🍙",
+ "pubdate": "2024-05-04",
+ "duration_s": 3129,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

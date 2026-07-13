@@ -1,0 +1,100 @@
+{
+ "summary": "主持人分享家庭生活體悟，並深入分析市場：認為AI時代儲存需求被低估，看好Pure Storage、Dell等儲存與AI伺服器標的；解讀Dell財報顯示AI伺服器訂單積壓，供應鏈瓶頸改善；評論蘋果放棄電動車計畫將衝擊代工模式，並預期蘋果轉向AI後可能帶動GPU拉貨；最後提醒板卡股應關注PC消費復甦而非加密貨幣。",
+ "topics": [
+  "AI伺服器與儲存需求",
+  "Dell財報與AI PC展望",
+  "蘋果終止電動車計畫的影響",
+  "工業電腦與邊緣運算機會",
+  "PC消費復甦與板卡股",
+  "人生體悟與家庭分工"
+ ],
+ "market_view": "市場氣氛良好，台股強勢股迅速反彈，美股AI相關標的表現超出預期。",
+ "industries": [
+  {
+   "name": "儲存設備",
+   "stance": "看多",
+   "view": "AI時代儲存需求被低估，Pure Storage等解決方案將受惠。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "Dell等公司AI伺服器訂單積壓，供應鏈瓶頸改善後營收將爆發。"
+  },
+  {
+   "name": "電動車代工",
+   "stance": "看空",
+   "view": "蘋果放棄電動車計畫，委外代工模式難以為繼，相關布局需停損。"
+  },
+  {
+   "name": "板卡",
+   "stance": "觀察",
+   "view": "應關注PC消費復甦，而非加密貨幣礦潮。"
+  },
+  {
+   "name": "工業電腦",
+   "stance": "看多",
+   "view": "AI供貨順暢後，工業電腦營收可能因邊緣運算需求翻倍。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "PSTG",
+   "name": "Pure Storage",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI時代儲存需求被低估，O-Flash解決方案符合趨勢且具成本競爭力。"
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI伺服器訂單積壓達29億美元，估值偏低，AI PC將成下半年動能。"
+  },
+  {
+   "symbol": "5388",
+   "name": "中磊",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "相較奇景，主持人更偏好中磊。"
+  },
+  {
+   "symbol": "2395",
+   "name": "研華",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "工業電腦龍頭，體質最強。"
+  },
+  {
+   "symbol": "6285",
+   "name": "奇景光電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "主持人未明確表態。"
+  },
+  {
+   "symbol": "6531",
+   "name": "穎崴",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "近期有新聞，但主持人未明確表態。"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "邊緣運算題材股，尚未發酵。"
+  }
+ ],
+ "quotes": [
+  "當家裡有一個有才德的人，你會發現你全家會變廢物。",
+  "問題從來都沒有消失過，人生就是不停的面對新的問題，但我們變強了。",
+  "員工最大的一個利器就是你不爽不要幹。"
+ ],
+ "ep_key": "EP432",
+ "title": "EP432 | 😍",
+ "pubdate": "2024-03-02",
+ "duration_s": 2985,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

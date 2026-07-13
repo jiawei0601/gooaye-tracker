@@ -1,0 +1,64 @@
+{
+ "summary": "本集主要討論 GameStop (GME) 軋空事件，深入解析 Short Squeeze 與 Gamma Squeeze 的機制，並釐清市場常見迷思（如放空比率超過 100% 並非作弊）。主持人強調此事件並非單純散戶對抗機構，而是機構之間的對作，並提醒聽眾勿因群情激昂而 All in 參與博弈，應保持理性與資金控管。同時也探討了 Robinhood 等免費券商的商業模式與利益衝突問題。",
+ "topics": [
+  "GameStop (GME) 軋空事件解析",
+  "Short Squeeze 與 Gamma Squeeze 機制",
+  "市場迷思釐清（放空比率、裸賣空）",
+  "散戶 vs 機構的迷思與真實情況",
+  "免費券商（Robinhood）的商業模式與利益衝突",
+  "投資紀律與風險控管"
+ ],
+ "market_view": "大蕭條不容易發生，但短期大修正可能，黑天鵝無法預期。",
+ "industries": [
+  {
+   "name": "遊戲零售",
+   "stance": "觀察",
+   "view": "GME 股價已與基本面脫鉤，主要為軋空行情，不建議以基本面角度參與。"
+  },
+  {
+   "name": "影城",
+   "stance": "觀察",
+   "view": "AMC 因股價高漲得以發股融資，離破產越來越遠，但基本面仍不佳。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "GME",
+   "name": "GameStop",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股價已與基本面脫鉤，進入純粹的軋空與 Gamma Squeeze 階段，風險極高。"
+  },
+  {
+   "symbol": "AMC",
+   "name": "AMC Entertainment",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股價被炒高後得以發股融資，但基本面仍差，屬於軋空行情下的受惠者。"
+  },
+  {
+   "symbol": "SPCE",
+   "name": "Virgin Galactic",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為熱門放空標的，借券費用昂貴，券資比高。"
+  },
+  {
+   "symbol": "IPOE",
+   "name": "Social Capital Hedosophia Holdings Corp. V (SoFi)",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Chamath Palihapitiya 趁機廣告 SoFi 未來可能提供交易服務，可能成為 Robinhood 的競爭者。"
+  }
+ ],
+ "quotes": [
+  "在投資市場，你應該要保持你的理性，你可以去參與，可是你不要搞到 All in。",
+  "股價跟公司基本面，非常重要是你要先拆開來看，它沒有一個必然的聯繫。",
+  "世界上沒有任何一個東西是可以免費給大家的。"
+ ],
+ "ep_key": "EP110",
+ "title": "EP110 | 嘎你個songYY",
+ "pubdate": "2021-01-30",
+ "duration_s": 2418,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

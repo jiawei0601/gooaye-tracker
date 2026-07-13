@@ -1,0 +1,100 @@
+{
+ "summary": "主持人分享育兒心得與市場觀察，認為對孩子好不會寵壞，只要給予道德框架。市場方面，近期AI股重回消息面主導，AI PC為主要題材，輝達財報符合預期但行情由拆股驅動。主持人開始佈局AI PC與蘋果，並關注CIS、DDR3等次線復甦題材。長期看好AI基礎建設後將轉向軟體股。對馬斯克薪酬方案持支持態度，認為對賭合約應被尊重。",
+ "topics": [
+  "育兒觀念與親子互動",
+  "市場風格轉變與AI PC題材",
+  "蘋果AI策略與伺服器晶片傳聞",
+  "CIS與DDR3等次線復甦題材",
+  "算力租賃產業競爭分析",
+  "馬斯克薪酬方案與公司治理"
+ ],
+ "market_view": "市場回到去年年中感覺，AI股消息面優勢回歸，但需留意拆股後可能出現修正。",
+ "industries": [
+  {
+   "name": "AI PC",
+   "stance": "看多",
+   "view": "近期市場主軸，掌握消息面可獲得優勢。"
+  },
+  {
+   "name": "CIS",
+   "stance": "觀察",
+   "view": "可能因HBM產能排擠而出現漲價機會，屬次線題材。"
+  },
+  {
+   "name": "DDR3",
+   "stance": "觀察",
+   "view": "二線DRAM可能因HBM排擠而缺貨，有漲價機會。"
+  },
+  {
+   "name": "工具機",
+   "stance": "觀察",
+   "view": "目前表現疲弱，但可能隨復甦而好轉。"
+  },
+  {
+   "name": "MCU",
+   "stance": "觀察",
+   "view": "目前表現疲弱，但可能隨復甦而好轉。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "國家重點扶植，全台最聰明的人聚集，長期看好。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "台灣強勢產業，長期持有合理。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "財報符合預期，行情由拆股驅動，後續可能修正。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "看多",
+   "argument": "A系列與M系列加單，可能補漲，但伺服器晶片策略仍不明。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人個人喜歡，但未明確表態多空。"
+  },
+  {
+   "symbol": "6789",
+   "name": "采鈺",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CIS相關，可能受惠於復甦。"
+  },
+  {
+   "symbol": "2392",
+   "name": "正崴",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "算力租賃競爭激烈，不特別看好。"
+  }
+ ],
+ "quotes": [
+  "不要去剪鮮花，然後去灌溉雜草，要剪雜草，灌溉鮮花。",
+  "idea本身不值錢，實踐非常困難。",
+  "市場在亂炒，你有沒有賺到錢？不要只會嘴砲。"
+ ],
+ "ep_key": "EP457",
+ "title": "EP457 | 🪵",
+ "pubdate": "2024-05-29",
+ "duration_s": 2998,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,95 @@
+{
+ "summary": "本集主要討論 Zoom 財報飆升與放空風險，強調勿因政治情緒做空；NVIDIA 發表 RTX 30 系列顯卡，效能翻倍且價格驚喜，預期帶動換卡潮，長期看好。主持人重申投資應理性、避免意氣用事，並分享成長股評價方式與資產配置觀念。",
+ "topics": [
+  "Zoom 財報與放空教訓",
+  "NVIDIA 新顯卡發表與產業影響",
+  "投資心態：理性 vs 情緒",
+  "成長股評價方法",
+  "資產配置與持股比例管理",
+  "台股概念股操作難度"
+ ],
+ "market_view": "台股因配息特性，指數參考性有限，應關注報酬指數；整體市場中性偏多。",
+ "industries": [
+  {
+   "name": "視訊會議",
+   "stance": "看多",
+   "view": "Zoom 受惠疫情，營收與用戶爆發成長，但需留意政治干擾與競爭。"
+  },
+  {
+   "name": "GPU",
+   "stance": "看多",
+   "view": "NVIDIA 新卡效能翻倍、價格驚喜，可望帶動換卡潮，電玩業務將顯著成長。"
+  },
+  {
+   "name": "雲端服務",
+   "stance": "觀察",
+   "view": "SaaS 相關如 Fastly、Cloudflare 長期看好，但短期漲多需盤整。"
+  },
+  {
+   "name": "太陽能",
+   "stance": "中性",
+   "view": "波動劇烈，若需穩定配置建議減持。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "ZM",
+   "name": "Zoom Video Communications",
+   "market": "US",
+   "stance": "看多",
+   "argument": "財報營收成長 355%，用戶數暴增，但勿因政治因素放空。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "新顯卡 RTX 30 系列性價比極高，換卡潮可期，資料中心與電玩雙引擎。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "重點持股，因漲幅過大可能適度減碼以控制配置比例。"
+  },
+  {
+   "symbol": "NCN",
+   "name": "EnChino",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雲端金融科技 SaaS，值得關注。"
+  },
+  {
+   "symbol": "FSLY",
+   "name": "Fastly",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雲端服務長期看好，但短期漲多。"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雲端服務長期看好，但短期漲多。"
+  },
+  {
+   "symbol": "SQ",
+   "name": "Square",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "疫情帶動無接觸支付想像空間，成長股需關注營收與市占。"
+  }
+ ],
+ "quotes": [
+  "不要因為看不爽或心理上覺得怎麼樣，就去股票市場裡面發洩。",
+  "你有多不爽，你都不要跑去市場裡面搞笑。",
+  "成長股最重要的就是題材性，沒有夢想的東西是雜魚、是鹹魚。"
+ ],
+ "ep_key": "EP67",
+ "title": "EP67 | Zoom空軍死透 Nvidia新卡有夠香",
+ "pubdate": "2020-09-02",
+ "duration_s": 2387,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

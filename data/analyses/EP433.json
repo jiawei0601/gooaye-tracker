@@ -1,0 +1,126 @@
+{
+ "summary": "主持人分享在羅馬參加冰島樂團Kaleo小型演唱會的獨特體驗，並討論當前市場。他認為AI需求強勁但美股估值已高，台股相對便宜，仍可做多。他將SMCI和Arm視為多頭領先指標，並關注Marvell財報以判斷ASIC發展。他提醒泡沫存在但可能持續，建議控制槓桿。他也提到低基期產業如面板、工具機、車用等值得觀察，並認為修正後市場仍可延續多頭。",
+ "topics": [
+  "Kaleo演唱會體驗與手機沒收政策",
+  "AI泡沫與多頭持續性分析",
+  "台股與美股估值比較",
+  "ASIC發展與Marvell財報觀察",
+  "低基期產業（面板、工具機、車用）",
+  "散戶行為與市場心理",
+  "地緣政治風險對台股的影響",
+  "AGI的發展與定義"
+ ],
+ "market_view": "美股估值已高，台股相對便宜，多頭趨勢未結束但需注意修正風險。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "需求強勁，但需觀察SMCI和Arm等領先指標。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電估值合理，ASIC相關公司如Marvell、博通、世芯值得關注。"
+  },
+  {
+   "name": "面板",
+   "stance": "觀察",
+   "view": "稼動率打底回升，春燕訊號出現，但主持人對面板廠興趣較低，偏好供應鏈。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "三星可能抑制價格，漲勢不如面板健康。"
+  },
+  {
+   "name": "電動車",
+   "stance": "觀察",
+   "view": "屬於低基期產業，可留意。"
+  },
+  {
+   "name": "工具機",
+   "stance": "觀察",
+   "view": "屬於低基期產業。"
+  },
+  {
+   "name": "車用",
+   "stance": "觀察",
+   "view": "屬於低基期產業。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "SMCI",
+   "name": "Super Micro Computer",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "作為多頭領先指標，但主持人不會買。"
+  },
+  {
+   "symbol": "ARM",
+   "name": "Arm Holdings",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "作為多頭領先指標，但主持人不會買。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "估值相對便宜，全球半導體軍火商。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "觀察其財報以判斷ASIC發展。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "ASIC重要看點公司。"
+  },
+  {
+   "symbol": "3611",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "ASIC純度較高，值得關注。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "ASIC純度低於世芯。"
+  },
+  {
+   "symbol": "3481",
+   "name": "群創",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "老闆喊春燕，但主持人對面板廠興趣低。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "核心重點，但估值高，不建議加碼。"
+  }
+ ],
+ "quotes": [
+  "泡泡確實是越吹越大，但有時候泡泡可以吹很久。",
+  "散戶最喜歡的是解套，台積過新高時散戶都在賣。",
+  "不要直接拿過去的圖疊現在，歷史會押韻但不會完全重複。"
+ ],
+ "ep_key": "EP433",
+ "title": "EP433 | 🐦",
+ "pubdate": "2024-03-06",
+ "duration_s": 2955,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

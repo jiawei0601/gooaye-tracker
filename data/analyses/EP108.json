@@ -1,0 +1,99 @@
+{
+ "summary": "本集主持人謝孟恭以 Reddit WallStreetBets 軋空事件為主軸，深入分析 GameStop (GME) 多空對決的經典案例，強調散戶團結對抗對沖機構的歷史意義。他認為 GME 的上漲並非純粹炒作，背後有 Michael Burry 與 Ryan Cohen 等基本面支撐，但市場熱潮消退後股價可能回跌。同時提醒投資人應從熔斷、原油負值等歷史事件中學習風險管理，並重申分批進場與市值型 ETF (如 0050) 的長期配置策略。節目中也預告了隔日的 Podcast 產業直播活動，並回答聽眾關於零股定期定額、美股 ETF 選擇等提問。",
+ "topics": [
+  "Reddit WallStreetBets 軋空事件 (GameStop/AMC/Blackberry)",
+  "散戶與對沖機構的對決與市場影響",
+  "GameStop 基本面分析 (Ryan Cohen 轉型電商、微軟合作)",
+  "Citron Research 做空報告的爭議與歷史績效",
+  "歷史經典事件對投資心態的影響 (熔斷、原油負值)",
+  "Podcast 產業現況與數據分享 (直播活動預告)",
+  "零股定期定額與 ETF 配置建議",
+  "美股群組資訊分享與社群價值"
+ ],
+ "market_view": "市場熱度極高，成交量放大，但需警惕炒作後的修正風險。",
+ "industries": [
+  {
+   "name": "遊戲零售",
+   "stance": "中性",
+   "view": "GameStop 有轉型電商潛力，但實體通路受疫情與電商衝擊，多空分歧大。"
+  },
+  {
+   "name": "寵物電商",
+   "stance": "看多",
+   "view": "Chewy 創辦人 Ryan Cohen 的經營能力備受肯定，其加入 GameStop 董事會帶來轉機。"
+  },
+  {
+   "name": "電玩主機",
+   "stance": "中性",
+   "view": "GameStop 與微軟合作銷售 Xbox 生態系商品可獲分潤，但整體產業趨勢仍偏數位化。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "GME",
+   "name": "GameStop",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "多方有 Michael Burry 與 Ryan Cohen 基本面支撐，空方看衰實體通路，股價波動劇烈，不建議追高。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Citron 看空標的之一，但股價持續上漲，主持人未明確表態。"
+  },
+  {
+   "symbol": "AMC",
+   "name": "AMC Entertainment",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "實體影城受疫情影響業績差，股價被軋空推升，但基本面仍弱。"
+  },
+  {
+   "symbol": "NIO",
+   "name": "NIO Inc.",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Citron 曾看空但股價大漲，主持人僅提及歷史案例。"
+  },
+  {
+   "symbol": "SHOP",
+   "name": "Shopify",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Citron 曾看空但股價大漲，主持人僅提及歷史案例。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Citron 曾看空後轉多，主持人僅提及歷史案例。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "市值型大盤 ETF 是最基本的長期配置選擇，勝過多數策略型 ETF。"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "主持人自己定期定額扣款買進，不看短期買入價格。"
+  }
+ ],
+ "quotes": [
+  "如果你有經歷過熔斷潮，你的想法一定會跟那些沒有經歷過的人不一樣。",
+  "不要習慣像空頭那樣思考，什麼東西都是泡沫，有時候你要尊重市場。",
+  "分批進場，只要有好幾批可以打，心態上會穩定非常非常多。"
+ ],
+ "ep_key": "EP108",
+ "title": "EP108 | 優摟！",
+ "pubdate": "2021-01-23",
+ "duration_s": 1598,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

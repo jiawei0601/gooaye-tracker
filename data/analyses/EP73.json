@@ -1,0 +1,84 @@
+{
+ "summary": "本集主持人謝孟恭主要探討兩大主題：一是Spotify因員工要求審查Joe Rogan節目內容而可能罷工，導致公司文化與投資價值受損，主持人因此設定225美元為停損點；二是TikTok在美國的收購案，分析字節跳動、Oracle、Walmart的股權結構，批評川普政府以國安為名卻圖利特定企業，並引用Samuel Johnson名言反思愛國主義被濫用的現象。此外，QA環節討論海運股、台股停利策略、保險配置及回測方法。整體總經判斷偏向市場震盪加劇，操作難度提高。",
+ "topics": [
+  "Spotify員工罷工與內容審查爭議",
+  "TikTok美國收購案股權結構與政治角力",
+  "公司文化對業績與投資價值的影響",
+  "海運股旺季尾聲與股價修正",
+  "台股停利策略與動態停利觀念",
+  "保險配置與反脆弱槓鈴策略",
+  "回測方法與股性分析"
+ ],
+ "market_view": "市場從三月到七月的大漲行情已結束，目前操作難度明顯提高，震盪加劇。",
+ "industries": [
+  {
+   "name": "串流音樂",
+   "stance": "看空",
+   "view": "Spotify因內部員工政治鬥爭與內容審查，競爭力下滑，投資價值減損。"
+  },
+  {
+   "name": "社群媒體",
+   "stance": "觀察",
+   "view": "TikTok收購案充滿政治算計，最終結果仍存變數，但本質是各方利益爭奪。"
+  },
+  {
+   "name": "海運",
+   "stance": "中性",
+   "view": "旺季接近尾聲，運價指數為先行指標，股價可能已反映，需注意淡季來臨。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "因員工要求審查內容且執行長壓不住，公司文化惡化，設定225美元為停損點。"
+  },
+  {
+   "symbol": "ORCL",
+   "name": "Oracle",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "在TikTok收購案中可能獲利，但主持人未明確表態多空。"
+  },
+  {
+   "symbol": "WMT",
+   "name": "Walmart",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "在TikTok收購案中可能獲利，但主持人未明確表態多空。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾提問買在高點，主持人建議分批買進，長期仍可抱但不易回到八月底高點。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾提問買在高點，主持人建議分批買進，長期仍可抱但不易回到八月底高點。"
+  },
+  {
+   "symbol": "WCLD",
+   "name": "WisdomTree Cloud Computing ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾提問買在高點，主持人建議分批買進。"
+  }
+ ],
+ "quotes": [
+  "Patriotism is the last refuge of a scoundrel. 愛國主義是無賴最後的避難所。",
+  "再好的標的，不好的時機點也會很慘；在不好的標的，買的時機好，也是有可觀的獲利。",
+  "如果你用國安危機去看TikTok，你會看不懂；如果你用利益的角度去分析，就突然完全看懂了。"
+ ],
+ "ep_key": "EP73",
+ "title": "EP73 | 員工綁架公司 TikTok瓜分狀況",
+ "pubdate": "2020-09-23",
+ "duration_s": 2514,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,106 @@
+{
+ "summary": "本集討論台股與美股近期劇烈震盪，主持人指出歷史最大跌點後緊接最大漲點，專殺心思不定的多空雙邊交易者。他認為疫情雖在台灣爆發，但疫苗普及後可望緩解，不必過度悲觀。他強調不要迷信預測或國安基金，應培養臨機應變能力。美股部分，他分析Michael Burry的13F報告，讚賞其做空長債與做多Google、Facebook的精準操作，但提醒特斯拉空單時間點不佳。他也討論鋼鐵等原物料股熱度已高，建議保守看待，並重申科技股長期看好。最後在Q&A中建議聽眾用市值型ETF做核心配置，避免槓桿型ETF的震盪磨損。",
+ "topics": [
+  "台股歷史最大跌點與漲點的劇烈震盪行情",
+  "疫情對市場與家庭生活的影響",
+  "迷信預測、520行情與國安基金的迷思",
+  "Michael Burry的13F報告分析（做空長債、做多Google/Facebook）",
+  "原物料與景氣循環股的熱度風險",
+  "投資策略：ETF vs 個股、槓桿工具的選擇",
+  "職場霸凌與應對建議",
+  "保險與資產配置觀念"
+ ],
+ "market_view": "台股與美股近期將持續劇烈震盪，但疫情利空化解後可能強勁反彈，不必過度悲觀。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "科技股長期看好，相信人類文明持續發展就會持續上漲。"
+  },
+  {
+   "name": "鋼鐵",
+   "stance": "中性",
+   "view": "市場熱度極高，屬於景氣循環股，報價趨緩時可能反轉，上檔空間有限。"
+  },
+  {
+   "name": "原物料",
+   "stance": "觀察",
+   "view": "機構大量買入，但熱度已高，可能套在水岸第一排，需謹慎。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "若看好可額外加碼，但需注意與0050的權重重疊，個股仍有風險。"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "與台積電同為晶圓代工，但主持人未明確表態。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "適合無腦長期持有，可平滑風險，看好台灣整體國運。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet (Google)",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Michael Burry做多且表現強勢，是尖牙股中少數突破的標的。"
+  },
+  {
+   "symbol": "FB",
+   "name": "Meta (Facebook)",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Michael Burry做多且表現強勢，是尖牙股中少數突破的標的。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Michael Burry做空但時間點不佳，若一次壓進恐被軋上天。"
+  },
+  {
+   "symbol": "TLT",
+   "name": "iShares 20+ Year Treasury Bond ETF",
+   "market": "US",
+   "stance": "看空",
+   "argument": "Michael Burry買put做空長債，在第一季殖利率上升時獲利。"
+  },
+  {
+   "symbol": "TBT",
+   "name": "ProShares UltraShort 20+ Year Treasury",
+   "market": "US",
+   "stance": "看空",
+   "argument": "Michael Burry做多此兩倍放空長債ETF，與TLT put同為看空債券。"
+  },
+  {
+   "symbol": "2002",
+   "name": "中鋼",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "鋼鐵股熱度高，但景氣循環股不易長期強勢，需注意反轉。"
+  }
+ ],
+ "quotes": [
+  "股票市場是一個吃人不吐骨頭的世界，不要把『穩賺不賠』掛在嘴上。",
+  "投資可能還要有一點瀟灑，配置下去之後可以過得很舒服，投資是為了讓你生活更舒服。",
+  "與其去相信那種神佛、預測的東西，你不如相信可以去把這些能力培養好，遇到狀況時可以很即時地做反應。"
+ ],
+ "ep_key": "EP141",
+ "title": "EP141 | 甩到你叫媽",
+ "pubdate": "2021-05-19",
+ "duration_s": 2621,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

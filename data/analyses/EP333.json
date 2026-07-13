@@ -1,0 +1,74 @@
+{
+ "summary": "本集主持人分享宜蘭、高雄之旅，並從與南部投資高手的交流中體悟到「執行力」與「識別問題」的重要性，強調贏家思維與持續學習。主要市場觀點聚焦於NVIDIA GTC 2023，認為其AI基礎建設（DGX Cloud、AI Foundation、cuLitho）將加速工業自動化與半導體製程變革，並看好工業電腦相關機會。同時提醒投資人勿陷入比較心態，應專注自身策略與家庭平衡。",
+ "topics": [
+  "生活感悟與投資心態",
+  "NVIDIA GTC 2023 重點分析",
+  "AI 基礎建設與工業自動化",
+  "房地產與資產配置",
+  "行車糾紛處理建議",
+  "感情與職涯選擇"
+ ],
+ "market_view": "AI 基建將帶動半導體與工業自動化新一波成長，但整體市場仍處於庫存調整階段，復甦訊號不明顯。",
+ "industries": [
+  {
+   "name": "AI 伺服器",
+   "stance": "看多",
+   "view": "NVIDIA 的 GPU 需求因 AI 訓練與推論而強勁，7 奈米稼動率可望受惠。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "cuLitho 與 GPU 加速運算將提升微影效率，降低能耗，帶動先進製程發展。"
+  },
+  {
+   "name": "工業電腦",
+   "stance": "看多",
+   "view": "AI 導入工廠自動化將加速缺工問題的解決，工業電腦廠可望受惠。"
+  },
+  {
+   "name": "儲能",
+   "stance": "觀察",
+   "view": "消費電子電池廠轉型儲能需觀察實際案場與營收，勿僅因題材炒作。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI 基礎建設龍頭，DGX Cloud 與 cuLitho 將鞏固其領導地位。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "與 NVIDIA 合作 cuLitho，在先進製程上持續受惠。"
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML",
+   "market": "US",
+   "stance": "中性",
+   "argument": "與 NVIDIA 合作 cuLitho，但影響需進一步確認。"
+  },
+  {
+   "symbol": "AZN",
+   "name": "AstraZeneca",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "與 NVIDIA 合作 BioNeMo 加速新藥開發。"
+  }
+ ],
+ "quotes": [
+  "想法一點都不值錢，執行力才是真的厲害。",
+  "不要只會仇視別人靠爸，陷入憤恨不平的圈套只會浪費時間。",
+  "你以為四皇很強，到了巨人世界才發現自己只是小角色，比是比不完的。"
+ ],
+ "ep_key": "EP333",
+ "title": "EP333 | ⚙",
+ "pubdate": "2023-03-22",
+ "duration_s": 3014,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

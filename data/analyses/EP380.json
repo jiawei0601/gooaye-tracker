@@ -1,0 +1,69 @@
+{
+ "summary": "主持人分享家庭生活與育兒觀察，並分析特斯拉 Model 3 Highland 改款，認為其硬體降規但軟體升級，價格高於預期，推測是為清庫存，後續可能降價。討論戴爾財報亮眼但 PC/NB 復甦仍緩，強調市場常提前反映復甦。對博通與 Marvell 看法中性偏多，認為故事在明年。最後回答聽眾問題，討論籌碼操作、當兵期間槓桿風險、做人處事與創業心態。",
+ "topics": [
+  "特斯拉 Model 3 Highland 改款分析",
+  "戴爾財報與 PC/NB 市場復甦",
+  "博通與 Marvell 的 ASIC 前景",
+  "市場提前反映復甦的現象",
+  "家庭生活與育兒心得",
+  "做人處事與創業心態討論"
+ ],
+ "market_view": "市場常提前反映復甦，股災時敢於承擔風險者往往能把握翻身機會。",
+ "industries": [
+  {
+   "name": "電動車",
+   "stance": "觀察",
+   "view": "特斯拉 Model 3 Highland 硬體降規但軟體升級，價格高於預期，推測是為清庫存，後續可能降價。"
+  },
+  {
+   "name": "PC/NB",
+   "stance": "觀察",
+   "view": "戴爾財報亮眼但復甦仍緩，股價已提前反映，需觀察後續需求。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "博通與 Marvell 財報後下跌，但故事在明年，ASIC 業務具長期潛力。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Model 3 Highland 價格高於預期，推測是為清庫存，後續可能降價，毛利有機會提升。"
+  },
+  {
+   "symbol": "DELL",
+   "name": "戴爾",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "財報釋出樂觀信號，股價創新高，但 PC/NB 復甦仍緩，市場已提前反映。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "中性",
+   "argument": "財報後下跌，但故事在明年，蘋果大單與 Wi-Fi 7 將是動能。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "中性",
+   "argument": "財報後下跌，AWS Trainium 貢獻在明年，ASIC 業務具潛力。"
+  }
+ ],
+ "quotes": [
+  "每次人家跟你講說很可怕的時候，當然可以選擇跟大家一起跑，其實如果你不敢承擔風險的話，你就只能這樣做。可是如果你是敢承擔風險的人，很多翻身機會就在那時候出現。",
+  "會做人的人就是會讀空氣的人，但除了讀空氣之外，還要有執行的意願。",
+  "每個人都是打工仔，不用去糾結領導地位，消費者就是老闆。"
+ ],
+ "ep_key": "EP380",
+ "title": "EP380 | 🍂",
+ "pubdate": "2023-09-02",
+ "duration_s": 3001,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,103 @@
+{
+ "summary": "本集主持人謝孟恭分享赴美旅遊心得與生活感悟，並探討 OpenAI 推出 Sora 模型後，Text2Video 技術對供應鏈與產業的影響。他認為隨著 AI 影片生成普及，資料儲存空間與頻寬需求將大幅攀升，帶動雲端服務商與 CDN 業者的伺服器採購需求。然而，模型商因競爭激烈需讓利，未必是最大受惠者，反而不用承擔模型競爭壓力的 CDN 業者與新式儲存技術廠商更具投資潛力。在 QA 環節中，主持人強調風險控管應透過部位上限執行，強烈反對新手開信貸與當沖交易，並分享自身投資心態與看盤工具推薦。",
+ "topics": [
+  "赴美旅遊與 GTA 遊戲圓夢的生活感悟",
+  "OpenAI Sora 與 Text2Video 技術發展",
+  "AI 影片生成對存儲空間與頻寬的龐大需求",
+  "CDN 業者與雲端服務商在 AI 浪潮中的受惠程度",
+  "模型商競爭激烈未必是最大贏家",
+  "投資風險控管與部位上限策略",
+  "反對新手當沖與開信貸投資"
+ ],
+ "market_view": "Text2Video 將帶動龐大的存儲與頻寬基礎設施需求，模型商因紅海競爭未必受惠，賣鏟的 CDN 業者與新式儲存技術廠商才是最直接的受惠者。",
+ "industries": [
+  {
+   "name": "AI 影片生成",
+   "stance": "看多",
+   "view": "Text2Video 將普及化，大幅提升整體創作者數量與產出量。"
+  },
+  {
+   "name": "CDN/邊緣運算",
+   "stance": "看多",
+   "view": "大量影片傳播將推升頻寬需求，CDN 業者無模型競爭壓力，為最直接受惠者。"
+  },
+  {
+   "name": "雲端服務",
+   "stance": "觀察",
+   "view": "Data Center 存儲需求大增，但大型 CSP 可能為推廣自家 AI 服務而壓低利潤。"
+  },
+  {
+   "name": "記憶體/存儲",
+   "stance": "觀察",
+   "view": "需先觀察庫存去化狀況，確認需求 work 後才會帶來缺貨漲價與獲利迸發。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "看多",
+   "argument": "CDN 業者處理量越大收越多，無模型競爭壓力，是 Text2Video 放量下的直接受惠者。"
+  },
+  {
+   "symbol": "AKAM",
+   "name": "Akamai",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "同為 CDN 業者，可觀察其在頻寬與存儲需求爆發下的受惠程度。"
+  },
+  {
+   "symbol": "FSLY",
+   "name": "Fastly",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "CDN 業者之一，主持人提及可作為觀察標的。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雖支援 OpenAI 服務帶動基礎設施需求，但可能為推廣而壓低利潤，純度受質疑。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "旗下擁有 YouTube 與 GCP，面臨大量 AI 影片存儲壓力，同時也是模型競爭者。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "AWS 作為大型 CSP 之一，將受惠於存儲需求，但同樣面臨模型競爭壓力。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "推出類似 Text2Video 產品，身處模型競爭紅海，未必能直接受惠。"
+  },
+  {
+   "symbol": "Adobe",
+   "name": "Adobe",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "將跟進 Text2Video 趨勢，成為普及化的工具之一。"
+  }
+ ],
+ "quotes": [
+  "你要去感謝這些動能宅，就如果說沒有這些動能宅看到股價一下在右上角，然後在那拼命追的話，你以為他媽誰會把你的股票推上去？",
+  "我最主要的風險控管方式都是透過部位上限的方式，就是我單一標的可能都會設定一個上限，所以假設爆炸的話就是只爆那個部位。",
+  "哪一個投資的做法可能會讓你在一次的大賠就賠掉太多錢，然後你平時是賺錢都只能夠賺蠅頭微利，這就是長輩講的——就是你去賺麵粉的利、然後去扛白粉的一個風險。"
+ ],
+ "ep_key": "EP513",
+ "title": "EP513 | 🦭",
+ "pubdate": "2024-12-11",
+ "duration_s": 3023,
+ "analysis_source": "text/whatmkreallysaid"
+}

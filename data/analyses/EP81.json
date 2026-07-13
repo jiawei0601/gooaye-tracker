@@ -1,0 +1,69 @@
+{
+ "summary": "本集主要討論 Howard Marks 最新備忘錄，指出當前資產價格偏高、預期回報率低，建議採取防禦性配置（增加現金或股債配置）。主持人認為美國紓困案勢在必行，但可能因政治角力延宕，若拖至選後將增加企業破產風險。此外深入分析 Hyliion (HYLN) 遭 Bonitas Research 做空的報告，質疑其技術來源、大股東 Dana 未採用其方案、客戶測試效果不佳及獎項爭議。主持人提醒投資人勿盡信單一觀點，市場多空並存，應保持獨立判斷。",
+ "topics": [
+  "Howard Marks 最新備忘錄：資產價格偏高、防禦性配置建議",
+  "美國紓困案的政治角力與必要性",
+  "Hyliion (HYLN) 遭做空報告分析",
+  "投資大師觀點的參考與獨立判斷的重要性",
+  "K型復甦下產業分化與破產風險",
+  "聽眾 QA：勞資議題、投資心態、陰謀論"
+ ],
+ "market_view": "資產價格處於相對高位，充滿不確定性，預期回報率不高，建議採取防禦性做法。",
+ "industries": [
+  {
+   "name": "電動卡車",
+   "stance": "觀察",
+   "view": "Hyliion 遭做空報告質疑技術與商業化前景，Nikola 股價已大幅下跌，產業仍充滿不確定性。"
+  },
+  {
+   "name": "航空",
+   "stance": "看空",
+   "view": "疫情持續影響，復甦遙遙無期，巴菲特出脫航空股是合理判斷。"
+  },
+  {
+   "name": "能源",
+   "stance": "看空",
+   "view": "能源股仍處於低迷狀態，K型復甦下表現疲弱。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "HYLN",
+   "name": "Hyliion",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "遭 Bonitas Research 做空，質疑其核心技術來源、大股東 Dana 未採用、客戶測試效果不佳及獎項爭議，股價連續下跌。"
+  },
+  {
+   "symbol": "NKLA",
+   "name": "Nikola",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "先前被 Hindenburg Research 打假，股價從高點大幅下跌，反彈可能為賭徒或空頭回補。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "中性",
+   "argument": "市場看法分歧，ARK Invest 上看 7000，Morgan Stanley 下看 20，主持人未明確表態。"
+  },
+  {
+   "symbol": "JKS",
+   "name": "晶科能源",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Bonitas Research 曾做空該公司，但股價從三月低點大幅上漲，顯示做空報告並非總是正確。"
+  }
+ ],
+ "quotes": [
+  "在股市裡面，如果你真的覺得你可以設好一個目標，然後就這樣做到底的話，那大家都發財了，不可能這麼簡單。",
+  "市場裡面其實重複的事情是還蠻多的，只是可能會用不同的方式呈現，但是大致上是差不多的。",
+  "不要替短線去找理由，因為可能你今天找完一個理由，明天它跌了那怎麼辦？"
+ ],
+ "ep_key": "EP81",
+ "title": "EP81 | 電動車鬼故事+1",
+ "pubdate": "2020-10-21",
+ "duration_s": 2514,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

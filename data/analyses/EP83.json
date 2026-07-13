@@ -1,0 +1,76 @@
+{
+ "summary": "本集討論美國房地產市場創新高與QE後續影響，認為房價長期推升難避免，但相關股票已先修正。分析螞蟻金服IPO為全球最大，營收以微貸平台為主，估值合理。市場因美國大選不確定性陷入震盪，台股面臨匯損壓力，建議關注高殖利率與中國內需股。主持人也分享對事實查核平台、言論自由與投資心態的看法。",
+ "topics": [
+  "美國房地產市場創新高與QE影響",
+  "螞蟻金服IPO分析與估值比較",
+  "市場因選舉不確定性陷入震盪",
+  "台股匯損壓力與投資方向",
+  "事實查核平台的公正性與言論自由",
+  "投資心態與停損策略"
+ ],
+ "market_view": "市場因美國大選不確定性陷入震盪，選後方向才會明確。",
+ "industries": [
+  {
+   "name": "房地產",
+   "stance": "看多",
+   "view": "房價長期推升難避免，但相關股票已先修正。"
+  },
+  {
+   "name": "電子支付",
+   "stance": "看多",
+   "view": "螞蟻金服估值合理，靠中國內需市場成長空間大。"
+  },
+  {
+   "name": "代工業",
+   "stance": "中性",
+   "view": "台幣升值將導致匯損，毛利低的出口業受傷。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "Zillow",
+   "name": "Zillow",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "房地產相關股票在好消息後進入修正。"
+  },
+  {
+   "symbol": "Opendoor",
+   "name": "Opendoor",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "房地產相關股票在好消息後進入修正。"
+  },
+  {
+   "symbol": "Redfin",
+   "name": "Redfin",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "房地產相關股票在好消息後進入修正。"
+  },
+  {
+   "symbol": "SQ",
+   "name": "Square",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "可與螞蟻金服比較估值。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "曾因言論審查想賣出，但後來股價上漲，未執行停損。"
+  }
+ ],
+ "quotes": [
+  "真理會在自由競爭中與反對意見間相互碰撞，越辯越明。",
+  "市場最怕不確定性，確定的事情反而容易利空出盡或利多出盡。",
+  "如果你沒有本金，理財也理不到哪裡去。"
+ ],
+ "ep_key": "EP83",
+ "title": "EP83 | 好肥的螞蟻",
+ "pubdate": "2020-10-28",
+ "duration_s": 2463,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

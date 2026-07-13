@@ -1,0 +1,113 @@
+{
+ "summary": "主持人謝孟恭回顧春節後台股開紅盤，強調長期持有與資本市場的魔力。重點分析 OpenAI 的 Sora 模型，認為其將帶動儲存與傳輸需求，並指出 AI 伺服器供貨瓶頸正在緩解，但 ODM 可能進入紅海競爭。對美超微 (SMCI) 的高估值表示懷疑，認為市場預期過高。看好 WiFi 7 與 AI PC 的滲透趨勢，並提醒投資人注意槓桿風險。",
+ "topics": [
+  "OpenAI Sora 模型對儲存與傳輸需求的影響",
+  "AI 伺服器供貨瓶頸緩解與 ODM 競爭",
+  "美超微 (SMCI) 估值過高的疑慮",
+  "WiFi 7 與 AI PC 的滲透趨勢",
+  "記憶體產業與儲存相關標的的尋找",
+  "槓桿投資的風險與房貸壓力評估",
+  "詐騙產業鏈受惠者 Meta 與 Google"
+ ],
+ "market_view": "台股與美股表現強勁，但 AI 相關標的需要更謹慎，長期趨勢不變但短期可能出現波動。",
+ "industries": [
+  {
+   "name": "AI 伺服器",
+   "stance": "中性",
+   "view": "供貨瓶頸緩解，但 ODM 可能進入紅海競爭，需注意議價權變化。"
+  },
+  {
+   "name": "儲存",
+   "stance": "看多",
+   "view": "Sora 等生成式影片模型將帶動儲存與傳輸需求，長期看好。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "消費性需求尚未復甦，伺服器儲存需求能否帶動整體仍待觀察。"
+  },
+  {
+   "name": "WiFi 7",
+   "stance": "看多",
+   "view": "滲透速度可能比預期更快，商務與新裝置將帶動換代需求。"
+  },
+  {
+   "name": "AI PC",
+   "stance": "看多",
+   "view": "未來所有新 PC 都將內建 AI 功能，消費者將被迫接受。"
+  },
+  {
+   "name": "詐騙廣告",
+   "stance": "看多",
+   "view": "Meta 與 Google 因詐騙廣告持續獲利，且可能刻意不處理。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "SMCI",
+   "name": "美超微",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "市場預期過高，2024 年營收約 150 億美元，遠低於部分人喊的 280 億美元，估值已不合理。"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人持有的美國 ODM 標的，未進一步說明論點。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "屬於伺服器等級存儲相關標的，但消費性需求疲軟可能影響整體。"
+  },
+  {
+   "symbol": "PSTG",
+   "name": "Pure Storage",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "屬於伺服器等級存儲相關標的，主持人正在研究。"
+  },
+  {
+   "symbol": "NTAP",
+   "name": "NetApp",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "屬於伺服器等級存儲相關標的，主持人正在研究。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "看多",
+   "argument": "詐騙廣告的主要受惠者，可能刻意不處理詐騙帳號以維持 DAU。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "詐騙廣告的主要受惠者，網頁與 YouTube 詐騙廣告眾多。"
+  },
+  {
+   "symbol": "U",
+   "name": "Unity",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "開發者信心受損，最佳劇本是被大公司收購，Vision Pro 用戶基數太小。"
+  }
+ ],
+ "quotes": [
+  "長期持有是對的，但要有配置觀念，不能隨便買然後死抱著。",
+  "很多時候真正的快樂來自於給予，你給別人東西，看到對方的笑臉，會給你很大的快樂。",
+  "你只要不開槓桿，你絕對不會死。"
+ ],
+ "ep_key": "EP428",
+ "title": "EP428 | 🌻",
+ "pubdate": "2024-02-17",
+ "duration_s": 2999,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

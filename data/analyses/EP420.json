@@ -1,0 +1,169 @@
+{
+ "summary": "本集討論 Apple Vision Pro 開賣、供應鏈影響，並深入分析 FOPLP 先進封裝技術對面板廠的潛在機會。主持人持續看好台積電在先進製程與封裝的領導地位，並追蹤 CoWoS 供需失衡與 SoIC 發展。針對 ODM 廠，外資買超廣達、緯創，但主持人持保留態度，認為需觀察營收兌現。同時提及水冷散熱可能出現問題，轉向 immersion 方案。整體市場情緒熱絡，但提醒投資人注意資金流向與競爭。",
+ "topics": [
+  "Apple Vision Pro 銷售與供應鏈分析",
+  "FOPLP 先進封裝技術與面板廠機會",
+  "台積電法說會展望與先進封裝 (CoWoS/SoIC)",
+  "ODM 廠 (廣達、緯創、鴻海) 現況與外資動向",
+  "水冷散熱問題與 immersion 方案轉向",
+  "PA 功率放大器市場與三雄現況",
+  "投資策略討論 (大盤 ETF、正二、全市場 ETF)"
+ ],
+ "market_view": "市場情緒熱絡，外資大買台積電與 ODM，但需留意資金輪動與個股基本面兌現。",
+ "industries": [
+  {
+   "name": "VR/MR",
+   "stance": "觀察",
+   "view": "Vision Pro 首代因價格過高銷量預估低於 100 萬台，但下一代平價版有機會放量，供應鏈貢獻有限。"
+  },
+  {
+   "name": "面板",
+   "stance": "觀察",
+   "view": "傳統面板漲價故事有限，但 FOPLP 先進封裝技術可能帶來新題材與 rerate 機會。"
+  },
+  {
+   "name": "半導體封裝",
+   "stance": "看多",
+   "view": "CoWoS 持續供不應求，SoIC 與 FOPLP 將接力成為封裝大旺年，設備廠受惠。"
+  },
+  {
+   "name": "ODM",
+   "stance": "觀察",
+   "view": "外資開始加碼，但需觀察營收兌現，廣達 Q1-Q2 有機會開出好成績，鴻海旗下鴻佰全段布局值得注意。"
+  },
+  {
+   "name": "散熱",
+   "stance": "觀察",
+   "view": "水冷方案傳出問題，可能促使 CSP 與 GPU 廠轉向 immersion 方案，相關廠商有機會。"
+  },
+  {
+   "name": "PA",
+   "stance": "觀察",
+   "view": "PA 三雄股價低迷，但長期需求仍在，需等待資金發動與供需改善。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Vision Pro 首代銷量預估低於 100 萬台，但下一代平價版有機會放量。"
+  },
+  {
+   "symbol": "3406",
+   "name": "玉晶光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "Vision Pro Pancake 鏡頭供應商，但營收貢獻有限。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "先進製程與封裝最大受惠者，UTR 持續上升，外資大買，長期看好。"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "外資賣超，成熟製程面臨中國競爭，但特殊製程仍有機會。"
+  },
+  {
+   "symbol": "2382",
+   "name": "廣達",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "外資加碼，Q1-Q2 營收有機會因 GPU 取得而衝高，但毛利率偏低。"
+  },
+  {
+   "symbol": "3231",
+   "name": "緯創",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "外資加碼，主要做 baseboard 代工，毛利較好但營收不一定暴衝。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "旗下鴻佰全段布局 AI 伺服器，但純度不足，間接持有不易。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "美超微",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "上修 guidance，股價強勢，但估值已高且曾因增資疑慮未持有。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "看多",
+   "argument": "CoWoS 最大客戶，AI 需求持續強勁。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "看多",
+   "argument": "MI300 系列採用 CoWoS 與 SoIC，AI 前景看好。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "看多",
+   "argument": "代表 Google TPU 採用 CoWoS，AI 相關。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "邁威爾",
+   "market": "US",
+   "stance": "看多",
+   "argument": "代表 AWS Trainium 晶片採用 CoWoS。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "代表 AWS 推論晶片與 Intel Habana，採用 CoWoS。"
+  },
+  {
+   "symbol": "2455",
+   "name": "全新",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "PA 三雄之一，長期需求存在但股價低迷。"
+  },
+  {
+   "symbol": "3105",
+   "name": "穩懋",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "PA 代工廠，稼動率較弱，但長期有機會。"
+  },
+  {
+   "symbol": "8086",
+   "name": "宏捷科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "PA 代工廠，稼動率較好，但股價同樣低迷。"
+  }
+ ],
+ "quotes": [
+  "好公司就是好公司，它不會因為它的股價變化有太多基本面的變化，你買在爛價格那其實是自己的問題。",
+  "股票要有夢想，你不一定要買那種 PE ratio 便宜的東西。有夢想的東西，你以為它 20 倍很貴，到噴到 40 倍；那你買這個 8 倍的，最多噴到 10 倍，根本就沒有真的漲很多。",
+  "長大不容易，我們盡可能的讓自己去找到快樂。可是小時候你不需要找快樂。"
+ ],
+ "ep_key": "EP420",
+ "title": "EP420 | 🌿",
+ "pubdate": "2024-01-20",
+ "duration_s": 3086,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

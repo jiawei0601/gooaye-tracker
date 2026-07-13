@@ -1,0 +1,71 @@
+{
+ "summary": "主持人謝孟恭分析川普確診COVID-19對市場的影響，認為因先前各國領袖染疫後多數康復，市場反應有限，美股期貨僅跌約2%，不太可能崩盤。他推測川普若快速康復，可能因英雄主義形象提升支持度，並對中國採取更強硬立場。他也補充上一集遺漏的微軟收購Zenimax Media重點，指出其旗下Bethesda的Orion串流技術是關鍵資產。針對近期IPO熱潮，他提醒投資人避免FOMO，並對Palantir上市估值與2015年相同提出疑慮，認為原始股東可能急於出場。整體看好NVIDIA和微軟在遊戲串流領域的發展。",
+ "topics": [
+  "川普確診對市場與選情的影響分析",
+  "微軟收購Zenimax Media與Orion串流技術",
+  "IPO之亂總結與Palantir估值疑慮",
+  "遊戲串流產業前景與NVIDIA、微軟的優勢",
+  "投資策略建議：主動選股vs指數ETF",
+  "台股與美股的配置比例與風險考量"
+ ],
+ "market_view": "川普確診不會導致股市崩盤，市場已從先前領袖染疫經驗中學習，反應將相對溫和。",
+ "industries": [
+  {
+   "name": "遊戲串流",
+   "stance": "看多",
+   "view": "看好NVIDIA和微軟在遊戲串流領域的發展，微軟收購Zenimax Media獲得的Orion技術是關鍵。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "美國制裁華為下，AMD、Intel可持續供貨，聯發科申請許可中，台積電間接供貨，需觀察後續。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "看多",
+   "argument": "收購Zenimax Media獲得Orion串流技術，有助於XCloud提升競爭力，是遊戲串流領域的關鍵布局。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "看多",
+   "argument": "在遊戲串流產業中獲利佔比最高，是最看好的公司之一。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "IPO估值與2015年相同，原始股東可能急於出場，需觀察股價表現與財報後再考慮加碼。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "因幫AMD代工，間接持續供貨給華為，但未明確表態多空。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "正在申請美國許可持續供貨華為，主持人認為有機會但未明確表態。"
+  }
+ ],
+ "quotes": [
+  "不要因為市場短期的情緒受到太多影響，IPO的購買頻率要拉長，千萬不要有FOMO。",
+  "用利益的角度去看事情才清楚，用情感、用情緒去看事情會不清楚。美國最大的利益不是把中國擊退，而是讓供應鏈重新洗牌，最終都用美系產品。",
+  "主動投資絕對是最困難的投資之一，打不贏大盤的人就乖乖做ETF。"
+ ],
+ "ep_key": "EP76",
+ "title": "EP76 | 十月驚奇 得疫的一天",
+ "pubdate": "2020-10-03",
+ "duration_s": 2360,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

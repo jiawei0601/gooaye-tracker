@@ -1,0 +1,69 @@
+{
+ "summary": "本集主持人分享 Vision Pro 的沉浸式體驗與對蘋果產品線的期待，並深入分析群聯的 aiDAPTIV 窮人版 AI 方案，認為其 cost down 方向有機會成功。同時討論美光財報亮點，指出 HBM 供不應求、NAND 價格受控上漲，但實際需求復甦仍待觀察。針對台灣漲電價與升息半碼，認為對多數企業影響有限，但提醒高槓桿投資高股息 ETF 的風險。最後回覆聽眾感情、交易心態等問題，強調量力而為與讓自己舒服。",
+ "topics": [
+  "Vision Pro 使用心得與未來展望",
+  "群聯 aiDAPTIV 方案分析",
+  "美光財報與記憶體產業展望",
+  "台灣漲電價與升息對市場的影響",
+  "高股息 ETF 狂潮與散戶風險",
+  "聽眾感情與交易心態問答"
+ ],
+ "market_view": "股市反應速度越來越快，不要輕易預判短線走勢，修正後反彈可能又快又猛。",
+ "industries": [
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "HBM 供不應求將持續兩三年，NAND 價格在廠商聯合控產下強勁反彈，但實際需求復甦仍偏弱。"
+  },
+  {
+   "name": "AI 伺服器",
+   "stance": "觀察",
+   "view": "HBM 獲利已被市場充分預期，後續驚喜可能來自 AI PC 帶動的消費性記憶體需求。"
+  },
+  {
+   "name": "導線架",
+   "stance": "中性",
+   "view": "產業展望沒有明顯劣勢，但非 AI 時代的受惠者，單價與整體市場規模成長有限。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "HBM 產能被包下、NAND 價格強勁，但獲利驚喜空間可能有限。"
+  },
+  {
+   "symbol": "PSTG",
+   "name": "Pure Storage",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人持有中，未進一步說明論點。"
+  },
+  {
+   "symbol": "NTAP",
+   "name": "NetApp",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人持有中，未進一步說明論點。"
+  },
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "aiDAPTIV 方案為窮人版 AI，成本降低方向有機會成功，但需觀察實際成果。"
+  }
+ ],
+ "quotes": [
+  "真正的穩定，是你開始知道每次賠是為什麼賠、每次賺是為什麼賺。",
+  "不要活在別人的說法裡面，會非常痛苦；不要去追求別人的認同。",
+  "在婚前沒有必要包容跟忍耐太多，讓自己舒服最重要。"
+ ],
+ "ep_key": "EP438",
+ "title": "EP438 | 🏐",
+ "pubdate": "2024-03-23",
+ "duration_s": 2994,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

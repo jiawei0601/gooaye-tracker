@@ -1,0 +1,123 @@
+{
+ "summary": "本集主要討論 Archegos 爆倉事件，深入分析其成因與影響，並延伸探討槓桿風險、overbooking 隱憂及原物料行情。主持人認為資金從科技股轉向原物料，但建議菜雞以指數型投資為主，不適合操作景氣循環股。同時提醒台股 overbooking 風險，並以 Bill Hwang 的故事強調槓桿的破壞力，認為長期投資應避免使用槓桿。",
+ "topics": [
+  "Archegos 爆倉事件始末與教訓",
+  "原物料行情與基建題材",
+  "台股 overbooking 重複下單風險",
+  "槓桿交易的風險與破產可能",
+  "科技股盤整與資金流向",
+  "中國監管政策對中概股的影響"
+ ],
+ "market_view": "資金從科技股轉向原物料，但原物料屬景氣循環股，不適合長期持有。",
+ "industries": [
+  {
+   "name": "原物料",
+   "stance": "觀察",
+   "view": "資金流入原物料，但屬景氣循環股，不建議長期持有，僅適合短線交易者。"
+  },
+  {
+   "name": "航運",
+   "stance": "觀察",
+   "view": "貨櫃輪與散裝航運因原物料需求上漲，但屬景氣循環，不建議長期投資。"
+  },
+  {
+   "name": "科技股",
+   "stance": "中性",
+   "view": "美國科技股盤整，台股科技股因漲價撐盤，但需注意 overbooking 風險。"
+  },
+  {
+   "name": "電子零組件",
+   "stance": "觀察",
+   "view": "漲價與缺貨題材持續，但 overbooking 可能導致後續砍單風險。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "IYM",
+   "name": "iShares US Basic Materials ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "原物料 ETF，適合對基建題材有興趣但不會選股的投資人。"
+  },
+  {
+   "symbol": "VAW",
+   "name": "Vanguard Materials ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "原物料 ETF，與 IYM 同為基建相關配置選項。"
+  },
+  {
+   "symbol": "VIAC",
+   "name": "ViacomCBS",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Archegos 核心持股，因高點發債引發爆倉，股價重挫。"
+  },
+  {
+   "symbol": "DISCA",
+   "name": "Discovery Inc.",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "與 ViacomCBS 走勢高度相似，同為 Archegos 炒作標的。"
+  },
+  {
+   "symbol": "TME",
+   "name": "騰訊音樂",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "中概股，因 Archegos 爆倉被拋售，但公司宣布庫藏股。"
+  },
+  {
+   "symbol": "BIDU",
+   "name": "百度",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "中概股，受 Archegos 爆倉影響下跌。"
+  },
+  {
+   "symbol": "VIPS",
+   "name": "唯品會",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "中概股，為 Archegos 持股之一。"
+  },
+  {
+   "symbol": "IQ",
+   "name": "愛奇藝",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "中概股，因 Archegos 爆倉被拋售。"
+  },
+  {
+   "symbol": "GSX",
+   "name": "跟誰學",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "中概股，受中國校外培訓監管政策影響下跌。"
+  },
+  {
+   "symbol": "RLX",
+   "name": "霧芯科技",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "中概股，受中國電子煙監管政策影響下跌。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "定期定額長期投資標的，不建議擇時進出。"
+  }
+ ],
+ "quotes": [
+  "任何靠運氣贏來的東西，你最後面都會靠實力把所有東西給賠回去。",
+  "你使用現股交易，你一輩子都不會破產；你只要融資、只要使用槓桿，你是有可能會搞到負債的。",
+  "一家公司如果真的很好，那不管你買在什麼雞巴爛地方，最後面都會賺錢。"
+ ],
+ "ep_key": "EP127",
+ "title": "EP127 | 地表最大當日虧損",
+ "pubdate": "2021-03-31",
+ "duration_s": 2687,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

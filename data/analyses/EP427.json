@@ -1,0 +1,45 @@
+{
+ "summary": "主持人分享過年期間使用 Apple Vision Pro 的心得，認為其電影體驗極佳，但價格高昂且重量問題待解，短期內可能帶動 Quest 銷量而非直接競爭。他判斷 Vision Pro 預示未來運算裝置的趨勢，但需等待輕量化。節目中也探討了歐洲旅遊體驗、全球化下的消費同質化，以及電玩陽痿等生活話題。總經方面無明確看法，但提及通膨導致旅遊成本上升。",
+ "topics": [
+  "Apple Vision Pro 深度體驗與未來展望",
+  "歐洲旅遊文化與服務差異",
+  "全球化下的消費同質化與通膨影響",
+  "電玩陽痿現象與遊戲樂趣的反思",
+  "財富自由三階段與消費心態",
+  "台股開盤與個人投資心態"
+ ],
+ "market_view": null,
+ "industries": [
+  {
+   "name": "VR/AR",
+   "stance": "看多",
+   "view": "Vision Pro 與 Quest 代表未來運算裝置趨勢，長期看好，但短期需克服重量與價格門檻。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人未明確表態，僅表示財報前未加碼，不確定股價走勢。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "對定期定額槓桿商品持謹慎態度，提醒注意下跌風險。"
+  }
+ ],
+ "quotes": [
+  "Vision is the Future。",
+  "遊戲好玩的地方，就是在你什麼都沒有，只有兩片屁股白白的時候，毫無方向的去跟農、累積，那段時間是最好玩的。",
+  "當你財富增加，你會發現比價的時間是很珍貴的，寧願多花一點錢換取時間。"
+ ],
+ "ep_key": "EP427",
+ "title": "EP427 | 🥽",
+ "pubdate": "2024-02-14",
+ "duration_s": 2980,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

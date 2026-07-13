@@ -1,0 +1,69 @@
+{
+ "summary": "主持人分享聽團與生活感悟，並深入分析AI產業投資機會。他認為微軟Copilot將顛覆軟體業，AI投資應聚焦硬體與少數巨頭軟體，邊緣運算有機會。總經方面未明確表態，但強調AI趨勢明確。他看好ASIC業者（創意、世芯）受惠AI訂單，並提醒投資人注意股價已反映利多，避免追高。他也討論了定期定額策略、小型股定義、Call公司經驗，以及朋友與人生階段的變化。",
+ "topics": [
+  "AI投資機會與產業分析",
+  "微軟Copilot對軟體業的影響",
+  "ASIC業者（創意、世芯）受惠AI訂單",
+  "投資心態與避免追高",
+  "定期定額與加減碼策略",
+  "小型股定義與Call公司經驗",
+  "人生階段變化與友誼維繫"
+ ],
+ "market_view": null,
+ "industries": [
+  {
+   "name": "AI",
+   "stance": "看多",
+   "view": "AI趨勢明確，投資應聚焦硬體與少數巨頭軟體，邊緣運算有機會。"
+  },
+  {
+   "name": "ASIC",
+   "stance": "看多",
+   "view": "創意與世芯受惠AI訂單，但需注意美國實體清單風險。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "NVIDIA在AI訓練領域具主導地位，軍備競賽下強者恆強。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "接到Naver等AI晶片設計訂單，AI產品開始進來。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "stance": "看多",
+   "argument": "中國占比已壓至四成以下，持續降低地緣政治風險，AI訂單挹注。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI訓練領域軍備競賽主導者，估值雖高但成長性可消化。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Copilot將顛覆軟體業，走在AI應用最前端。"
+  }
+ ],
+ "quotes": [
+  "工具的進步，理論上是讓大家更容易得去表達自己的想法，那也可以更容易得去傳遞自己想要講的東西。",
+  "如果你上牌桌，10分鐘後你還不知道誰是羊的話，你就是羊。",
+  "投資本身其實是一個學問，他是有很多東西要研究的。"
+ ],
+ "ep_key": "EP332",
+ "title": "EP332 | 🩰",
+ "pubdate": "2023-03-18",
+ "duration_s": 3014,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

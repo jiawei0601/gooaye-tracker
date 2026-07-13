@@ -1,0 +1,84 @@
+{
+ "summary": "本集主持人謝孟恭從Elon Musk少子化觀點切入，分享自身育兒經驗與消費電子產業觀察。重點討論PC/NB供應鏈在市場普遍看空下卻集體反彈的現象，推測與以太坊2.0升級前礦工搶挖、筆電挖礦需求有關，認為挖礦需求可能被低估而延緩overbook衝擊。同時評論ARK Invest今年績效不佳主因在於成長股市場整體弱勢，而非選股問題，並批評其新發行的CTRU ETF過於分散、偏離主動選股核心。總經方面，主持人指出美國中小型股（羅素2000）表現弱於大型股，與台灣中小型股強勢形成對比。",
+ "topics": [
+  "Elon Musk少子化觀點與個人生活分享",
+  "PC/NB供應鏈反彈與挖礦需求關聯分析",
+  "以太坊2.0升級對礦工行為的影響",
+  "ARK Invest績效檢討與新ETF CTRU評論",
+  "Vanguard論文：資產配置決定八成投資績效",
+  "投資心法：機會成本與汰弱留強",
+  "聽眾問答：房地產配置、壓力支撐、撤僑指標"
+ ],
+ "market_view": "美國中小型股（羅素2000）相對弱勢，台灣中小型股表現強勢，整體市場情緒在極度樂觀與極度悲觀間擺盪。",
+ "industries": [
+  {
+   "name": "PC/NB",
+   "stance": "觀察",
+   "view": "市場普遍預期2022年消費性電子衰退，但近期股價集體反彈，可能與挖礦需求低估有關，需持續觀察overbook衝擊是否延緩。"
+  },
+  {
+   "name": "挖礦",
+   "stance": "觀察",
+   "view": "以太坊2.0升級前礦工搶挖，筆電挖礦現象增加，可能扭曲PC/NB真實需求，升級後礦機拋售與否仍待觀察。"
+  },
+  {
+   "name": "居家修繕",
+   "stance": "看多",
+   "view": "Home Depot、Lowe's等DIY產業長期看好，但主動選股需與時俱進，留意新挑戰者。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "HPQ",
+   "name": "惠普",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "財報後股價跳漲，但業內朋友預期明年需求下調，反彈可能與挖礦需求有關。"
+  },
+  {
+   "symbol": "DELL",
+   "name": "戴爾",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "與HPQ類似，財報後股價上漲，但基本面保守看法仍存。"
+  },
+  {
+   "symbol": "ARKK",
+   "name": "ARK Innovation ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "今年績效不佳主因成長股市場弱勢，非選股問題，是否相信其五年年化30-40%報酬看個人。"
+  },
+  {
+   "symbol": "CTRU",
+   "name": "ARK Transparency ETF",
+   "market": "US",
+   "stance": "看空",
+   "argument": "持股過度分散（前十大僅12.74%），偏離ARK主動選股核心，不如其他被動ETF。"
+  },
+  {
+   "symbol": "HD",
+   "name": "Home Depot",
+   "market": "US",
+   "stance": "看多",
+   "argument": "長期看好DIY產業，但需留意競爭變化。"
+  },
+  {
+   "symbol": "LOW",
+   "name": "Lowe's",
+   "market": "US",
+   "stance": "看多",
+   "argument": "與Home Depot同屬居家修繕產業，長期看好。"
+  }
+ ],
+ "quotes": [
+  "你只要不被市場嚇跑，你機會就是很多。被市場嚇跑就很可惜，因為你不確定你會買在什麼位置。",
+  "你不要覺得任何的東西是送分題，因為你覺得是送分題，就代表說你會像是買定存一樣，覺得一定穩贏的就 all in。",
+  "你馬上要用到的錢，你不要丟進市場，我覺得這是超基本的。"
+ ],
+ "ep_key": "EP199",
+ "title": "EP199 | 挖挖",
+ "pubdate": "2021-12-08",
+ "duration_s": 2843,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

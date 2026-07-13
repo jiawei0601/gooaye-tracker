@@ -1,0 +1,102 @@
+{
+ "summary": "本集主持人謝孟恭首先強烈警告聽眾不要盲目追逐超導體等題材股，強調投資方法必須可重複且有效，否則如同賭博。他認為AI仍是市場主軸，但股價已大幅反應，因此轉向關注消費性電子復甦的可能性，並以Meta、Google廣告回升及聯發科法說會為訊號。他分析CSP資本支出不能直接解讀為AI需求減弱，並指出傳統伺服器訂單正在回補。整體而言，他對大盤看法中性偏多，認為消費性電子可能已接近落底，但需更多數據確認拐點。",
+ "topics": [
+  "超導體題材的風險與正確投資心態",
+  "CSP資本支出分析與AI伺服器供應鏈動態",
+  "消費性電子復甦訊號（Meta/Google廣告、聯發科法說）",
+  "AI對生活的實際影響（演算法 vs 語音助理）",
+  "Meta的VR投資風險與廣告業務復甦",
+  "研究產業的方法論（大到小 vs 小到大）"
+ ],
+ "market_view": "消費性電子可能已接近落底，但需更多數據確認復甦拐點；AI仍是主軸但股價已大幅反應，不宜過度追高。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "長期趨勢明確，但股價已反應，短期不宜過度加碼。"
+  },
+  {
+   "name": "消費性電子",
+   "stance": "觀察",
+   "view": "從廣告數據與聯發科法說看到復甦跡象，但需更多數據確認，尤其高階手機與規格升級（Wi-Fi 7）較有機會。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "手機已落底但復甦緩慢，中低階受整新機市場影響，高階較看好。"
+  },
+  {
+   "name": "廣告",
+   "stance": "看多",
+   "view": "Meta與Google廣告數字回升，可視為消費性復甦的前哨站。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI訓練晶片需求強勁，投片量翻三倍，但股價已大幅反應，不建議再加碼。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI相關晶片供應商，持續看好。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI相關晶片供應商，持續看好。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "廣告業務復甦強勁，但VR燒錢風險大，可視為新創公司看待。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "中性",
+   "argument": "CAPEX年增強勁，但AI投資轉換效果需一兩年後才顯現。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "中性",
+   "argument": "廣告數字回升，CAPEX小幅增加，整體復甦中。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "法說會釋出手機落底訊號，但復甦速度可能比預期快。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "可能推出AI相關服務，Siri有望升級，但尚未明確表態。"
+  }
+ ],
+ "quotes": [
+  "你以為很多人在股市是要來賺錢的嗎？不是，他們是要有一個參與感，要有那種進去Vegas的感覺。",
+  "當老闆跟你講說復甦會是慢慢的，最後面都會變很快的復甦。",
+  "真正的AI對大家的影響，是你不會想到的那些地方，例如演算法與搜尋結果的改善。"
+ ],
+ "ep_key": "EP370",
+ "title": "EP370 | 🎢",
+ "pubdate": "2023-07-29",
+ "duration_s": 3222,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

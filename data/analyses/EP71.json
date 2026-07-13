@@ -1,0 +1,88 @@
+{
+ "summary": "本集主要討論蘋果發表會（iPad Air 搭載 A14 晶片、Apple One 訂閱服務）對台積電、Peloton、Spotify 的影響，以及 NVIDIA 收購 ARM 後對 RISC-V 產業的潛在機會。主持人也分享對 Spotify 近期言論審查的不滿，決定暫停加碼但未出場。總經方面認為市場資金充沛、利率低，房價短期難跌。最後提醒聽眾先自救再救人，避免被理專或朋友推銷垃圾產品。",
+ "topics": [
+  "蘋果發表會亮點：iPad Air 搭載 A14 晶片、Apple One 訂閱服務",
+  "Apple One 對 Peloton 與 Spotify 的潛在衝擊",
+  "NVIDIA 收購 ARM 後對 RISC-V 產業的影響",
+  "Spotify 言論審查爭議與主持人操作策略調整",
+  "台積電獲得 Howard Marks 與 ARK Invest 布局",
+  "房市看法：熱錢多、利率低，房價短期難跌"
+ ],
+ "market_view": "市場資金充沛、利率低，房價短期難跌；每次下殺是篩選好標的的機會。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電五奈米 A14 晶片導入 iPad Air 顯示需求擴大，且獲知名投資人布局。"
+  },
+  {
+   "name": "健身器材",
+   "stance": "中性",
+   "view": "Apple Fitness+ 推出短期壓抑 Peloton 股價，但 Peloton 仍有其優勢，不認為會被直接擊垮。"
+  },
+  {
+   "name": "串流音樂",
+   "stance": "觀察",
+   "view": "Apple One 可能強化蘋果生態系黏著度，對 Spotify 造成壓力；加上 Spotify 自我審查爭議，暫停加碼。"
+  },
+  {
+   "name": "處理器架構",
+   "stance": "觀察",
+   "view": "NVIDIA 收購 ARM 後可能提高授權費，促使 RISC-V 獲得更多關注與資源。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "A14 五奈米晶片導入 iPad Air 顯示需求擴大，且獲 Howard Marks 與 ARK Invest 布局。"
+  },
+  {
+   "symbol": "PTON",
+   "name": "Peloton",
+   "market": "US",
+   "stance": "中性",
+   "argument": "Apple Fitness+ 推出短期壓抑股價，但 Peloton 仍有其優勢，不認為會被直接擊垮。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Apple One 可能強化蘋果生態系黏著度，加上 Spotify 自我審查爭議，主持人暫停加碼但未出場。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "收購 ARM 有加分效果，但預期不會維持中立，可能提高授權費。"
+  },
+  {
+   "symbol": "6633",
+   "name": "晶心科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "RISC-V 概念股，NVIDIA 收購 ARM 後可能加速 RISC-V 發展，但主持人提醒不要聽了就買。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人核心持股之一，看好其降價普及策略。"
+  }
+ ],
+ "quotes": [
+  "每次的下殺，都是一個你可以篩出手上的標的的一個好機會。",
+  "如果你整天都想要空手去躲掉下跌的話，那你總有一天會空手錯過所有的上漲。",
+  "人必先自救，先把自己照顧好，才會有多一點能量去照顧別人。"
+ ],
+ "ep_key": "EP71",
+ "title": "EP71 | 蘋果 Spotify ARM換手",
+ "pubdate": "2020-09-16",
+ "duration_s": 2518,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

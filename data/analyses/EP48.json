@@ -1,0 +1,170 @@
+{
+ "summary": "本集以「菜雞屠宰場」為主題，剖析散戶常見的錯誤投資行為，如追高溢價ETF（00672L）、抄底破產股（瑞幸咖啡、赫茲租車、健安喜）等。主持人強調基本面與動能策略的重要性，提出三大核心觀念：不在創新高時賣股、不接下跌段股票、強者恆強。並分享與數據公司創辦人對談經驗，確認基本面與動量策略經回測有效。最後回應聽眾提問，討論學貸、職涯迷茫、雲端泡沫、PS5概念股等議題，建議多數投資人選擇大盤ETF而非主題型ETF。",
+ "topics": [
+  "菜雞屠宰場：散戶常見錯誤行為",
+  "00672L原油正2ETF溢價風險",
+  "美國破產股（瑞幸、赫茲、GNC）的投機陷阱",
+  "三大投資觀念：不賣新高、不接跌勢、強者恆強",
+  "基本面與動量策略的有效性",
+  "主題型ETF vs 大盤ETF的選擇",
+  "PS5/Xbox換機潮概念股分析"
+ ],
+ "market_view": "台股處於相對高點，但未明確表態多空。",
+ "industries": [
+  {
+   "name": "雲端運算",
+   "stance": "觀察",
+   "view": "雲端類股有營收與用戶增長支撐，但部分公司僅因掛名而遭追捧，需留意泡沫風險。"
+  },
+  {
+   "name": "遊戲主機",
+   "stance": "中性",
+   "view": "PS5/Xbox換機潮可關注供應鏈，但直接買母公司（Sony、微軟）更單純。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "00672L",
+   "name": "元大S&P原油正2",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "溢價曾高達600%，散戶追高後慘賠，不應碰觸此類衍生性商品。"
+  },
+  {
+   "symbol": "LK",
+   "name": "瑞幸咖啡",
+   "market": "US",
+   "stance": "看空",
+   "argument": "作假帳後遭納斯達克停牌，抄底風險極高。"
+  },
+  {
+   "symbol": "HTZ",
+   "name": "赫茲租車",
+   "market": "US",
+   "stance": "看空",
+   "argument": "已申請破產保護，股東權益可能歸零，不應抄底。"
+  },
+  {
+   "symbol": "GNC",
+   "name": "健安喜",
+   "market": "US",
+   "stance": "看空",
+   "argument": "股價長期下跌，實體店面受疫情衝擊，不建議買進。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "PS5/Xbox概念股之一，代工AMD晶片，但未明確表態。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "PS5/Xbox組裝廠，屬概念股之一。"
+  },
+  {
+   "symbol": "2354",
+   "name": "鴻準",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "PS5/Xbox組裝相關，屬概念股。"
+  },
+  {
+   "symbol": "3037",
+   "name": "欣興",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IC載板供應商，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IC載板供應商，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "3189",
+   "name": "景碩",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IC載板供應商，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "3653",
+   "name": "健策",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "均熱片/散熱廠，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "3015",
+   "name": "全漢",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "電源供應器，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "2301",
+   "name": "光寶科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "電源供應器，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "電源供應器，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "2492",
+   "name": "正崴",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "連接器供應商，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "5351",
+   "name": "鈺太",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "MEMS微機電麥克風，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "2344",
+   "name": "華邦電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "記憶體廠商，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "2337",
+   "name": "旺宏",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "記憶體廠商，PS5/Xbox概念股。"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "適合保守投資人定期定額，長期可贏過定存。"
+  }
+ ],
+ "quotes": [
+  "抄底一時爽，三天火葬場。",
+  "不要在創新高的時候賣股票，因為你會錯過大魚。",
+  "持續下跌的股票不要急著接，因為它可能只是單純因為爛才跌。"
+ ],
+ "ep_key": "EP48",
+ "title": "EP48 | 菜雞悲歌",
+ "pubdate": "2020-06-27",
+ "duration_s": 2496,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,122 @@
+{
+ "summary": "本集主持人分享家庭趣事，並深入探討AI產業發展，重點關注Meta的SeamlessM4T語言模型、各大科技巨頭自研ASIC晶片（如Google TPU、Amazon Trainium、Meta MTIA、Microsoft Athena）以及微軟Copilot的商業化前景。同時分析特斯拉Model 3 Highland改款（Hardware 3.5、成本降低、售價壓低）對銷量與毛利的影響。主持人也觀察到台股族群輪動，包括傳統伺服器、車用PCB、網通類股，認為基本面需跟上題材。最後以《山道猴子的一生》為引，探討社群焦慮與消費主義陷阱，提倡「我就爛」與「關我屁事」的心態。",
+ "topics": [
+  "AI語言模型與即時翻譯技術的發展",
+  "科技巨頭自研ASIC晶片與算力軍備競賽",
+  "微軟Copilot的商業化與滲透率觀察",
+  "特斯拉Model 3 Highland改款與平價策略",
+  "台股族群輪動：傳統伺服器、車用PCB、網通",
+  "社群媒體焦慮與消費主義陷阱",
+  "《山道猴子的一生》啟示與心態調整"
+ ],
+ "market_view": "市場開始出現族群輪動，但需基本面跟上，短線操作可試錯，長線部位則持有不動。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "科技巨頭自研ASIC晶片加速，三五年內市佔率可能快速攀升，帶動供應鏈。"
+  },
+  {
+   "name": "傳統伺服器",
+   "stance": "觀察",
+   "view": "在世芯驅動下族群動起來，CPU socket、BMC控制晶片可能重新受惠。"
+  },
+  {
+   "name": "車用PCB",
+   "stance": "看多",
+   "view": "車用板類股集體表現，族群出現時值得關注。"
+  },
+  {
+   "name": "網通",
+   "stance": "看多",
+   "view": "庫存顯著改善，To B應用多，可能成為市場下一個伏筆。"
+  },
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "特斯拉Model 3 Highland平價版可望賣出不錯銷量，毛利有機會上20%。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "META",
+   "name": "Meta Platforms",
+   "market": "US",
+   "stance": "看多",
+   "argument": "SeamlessM4T語言模型有望消除語言隔閡，MTIA晶片積極尋價，看好後續發展。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "TPU為其自研ASIC產品，但主持人未明確表態。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Trainium與Inferentia晶片，世芯直接受惠，但主持人未明確表態。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Model 3 Highland為cost down版本，售價壓低，預期銷量與毛利皆佳。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Copilot滲透率是關鍵，若企業採用率高，將大幅推升營收與本益比。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Habana Gaudi在中國拉貨狀況不錯，能見度高，開始注意。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "MI系列目前未聽到好消息，表現相對弱勢。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "受惠於Amazon Trainium/Inferentia，但主持人未明確表態。"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "股性震盪，創新高後易回檔，但長期趨勢向上。"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "股性類似智邦，震盪走高。"
+  }
+ ],
+ "quotes": [
+  "社群媒體你看到的東西是 highlight，就是人生的高光時刻，你不會把你的日常全部丟社群媒體。",
+  "如果你不想要成為猴子的話，請擁抱『我就爛運動』還有『關我屁事』。",
+  "AI 現在已經不用去吵它是真是假，現在吵這個真是假的都嘛是落後仔，就是外行才會吵這個。"
+ ],
+ "ep_key": "EP377",
+ "title": "EP377 | 🥏",
+ "pubdate": "2023-08-23",
+ "duration_s": 3053,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

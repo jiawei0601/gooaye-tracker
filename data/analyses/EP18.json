@@ -1,0 +1,96 @@
+{
+ "summary": "主持人謝孟恭討論川普收回「中國病毒」說法，認為此舉有助減少對亞裔的仇恨犯罪，並批評中國外交部甩鍋言論。分析美國2兆美元紓困案通過，但經濟停擺與企業倒閉風險仍高，福特可能成為下一個炸彈。針對疫情受益股，提醒勿線性思考，Zoom因名稱相似導致投資人買錯股票（Zoom Technologies），建議短線行情勿超前部署。QA環節比較0050與0056，強調指數投資與策略型投資的差異，並提醒投資邏輯要清晰，看好台積電應直接買台積電而非0050。",
+ "topics": [
+  "川普收回中國病毒說法與亞裔仇恨犯罪",
+  "美國2兆美元紓困案與經濟停擺風險",
+  "福特可能成為下一個倒閉炸彈",
+  "疫情受益股分析：Zoom、微軟、亞馬遜",
+  "Zoom買錯事件：Zoom Technologies vs Zoom Video Communications",
+  "0050與0056的比較與投資邏輯",
+  "短線行情勿超前部署"
+ ],
+ "market_view": "美國經濟停擺與企業倒債風險嚴峻，紓困僅能短期支撐，疫情未見峰值，整體不樂觀。",
+ "industries": [
+  {
+   "name": "網通",
+   "stance": "觀察",
+   "view": "封城可能增加網通需求，但需考量消費者財務狀況與既有設備普及率。"
+  },
+  {
+   "name": "遊戲",
+   "stance": "觀察",
+   "view": "EA和Take-Two股價未反映疫情受益，短線不宜超前部署。"
+  },
+  {
+   "name": "雲端視訊",
+   "stance": "看多",
+   "view": "Zoom因遠距需求爆發，股價大漲，但需注意名稱混淆風險。"
+  },
+  {
+   "name": "電商",
+   "stance": "看多",
+   "view": "亞馬遜和Walmart持續徵人，前景看好。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "ZM",
+   "name": "Zoom Video Communications",
+   "market": "US",
+   "stance": "看多",
+   "argument": "視訊會議需求因疫情爆發，股價大漲。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Teams視訊軟體會員數因遠距工作飆升。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "亞馬遜",
+   "market": "US",
+   "stance": "看多",
+   "argument": "疫情下電商與物流需求增加，持續徵人。"
+  },
+  {
+   "symbol": "EA",
+   "name": "美商藝電",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "遊戲平台Origin會員數多，但股價未反應疫情受益。"
+  },
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "GTA等遊戲受歡迎，但股價未因疫情上漲。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "指數投資追蹤大盤，適合選股輸大盤的投資人。"
+  },
+  {
+   "symbol": "0056",
+   "name": "元大高股息",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "策略型投資，配息較高但需注意填息與長期績效不如0050。"
+  }
+ ],
+ "quotes": [
+  "不要超前部署短線行情，疫情可能半年內結束，小心被出貨。",
+  "你覺得蘋果厲害就該買蘋果，而不是買蘋果概念股，除非你清楚知道供應鏈細節。",
+  "0050與0056的差別在於指數投資 vs 策略型投資，過往績效0050勝出30%。"
+ ],
+ "ep_key": "EP18",
+ "title": "EP18 | 川普收回中國病毒說法 疫情股市分析 Zoom買錯事件",
+ "pubdate": "2020-03-26",
+ "duration_s": 1539,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

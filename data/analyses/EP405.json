@@ -1,0 +1,89 @@
+{
+ "summary": "主持人於新加坡分享旅遊體驗後，重點討論AI硬體趨勢轉折：大型CSP（如AWS）加速自研ASIC晶片（Trainium 2等），透過模型優化降低對NVIDIA GPGPU的依賴，形成多供應商競價格局。雖NVIDIA仍居首位，但市場對其2025-2026年成長預期可能需調整。同時點出產能（CoWoS、HBM）將成新瓶頸，台灣半導體供應鏈（世芯、創意等）角色關鍵。另提及PC產業復甦訊號分歧，部分公司（如所投資資安公司）預估Q4回溫，優於同業預期的明年Q2。最後悼念Charlie Munger，推崇其逆向思考框架。",
+ "topics": [
+  "CSP自研ASIC晶片趨勢與對NVIDIA的影響",
+  "AWS Trainium 2與Graviton 4晶片分析",
+  "AI硬體產能瓶頸（CoWoS、HBM）與台灣供應鏈機會",
+  "PC產業復甦時間點分歧（Q4 vs Q2）",
+  "Charlie Munger離世與其投資思維",
+  "籌碼面與成交量輔助判斷技巧",
+  "兩性關係與停損心態分享"
+ ],
+ "market_view": "AI硬體正處於從GPGPU獨大轉向ASIC多元方案的轉捩點，但整體市場持續擴大，非零和遊戲。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "大型CSP自研ASIC加速，可能稀釋NVIDIA獨佔地位，但整體需求仍成長。"
+  },
+  {
+   "name": "半導體IP/設計",
+   "stance": "看多",
+   "view": "ASIC趨勢帶動世芯、創意等代客設計公司，尤其世芯客戶能見度佳。"
+  },
+  {
+   "name": "PC",
+   "stance": "觀察",
+   "view": "復甦時間點分歧，部分公司看好Q4回溫，多數預期明年Q2，需觀察實際營收驗證。"
+  },
+  {
+   "name": "資安",
+   "stance": "看多",
+   "view": "所投資資安公司法說優於預期，美國拉貨重啟、中國有超乎預期急單，明年可望回到2022年成長水準。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "在ASIC代客設計領域客戶數量與能見度最佳，持續受惠CSP自研晶片趨勢。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "在關鍵IP有輔助效果，但客戶規模與能見度不如世芯。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "推出Trainium 2與Graviton 4，加速自研晶片，Trainium 2主要由Marvell設計。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "推出Cobalt（CPU）與Maia（GPU）自研晶片，顯示科技巨頭投入大量資源自研。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "看多",
+   "argument": "為AI競賽中大型IC設計強者，受惠ASIC趨勢。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "看多",
+   "argument": "取得AWS Trainium 2設計案，為ASIC趨勢主要受惠者。"
+  }
+ ],
+ "quotes": [
+  "你知道你會在哪個地方死掉，你就不要去那個地方。反過來想是一個很重要的思考架構。",
+  "不要搞到閉門造車，一直騙自己說這個東西未來會很好，但過程已經一年兩年沒有營收年增或市占提升，那你就在騙自己。",
+  "我認為有智慧的人是可以承認世界上有很多事他不知道的，會講『我不知道』或『我沒有辦法預測』，這樣的人是最聰明的人。"
+ ],
+ "ep_key": "EP405",
+ "title": "EP405 | 🕶",
+ "pubdate": "2023-11-29",
+ "duration_s": 2684,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

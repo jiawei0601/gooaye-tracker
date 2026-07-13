@@ -1,0 +1,112 @@
+{
+ "summary": "本集主持人謝孟恭討論美國總統辯論，認為川普與拜登表現如同吵架，但無論誰當選對美國國運影響有限，且打壓中國是跨黨派共識。他分享對遊戲串流產業的深度分析，認為NVIDIA的G-Force NOW體驗極佳，看好雲端遊戲將改變遊戲文化，並比較Microsoft xCloud、Google Stadia、Amazon Luna及NVIDIA的競爭優勢。他也提醒歐洲疫情復發但對市場衝擊有限，建議投資者不要空手，應分批布局。最後回答聽眾問題，強調做自己的重要性，並分享台股操作心得。",
+ "topics": [
+  "美國總統辯論分析與選舉影響",
+  "歐洲疫情復發與市場觀點",
+  "遊戲串流產業概論與競爭格局",
+  "NVIDIA G-Force NOW 實際體驗",
+  "Microsoft 收購 ZeniMax Media 的影響",
+  "投資心態：分批投入與不要空手",
+  "做自己的重要性與面對批評的態度"
+ ],
+ "market_view": "美股修正無礙，復甦數據跟上，可持續布局，但短線波動難測，建議不要空手。",
+ "industries": [
+  {
+   "name": "遊戲串流",
+   "stance": "看多",
+   "view": "遊戲串流將改變遊戲文化，成為未來趨勢，看好NVIDIA、Microsoft等主要玩家。"
+  },
+  {
+   "name": "雲端服務",
+   "stance": "看多",
+   "view": "雲端服務是遊戲串流的基礎，三本柱（Google、Microsoft、Amazon）及NVIDIA都是關鍵。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "NVIDIA的GPU在AI、自駕車、資料中心及遊戲串流等領域全面布局，強者恆強。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人曾組遊戲ETF，提及Take-Two旗下Rockstar Games的GTA 6可能因政治因素延後但終將推出。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "G-Force NOW體驗極佳，看好其在遊戲串流及多領域的領導地位，是布局主力。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "看多",
+   "argument": "xCloud與Xbox Game Pass布局全面，收購ZeniMax Media強化遊戲陣容，看好其競爭力。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet (Google)",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Google Stadia遊戲體驗改善，但競爭順位排在NVIDIA和Microsoft之後。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Amazon Luna尚未有太多資料，但Twitch直播平台是優勢，順位在Google之前。"
+  },
+  {
+   "symbol": "SNOW",
+   "name": "Snowflake",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人認為Snowflake很貴但仍試單買進。"
+  },
+  {
+   "symbol": "U",
+   "name": "Unity Software",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人提及Unity表現非常好。"
+  },
+  {
+   "symbol": "8086",
+   "name": "宏捷科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "主持人提到近期有在觀察宏捷科，認為表現強勢。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "主持人認為聯發科殺不下去，可能因出貨許可而有機會。"
+  },
+  {
+   "symbol": "3034",
+   "name": "聯詠",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "主持人提到聯詠跌到低點後開始反彈。"
+  }
+ ],
+ "quotes": [
+  "我覺得你如果太在意別人的想法，你為別人而活是非常辛苦的。",
+  "永遠都不要空手，隨時都要有一點部位在場上，這才是真的比較健康的心態。",
+  "與其討好每一個人，不如就去認知你一定會跟一些人衝突到，出來幹你的人講話最大聲，但九成九支持你的人都不太講話。"
+ ],
+ "ep_key": "EP75",
+ "title": "EP75 | 美國老人吵架 遊戲串流時代",
+ "pubdate": "2020-09-30",
+ "duration_s": 2409,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,97 @@
+{
+ "summary": "主持人謝孟恭在開工日祝賀後，先提醒投資人應避免因短期刺激而偏離長期持有策略，並以 Chamath Palihapitiya 的訪談說明過度追求短期回饋會損害長線思考。接著介紹價值投資人 Mohnish Pabrai 的「Spawner（召喚者）」選股框架，將公司分為 Adjacent、Embryonic、Clone、Non-adjacent 四種召喚類型，並指出同時具備四種特質的「Apex Spawner」（如亞馬遜、騰訊）是最佳標的。主持人強調投資應專注公司未來創造現金流的能力，而非僅看本益比等過去數據，並建議若無選股能力可回歸大盤被動投資。QA 環節則討論了 ADR 溢價、信用卡額度運用、公司債風險、資訊來源及短線交易 vs 長期持有的心態。",
+ "topics": [
+  "開紅盤行情與持有部位的重要性",
+  "短期刺激對長線思考的負面影響",
+  "Mohnish Pabrai 的 Spawner 選股框架",
+  "Apex Spawner 的定義與案例",
+  "價值投資應關注未來而非過去數據",
+  "雞蛋水餃股與投機風險的警示",
+  "ADR 與原股差異及信用卡額度觀念",
+  "短線交易 vs 長期持有的機會成本比較"
+ ],
+ "market_view": "全球股市連續上漲，台股新春開紅盤跳空創歷史新高，主持人認為過年不應清倉，抱股勝率高。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電（2330）跳空大漲，長期持有績優權值股為佳。"
+  },
+  {
+   "name": "科技巨頭",
+   "stance": "看多",
+   "view": "蘋果、微軟、Google、Facebook 等具 Spawner 特質，值得長期持有。"
+  },
+  {
+   "name": "太空旅遊",
+   "stance": "觀察",
+   "view": "Virgin Galactic（SPCE）股性活潑，與基本面脫鉤，僅適合少量資金投機。"
+  },
+  {
+   "name": "大數據分析",
+   "stance": "觀察",
+   "view": "Palantir（PLTR）基本面紮實，但漲幅已大，不建議重倉。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "新春開盤漲逾4%，長期持有績優權值股為佳。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人長期持有，並於534美元加碼與GG對做，目前股價已漲至600美元附近。"
+  },
+  {
+   "symbol": "SQ",
+   "name": "Square",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人長期持有，於220美元加碼，目前股價約270美元，看好其受惠於散戶交易熱潮。"
+  },
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "看多",
+   "argument": "主持人近期開新倉與GG對做，看好其Embryonic Spawner特質（收購IG、WhatsApp並養大）。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "基本面紮實，但漲幅已大，不建議重倉。"
+  },
+  {
+   "symbol": "SPCE",
+   "name": "Virgin Galactic",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股性活潑，與基本面脫鉤，僅適合少量資金投機。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾案例：390美元買入、450美元賣出，主持人認為短線進出可能錯失長期漲幅。"
+  }
+ ],
+ "quotes": [
+  "重點不是買，也不是賣，重點是『抱』，你抱越久獲利越大。",
+  "你要避免你的腦袋受到太多短期的刺激，因為腦袋就一顆，你不可能在情境之間輕鬆切換。",
+  "你應該要『澆灌花朵，拔除雜草』，但很多人卻在做『拔除花朵，澆灌雜草』的事。"
+ ],
+ "ep_key": "EP115",
+ "title": "EP115 | 召喚仔",
+ "pubdate": "2021-02-17",
+ "duration_s": 2459,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

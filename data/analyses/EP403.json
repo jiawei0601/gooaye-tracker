@@ -1,0 +1,106 @@
+{
+ "summary": "本集主持人分享生活趣事（牙齒斷掉、送PS5與環球影城票）與Apple活動體驗，隨後深入分析OpenAI人事動盪，認為對AI產業長期成長影響有限。NVIDIA財報雖佳但未超乎buy-side預期，重點在inference需求崛起與中國禁令風險，建議將中國營收歸零看待。主持人強調投資應尋找瓶頸（bottleneck），目前看好AI、網通與記憶體，對消費性復甦持保守態度，並提醒市場風險與分散的重要性。",
+ "topics": [
+  "OpenAI人事動盪與微軟角色分析",
+  "NVIDIA財報與AI供應鏈展望",
+  "Inference需求崛起與邊緣運算",
+  "中國禁令對半導體影響",
+  "投資策略：尋找瓶頸與風險管理",
+  "消費性電子復甦看法",
+  "網通與光通訊未來機會"
+ ],
+ "market_view": "市場利空與利多並存，但長期應假設利多於利空，否則不該進場。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "AI長期成長趨勢不變，但晶片缺貨將在明年中改善，焦點可能轉向HBM。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "NVIDIA仍具領導地位，但inference領域AMD與Intel有機會。"
+  },
+  {
+   "name": "電動車",
+   "stance": "保守",
+   "view": "需等Tesla明確信號，目前未見強勁動能。"
+  },
+  {
+   "name": "消費性電子",
+   "stance": "中性",
+   "view": "復甦強度有限，以補庫存為主，非全面拉貨。"
+  },
+  {
+   "name": "網通",
+   "stance": "觀察",
+   "view": "Cisco展望保守，但台灣供應鏈可能先行指標，需持續觀察。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "HBM需求強勁，但隨競爭者加入價格可能受壓。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI龍頭，但buy-side預期已高，需超預期才能推動股價。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI與網通業務持續成長。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "在inference領域有機會提升市占。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "若spin-off傳聞成真，可能成為不錯機會。"
+  },
+  {
+   "symbol": "MU",
+   "name": "Micron",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "HBM追趕中，價格可能因競爭而變化。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "電動車風向球，需等明確復甦信號。"
+  },
+  {
+   "symbol": "ON",
+   "name": "安森美",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "電動車未明確復甦前暫不買入。"
+  }
+ ],
+ "quotes": [
+  "投資要非常小心各式各樣的風險，OpenAI看起來how to lose的公司都能因內部治理出問題。",
+  "如果你知道瓶頸在哪，瓶頸的那個公司或產品項目可能就會是最賺錢的東西。",
+  "不要浪費青春在投資上，高中生該去享受人生，因為出社會後就無法回頭。"
+ ],
+ "ep_key": "EP403",
+ "title": "EP403 | 🗿",
+ "pubdate": "2023-11-22",
+ "duration_s": 3102,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

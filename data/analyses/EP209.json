@@ -1,0 +1,136 @@
+{
+ "summary": "本集主持人從《謬誤與真相》一書出發，探討左派與保守派思維差異，強調數據導向與漸進改革，並延伸至政府角色與資源分配效率。市場方面，指出台股高估值IC設計與IP股遭殺，資金轉向mini-LED、傳產、金融等低基期族群，與美股輪動相似。產業分析聚焦Take-Two收購Zynga的綜效，認為可補足手機遊戲短板並切入Web3，但對遊戲NFT持保守態度。主持人維持多單部位，認為殺盤為短期現象，但提醒抄底須基於未來現金流而非過去價格，並建議績效不佳者勿開槓桿。",
+ "topics": [
+  "保守派與左派思維差異及政府角色",
+  "Take-Two收購Zynga的產業分析",
+  "遊戲NFT與Web3的現實考量",
+  "台股資金輪動：高估值股遭殺、低基期族群受青睞",
+  "抄底的正確心態與估值調整概念",
+  "升息對市場的影響與投資策略",
+  "分散投資與集中持股的迷思"
+ ],
+ "market_view": "目前殺盤是短暫現象，維持多單部位，但2022年不會像前兩年那麼簡單，需保守看待。",
+ "industries": [
+  {
+   "name": "遊戲",
+   "stance": "看多",
+   "view": "Take-Two收購Zynga可補足手機遊戲短板，1+1大於2，長期綜效樂觀。"
+  },
+  {
+   "name": "mini-LED",
+   "stance": "觀察",
+   "view": "2022年成長性強勁，但基期低且量小，資金可能因估值較低而流入。"
+  },
+  {
+   "name": "IC設計",
+   "stance": "看空",
+   "view": "高估值二線IC設計與IP股遭無情暴殺，率先反映估值調整。"
+  },
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "成長性非常好，電池相關也看好。"
+  },
+  {
+   "name": "VR/AR",
+   "stance": "觀察",
+   "view": "成長性非常好，但量仍小。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive",
+   "market": "US",
+   "stance": "看多",
+   "argument": "收購Zynga可補足手機遊戲弱項，長期綜效樂觀，股東短期不滿是介入機會。"
+  },
+  {
+   "symbol": "ZNGA",
+   "name": "Zynga",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "受蘋果ATT政策影響，處於弱勢，被收購是好的出場結局。"
+  },
+  {
+   "symbol": "APP",
+   "name": "AppLovin",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "擁有第一手資訊，受ATT影響相對小，布局方向與Zynga不同。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "聽眾案例中獲利出場後又接回，但股價波動大。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "聽眾案例中持續抱著，經歷獲利回吐。"
+  },
+  {
+   "symbol": "2486",
+   "name": "鼎元",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "mini-LED族群，近期有資金流入。"
+  },
+  {
+   "symbol": "4956",
+   "name": "光鋐",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "mini-LED族群，近期有資金流入。"
+  },
+  {
+   "symbol": "6278",
+   "name": "台表科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "mini-LED相關SMT廠，近期有資金流入。"
+  },
+  {
+   "symbol": "3529",
+   "name": "宏齊",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "mini-LED族群，近期有資金流入。"
+  },
+  {
+   "symbol": "6261",
+   "name": "久元",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "mini-LED族群，近期有資金流入。"
+  },
+  {
+   "symbol": "2393",
+   "name": "億光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "mini-LED族群，近期有資金流入。"
+  },
+  {
+   "symbol": "3714",
+   "name": "富采",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "mini-LED族群，近期有資金流入。"
+  }
+ ],
+ "quotes": [
+  "沒壞的東西不要修。每一次你都會看到有人想要針對沒有壞的東西去調整，沒有壞掉的東西，你去修它，你會產生很大很大的問題。",
+  "抄底只有在你覺得這家公司未來的現金流還是很強勁、成長性還是存在、需求還是存在，你才可以看到現在股價便宜去抄底。而不是說什麼這個東西以前要五六百塊，現在只要一百塊，我趕快抄。",
+  "績效不好的人，絕對不要開槓桿。槓桿就是加速，直接這樣想就好。"
+ ],
+ "ep_key": "EP209",
+ "title": "EP209 | ⛄",
+ "pubdate": "2022-01-12",
+ "duration_s": 2944,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

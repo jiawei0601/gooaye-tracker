@@ -1,0 +1,109 @@
+{
+ "summary": "本集主持人分享參訪研華的觀察，強調工業電腦（IPC）與邊緣運算（Edge AI）的落地應用雖不性感但具長期價值，並指出視覺AI是當前主要切入點。總經方面，認為車用仍疲弱，工控與物聯網有望在2024年Q3-Q4復甦。特斯拉因FSD在中國獲准落地而大漲，但主持人認為中國車廠仍會自研自駕，隱憂僅消除一半。他也提醒投資者勿過度聚焦短期股價，應關注產業根本問題。",
+ "topics": [
+  "研華與工業電腦（IPC）的商業模式與邊緣運算落地",
+  "特斯拉FSD在中國獲准落地與車用市場展望",
+  "AI在工業與消費端的應用現狀（視覺AI、MCU復甦）",
+  "投資心態：避免FOMO、接受市場無常、降低物慾",
+  "台灣房市只漲不跌現象與買房vs.股票抉擇",
+  "NVIDIA Jetson與Edge AI的觀察指標"
+ ],
+ "market_view": "工控與物聯網有望在2024年第三、四季復甦，車用仍疲弱，消費性AI PC短期不易爆發。",
+ "industries": [
+  {
+   "name": "工業電腦",
+   "stance": "看多",
+   "view": "IPC具長期穩定成長特性，研華因服務與整合能力難被複製，是20年後仍在的台灣公司。"
+  },
+  {
+   "name": "車用半導體",
+   "stance": "中性",
+   "view": "車用仍疲弱，NXP成績不代表車用復甦，需觀察onsemi、STMicro、TI等指標。"
+  },
+  {
+   "name": "邊緣運算",
+   "stance": "觀察",
+   "view": "Edge AI落地以視覺辨識為先，NVIDIA Jetson出貨是關鍵風向球。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "機殼廠商競爭將加劇，標準品MGX路線使門檻降低。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2395",
+   "name": "研華",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "IPC龍頭，BU廣但穩定，服務業成分高，長期溫和成長。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "FSD在中國獲准落地消除部分隱憂，但中國車廠仍可能自研自駕。"
+  },
+  {
+   "symbol": "NXP",
+   "name": "恩智浦",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "成績不錯但車用仍疲，工控與物聯網有復甦跡象。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Jetson是Edge AI關鍵指標，中國L2自駕市占最高。"
+  },
+  {
+   "symbol": "4919",
+   "name": "新唐",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "MCU可能隨工控復甦，可留意。"
+  },
+  {
+   "symbol": "6202",
+   "name": "盛群",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "法說會顯示MCU已打底，可觀察。"
+  },
+  {
+   "symbol": "3034",
+   "name": "聯詠",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "保守看最快2024年底至2025年初復甦。"
+  },
+  {
+   "symbol": "8210",
+   "name": "勤誠",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "主要做AWS，與GT downgrade鬼故事關聯不大。"
+  },
+  {
+   "symbol": "銀邦",
+   "name": "銀邦",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "近期股價腰斬，機殼廠競爭激烈。"
+  }
+ ],
+ "quotes": [
+  "懂太多事情反而不會賺錢，因為第一線的人常覺得公司沒那麼好而賣掉股票。",
+  "財富自由的關鍵在於物慾，不是達到某個數字就高枕無憂。",
+  "整天想退休的人是那些最不能退休的人，已經達成條件的人沒有一個想退休。"
+ ],
+ "ep_key": "EP449",
+ "title": "EP449 | 😸",
+ "pubdate": "2024-05-01",
+ "duration_s": 3001,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

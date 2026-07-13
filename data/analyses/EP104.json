@@ -1,0 +1,139 @@
+{
+ "summary": "主持人謝孟恭討論社群平台審查事件（Facebook、Twitter封鎖川普）對投資的影響，提出「審查等於買點」的觀察，並以自身Spotify經驗為例，說明政治抵制常帶來逢低買進機會。他強調尊重市場、不與股票談戀愛，並分享《零規則》一書對生活的啟發——對浪費時間的人事物零容忍。總經方面未明確表態，但認為年輕人喜好決定未來趨勢。節目中也回答聽眾提問，涵蓋中租-KY、OTA產業、5G ETF等，並提醒高中生應多交朋友而非過度專注投資。",
+ "topics": [
+  "社群平台審查事件對投資的影響",
+  "審查事件是否為買點（以Spotify、Twitter為例）",
+  "尊重市場、不與股票談戀愛",
+  "《零規則》書評：對冗員與浪費時間零容忍",
+  "年輕人喜好決定未來趨勢",
+  "聽眾QA：中租-KY、OTA產業、5G ETF、eToro出金建議"
+ ],
+ "market_view": null,
+ "industries": [
+  {
+   "name": "社群平台",
+   "stance": "看多",
+   "view": "審查事件常帶來買點，因為用戶離不開平台，商業模式穩固。"
+  },
+  {
+   "name": "旅宿OTA",
+   "stance": "看多",
+   "view": "OTA壟斷效果明顯，旅館難以脫離，商業模式穩健。"
+  },
+  {
+   "name": "通訊半導體",
+   "stance": "看多",
+   "view": "5G基地台與車用需求帶動通訊相關標的，2021年有機會。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "看多",
+   "argument": "用戶離不開平台，審查抵制常成為買點。"
+  },
+  {
+   "symbol": "TWTR",
+   "name": "Twitter",
+   "market": "US",
+   "stance": "看多",
+   "argument": "審查事件後股價創新高，顯示市場不介意。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "雖因審查事件停止加碼，但股價持續上漲，仍持有部位。"
+  },
+  {
+   "symbol": "5871",
+   "name": "中租-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "放貸業務利潤高，外資動向常為反指標，有買點可考慮。"
+  },
+  {
+   "symbol": "SQ",
+   "name": "Square",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "放貸業務與比特幣切入，買進後曾下跌但已解套獲利。"
+  },
+  {
+   "symbol": "BKNG",
+   "name": "Booking Holdings",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "OTA商業模式穩健，可考慮與同業組ETF操作。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "去年奇蹟標的，持有者常因漲幅過大而占比膨脹。"
+  },
+  {
+   "symbol": "QCOM",
+   "name": "高通",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "通訊相關布局，為主持人持有最多的標的之一。"
+  },
+  {
+   "symbol": "NXPI",
+   "name": "恩智浦半導體",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "通訊與車用半導體，主持人持有較多。"
+  },
+  {
+   "symbol": "ADI",
+   "name": "亞德諾半導體",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "通訊相關，但主持人持有比例很小。"
+  },
+  {
+   "symbol": "XLNX",
+   "name": "賽靈思",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "通訊相關，主持人持有比例很小。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微半導體",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "將收購賽靈思，主持人持有。"
+  },
+  {
+   "symbol": "KEYS",
+   "name": "是德科技",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "通訊相關，主持人持有比例很小。"
+  },
+  {
+   "symbol": "AKAM",
+   "name": "Akamai",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "表現不如Cloudflare，已減碼。"
+  }
+ ],
+ "quotes": [
+  "審查等於 buy，如果今天遇到一個審查，假設有修正，而且修正的夠低，公司基本面沒有太大的問題的話，其實搞不好會是一個很難得的買點。",
+  "不要跟股票談戀愛，要試著以股價作為依歸，尊重市場，如果不尊重市場，早晚會被教訓。",
+  "你對於不需要的人事物，就勇敢的去把它給汰掉。世界太大了，把雷包趕走之後，換下一個，可能換到對的，做事情就很有效率。"
+ ],
+ "ep_key": "EP104",
+ "title": "EP104 | ʕ•͡ᴥ•ʔʕ•͡ᴥ•ʔ",
+ "pubdate": "2021-01-09",
+ "duration_s": 2453,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

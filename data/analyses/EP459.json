@@ -1,0 +1,92 @@
+{
+ "summary": "主持人分享參加 Computex 2024 與黃仁勳 Keynote 的心得，指出 AI 熱潮已全面出圈，短線市場情緒極度亢奮，類似 2021 年特斯拉狂熱，提醒投資人注意風險控管與降槓桿。長線仍看好 AI 產業發展，尤其 NVIDIA ACE 導入遊戲、AI PC 與 Rubin 架構等趨勢，台灣供應鏈地位穩固。總經方面無特別著墨，但強調短線過熱、長線樂觀的觀點。",
+ "topics": [
+  "Computex 2024 現場觀察與市場情緒分析",
+  "NVIDIA 黃仁勳 Keynote 與供應鏈綁樁策略",
+  "AI 應用落地：NVIDIA ACE 遊戲 NPC、AI PC 與 Copilot+ PC",
+  "短線過熱 vs 長線產業看好的投資心法",
+  "台灣供應鏈在 AI 時代的戰略地位"
+ ],
+ "market_view": "短線市場情緒極度亢奮，類似過往科技股狂熱高點，需注意風險控管；長線 AI 產業趨勢明確，台灣供應鏈受益。",
+ "industries": [
+  {
+   "name": "AI 伺服器",
+   "stance": "看多",
+   "view": "長線受惠於 GB200、Rubin 等新產品放量，但短線股價已反應利多，需謹慎。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電 N3 節點將成為熱門節點，未來毛利與資本支出可期。"
+  },
+  {
+   "name": "遊戲",
+   "stance": "看多",
+   "view": "NVIDIA ACE 導入遊戲將大幅提升可玩性，可能成為 AI 軟體應用的突破口。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "AI PC 與 HBM4 需求可能帶動記憶體用量增加，但需觀察實際放量時程。"
+  },
+  {
+   "name": "網通",
+   "stance": "觀察",
+   "view": "網通三雄營收可觀察 6 個月與 12 個月平均營收曲線，作為進場參考。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "N3 節點將成為未來熱門節點，毛利與資本支出可望持續成長。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "長線看好 AI 領導地位，但短線市場情緒過熱，已降槓桿因應。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "在 Computex 展示供應鏈綁樁，但 HBM 產能取得將是挑戰。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "英特爾",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Pat Gelsinger 態度轉變，積極拉攏台灣供應鏈。"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "不怕股價高，重點是未來營收獲利能否持續成長。"
+  },
+  {
+   "symbol": "中磊",
+   "name": "中磊",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "與奇鋐同為喜歡的網通標的。"
+  }
+ ],
+ "quotes": [
+  "短線過熱，應該是一個不爭的事實。大家其實要最注意的是風險的控管。",
+  "股票是看未來，不是看過去的。重點是他接下來一年、兩年可以賺多少錢。",
+  "當大家都在瘋狂的時候，該上車的人都上車了，那誰要繼續把股票往上推？"
+ ],
+ "ep_key": "EP459",
+ "title": "EP459 | 🪶",
+ "pubdate": "2024-06-05",
+ "duration_s": 2970,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

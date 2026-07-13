@@ -1,0 +1,95 @@
+{
+ "summary": "本集主要討論房貸與財務槓桿的風險管理，強調升息環境下應保留安全邊際，避免過度擴張信用。主持人建議房貸年限越長越好（對懂理財者），因貨幣長期貶值，可視為做空貨幣、做多資產。避險部分區分事件型（期貨對沖）與長期型（深度價外選擇權），但認為小資金不需避險。總經方面，認為美國經濟過熱需降溫，台灣CPI因補貼失真，升息壓力仍在。最後QA回應聽眾關於工作選擇、退休配置、借錢投資等問題，強調現金流穩定性與風險優先於獲利。",
+ "topics": [
+  "房貸與財務槓桿",
+  "升息對房貸族影響",
+  "避險策略（事件型/長期型/Delta neutral）",
+  "台灣CPI失真與通膨",
+  "退休資產配置建議",
+  "借錢投資的風險",
+  "泡沫辨識方法"
+ ],
+ "market_view": "美國經濟過熱需降溫，台灣CPI失真但升息壓力仍在，整體市場無明顯泡沫。",
+ "industries": [
+  {
+   "name": "房地產",
+   "stance": "中性",
+   "view": "台灣房價難大跌，但升息會增加浮動利率房貸壓力，建議保留安全邊際。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "提到0050不需廣告，但未明確表態多空。"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "與0050同為穩健配置，未表態。"
+  },
+  {
+   "symbol": "00878",
+   "name": "國泰永續高股息",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾配置中提及，主持人未評論。"
+  },
+  {
+   "symbol": "VTI",
+   "name": "Vanguard整體股市ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾配置中提及，主持人未評論。"
+  },
+  {
+   "symbol": "VOO",
+   "name": "Vanguard標普500ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾配置中提及，主持人未評論。"
+  },
+  {
+   "symbol": "VT",
+   "name": "Vanguard全球股票ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人推薦退休配置可考慮VT。"
+  },
+  {
+   "symbol": "AOA",
+   "name": "iShares核心積極配置ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人推薦退休配置可考慮AOA。"
+  },
+  {
+   "symbol": "TQQQ",
+   "name": "ProShares三倍做多納斯達克指數ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾提及歐印後虧損，主持人未評論。"
+  },
+  {
+   "symbol": "ETH",
+   "name": "以太幣",
+   "market": "other",
+   "stance": "觀察",
+   "argument": "聽眾配置中提及，主持人認為可以接受。"
+  }
+ ],
+ "quotes": [
+  "避險不是必勝，你要知道你在避什麼險，不然可能雙巴。",
+  "借錢投資，現金流不夠強的千萬不要這樣做，以後都會後悔。",
+  "市場上隨時都有泡沫，但要看東西有沒有實際賺錢、財報成長能否對應股價。"
+ ],
+ "ep_key": "EP249",
+ "title": "EP249 | 🦖",
+ "pubdate": "2022-06-01",
+ "duration_s": 2771,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

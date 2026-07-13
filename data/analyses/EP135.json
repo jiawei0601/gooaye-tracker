@@ -1,0 +1,144 @@
+{
+ "summary": "主持人分享近期買房與房貸申請經驗，提醒貸款要先求有再求好、多問幾家銀行。市場方面，台股持續創高，電子股休息、傳產強漲，但主持人仍以電子股為主，並預期法說會可能帶動電子股回溫。他修正先前對overbooking的擔憂，認為可能延至Q4後才發酵，但也警告漲價股修正時可能達30-50%。他提醒投資人注意ETF溢價、槓桿/反向型商品的風險，並建議堅守自身投資方向，不要因錯過飆股而亂追。最後在Q&A中討論做空VIX的風險、被動投資與本業收入的重要性、SiC產業前景、比特幣與特斯拉、以及中國公司赴美上市等議題。",
+ "topics": [
+  "房貸申請經驗與注意事項",
+  "看房重點（電梯、公設、車道、垃圾處理）",
+  "台股市場現況：電子休息、傳產強漲",
+  "overbooking 疑慮延後至Q4",
+  "ETF 溢價與槓桿/反向型商品風險",
+  "被動投資 vs 主動選股",
+  "SiC/第三代半導體產業前景",
+  "比特幣與特斯拉、中國公司赴美上市風險"
+ ],
+ "market_view": "台股與美股持續創高，資金充沛，但估值已高，需留意漲價股修正風險。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "法說會展望樂觀，overbooking 可能延後至Q4，電子股有機會接續表現。"
+  },
+  {
+   "name": "航運",
+   "stance": "觀察",
+   "view": "近期漲幅驚人，但主持人因風險考量未重押，認為錯過也屬正常。"
+  },
+  {
+   "name": "鋼鐵",
+   "stance": "觀察",
+   "view": "屬於傳產漲勢一環，資金從電子轉入，但主持人未特別著墨。"
+  },
+  {
+   "name": "車用半導體",
+   "stance": "看多",
+   "view": "看好 SiC 材料在電動車的長期應用，CREE 市佔率高，雖仍虧損但護城河深。"
+  },
+  {
+   "name": "第三代半導體",
+   "stance": "看多",
+   "view": "SiC、GaN 成本雖高，但隨電動車與5G普及，價格有望下降，長期前景佳。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "法說會即將召開，市場關注其展望。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "法說會即將召開，表現尚可，期待帶動科技股。"
+  },
+  {
+   "symbol": "6269",
+   "name": "台郡",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "盤後法說會，市場關注其軟板業務。"
+  },
+  {
+   "symbol": "CREE",
+   "name": "Cree (Wolfspeed)",
+   "market": "US",
+   "stance": "看多",
+   "argument": "SiC 材料市佔率高，護城河深，適合長期佈局。"
+  },
+  {
+   "symbol": "IFNNY",
+   "name": "Infineon Technologies",
+   "market": "US",
+   "stance": "看多",
+   "argument": "車用半導體佈局之一，看好車用族群。"
+  },
+  {
+   "symbol": "IIVI",
+   "name": "II-VI Incorporated",
+   "market": "US",
+   "stance": "看多",
+   "argument": "車用半導體佈局之一，看好車用族群。"
+  },
+  {
+   "symbol": "00885",
+   "name": "富邦越南 ETF",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "溢價曾高達27%，提醒投資人注意溢價風險，現買現賠。"
+  },
+  {
+   "symbol": "00677U",
+   "name": "富邦 VIX ETF",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "已申請下市，長期持有會因正價差與槓桿扣血。"
+  },
+  {
+   "symbol": "00632R",
+   "name": "元大台灣50反1 ETF",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "長期持有成本高，放空台股應使用期貨。"
+  },
+  {
+   "symbol": "SVXY",
+   "name": "ProShares Short VIX Short-Term Futures ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "做空VIX長期看似合理，但遇到黑天鵝可能一天賠光，風險極高。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "比特幣交易與中國市場風險並存，看法分歧。"
+  },
+  {
+   "symbol": "CQQQ",
+   "name": "Invesco China Technology ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "外國公司問責法影響有限，大型中國公司不致下市，ETF會調整成分股。"
+  },
+  {
+   "symbol": "KWEB",
+   "name": "KraneShares CSI China Internet ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "外國公司問責法影響有限，大型中國公司不致下市，ETF會調整成分股。"
+  }
+ ],
+ "quotes": [
+  "你明明就有更好的選擇。你要去放空臺灣，怎麼會選擇使用 00632R？",
+  "你只要在市場裡面都可以成長，打敗大盤，這個就是主動選股者要去追求的東西。",
+  "很多人以為要去解決經濟狀況是靠進去投資裡面，我覺得那個是走偏掉了。真的最保守的做法還是從本業這邊賺。"
+ ],
+ "ep_key": "EP135",
+ "title": "EP135 | 還有什麼沒在漲",
+ "pubdate": "2021-04-28",
+ "duration_s": 2571,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

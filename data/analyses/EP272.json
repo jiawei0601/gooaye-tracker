@@ -1,0 +1,87 @@
+{
+ "summary": "本集主持人分享霞海城隍廟趣事後，深入分析美國迷因股第二波炒作，指出Ryan Cohen在BBBY拋售持股，警告散戶勿盲目跟隨。接著討論Wolfspeed與碳化矽族群，認為其有基本面支撐但估值偏高，屬高風險投資。最後解析騰訊Q2財報，認為營運可能已達谷底，但中國政策不確定性仍高。整體市場看法為反彈後小鬼股亂竄，資金聚焦碳化矽等題材，但需警惕炒作風險。",
+ "topics": [
+  "迷因股第二波炒作與Ryan Cohen拋售BBBY",
+  "碳化矽族群（Wolfspeed）的投資機會與風險",
+  "騰訊Q2財報分析與中國科技股展望",
+  "廣告收入作為經濟景氣指標的邏輯",
+  "投資心態：享受過程與避免聽信明牌"
+ ],
+ "market_view": "市場在反彈後出現迷因股亂象與碳化矽等題材，但整體仍屬資金面遊戲，需警惕炒作風險。",
+ "industries": [
+  {
+   "name": "碳化矽",
+   "stance": "看多",
+   "view": "碳化矽基板需求強勁，Wolfspeed等領頭羊具壟斷地位，但估值偏高屬高風險投資。"
+  },
+  {
+   "name": "遊戲",
+   "stance": "中性",
+   "view": "騰訊遊戲收入罕見下降，主因中國監管，但調整期可能使體質轉佳。"
+  },
+  {
+   "name": "社群媒體",
+   "stance": "中性",
+   "view": "短影音市場競爭激烈，各方巨頭投入將導致毛利下降，最終淪為血海。"
+  },
+  {
+   "name": "半導體晶圓製造",
+   "stance": "看多",
+   "view": "美國晶片法案受惠者為實際從事晶圓製造的IDM與晶圓代工廠，如Intel、台積電。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "BBBY",
+   "name": "Bed Bath & Beyond",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Ryan Cohen已拋售持股，散戶跟風風險高，需注意大哥跳車。"
+  },
+  {
+   "symbol": "GME",
+   "name": "GameStop",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Ryan Cohen可能跟進拋售，迷因股炒作需謹慎。"
+  },
+  {
+   "symbol": "HKD",
+   "name": "AMTD Digital",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "香港仙股式炒作，市值一度超越阿里巴巴，後回歸原點，屬教科書級別案例。"
+  },
+  {
+   "symbol": "WOLF",
+   "name": "Wolfspeed",
+   "market": "US",
+   "stance": "看多",
+   "argument": "碳化矽基板龍頭，design-in年增亮眼，八吋試產帶來想像空間，但估值偏高。"
+  },
+  {
+   "symbol": "TCEHY",
+   "name": "騰訊控股",
+   "market": "other",
+   "stance": "中性",
+   "argument": "Q2財報營運可能已達谷底，但中國政策不確定性高，投資需謹慎。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "美國晶片法案補貼蓋廠，台積電有望受惠。"
+  }
+ ],
+ "quotes": [
+  "廣告就是一個槓桿，當景氣不好時企業會先縮減廣告，可作為判斷經濟狀況的指標。",
+  "任何拿出來賣的指標，就算本來有用，在賣出的瞬間就沒用了，因為胃納量會被塞滿。",
+  "投資要享受過程，但前提是必須能賺到錢，否則很難持續熱衷。"
+ ],
+ "ep_key": "EP272",
+ "title": "EP272 | 👻",
+ "pubdate": "2022-08-20",
+ "duration_s": 2783,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

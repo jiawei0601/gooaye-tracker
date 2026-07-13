@@ -1,0 +1,107 @@
+{
+ "summary": "本集主要討論Nvidia股價突破700美元，主持人重申其顯示卡、車用、資料中心及AI領域的強勁動能。同時分析Facebook在隱私權收緊趨勢下的受惠地位，以及Amazon、Apple等大型科技股的展望。針對AMC的散戶軋空事件，主持人認為此類社群驅動的炒股可能成為市場常態，但提醒參與者應控制部位。此外，節目也探討了蘋果供應鏈的布局策略、總經數據的雜訊問題，以及ETN與主題型ETF的適用性。",
+ "topics": [
+  "Nvidia股價創高與基本面分析",
+  "大型科技股（Facebook、Amazon、Apple）展望",
+  "AMC散戶軋空事件與社群炒股現象",
+  "蘋果供應鏈布局與營收觀察",
+  "總經數據的雜訊與投資心態",
+  "ETN與主題型ETF的比較與適用性"
+ ],
+ "market_view": "總經數據正反解釋皆可，無參考價值，應回歸個股基本面。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "Nvidia在GPU、車用、資料中心及AI領域具備多重成長動能。"
+  },
+  {
+   "name": "社群媒體",
+   "stance": "看多",
+   "view": "Facebook在隱私權收緊趨勢下，因握有大量用戶資料而成為受惠者。"
+  },
+  {
+   "name": "電商",
+   "stance": "看多",
+   "view": "亞馬遜跑道長，股價被低估，遲早會攻上前高。"
+  },
+  {
+   "name": "消費電子",
+   "stance": "觀察",
+   "view": "Apple今年表現疲軟，供應鏈需觀察7月營收是否反映拉貨動能。"
+  },
+  {
+   "name": "電影院",
+   "stance": "觀察",
+   "view": "AMC因散戶軋空股價暴漲，公司趁機籌資，但基本面未改善，未來可能走向媒體整併。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "看多",
+   "argument": "顯示卡、車用、資料中心及AI應用全面發展，是主持人的愛股。"
+  },
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "看多",
+   "argument": "隱私權收緊反而鞏固其數據優勢，VR/AR可能成為下一動能。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "亞馬遜",
+   "market": "US",
+   "stance": "看多",
+   "argument": "估值被低估，長期跑道長，遲早會攻上前高。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "今年表現疲軟，需觀察供應鏈拉貨狀況。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "今年表現落後，成為部位中的拖油瓶，但繼續持有。"
+  },
+  {
+   "symbol": "AMC",
+   "name": "AMC Entertainment",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "散戶軋空事件導致股價暴漲，公司趁機籌資，但基本面未改善，參與者應控制部位。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "中性",
+   "argument": "家大業大，沒什麼特別好聊。"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "屬於尚未攻上前高的科技股之一。"
+  }
+ ],
+ "quotes": [
+  "在市場裡面，有很多的說法都是這樣子，你要懂得去把這些雜訊給過濾掉。只要是那種正反面解釋都可以通的東西，是完全沒有參考價值的。",
+  "對我來說，投資只是換股問題，我只進不出。這樣就可以永遠參與行情。",
+  "你本來就不可以去預期股價一定會怎麼走。"
+ ],
+ "ep_key": "EP146",
+ "title": "EP146 | NVDA700",
+ "pubdate": "2021-06-05",
+ "duration_s": 2479,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

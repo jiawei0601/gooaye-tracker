@@ -1,0 +1,69 @@
+{
+ "summary": "本集主持人謝孟恭先推薦經典投資書籍《彼得林區選股策略》，強調投資應回歸基本面、避免短線追漲殺跌，並指出多數股民其實是在賭博而非投資。市場方面，他認為中國封城對台廠影響有限，反而可能創造撿便宜機會；同時恭喜 Gogoro 在美上市，但提醒 SPAC 合併後下檔保護消失。Elon Musk 收購推特 9% 股份被視為實質老闆，可能改變社群媒體生態，並衝擊川普的 Truth Social。主持人也分享對量化交易、選擇權策略的看法，並回應聽眾關於聯發科股利、資產配置等提問。",
+ "topics": [
+  "彼得林區選股策略書籍推薦與投資心法",
+  "中國封城對台廠影響與投資機會",
+  "Gogoro 在美上市與 SPAC 風險提醒",
+  "Elon Musk 收購推特股份與社群媒體影響",
+  "量化交易與選擇權策略討論",
+  "聽眾 Q&A：聯發科股利、資產配置、跟單 vs 自主學習"
+ ],
+ "market_view": "市場短期波動大，但中國封城造成的修正可能為基本面良好的公司創造買點，不必過度恐慌。",
+ "industries": [
+  {
+   "name": "社群媒體",
+   "stance": "觀察",
+   "view": "Elon Musk 入股推特可能改變平台政策，影響整個社群媒體生態。"
+  },
+  {
+   "name": "電動機車",
+   "stance": "觀察",
+   "view": "Gogoro 在美上市是里程碑，但 SPAC 合併後股價可能失去下檔保護。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "中國封城對台廠產能影響有限，部分公司非核心業務受影響但股價被錯殺。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "GGR",
+   "name": "Gogoro",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "完成 SPAC 上市，但合併後下檔保護消失，需注意風險。"
+  },
+  {
+   "symbol": "TWTR",
+   "name": "Twitter",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Elon Musk 入股 9% 並進入董事會，可能推動改革，主持人表示會加碼。"
+  },
+  {
+   "symbol": "DWAC",
+   "name": "Digital World Acquisition Corp",
+   "market": "US",
+   "stance": "看空",
+   "argument": "Elon Musk 改造推特可能削弱 Truth Social 的需求，對 DWAC 造成衝擊。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "資本公積配息因公司有獲利，無需過度擔心。"
+  }
+ ],
+ "quotes": [
+  "你沒有辦法明確地講出標的在做什麼、營收佔比、毛利、成長性，對我來說你就在賭博。",
+  "任何一個已經確認的事情，對你來說都不會產生超額報酬，因為大家都知道，想要買的都買了。",
+  "有人討厭代表你成功踏出同溫層，如果你的東西都沒有人討厭，代表你習慣在自己的圈子裡玩。"
+ ],
+ "ep_key": "EP233",
+ "title": "EP233 | 🛵",
+ "pubdate": "2022-04-06",
+ "duration_s": 2872,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,104 @@
+{
+ "summary": "本集主要討論鄭州水災對iPhone供應鏈影響有限，以及美股廣告相關公司（Snapchat、Twitter）財報亮眼帶動臉書大漲。主持人分析隱私權政策對廣告業的衝擊可能被高估，並深入探討中概股因中國監管重挫（教育類股單日暴跌70%），提醒抄底風險。他認為中國打壓企業可能為迫使回港上市，但人治風險難測。節目也提醒投資人勿因崩跌時看到買盤或成交量放大就一廂情願接刀，波動率高時選擇權操作難度大。最後回應聽眾關於篩選股票、Steam Deck與串流遊戲趨勢等問題。",
+ "topics": [
+  "鄭州水災對iPhone供應鏈的影響",
+  "Snapchat與Twitter財報帶動廣告類股",
+  "隱私權政策（iOS 14.5）對廣告業的實際衝擊",
+  "中概股因中國監管重挫（教育、科技）",
+  "中國打壓企業與回港上市的可能性",
+  "崩跌時常見的投資誤區（買盤、成交量、選擇權）",
+  "Steam Deck與串流遊戲趨勢",
+  "篩選股票工具的使用建議"
+ ],
+ "market_view": "美股維持強勢，但中概股因政策風險劇烈下挫，台股在外資賣超下仍由散戶撐盤。",
+ "industries": [
+  {
+   "name": "廣告科技",
+   "stance": "看多",
+   "view": "Snapchat與Twitter財報強勁，顯示數位廣告需求仍旺，隱私權衝擊可能被高估。"
+  },
+  {
+   "name": "教育",
+   "stance": "看空",
+   "view": "中國嚴打校外培訓，好未來、新東方等單日暴跌70%，政策風險極高。"
+  },
+  {
+   "name": "串流遊戲",
+   "stance": "看多",
+   "view": "NVIDIA GeForce NOW與Xbox Cloud Gaming為主要玩家，雲端串流是未來趨勢。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "NVIDIA的Data Center與自駕車業務才是長期動能，遊戲需求仍會帶動顯卡。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "看多",
+   "argument": "受Snapchat與Twitter財報激勵大漲6%，自身數據優勢使其在隱私權衝擊中相對受惠。"
+  },
+  {
+   "symbol": "SNAP",
+   "name": "Snapchat",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "財報亮眼跳空大漲，但主持人對其用戶隱私同意率說法存疑，需持續觀察。"
+  },
+  {
+   "symbol": "TWTR",
+   "name": "Twitter",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "營收成長創七年最強，且積極布局Space、Tip Jar等新獲利管道，值得注意。"
+  },
+  {
+   "symbol": "TAL",
+   "name": "好未來",
+   "market": "US",
+   "stance": "看空",
+   "argument": "中國監管重擊，單日暴跌70%，政策風險極大。"
+  },
+  {
+   "symbol": "EDU",
+   "name": "新東方",
+   "market": "US",
+   "stance": "看空",
+   "argument": "同樣因中國打壓補習班，單日暴跌54%。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "GeForce NOW串流遊戲體驗佳，但Data Center與自駕車才是長期動能。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "鄭州廠受水災影響有限，僅停工一天，iPhone出貨衝擊約300萬台且為短期。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "中性",
+   "argument": "鄭州水災對iPhone出貨影響有限，物流預計下月回歸正軌。"
+  }
+ ],
+ "quotes": [
+  "任何要去抄底中國股市的，我真的會建議大家小心。因為你不知道黨的下限在哪，甚至他會不會要你的企業結算之類的？",
+  "你看到買盤未必是看到價值浮現想要長期投資進來的買盤，非常高機率只是空軍在裡面玩而已。",
+  "如果你很常會做這種捧A踩B，其實你會錯過很多機會。一個東西跌得夠便宜，你搞不好可以在垃圾堆裡面找到寶物。"
+ ],
+ "ep_key": "EP160",
+ "title": "EP160 | 遇水則發",
+ "pubdate": "2021-07-24",
+ "duration_s": 2589,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,98 @@
+{
+ "summary": "本集主要討論13F報告的應用與近期對沖基金持倉變化，主持人強調不要抄單一標的，應盡量複製整個組合。同時總結GME事件聽證會，認為這是機構之間的對決，散戶只是其中一方。主持人也分享自己為小孩開始定期定額投資台灣大盤ETF，並提醒聽眾不要被高報酬話術詐騙，投資應腳踏實地。",
+ "topics": [
+  "13F報告解析與應用",
+  "GME事件聽證會總結",
+  "詐騙防範與投資心態",
+  "ETF投資與資產配置",
+  "晶圓代工缺貨展望",
+  "SPAC的價值投資爭議",
+  "Ark Invest的影響與風險"
+ ],
+ "market_view": "股市長期向上，但短線波動難免，應專注本業累積資金。",
+ "industries": [
+  {
+   "name": "晶圓代工",
+   "stance": "觀察",
+   "view": "高通預期2021下半年缺貨緩解，但台積電資本支出仍高，長期成長趨勢不變。"
+  },
+  {
+   "name": "電信",
+   "stance": "中性",
+   "view": "巴菲特買進Verizon，但主持人個人較不偏好此類持股。"
+  },
+  {
+   "name": "石油",
+   "stance": "中性",
+   "view": "巴菲特買進雪佛龍，主持人未明確表態。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "Howard Marks在第四季賣出台積電，主持人認為目前本益比在合理區間，長線仍看好但短線漲多可能回檔。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人為特斯拉股東，認為即使股價腰斬也沒差，因為早已拉出成本。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "亞馬遜",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人開始研究亞馬遜，看好美國電商滲透率仍有成長空間，且Jeff Bezos交班後團隊值得信賴。"
+  },
+  {
+   "symbol": "GME",
+   "name": "GameStop",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Michael Burry在第四季已賣出GME，錯過後續漲幅，主持人認為他再次早洩。"
+  },
+  {
+   "symbol": "VZ",
+   "name": "Verizon",
+   "market": "US",
+   "stance": "中性",
+   "argument": "巴菲特買進Verizon，但主持人個人較不喜歡此類電信股。"
+  },
+  {
+   "symbol": "CVX",
+   "name": "雪佛龍",
+   "market": "US",
+   "stance": "中性",
+   "argument": "巴菲特買進雪佛龍，主持人未明確表態。"
+  },
+  {
+   "symbol": "PSTH",
+   "name": "Pershing Square Tontine",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Seth Klarman買進此SPAC，主持人認為SPAC不全是投機，價值投資人也會參與。"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "主持人為小孩每月定期定額買入台灣大盤ETF，作為長期儲蓄。"
+  }
+ ],
+ "quotes": [
+  "不要想要去幹人家，你太貪心或想屌人家，就容易受騙。",
+  "投資終究是看自己口袋賺多少錢，不用去批評別人。",
+  "如果你很會投資，為什麼要跟我收錢？自己放大槓桿賺就好。"
+ ],
+ "ep_key": "EP116",
+ "title": "EP116 | 13F",
+ "pubdate": "2021-02-20",
+ "duration_s": 2456,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

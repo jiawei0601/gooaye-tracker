@@ -1,0 +1,82 @@
+{
+ "summary": "主持人分享歐洲旅遊現金與租車防雷技巧，並重點分析 Google I/O 發表會，認為 Google 在 AI 領域快速追趕微軟，將有效留住用戶、減緩 Bing 成長。他看好 Google 並加碼持股，同時警告 AI 套皮軟體新創易被巨頭碾壓，建議聚焦硬體與巨頭。總經方面，認為美債違約短期不會發生。",
+ "topics": [
+  "歐洲旅遊現金、ATM 與租車陷阱",
+  "Google I/O 發表會與 AI 競爭",
+  "AI 套皮新創的風險",
+  "自行車產業庫存與投資時機",
+  "愛爾蘭註冊 ETF 追蹤機制",
+  "旅遊餐飲類股均值回歸",
+  "家庭與工作抉擇"
+ ],
+ "market_view": "美債違約短期不會發生，最終會協商解決。",
+ "industries": [
+  {
+   "name": "AI 軟體",
+   "stance": "看空",
+   "view": "套皮 AI 新創易被科技巨頭收割，應避開。"
+  },
+  {
+   "name": "自行車",
+   "stance": "觀察",
+   "view": "庫存達歷史高點，公司派稱最差已過，但需量化數據確認。"
+  },
+  {
+   "name": "旅遊餐飲",
+   "stance": "中性",
+   "view": "疫情復甦暫時性利多，終將均值回歸，但不可隨意做空。"
+  },
+  {
+   "name": "摺疊手機",
+   "stance": "觀察",
+   "view": "Google 推出摺疊機，台股軸承供應鏈可能受關注。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet (Google)",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI 發表會顯示快速追趕微軟，生態系優勢可留住用戶，已加碼持股。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "中性",
+   "argument": "AI 領先但 Google 追趕將減緩其高速成長。"
+  },
+  {
+   "symbol": "9921",
+   "name": "巨大",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "公司派稱庫存最差已過，但需量化數據確認低點。"
+  },
+  {
+   "symbol": "3376",
+   "name": "新日興",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "摺疊手機軸承供應鏈，市場可能討論 Google 訂單。"
+  },
+  {
+   "symbol": "3548",
+   "name": "兆利",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "摺疊手機軸承供應鏈，市場可能討論 Google 訂單。"
+  }
+ ],
+ "quotes": [
+  "沒有 AI 你不會死，你也是有工作，只是有 AI 的人，他可能就可以如虎添翼。",
+  "人生中很多題目，大家都想要問一個答案，最後面發現幹，其實沒有答案。",
+  "小型的軟體公司，如果是套皮的，這個真的要非常的小心。"
+ ],
+ "ep_key": "EP348",
+ "title": "EP348 | 🪄",
+ "pubdate": "2023-05-13",
+ "duration_s": 2976,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

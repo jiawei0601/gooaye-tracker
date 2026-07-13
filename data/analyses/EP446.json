@@ -1,0 +1,165 @@
+{
+ "summary": "主持人分享帶狗出國旅行的經驗與風險，並回歸市場分析。他認為台股大跌700點是補跌，但已提前降槓桿並趁低試單。他解讀台積電法說，指出下修半導體展望但自身營收維持，隱含手機/PC復甦力道普通、車用持續衰退，而AI伺服器需求強勁但股價已過熱。他建議投資人勿短線找理由，應關注中長線趨勢如COMPUTEX與油電混合車概念。他強調市場修正屬正常，長期持有者應習慣波動，並重申不開訂閱、不收費的立場。",
+ "topics": [
+  "帶狗出國旅行的經驗與風險提醒",
+  "台股大跌與個人操作策略（分批試單）",
+  "台積電法說內容解讀：半導體展望下修、HPC與手機/PC/車用現況",
+  "AI伺服器與散熱/供電產業的長期趨勢",
+  "市場波動下的心態調整與指數投資建議",
+  "油電混合車與功率半導體的潛在機會",
+  "對短線漲跌找理由的批判與中長線投資思維"
+ ],
+ "market_view": "市場修正屬正常循環，不要因短期大跌而恐慌，應保持紀律分批布局。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "台積電下修整體半導體展望（不含記憶體），但自身營收維持高成長，顯示非AI領域復甦不如預期。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "泛AI股已過熱，短期可能繼續修正，但長期需求不變，需等待更佳買點。"
+  },
+  {
+   "name": "手機",
+   "stance": "中性",
+   "view": "復甦力道普通，蘋果出貨量預期減少，全年驚喜有限。"
+  },
+  {
+   "name": "PC/NB",
+   "stance": "觀察",
+   "view": "復甦為L型緩慢上升，關注六月COMPUTEX是否帶來換機潮催化劑。"
+  },
+  {
+   "name": "車用",
+   "stance": "看空",
+   "view": "持續衰退中，台積電下修展望，預期到2025年後才可能復甦。"
+  },
+  {
+   "name": "油電混合車",
+   "stance": "看多",
+   "view": "表現超乎預期，相關功率半導體（IGBT、MOSFET）值得關注，屬中小型題材。"
+  },
+  {
+   "name": "重電",
+   "stance": "觀察",
+   "view": "股價已進入本夢比階段，估值難以判斷，但長期受惠於電力需求增長。"
+  },
+  {
+   "name": "資料中心供電",
+   "stance": "看多",
+   "view": "伺服器瓦數持續提高，供電與散熱系統為長期大趨勢。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "法說符合預期，長期軌跡不變，N5節點受惠AI產品，CoWoS需求強勁。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股價已大幅修正，但AI需求未變，需等待財報與法說確認方向。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "Super Micro Computer",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股價因未公布財務預期而大跌，短期波動大，不建議急於抄底。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "從170買到150，持續分批布局，長期電動車趨勢不變。"
+  },
+  {
+   "symbol": "ARM",
+   "name": "Arm Holdings",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "其財報可能影響多頭走勢，但目前看法轉為中性。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "MI300使用N5節點，但股價受整體AI股修正影響。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Lunar Lake可能提前拉貨，成為台積電N3節點關鍵客戶。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Maia 100使用N5節點，AI布局持續。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Trainium預計使用N5節點。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet (Google)",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "TPU v6e使用N5節點。"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "資料中心供電系統長期受惠於伺服器瓦數提升。"
+  },
+  {
+   "symbol": "2301",
+   "name": "光寶科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "同樣涉足資料中心供電，但主持人未明確表態。"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "market": "US",
+   "stance": "看多",
+   "argument": "CDU（水冷）業務受市場關注，但主持人認為其更偏向散熱而非供電。"
+  },
+  {
+   "symbol": "ETN",
+   "name": "Eaton",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資料中心供電系統相關，但主持人未深入討論。"
+  }
+ ],
+ "quotes": [
+  "不要在新低的時候一直狂抄，要等盤個幾天，不要一直有新低價一直買，買到破產。",
+  "借錢等於是毀掉友誼，當一個人敢來找你借錢的時候，就是他不怕毀掉跟你的友誼。",
+  "暴賺的地方會來自於極爛的地方，爛得很深的東西反彈也會反彈得超兇。"
+ ],
+ "ep_key": "EP446",
+ "title": "EP446 | 🫐",
+ "pubdate": "2024-04-20",
+ "duration_s": 2967,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

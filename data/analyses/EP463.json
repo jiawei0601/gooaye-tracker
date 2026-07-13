@@ -1,0 +1,129 @@
+{
+ "summary": "主持人分享近期因市場過熱、他人頻繁曬單而產生的焦慮與暴怒情緒，並檢討自身心態。他持續執行從硬體轉向軟體的部位調整，已將槓桿降至1以下並保留現金。他認為台股大盤已接近估值上緣，不再加碼，並預警未來可能出現類似四月的劇烈回檔。節目中深入討論了Omniverse與機器人產業的漸進式應用，認為短期內工廠自動化與數位轉型比人形機器人更實際。",
+ "topics": [
+  "市場過熱下的心態調適與紀律",
+  "從硬體（ODM/AI伺服器）轉向軟體的部位調整策略",
+  "Omniverse與機器人產業的實際應用前景",
+  "Tesla股東會後市場對Optimus機器人的過度期待",
+  "房貸槓桿與投資配置的取捨",
+  "蘋果WWDC與Marvell的投資決策差異",
+  "加密貨幣的實際應用場景與投資風險"
+ ],
+ "market_view": "台股大盤已接近估值上緣（台積電約20倍PE），不會再加碼，但市場可能繼續瘋狂反映未來兩三年估值；未來可能出現類似四月的劇烈回檔。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "硬體股（如台股ODM）已漲多，開始降低部位，但Dell等個股仍有訂單動能。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "台積電接近估值上緣不再加碼；Marvell表現不如預期已全數出清；Broadcom因ASIC與拆股利多持續上漲。"
+  },
+  {
+   "name": "軟體",
+   "stance": "看多",
+   "view": "持續將資金從硬體轉向軟體，看好數位轉型與OMO整合的立即性機會。"
+  },
+  {
+   "name": "機器人",
+   "stance": "觀察",
+   "view": "人形機器人（如Optimus）應用太遠，短期應關注Omniverse結合既有自動化設備的漸進式導入。"
+  },
+  {
+   "name": "電動車",
+   "stance": "中性",
+   "view": "Tesla短期動能來自Robotaxi與FSD，機器人貢獻尚早。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "股價接近1,000元，已達估值上緣（明年EPS約44-46元，20倍PE），不再加碼但保留底倉。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "屬於大型權值股，表現強勁，但主持人未明確表態操作。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "屬於大型權值股，表現強勁，但主持人未明確表態操作。"
+  },
+  {
+   "symbol": "DELL",
+   "name": "戴爾科技",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "之前看好其為Supermicro 2.0，股價已反映訂單動能，但為降低硬體部位已獲利了結。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "超微電腦",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "之前持有，為降低硬體部位已出場。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "邁威爾科技",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "ASIC故事表現不如Broadcom，已全數出清，轉向軟體。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "ASIC利多與拆股利多股價噴出，但仍有電信業務拖累，等拆股後再評估。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "長期前兩三大持股，持續減碼但保留底倉。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "WWDC後因看過高通而理解其AI策略，選擇持有等待市場反應。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股東會後股價上漲，但機器人貢獻尚早，短期動能來自Robotaxi與FSD。"
+  },
+  {
+   "symbol": "2382",
+   "name": "廣達",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "林百里看好AI伺服器，但主持人未明確表態操作。"
+  }
+ ],
+ "quotes": [
+  "在大多頭的時候，你會分不清楚到底是這個人厲害，還是只是因為市場本身就會漲。",
+  "瘦死的駱駝比馬大，新創公司想用AI彎道超車，但大公司也在導入AI，不一定會成功。",
+  "你已經曾經擁有，而且報酬率遠虐大盤，一定要心懷感恩，不要想太多。"
+ ],
+ "ep_key": "EP463",
+ "title": "EP463 | 📹",
+ "pubdate": "2024-06-19",
+ "duration_s": 2999,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

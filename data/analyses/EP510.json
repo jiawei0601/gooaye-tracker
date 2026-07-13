@@ -1,0 +1,148 @@
+{
+ "summary": "主持人認為台股修正已接近尾聲，即將迎來反彈，但能否突破上方壓力線是關鍵，否則將續探底。市場主題正從硬體轉向軟硬整合與軟體，美股已明顯走向軟體，台股則因軟體標的稀少而難以形成族群。主持人看好「Agentic AI（智能體AI）」自動化趨勢，認為企業導入後能大幅降低成本並提升獲利，將帶動軟體服務商估值與EPS上修。同時指出，掌握消費者的硬體廠（如手機、眼鏡）在AI加值下將成為大贏家，而純模型供應商因負擔龐大資本支出且面臨模型差異縮小，未來將越來越不值錢。此外，建議留意過去被忽略的傳統供應鏈如CIS，以及既有訂閱服務透過AI提升黏著度的機會。",
+ "topics": [
+  "台股與美股盤勢修正與反彈判斷",
+  "AI發展三階段：硬體、軟硬整合、軟體",
+  "Agentic AI（智能體AI）自動化趨勢與企業導入案例",
+  "純AI模型商與掌握消費者硬體廠的競爭力消長",
+  "傳統供應鏈與CIS（CMOS影像感測器）的新機會",
+  "既有軟體訂閱服務透過AI提升用戶黏著度",
+  "AI資本支出（CAPEX）未來的成長驗證"
+ ],
+ "market_view": "台股修正已接近尾聲將迎反彈，但需觀察上方壓力線能否突破，否則將繼續往下探。",
+ "industries": [
+  {
+   "name": "AI軟體/雲端服務",
+   "stance": "看多",
+   "view": "Agentic AI帶動企業自動化降本增效，軟體服務商將迎來估值與EPS共同上修。"
+  },
+  {
+   "name": "AI伺服器/硬體",
+   "stance": "中性",
+   "view": "舊題材已玩不太起來，未來需靠軟體端實際獲利驗證才能推動硬體CAPEX持續大爆發。"
+  },
+  {
+   "name": "CIS（影像感測器）",
+   "stance": "看多",
+   "view": "躺在地上已久，受惠於VR、眼鏡等新裝置鏡頭數量增加，將迎來新機會。"
+  },
+  {
+   "name": "消費性電子硬體",
+   "stance": "看多",
+   "view": "手機與眼鏡等掌握消費者的硬體廠，能將AI作為低門檻加值服務並轉化為純淨利。"
+  },
+  {
+   "name": "AI模型開發",
+   "stance": "看空",
+   "view": "模型差距縮小且背負龐大資本支出，未來將越來越不值錢。"
+  },
+  {
+   "name": "傳產（紡織/塑化/鋼鐵）",
+   "stance": "觀察",
+   "view": "聽眾提問產業被中國競爭玩爛，主持人未對產業表態，僅建議個人依薪資與職涯發展評估是否轉職。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "CRM",
+   "name": "Salesforce",
+   "market": "US",
+   "stance": "看多",
+   "argument": "希斯洛機場導入其服務讓27%客服由AI達成，成熟企業採用將帶動業界變化。"
+  },
+  {
+   "symbol": "NOW",
+   "name": "ServiceNow",
+   "market": "US",
+   "stance": "看多",
+   "argument": "使用自家Now Assist能省下每年500萬美元人員支出，證明AI導入可行性高。"
+  },
+  {
+   "symbol": "HUBS",
+   "name": "HubSpot",
+   "market": "US",
+   "stance": "看多",
+   "argument": "是Agentic AI自動化服務的關鍵提供者之一。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "內部已有25%的code由AI處理，且能透過競標成為蘋果預設瀏覽器與AI模型供應商。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "看多",
+   "argument": "為Agentic AI自動化服務的提供者之一。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "看多",
+   "argument": "未來可能透過AI優化投廣告流程，收割廣告代理商的利潤，且其眼鏡產品將受惠於AI加值。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "看多",
+   "argument": "掌握消費者慣性，能讓AI模型商競標版位，且Apple One訂閱可透過AI提升黏著度。"
+  },
+  {
+   "symbol": "QCOM",
+   "name": "Qualcomm",
+   "market": "US",
+   "stance": "看多",
+   "argument": "手機與筆電晶片能直接對到消費者，在AI導入下後面會是big win。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "手機晶片能直接對到消費者，在AI導入下後面會是big win。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為過去AI供應鏈的big name，未來需靠Agentic AI大爆發帶動硬體CAPEX增加才能再炒一波。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為過去AI供應鏈的big name，未來市場焦點將轉向Gen AI軟體公司。"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為AI供應鏈big name，未來需驗證AI CAPEX能否帶來實質獲利以支撐成長。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾詢問連結基金，主持人建議回歸買原型商品即可，不推薦疊床架屋的衍生產品。"
+  }
+ ],
+ "quotes": [
+  "AI 的表現已經比絕大多數我見過的人類都來得好，去嗆一個 AI 可能只有錯 5% 的東西，會覺得很無聊。",
+  "模型的 provider 在後面會越來越不值錢，因為模型的差距其實越來越小，且他們本身扛了非常大的 CAPEX；而掌握消費者的硬體商，AI 對他們來說只是純純的淨利。",
+  "過去炒了這麼多的 AI CAPEX，這個數字到底在明後年可不可以見到更強大的年對年成長？這是一個非常重要的，要嘛就是零、要嘛是一的結果。"
+ ],
+ "ep_key": "EP510",
+ "title": "EP510 | 🪅",
+ "pubdate": "2024-11-30",
+ "duration_s": 2973,
+ "analysis_source": "text/whatmkreallysaid"
+}

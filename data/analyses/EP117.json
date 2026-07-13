@@ -1,0 +1,119 @@
+{
+ "summary": "主持人分享近期看房心得，感受資金寬鬆下屋主惜售、高總價房緩跌但低總價流動性佳。討論美股科技股因美債殖利率上升引發估值重置，但認為非終點，大權值股仍可關注。強調下跌是汰弱留強機會，建議去槓桿、檢視配置。提醒投資人區分主動與被動投資，並說明券商倒閉不影響ETF持有（集保中心保護）。",
+ "topics": [
+  "買房心得與資金寬鬆影響",
+  "美股科技股估值重置與美債殖利率",
+  "下跌時的資產配置與去槓桿",
+  "主動選股 vs 被動投資",
+  "中國ETF布局建議",
+  "PCB產業投資注意事項",
+  "券商倒閉對ETF的影響"
+ ],
+ "market_view": "派對尚未結束，QE與印鈔副作用可能明年後年才發酵，目前修正為估值重置而非趨勢反轉。",
+ "industries": [
+  {
+   "name": "房地產",
+   "stance": "中性",
+   "view": "高總價房緩跌，低總價房因剛性需求流動性佳、緩漲；資金寬鬆使屋主惜售。"
+  },
+  {
+   "name": "科技股",
+   "stance": "中性",
+   "view": "美債殖利率上升引發估值重置，但大權值股基本面仍佳，修正後可關注。"
+  },
+  {
+   "name": "PCB",
+   "stance": "觀察",
+   "view": "產業複雜，需細分軟板/硬板/高層板等，且吃題材，建議研究細項後再布局。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "為小孩每月存10萬，作為穩定資產配置；也推薦給無法打敗大盤的投資人。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Cathy Wood長線最看好標的之一，下跌可視為降低成本的機會。"
+  },
+  {
+   "symbol": "ROKU",
+   "name": "Roku",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Cathy Wood長線最看好標的之一，ARK Invest核心持股。"
+  },
+  {
+   "symbol": "TDOC",
+   "name": "Teladoc",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Cathy Wood長線最看好標的之一，ARK Invest核心持股。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "亞馬遜",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "此波下殺跌幅相對小，市場惜售，可密切關注。"
+  },
+  {
+   "symbol": "FB",
+   "name": "臉書",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "澳洲事件後仍硬挺，跌幅小於同業，值得關注。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "恐慌中有人砍蘋果，但主持人認為若連蘋果都不敢抱，就沒什麼可買。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "屬大權值股，下跌可視為降低成本機會。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "谷歌",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "屬大權值股，下跌可視為降低成本機會。"
+  },
+  {
+   "symbol": "MCHI",
+   "name": "iShares MSCI中國ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "達里歐持有，可作為中國市場ETF布局參考。"
+  },
+  {
+   "symbol": "KWEB",
+   "name": "KraneShares滬深中國網路ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "中國科技股表現較好，可參考。"
+  }
+ ],
+ "quotes": [
+  "每一次修正都是一個很好的機會去重新檢視你的配置，讓你睡不著、工作沒精神就是配置有問題。",
+  "疾風知勁草，真的殺下來時，大家平常說想撿便宜卻沒人敢接。",
+  "如果你連蘋果、微軟、Google或Amazon這樣的公司都不敢抱，那你還有什麼可以買？"
+ ],
+ "ep_key": "EP117",
+ "title": "EP117 | 腳麻ㄉ來",
+ "pubdate": "2021-02-24",
+ "duration_s": 2566,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

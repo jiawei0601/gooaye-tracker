@@ -1,0 +1,83 @@
+{
+ "summary": "主持人分享在馬來西亞蘭卡威度假的經歷，並討論NVIDIA財報與AI產業趨勢。他認為NVIDIA財報雖差但優於預期，股價上漲主要來自CEO黃仁勳的敘事能力，而非基本面。他強調AI訓練晶片市場由NVIDIA寡占，但邊緣運算（Edge Computing）才是未來爆發點，技術含量較低，可能出現飆股。他也提醒投資人不要過度樂觀，應尋找下一波機會。此外，他回應聽眾提問，包括借錢投資的風險、人生意義等話題。",
+ "topics": [
+  "NVIDIA財報與AI產業分析",
+  "AI訓練與推論的差異及投資機會",
+  "邊緣運算（Edge Computing）的潛力",
+  "iPhone Type-C接口的市場傳聞",
+  "借錢投資的風險與心理承受度",
+  "人生意義與現代文明病"
+ ],
+ "market_view": "股市下跌與通膨數據有關，聯準會可能繼續升息，但債券買點浮現。",
+ "industries": [
+  {
+   "name": "AI半導體",
+   "stance": "看多",
+   "view": "NVIDIA在AI訓練市場寡占，但邊緣運算才是未來爆發點，技術含量較低，可能出現飆股。"
+  },
+  {
+   "name": "邊緣運算",
+   "stance": "看多",
+   "view": "邊緣運算晶片技術含量較低，量產規模大，可能出現飆股，但尚未找到明確受惠標的。"
+  },
+  {
+   "name": "消費電子",
+   "stance": "觀察",
+   "view": "iPhone Type-C接口傳聞存在分歧，產業人士認為有機會，但獲利貢獻有限。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "財報雖差但優於預期，股價上漲來自CEO敘事能力，AI訓練市場寡占，但邊緣運算市占率較低。"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "先進製程受惠於AI訓練電腦需求，如Tesla Dojo等。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "看多",
+   "argument": "OpenAI主要投資者，AI應用於Bing Search等。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "在AI訓練市場追趕NVIDIA，但CUDA生態系優勢明顯。"
+  },
+  {
+   "symbol": "QCOM",
+   "name": "Qualcomm",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Snapdragon可視為邊緣運算晶片，但主持人未明確表態。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "Helio系列為邊緣運算晶片，但主持人未明確表態。"
+  }
+ ],
+ "quotes": [
+  "科技的進展跟商業化的成功完全是兩回事，ramp-up的時間點非常重要。",
+  "當你覺得渾身舒服、超想all in時，要仔細想想是不是哪裡怪怪的，學會逆思考。",
+  "大多數人其實做長期應該是沒有辦法贏大盤，因為好的時候才要追，壞的時候就全賣光光。"
+ ],
+ "ep_key": "EP326",
+ "title": "EP326 | 🩴",
+ "pubdate": "2023-02-25",
+ "duration_s": 3252,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

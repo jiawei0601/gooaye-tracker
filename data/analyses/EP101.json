@@ -1,0 +1,98 @@
+{
+ "summary": "本集主要討論 Ark Invest ETF 在 2020 年底的大幅修正事件。主持人分析 Ark 主動型 ETF 的特性，指出其高波動性源於重倉中小型破壞式創新公司，並因 ETF 申購套利機制形成自我強化的循環，導致流動性風險。他認為 Ark 長期選股能力仍佳，但建議投資人應將其視為主動選股配置，不宜重壓，並應搭配被動 ETF 如 0050、SPY 等。此外，也回應聽眾關於越南 ETF、宏碁攤平、00830 資安 ETF 等問題，並分享對財富自由的看法。",
+ "topics": [
+  "Ark Invest ETF 大跌事件分析",
+  "主動型 ETF 與被動 ETF 的差異與配置建議",
+  "ETF 申購贖回機制與流動性風險",
+  "中小型股因 ETF 資金流入產生的股價循環效應",
+  "聽眾 QA：越南 ETF、宏碁攤平、00830 資安 ETF、財富自由觀念"
+ ],
+ "market_view": "市場波動劇烈，主動型 ETF 如 Ark 因重倉中小型股而出現大幅修正，但長期仍看好其選股能力。",
+ "industries": [
+  {
+   "name": "基因編輯",
+   "stance": "觀察",
+   "view": "Ark 重倉的基因編輯類股因 ETF 資金循環效應暴漲暴跌，流動性風險高。"
+  },
+  {
+   "name": "破壞式創新",
+   "stance": "看多",
+   "view": "長期看好破壞式創新領域，但短期波動大，需注意配置比例。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "ARKK",
+   "name": "ARK Innovation ETF",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主動選股 ETF，長期看好但波動大，建議小比例配置。"
+  },
+  {
+   "symbol": "ARKG",
+   "name": "ARK Genomic Revolution ETF",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "基因編輯相關 ETF，因資金循環效應導致股價暴漲暴跌。"
+  },
+  {
+   "symbol": "ARKQ",
+   "name": "ARK Autonomous Technology & Robotics ETF",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "Ark 旗下 ETF 之一，同樣受資金循環影響。"
+  },
+  {
+   "symbol": "ARKF",
+   "name": "ARK Fintech Innovation ETF",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "Ark 旗下 ETF 之一，同樣受資金循環影響。"
+  },
+  {
+   "symbol": "VNM",
+   "name": "VanEck Vectors Vietnam ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "越南市場 ETF，高風險，適合看好越南的投資人。"
+  },
+  {
+   "symbol": "VWO",
+   "name": "Vanguard FTSE Emerging Markets ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "新興市場 ETF，範圍更廣，風險較單一國家低。"
+  },
+  {
+   "symbol": "00830",
+   "name": "國泰全球資安 ETF",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "資安主題 ETF，經理費較高，但適合無法直接投資美股的投資人。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50 ETF",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "被動 ETF，適合長期持有，建議作為核心配置。"
+  },
+  {
+   "symbol": "SPY",
+   "name": "SPDR S&P 500 ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "被動 ETF，適合長期持有，建議作為核心配置。"
+  }
+ ],
+ "quotes": [
+  "爆大量是一個迷思，上漲叫換手，下跌叫出貨，都是事後解釋。",
+  "囤成大股東，股票變老公——買到變成董事。",
+  "財富自由是虛無飄渺的觀念，重點是想要買什麼東西時有能力買。"
+ ],
+ "ep_key": "EP101",
+ "title": "EP101 | 方舟漏水RRRRrr",
+ "pubdate": "2020-12-30",
+ "duration_s": 2525,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

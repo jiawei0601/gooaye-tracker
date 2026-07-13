@@ -1,0 +1,112 @@
+{
+ "summary": "本集主持人謝孟恭討論台股8月20日大跌後的應對策略，強調不預設高點、以「下殺日」為基準觀察個股反彈強度，並分享減碼心法。美股方面，建議不要因創新高就賣出強勢股如Apple、Tesla，以免錯失漲勢。產業亮點聚焦低軌衛星通訊，介紹SpaceX的Starlink、Facebook Aquila、Google Project Loon等計畫，並點出台股供應鏈如啟碁、台揚、金寶、公準的潛在機會，但提醒注意營收佔比。總經看法中性偏謹慎，建議分批投入ETF。",
+ "topics": [
+  "台股8月20日大跌的應對與心法",
+  "美股科技股創新高時的操作策略",
+  "低軌衛星通訊產業與Starlink供應鏈",
+  "被動投資ETF的選擇與分批投入建議",
+  "英文學習方法與影集推薦"
+ ],
+ "market_view": "台股8月20日大跌是值得參考的基準點，美股尚未出現類似訊號，目前位置偏高，建議分批投入、避免重壓。",
+ "industries": [
+  {
+   "name": "衛星通訊",
+   "stance": "看多",
+   "view": "低軌衛星通訊如Starlink有全球偏遠地區需求，但亞洲都會區普及有限，台股供應鏈可觀察但須注意營收佔比。"
+  },
+  {
+   "name": "消費零售",
+   "stance": "看多",
+   "view": "看好傳產消費端，已買入Costco和Walmart，並遺憾錯過Target。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "COST",
+   "name": "Costco",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "看好傳產消費端，已買入Costco。"
+  },
+  {
+   "symbol": "WMT",
+   "name": "Walmart",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "看好傳產消費端，已買入Walmart。"
+  },
+  {
+   "symbol": "TGT",
+   "name": "Target",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "主持人表示遺憾未買入，但未明確表態後續操作。"
+  },
+  {
+   "symbol": "6285",
+   "name": "啟碁科技",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "為Starlink路由器唯一供應商，但營收佔比僅2-3%，題材性大於實質貢獻。"
+  },
+  {
+   "symbol": "2314",
+   "name": "台揚",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "衛星通訊相關供應鏈，可觀察產業發展。"
+  },
+  {
+   "symbol": "2312",
+   "name": "金寶",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "曾自稱SpaceX亞洲唯一合作夥伴，後被證實非獨家。"
+  },
+  {
+   "symbol": "6994",
+   "name": "公準",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "做衛星工業元件焊接，可觀察衛星產業挹注。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "中性",
+   "argument": "拆股後持續創高，不建議在創新高當天賣出。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "中性",
+   "argument": "股價從300到2000元，創新高賣出會錯失大魚。"
+  },
+  {
+   "symbol": "VOO",
+   "name": "Vanguard S&P 500 ETF",
+   "market": "US",
+   "stance": "中性",
+   "argument": "被動投資建議佔較大比例，波動較小。"
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "market": "US",
+   "stance": "中性",
+   "argument": "被動投資建議佔較小比例，波動較大。"
+  }
+ ],
+ "quotes": [
+  "不要預設高點，不要在創新高的當天賣出，否則會錯過像Tesla、Apple這樣的大魚。",
+  "下殺日當天不要動作，從隔天開始觀察個股是否反彈，若沒站回去且估值過高，就要考慮減碼。",
+  "長期持有VIX期貨商品一定會賠錢，因為存在正價差，只能短線操作。"
+ ],
+ "ep_key": "EP64",
+ "title": "EP64 | Starlink 衛星網路 台美股近況更新",
+ "pubdate": "2020-08-22",
+ "duration_s": 2472,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,61 @@
+{
+ "summary": "主持人謝孟恭分享對 Apple 在 AI 領域策略的轉變看法，從原先認為落後到看好其透過 Apple Intelligence 架構（類似聯發科達哥）整合第三方模型與終端裝置優勢，認為掌握用戶與執行力才是關鍵。他預告市場焦點可能從硬體轉向軟體與整合商，並已調整部位降低 ODM 與硬體持股。節目中也回覆聽眾關於信貸、長期投資、自媒體經營等問題，並分享個人投資心路歷程與對網路生態的觀察。",
+ "topics": [
+  "Apple Intelligence 架構分析與市場反應",
+  "AI 產業從硬體軍備競賽轉向軟體整合與執行力",
+  "聯發科達哥 AI 平台與 Apple Intelligence 的比較",
+  "主持人對網路生態與投資分享的防衛心態",
+  "聽眾問答：信貸套利、長期投資、自媒體經營建議"
+ ],
+ "market_view": "市場可能從硬體狂潮轉向軟體與整合商，掌握用戶與執行力的公司將是最後贏家。",
+ "industries": [
+  {
+   "name": "AI 伺服器",
+   "stance": "觀察",
+   "view": "硬體軍備競賽可能降溫，但關鍵公司仍有機會。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電 3-5 年 roadmap 明確，競爭力無虞。"
+  },
+  {
+   "name": "軟體",
+   "stance": "看多",
+   "view": "AI 落地應用與整合商可能成為下一波焦點，類似 2021 年 SaaS 行情。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Apple Intelligence 架構可槓桿第三方模型，掌握終端用戶與執行力，看好長期趨勢。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "N3、N2 及先進封裝 roadmap 明確，3-5 年競爭力無虞。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雖為 AI 硬體關鍵，但市場焦點可能轉向軟體整合，未明確表態。"
+  }
+ ],
+ "quotes": [
+  "買越多省越多是真的，你要去搞 self-computing 要注意 TCO，老黃的效率是最好的。",
+  "長期投資不是買了就睡著，它隱含你做了很多決定，每一個決定都是支持你繼續持有。",
+  "純網紅後面的競爭只會越來越激烈，建議先有本業再經營自媒體。"
+ ],
+ "ep_key": "EP461",
+ "title": "EP461 | 🍘",
+ "pubdate": "2024-06-12",
+ "duration_s": 2895,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

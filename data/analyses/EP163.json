@@ -1,0 +1,76 @@
+{
+ "summary": "主持人分享初為人父的經歷與感觸，並深入分析 Square 收購 Afterpay 的戰略意義，探討 BNPL（先買後付）產業的商業模式、競爭格局與護城河。他認為 BNPL 技術門檻不高但市占搶佔後不易被取代，Square 的布局長期看好。同時提醒聽眾，短期資金不應投入股市，並強調心態與紀律在投資中的重要性。節目中也回應了關於台達電、全球配置、ETF 投資等提問。",
+ "topics": [
+  "Square 收購 Afterpay 與 BNPL 產業分析",
+  "初為人父的體悟與生活分享",
+  "投資心態與紀律的重要性",
+  "全球資產配置建議",
+  "台達電的長期展望",
+  "短期資金與長期投資的區別"
+ ],
+ "market_view": "市場短期波動難測，但長期仍看好，需注意全球寬鬆政策可能轉向的風險。",
+ "industries": [
+  {
+   "name": "金融科技(Fintech)",
+   "stance": "看多",
+   "view": "Square 收購 Afterpay 加速布局 BNPL，長期成長可期。"
+  },
+  {
+   "name": "先買後付(BNPL)",
+   "stance": "中性",
+   "view": "技術門檻不高但市占搶佔後不易被取代，競爭激烈但滲透率仍低。"
+  },
+  {
+   "name": "電源供應與自動化",
+   "stance": "看多",
+   "view": "台達電是隱形冠軍，電源、車用電子與自動化業務穩健，長期展望佳。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "SQ",
+   "name": "Square",
+   "market": "US",
+   "stance": "看多",
+   "argument": "收購 Afterpay 加速 BNPL 布局，長期成長動能強。"
+  },
+  {
+   "symbol": "AFRM",
+   "name": "Affirm",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "BNPL 市場參與者，但主持人曾套牢，認為護城河不深。"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "電源、車用電子與自動化業務穩健，長期展望佳。"
+  },
+  {
+   "symbol": "5871",
+   "name": "中租-KY",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "零卡分期類似 BNPL，商業模式強大且具傳奇性。"
+  },
+  {
+   "symbol": "6612",
+   "name": "慧智",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "間接持有核心醫院股份，但成交量極低，不建議貿然買入。"
+  }
+ ],
+ "quotes": [
+  "如果你第一次用 Apple、Amazon、Netflix，當下買股票，到現在都是大賺錢。",
+  "投資最難的一直是心態問題，不要因為生活情緒波動造成投資失利。",
+  "短期要用的錢不要拿來投資，閒錢才能承受波動與壓力。"
+ ],
+ "ep_key": "EP163",
+ "title": "EP163 | 28天打工倒數",
+ "pubdate": "2021-08-04",
+ "duration_s": 2845,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,216 @@
+{
+ "summary": "主持人謝孟恭警告當前原物料（原油、黃小玉、金屬）暴漲是重大隱憂，若美股跌破前低（S&P 500 約 4100 點、那斯達克約 13000 點）且原物料續漲，可能進入大型熊市甚至停滯性通膨。他建議此時應減持高成長科技股，轉向防守性資產（日常消費、醫療、高殖利率股），並可考慮做多黃金、做空原物料。台股因低估值與高殖利率相對看好，會加大台股部位。俄羅斯市場因關閉交易所與制裁，預期重開後將出現大逃殺。整體對市場短期不樂觀，但強調眼見為憑，不預設立場。",
+ "topics": [
+  "原物料暴漲對市場的威脅與應對策略",
+  "美股破底風險與潛在熊市警訊",
+  "俄羅斯市場關閉與後續大逃殺風險",
+  "防守性資產（消費、醫療、高殖利率股）配置",
+  "台股與美股配置比例調整（加碼台股）",
+  "衰退情境下的操作建議（做多黃金、做空原物料）",
+  "中概股政策風險與電動車產業選股邏輯"
+ ],
+ "market_view": "若原物料續漲且美股破前低，可能進入大型熊市甚至停滯性通膨，短期不樂觀。",
+ "industries": [
+  {
+   "name": "原物料",
+   "stance": "看多",
+   "view": "短期因戰爭與供給問題持續暴漲，但若衰退來臨將反轉做空。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "先進製程（台積電、GF）相對看好，成熟製程（聯電、力積電）可能面臨供過於求。"
+  },
+  {
+   "name": "電動車",
+   "stance": "中性",
+   "view": "應聚焦電池、ADAS、功率半導體等受惠環節，而非傳統硬體（如和大）。"
+  },
+  {
+   "name": "日常消費",
+   "stance": "看多",
+   "view": "衰退時需求穩定，可作為防守性資產。"
+  },
+  {
+   "name": "醫療保健",
+   "stance": "看多",
+   "view": "衰退時需求穩定，可作為防守性資產。"
+  },
+  {
+   "name": "高殖利率股",
+   "stance": "看多",
+   "view": "在衰退環境中提供殖利率支撐，吸引存股族。"
+  },
+  {
+   "name": "黃金",
+   "stance": "看多",
+   "view": "若進入大熊市，黃金有上漲空間，可作為避險工具。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2002",
+   "name": "中鋼",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "未明確表態，僅提及原物料相關。"
+  },
+  {
+   "symbol": "2027",
+   "name": "大成鋼",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "提及可能有3-5個月存貨，但未明確看多。"
+  },
+  {
+   "symbol": "8415",
+   "name": "大國鋼",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "提及可能有3-5個月存貨，但未明確看多。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "先進製程龍頭，在晶圓代工中相對看好。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "天璣9000/8100效能優秀，成長性與殖利率兼具，短期受外資提款影響。"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "成熟製程可能供過於求，評價將轉向殖利率錨定。"
+  },
+  {
+   "symbol": "6770",
+   "name": "力積電",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "成熟製程與記憶體業務面臨逆風，老闆黃崇仁言論需謹慎。"
+  },
+  {
+   "symbol": "PFE",
+   "name": "輝瑞",
+   "market": "US",
+   "stance": "看多",
+   "argument": "醫療保健股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "CVS",
+   "name": "CVS Health",
+   "market": "US",
+   "stance": "看多",
+   "argument": "醫療保健股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "JNJ",
+   "name": "嬌生",
+   "market": "US",
+   "stance": "看多",
+   "argument": "醫療保健股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "UNH",
+   "name": "聯合健康集團",
+   "market": "US",
+   "stance": "看多",
+   "argument": "醫療保健股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "WBA",
+   "name": "Walgreens Boots Alliance",
+   "market": "US",
+   "stance": "看多",
+   "argument": "醫療保健股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "KO",
+   "name": "可口可樂",
+   "market": "US",
+   "stance": "看多",
+   "argument": "日常消費股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "PEP",
+   "name": "百事可樂",
+   "market": "US",
+   "stance": "看多",
+   "argument": "日常消費股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "GIS",
+   "name": "General Mills",
+   "market": "US",
+   "stance": "看多",
+   "argument": "日常消費股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "TSN",
+   "name": "泰森食品",
+   "market": "US",
+   "stance": "看多",
+   "argument": "日常消費股，衰退時需求穩定。"
+  },
+  {
+   "symbol": "TGT",
+   "name": "Target",
+   "market": "US",
+   "stance": "看多",
+   "argument": "零售賣場，衰退時需求相對穩定。"
+  },
+  {
+   "symbol": "DLTR",
+   "name": "Dollar Tree",
+   "market": "US",
+   "stance": "看多",
+   "argument": "零售賣場，衰退時需求相對穩定。"
+  },
+  {
+   "symbol": "COST",
+   "name": "好市多",
+   "market": "US",
+   "stance": "看多",
+   "argument": "零售賣場，衰退時需求相對穩定。"
+  },
+  {
+   "symbol": "HD",
+   "name": "家得寶",
+   "market": "US",
+   "stance": "看多",
+   "argument": "零售賣場，衰退時需求相對穩定。"
+  },
+  {
+   "symbol": "WMT",
+   "name": "沃爾瑪",
+   "market": "US",
+   "stance": "看多",
+   "argument": "零售賣場，衰退時需求相對穩定。"
+  },
+  {
+   "symbol": "GFS",
+   "name": "GlobalFoundries",
+   "market": "US",
+   "stance": "看多",
+   "argument": "晶圓代工中相對看好，與台積電同為先進製程焦點。"
+  }
+ ],
+ "quotes": [
+  "當今天原物料價格持續向上，如果美股破前低，我會選擇把加碼的錢全部暫緩，因為非常高機率進入大型熊市。",
+  "衰退是一個最快把原物料價格拉下來的好機會，假設看到衰退，反而要改去做空原物料、做多黃金。",
+  "投資是一個完全結果論的地方，你媽的績效如果比你差，就直接拿對帳單出來，她就要閉嘴。"
+ ],
+ "ep_key": "EP224",
+ "title": "EP224 | 🐻",
+ "pubdate": "2022-03-05",
+ "duration_s": 2925,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

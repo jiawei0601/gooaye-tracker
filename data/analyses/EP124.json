@@ -1,0 +1,205 @@
+{
+ "summary": "本集主持人謝孟恭分析台股、美股與港股三大市場的現狀與展望。他認為近期美股屬正常區間震盪，高成長科技股修正後可能是難得買點，建議以科技股為主軸並搭配價值股配置。台股雖處高檔且外資持續匯出，但基本面無虞，IP/IC設計、NB等族群長期趨勢向上。他特別看好港股將受惠於中國企業二次上市潮，建議透過ETF參與，並推薦恆生科技指數。他也提醒投資人勿追高殺低，應做好準備在下跌時勇敢進場。",
+ "topics": [
+  "美股區間震盪與科技股買點",
+  "台股高檔風險與IP/IC設計族群",
+  "港股二次上市潮與恆生科技指數",
+  "股債配置與槓桿風險",
+  "ETF選擇與溢價問題",
+  "中國5G ETF成分股分析"
+ ],
+ "market_view": "近期美股屬正常區間震盪，科技股修正後可能是難得買點，台股雖高檔但長期向上，港股將因IPO潮熱鬧。",
+ "industries": [
+  {
+   "name": "科技股",
+   "stance": "看多",
+   "view": "修正後是難得買點，今年仍以科技股為主軸。"
+  },
+  {
+   "name": "IP矽智財",
+   "stance": "看多",
+   "view": "長期趨勢向上，估值雖高但具成長性。"
+  },
+  {
+   "name": "IC設計",
+   "stance": "看多",
+   "view": "長期趨勢向上，如聯詠等個股表現強勢。"
+  },
+  {
+   "name": "NB筆電",
+   "stance": "觀察",
+   "view": "市場對行情是否結束有分歧，需觀察。"
+  },
+  {
+   "name": "港股",
+   "stance": "看多",
+   "view": "受惠二次上市潮，資金狂潮將至。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "外資持續賣超但股價撐住，長期仍看好。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "旗下晶心科為IP廠，可持續關注。"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "權值股之一，未明確表態。"
+  },
+  {
+   "symbol": "3034",
+   "name": "聯詠",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "從300跌到230後反彈至500，長期趨勢向上。"
+  },
+  {
+   "symbol": "3545",
+   "name": "天鈺",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "鴻海旗下驅動IC設計廠，漲勢兇猛。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IP廠，吃台積電飯。"
+  },
+  {
+   "symbol": "6643",
+   "name": "M31",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IP廠，一半營收來自台積電。"
+  },
+  {
+   "symbol": "3035",
+   "name": "智原",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聯家軍IP廠。"
+  },
+  {
+   "symbol": "3529",
+   "name": "力旺",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IP廠。"
+  },
+  {
+   "symbol": "6533",
+   "name": "晶心科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聯發科旗下RISC-V IP廠。"
+  },
+  {
+   "symbol": "2357",
+   "name": "華碩",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "NB族群，近期漲停。"
+  },
+  {
+   "symbol": "2353",
+   "name": "宏碁",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "NB族群，股價往上爬。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "亞馬遜",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "下跌時可考慮撿的標的之一。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "下跌時可考慮撿的標的之一。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "下跌時可考慮撿的標的之一。"
+  },
+  {
+   "symbol": "META",
+   "name": "臉書",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "下跌時可考慮撿的標的之一。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "谷歌",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "下跌時可考慮撿的標的之一。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "下跌時可考慮撿的標的之一。"
+  },
+  {
+   "symbol": "BIDU",
+   "name": "百度",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "3月在港股IPO。"
+  },
+  {
+   "symbol": "BILI",
+   "name": "嗶哩嗶哩",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "3月在港股IPO。"
+  },
+  {
+   "symbol": "TME",
+   "name": "騰訊音樂",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "6月將在港股IPO。"
+  },
+  {
+   "symbol": "DIDIY",
+   "name": "滴滴出行",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "最大咖，將在港股IPO。"
+  }
+ ],
+ "quotes": [
+  "你早受傷會比你晚受傷來得好，你不要等到你五、六十歲，然後一筆退休金進去之後才在那邊受傷。",
+  "投資本來就不是穩賺不賠，一定會有看錯的時候，千萬不要太為難自己。",
+  "買ETF你要知道裡面包什麼兄弟，你不能瞎買，看到5G兩個字就高潮。"
+ ],
+ "ep_key": "EP124",
+ "title": "EP124 | 熱鬧香港",
+ "pubdate": "2021-03-20",
+ "duration_s": 2673,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

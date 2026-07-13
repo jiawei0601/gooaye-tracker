@@ -1,0 +1,82 @@
+{
+ "summary": "本集討論 OpenAI GPT-4o 的發布與實際使用落差，強調閉源模型的限制與開源模型的潛力，並分析 AI 伺服器市場動態，包括 NVIDIA GB200 的 BOM cost、出貨時程與 CSP 採用狀況。主持人認為 AI 已進入高度競爭階段，個人開始減碼 AI 股，轉向蘋果與 PC 類股。同時分享對房市、創業、交友等生活議題的看法。",
+ "topics": [
+  "GPT-4o 發布與實際體驗落差",
+  "開源 vs 閉源 AI 模型的未來發展",
+  "NVIDIA GB200 規格、BOM cost 與出貨時程",
+  "AI 伺服器供應鏈競爭與 CSP 訂單動態",
+  "個人投資策略調整：減碼 AI、加碼蘋果與 PC",
+  "房市選擇：新大樓 vs 老公寓的取捨",
+  "創業建議與交友圈的收斂"
+ ],
+ "market_view": "AI 股已進入高度競爭的血海狀態，市場預期與實際出貨存在落差，需謹慎看待。",
+ "industries": [
+  {
+   "name": "AI 伺服器",
+   "stance": "觀察",
+   "view": "GB200 出貨時程可能延後至年底或明年初，BOM cost 高達 400 萬美元，毛利率可能略低但整體營收貢獻大。"
+  },
+  {
+   "name": "AI 模型",
+   "stance": "看多",
+   "view": "開源模型在邊緣運算與地下市場有巨大潛力，閉源模型因限制較多，無法滿足所有使用情境。"
+  },
+  {
+   "name": "PC",
+   "stance": "看多",
+   "view": "Computex 將至，PC 類股有機會表現，且蘋果出貨預期上修。"
+  },
+  {
+   "name": "半導體 IP",
+   "stance": "觀察",
+   "view": "競爭激烈，世芯與 Marvell 在 AWS 訂單上各有斬獲，但估值已高，需小心。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "GB200 出貨可能延後，但長期營收貢獻可觀，毛利率雖略降但總額更高。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "已進入看不懂的階段，但仍有 AWS Inferentia 3 訂單，後續可能被世芯取代。"
+  },
+  {
+   "symbol": "3611",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "AWS 入股插旗，Inferentia 4 訂單預期由世芯拿下，但競爭激烈。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "看多",
+   "argument": "出貨預期上修至 8600 萬台，LLM 導入可望帶動市場評價，目前屬 underdog。"
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "market": "US",
+   "stance": "看多",
+   "argument": "CoreWeave 擴大投資，訂單貢獻可期，財報有望開出佳績。"
+  }
+ ],
+ "quotes": [
+  "AI 絕對不會是一個大量集中化的解放會是最終的勝利，開源式模型在未來會非常非常有發展機會。",
+  "你懂得東西不一定有用，因為現在市場已經跟過去一年不一樣，它已經是進入一個高度競爭、血海的一個狀態。",
+  "在網路上，因為每個人聲音都是均一化的，所以會把一些在生活之中是小菜雞、雜魚、爛蝦的人的聲音放大，要盡量避開這種雜音。"
+ ],
+ "ep_key": "EP453",
+ "title": "EP453 | 🦭",
+ "pubdate": "2024-05-15",
+ "duration_s": 3075,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

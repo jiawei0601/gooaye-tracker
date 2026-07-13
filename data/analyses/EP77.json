@@ -1,0 +1,133 @@
+{
+ "summary": "主持人分析台美股近況，指出川普確診後迅速康復並華麗回歸，市場未如預期崩跌，紓困案最終仍會通過。提出拜登的「K型復甦」概念，說明科技股強勢上漲而實體經濟（航空、旅宿、觀光）持續低迷。強調分批投入、分散投資的重要性，並分享個人持股如Beyond Meat、Cloudflare的表現與操作策略。提醒台股缺貨題材（MOSFET、二線晶圓代工）為短期現象，需謹慎操作。最後勸誡聽眾勿盲目跟單，應建立自己的判斷與風險控管機制。",
+ "topics": [
+  "川普確診與市場反應",
+  "K型復甦概念解析",
+  "科技股與實體經濟分化",
+  "台股缺貨題材（MOSFET、二線晶圓代工）",
+  "個人持股操作分享（Beyond Meat、Cloudflare）",
+  "投資心法：分批投入、分散風險、動態停利",
+  "eToro平台風險提醒",
+  "電信股與金融股投資觀點"
+ ],
+ "market_view": "在疫苗有效控制疫情、Fed收回資金之前，市場不需過度擔心修正，科技股仍有支撐。",
+ "industries": [
+  {
+   "name": "科技股",
+   "stance": "看多",
+   "view": "疫情催化下網路公司可獲得更高評價，營收成長證實非泡沫。"
+  },
+  {
+   "name": "航空",
+   "stance": "看空",
+   "view": "旅宿、觀光、航空受疫情衝擊最大，復甦緩慢。"
+  },
+  {
+   "name": "旅宿",
+   "stance": "看空",
+   "view": "觀光財GDP佔比高的國家（如義大利）受害最深。"
+  },
+  {
+   "name": "零售",
+   "stance": "中性",
+   "view": "走向線上銷售的零售業（如Walmart）狀況較好，但實體零售仍受壓。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "台股MOSFET與二線晶圓代工有缺貨題材，但為短期現象。"
+  },
+  {
+   "name": "電信",
+   "stance": "看空",
+   "view": "5G標金高、資費競爭激烈，未來可能受Starlink等新競爭者挑戰。"
+  },
+  {
+   "name": "金融",
+   "stance": "看空",
+   "view": "低利率環境對壽險業不利，需避開有壽險業務的金融股。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "BYND",
+   "name": "Beyond Meat",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "持股已漲40%，雖基本面普通但市場追捧，會動態停利。"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "看好CDN產業，已突破GG防線，持續加碼。"
+  },
+  {
+   "symbol": "FSLY",
+   "name": "Fastly",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "與Cloudflare同為最看好的CDN公司，配置4x4。"
+  },
+  {
+   "symbol": "AKAM",
+   "name": "Akamai",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "體質穩定但成長性較低，僅配置2成。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "外資喊上600，雖懷疑會飆漲，但緩漲機會大，撐住台股。"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "受惠中芯制裁轉單，股價持續上漲。"
+  },
+  {
+   "symbol": "5347",
+   "name": "世界先進",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "二線晶圓代工，轉單效應有助表現。"
+  },
+  {
+   "symbol": "3045",
+   "name": "台灣大",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "成本低可不賣，但非好投資標的，新資金建議分散。"
+  },
+  {
+   "symbol": "2412",
+   "name": "中華電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "波動低存股型，但成長性有限。"
+  },
+  {
+   "symbol": "BIGC",
+   "name": "BigCommerce",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "短線翻倍後已分批停利，不建議追高。"
+  }
+ ],
+ "quotes": [
+  "修正的時候就是考驗基本面的時候，基本面越好的公司，修完後就下不去了。",
+  "成本是投資一個非常重要的東西，你買很好的東西買得很貴，就是爛投資。",
+  "不要幻想下跌也可以閃過，你根本閃不過。"
+ ],
+ "ep_key": "EP77",
+ "title": "EP77 | 麥可貝式歸隊 台美股近況",
+ "pubdate": "2020-10-07",
+ "duration_s": 2415,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,85 @@
+{
+ "summary": "本集主持人分享搶Coldplay演唱會票的經驗，感嘆年齡增長後心態轉變，從搖滾區轉向座位區，並強調活在當下。總經方面，認為聯準會政策極端，不應過度解讀總經，應專注企業基本面。產業面持續看好AI與ASIC趨勢，以Meta推出MTIA晶片為例，認為科技巨頭將降低對Nvidia依賴，但瓶頸在代工廠產能。特斯拉股東會重點包括不辭CEO、將投放廣告、開發平價新車、Cybertruck交付進度，以及降低SiC用量目標。最後提醒投資應分散、分批進場，並分享個人感情與生活觀點。",
+ "topics": [
+  "演唱會搶票與年齡心態轉變",
+  "AI與ASIC長期趨勢（Meta MTIA晶片）",
+  "特斯拉股東會重點（廣告、新車、SiC）",
+  "總經看法與聯準會政策批評",
+  "投資心法：分批進場、分散風險、資金配置",
+  "交通違規與台灣交通亂象",
+  "感情經營與吵架處理方式",
+  "零股投資與期貨替代指數工具"
+ ],
+ "market_view": "總經太難判斷，專注企業基本面，聯準會政策極端且滿意度創新低。",
+ "industries": [
+  {
+   "name": "AI/ASIC",
+   "stance": "看多",
+   "view": "科技巨頭將持續開發自研晶片降低對Nvidia依賴，長期趨勢明確，但瓶頸在代工廠產能。"
+  },
+  {
+   "name": "電動車",
+   "stance": "觀察",
+   "view": "特斯拉將推平價新車、Cybertruck交付，但SiC用量降低目標可能影響供應鏈，實際執行力待觀察。"
+  },
+  {
+   "name": "碳化矽",
+   "stance": "觀察",
+   "view": "特斯拉目標降75% SiC用量，但業界認為短期難達成，成本下降後可能調整，Wolfspeed影響最大。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI領域超級強者，CUDA生態系優勢難取代，短期與自研晶片共同成長。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股東會宣布投放廣告、開發平價新車，但SiC降量目標與經濟展望保守。"
+  },
+  {
+   "symbol": "WOLF",
+   "name": "Wolfspeed",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "受特斯拉降SiC用量目標影響最大，股價已大跌，但目標能否實現仍未知。"
+  },
+  {
+   "symbol": "ON",
+   "name": "onsemi",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "車用SiC佔比較高，受特斯拉消息影響但有限。"
+  },
+  {
+   "symbol": "STM",
+   "name": "意法半導體",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "SiC產品較泛用，受特斯拉消息影響有限。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "推出MTIA自研晶片，呼應ASIC長期趨勢。"
+  }
+ ],
+ "quotes": [
+  "活在當下，你現在可以好好吃吃到飽的時候，就狂吃就對了，因為你以後就不能吃了。",
+  "總經太難判斷，不如專注企業基本面，企業可能因總經打擊，但只要不死就是買點。",
+  "活越久會越小心，你會看到很多大膽的選手，但不會看到大膽的老選手。"
+ ],
+ "ep_key": "EP350",
+ "title": "EP350 | 🫠",
+ "pubdate": "2023-05-20",
+ "duration_s": 3038,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

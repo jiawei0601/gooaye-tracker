@@ -1,0 +1,177 @@
+{
+ "summary": "本集主要討論蘋果秋季發表會後的產品更新（iPhone 13、iPad Mini、Apple Watch）與蘋概股表現，主持人指出今年蘋概股普遍表現平庸甚至下跌，認為市場資金可能轉向電動車等新題材。同時分享教朋友炒股的故事，探討散戶傾向短線交易的人性因素與策略適應性，強調尊重股價趨勢、避免價值陷阱。最後回應聽眾關於恆大危機的看法，認為對台股直接衝擊有限，建議眼見為憑。",
+ "topics": [
+  "蘋果秋季發表會產品更新與市場反應",
+  "蘋概股今年表現普遍不佳與可能原因",
+  "教朋友炒股的故事：短線交易 vs 中長期策略",
+  "策略適應性與市場節奏的重要性",
+  "恆大危機對台股的影響評估",
+  "投資者應尊重股價趨勢與避免價值陷阱"
+ ],
+ "market_view": "主持人認為蘋概股今年表現平庸，市場資金可能轉向電動車等新題材，但整體大盤未明確表態多空。",
+ "industries": [
+  {
+   "name": "手機",
+   "stance": "中性",
+   "view": "iPhone 13 雖被評了無新意，但預期仍會熱銷，不過蘋概股股價未反映利多。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "台積電等半導體股表現相對穩健，但蘋概相關供應鏈股價普遍疲弱。"
+  },
+  {
+   "name": "光電",
+   "stance": "看空",
+   "view": "大立光因錯估車用市場，股價表現差；玉晶光、穩懋等也表現偏差。"
+  },
+  {
+   "name": "電子零組件",
+   "stance": "看空",
+   "view": "PCB、機殼、封測等蘋概供應鏈股價普遍平庸或下跌，僅日月光相對較強。"
+  },
+  {
+   "name": "電動車",
+   "stance": "觀察",
+   "view": "可能成為台股新焦點，但主持人未深入分析。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "中性",
+   "argument": "今年股價表現相對其他大型科技股平淡，但新產品預期仍會熱銷。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "蘋概股中不算純，但表現相對穩健。"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "因錯估車用市場，股價直接往下躺。"
+  },
+  {
+   "symbol": "3406",
+   "name": "玉晶光",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "今年表現差。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "組裝廠表現平平庸庸。"
+  },
+  {
+   "symbol": "2382",
+   "name": "廣達",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "組裝廠表現平平庸庸。"
+  },
+  {
+   "symbol": "4938",
+   "name": "和碩",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "組裝廠表現平平庸庸。"
+  },
+  {
+   "symbol": "2324",
+   "name": "仁寶",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "組裝廠表現平平庸庸。"
+  },
+  {
+   "symbol": "2474",
+   "name": "可成",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "機殼廠表現差。"
+  },
+  {
+   "symbol": "2354",
+   "name": "鴻準",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "機殼廠表現差。"
+  },
+  {
+   "symbol": "2313",
+   "name": "華通",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "硬板PCB，股價表現爛。"
+  },
+  {
+   "symbol": "4958",
+   "name": "臻鼎-KY",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "軟板PCB，股價表現爛。"
+  },
+  {
+   "symbol": "6269",
+   "name": "台郡",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "軟板PCB，股價表現爛。"
+  },
+  {
+   "symbol": "3711",
+   "name": "日月光投控",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "封測廠，在蘋概股中表現相對較強。"
+  },
+  {
+   "symbol": "3105",
+   "name": "穩懋",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "射頻供應商，今年表現偏差，2022年後可注意。"
+  },
+  {
+   "symbol": "3714",
+   "name": "富采",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "MiniLED相關，表現平庸。"
+  },
+  {
+   "symbol": "6278",
+   "name": "台表科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "營收成長漂亮但股價不漲。"
+  },
+  {
+   "symbol": "GSTAT",
+   "name": "Globalstar",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "因郭明錤猜測iPhone有衛星通訊功能而大漲後回跌，發表會未提及。"
+  }
+ ],
+ "quotes": [
+  "在台灣玩供應鏈，你要去尊重股價的趨勢。",
+  "搞不好根本不是你不行，你在那邊撞牆撞了半天，然後覺得自己不行、自己是廢物，就其實你只是生不逢時而已。",
+  "你偶爾要去尊重股價表現，你不要覺得說都是什麼線仙、線什麼的，因為投資人在投資你的時候，他也是看表現。"
+ ],
+ "ep_key": "EP175",
+ "title": "EP175 | 天峰回來到",
+ "pubdate": "2021-09-15",
+ "duration_s": 2549,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

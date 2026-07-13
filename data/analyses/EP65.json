@@ -1,0 +1,116 @@
+{
+ "summary": "主持人分享被教召的經歷，並討論國泰帶頭調降手續費對券商的衝擊，解釋零手續費背後的Payment for Order Flow模式。他強調跟單風險，提倡資金控管與停損紀律，並以自身eToro帳戶為例說明勝率四、五成即可獲利。他看好SaaS與電商趨勢，提及BigCommerce、Shopify等標的，但提醒勿與Shopify直接類比。台股方面，他看好網通族群，並以8月20日下殺為基準點操作。他反對高費用ETF，認為大型股壟斷趨勢不可逆，反壟斷聽證會影響有限。",
+ "topics": [
+  "國泰降手續費與券商生態影響",
+  "零手續費與Payment for Order Flow機制",
+  "跟單風險與資金控管重要性",
+  "SaaS與電商產業趨勢",
+  "台股網通族群佈局",
+  "ETF費用與反壟斷看法"
+ ],
+ "market_view": "主持人認為未來崩盤會更常見但修正更快，不預測高點，以眼見為憑操作。",
+ "industries": [
+  {
+   "name": "券商",
+   "stance": "看空",
+   "view": "大型券商降手續費將壓縮小型券商生存空間，零手續費為長期趨勢。"
+  },
+  {
+   "name": "SaaS",
+   "stance": "看多",
+   "view": "SaaS是火紅趨勢，短線漲高但可找機會介入。"
+  },
+  {
+   "name": "電商",
+   "stance": "看多",
+   "view": "電商相關股票如Shopify、MercadoLibre等表現強勢，可關注後進者。"
+  },
+  {
+   "name": "網通",
+   "stance": "看多",
+   "view": "台股網通族群在8月20日下殺後反彈強勁，持續佈局。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "BIGC",
+   "name": "BigCommerce",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "上市價位合理，可少量試單，但勿與Shopify直接類比。"
+  },
+  {
+   "symbol": "SHOP",
+   "name": "Shopify",
+   "market": "US",
+   "stance": "看多",
+   "argument": "電商龍頭，客戶成長與品質優於同業。"
+  },
+  {
+   "symbol": "MELI",
+   "name": "MercadoLibre",
+   "market": "US",
+   "stance": "看多",
+   "argument": "拉丁美洲電商代表，漲勢強勁。"
+  },
+  {
+   "symbol": "JMIA",
+   "name": "Jumia Technologies AG",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "非洲電商，曾大漲一波。"
+  },
+  {
+   "symbol": "6288",
+   "name": "啟碁科技",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "網通股，股性原本牛皮但近期大漲。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微半導體",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "持股獲利約50%，放給它跑。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "三月時因財務疑慮賣光，轉進NVIDIA。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "最早建倉，獲利約30%以上，一路加碼。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "看多",
+   "argument": "最純的Podcast概念股，積極佈局Podcast。"
+  },
+  {
+   "symbol": "TME",
+   "name": "騰訊音樂",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Spotify的戰略夥伴，相對純的Podcast概念股。"
+  }
+ ],
+ "quotes": [
+  "跟單不是好事情，你住套房的機會真的太高了。你應該培養的是自己有交易的能力。",
+  "你贏的東西放給它跑，不要去預測高點，它一定可以把賠錢的東西給靠回來。",
+  "我不會在市場的高潮的當天去做任何的操作，不管是大漲或是大跌，當天就是旁觀看戲。"
+ ],
+ "ep_key": "EP65",
+ "title": "EP65 | 被教召了淦 跟單奧義",
+ "pubdate": "2020-08-26",
+ "duration_s": 2616,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

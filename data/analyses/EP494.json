@@ -1,0 +1,121 @@
+{
+ "summary": "本集主持人謝孟恭首先回顧非農數據表現亮眼，認為市場無太多看空理由，維持多方走勢的總經判斷。產業面延續上集深入探討 PIMIC（電源管理IC），結論為中性偏多，標準品受德州儀器殺價競爭壓力大，但高階客製化與車用領域仍有發揮空間，並點出未來 DDR5 與 CKD 導入的機會。NVIDIA 方面，主持人分析其 Roadmap 變動，指出因 CoWoS-L 良率改善，NVIDIA 將原為救場的 B200A 與 NVL36 拉掉，直接主推 NVL72。此變動對 NVIDIA 本身是利好，但對原布局 NVL36 的機殼、散熱與 ODM 供應鏈將造成負面衝擊。最後提及 AI 硬轉軟的趨勢，認為大型 IT 顧問業者將迎來中介時期的龐大商機。",
+ "topics": [
+  "美國非農就業數據與大盤走勢預期",
+  "PIMIC（電源管理IC）產業復甦與競爭態勢",
+  "NVIDIA 產品 Roadmap 變動（B200A 與 NVL36 淡出）",
+  "NVIDIA 供應鏈受 NVL72 主推的影響分析",
+  "AI 硬轉軟趨勢與 IT 顧問業者的中介商機",
+  "台灣網通白牌與 ASIC 產業現況"
+ ],
+ "market_view": "非農數據表現漂亮，目前沒有太多理由去看空後面的市場，震盪整理後有機會再上攻，維持多方看法。",
+ "industries": [
+  {
+   "name": "PIMIC（電源管理IC）",
+   "stance": "看多",
+   "view": "庫存已調整至健康階段，特規與高階應用有新機會，產業中性偏多。"
+  },
+  {
+   "name": "AI伺服器供應鏈",
+   "stance": "觀察",
+   "view": "NVIDIA 取消 NVL36 直接主推 NVL72，將使機殼、散熱元件與 switch 等供應鏈需求量縮減，面臨負面衝擊。"
+  },
+  {
+   "name": "IT顧問/軟體服務",
+   "stance": "看多",
+   "view": "企業導入 AI 需要中介者協助，大型 IT 顧問業者將在硬轉軟的過渡期賺取大量顧問與維護費用。"
+  },
+  {
+   "name": "網通白牌ODM",
+   "stance": "看多",
+   "view": "目前能見度差，但後續有望迎來不錯的復甦。"
+  },
+  {
+   "name": "ASIC加速器",
+   "stance": "觀察",
+   "view": "已進入修正段，除非明確掌握新客戶動能，否則負面影響稍多。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "看多",
+   "argument": "克服良率與生產障礙，直接主推高階產品，對公司成本控管與獲利是加分。"
+  },
+  {
+   "symbol": "MPWR",
+   "name": "MPS (Monolithic Power Systems)",
+   "market": "US",
+   "stance": "看多",
+   "argument": "在 Client 端與伺服器端均獲得大量推舉，是 AI 伺服器與 PIMIC 領域的大受惠者。"
+  },
+  {
+   "symbol": "TXN",
+   "name": "德州儀器",
+   "market": "US",
+   "stance": "看空",
+   "argument": "大幅降價並擴增產能，以殺價競爭方式對標準品 PIMIC 市場造成衝擊。"
+  },
+  {
+   "symbol": "6138",
+   "name": "茂達",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台系 PIMIC 業者之一，在各自領域有特別之處，但未來需觀察 DDR5 與 CKD 導入狀況。"
+  },
+  {
+   "symbol": "8081",
+   "name": "致新",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台系 PIMIC 業者之一，各有優缺點與競爭優勢。"
+  },
+  {
+   "symbol": "立錡�",
+   "name": "立錡 (Richtek)",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "技術較好，能做進 VCore 裡面，是台系 PIMIC 中具優勢者。"
+  },
+  {
+   "symbol": "ACN",
+   "name": "埃森哲",
+   "market": "US",
+   "stance": "看多",
+   "argument": "與 NVIDIA 合作協助企業導入 AI，內部建置三萬名具 NVIDIA 架構 Know-how 的人員，將受惠硬轉軟趨勢。"
+  },
+  {
+   "symbol": "NOVATEK",
+   "name": "聯詠",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "切入 PIMIC 與 ASIC 領域，進來殺價競爭會對產業造成影響。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台灣 ASIC 概念股，主持人認為該產業已進入修正段，無特別新動能。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "台灣 ASIC 概念股，產業進入修正段。"
+  }
+ ],
+ "quotes": [
+  "降息跟災難是雞生蛋、蛋生雞，是因為出事了才降息，不能講因為降息最後就出事。",
+  "NVIDIA 把中繼的救場產品拉掉直接跳後面，去針對中繼產品下單跟做賭注的人自己要小心。",
+  "投資有很多切入的方式，不是沒能力做主動選股才做大盤，大盤本來就是一個可敬的對手。"
+ ],
+ "ep_key": "EP494",
+ "title": "EP494 | 🍮",
+ "pubdate": "2024-10-05",
+ "duration_s": 2989,
+ "analysis_source": "text/whatmkreallysaid"
+}

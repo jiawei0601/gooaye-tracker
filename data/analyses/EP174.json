@@ -1,0 +1,144 @@
+{
+ "summary": "本集主持人分享對Podcast圈內各路人馬（品種金主、主力作手、代操、全職交易人）的觀察，強調打群架與消息領先的重要性。接著分析Facebook推出Ray-Ban Stories眼鏡的戰略意圖，認為是為AR布局與資料蒐集。深入探討Apple vs Epic判決，解讀法官「成功沒有犯法」與「保障競爭而非競爭者」的觀點，並點出此判決對蘋果營收的影響以及對遊戲、約會軟體等開發商的利多。最後在QA中回應聽眾關於台股大盤高基期、資金停泊、0050投資時機等問題，並分享對伺服器產業的看法。",
+ "topics": [
+  "Podcast圈內各類投資人（品種金主、主力、代操、全職交易人）的生態與動機",
+  "Facebook推出Ray-Ban Stories眼鏡的戰略布局與AR未來",
+  "Apple vs Epic判決分析：反壟斷觀點、對蘋果與開發商的影響",
+  "台股大盤高基期下的操作難度與資金停泊選擇",
+  "伺服器產業近期表現與觀察",
+  "投資心態與消息判讀力的重要性"
+ ],
+ "market_view": "台股處於高基期，大盤要再推升需權值股或新強勢族群帶動，目前盤勢食之無味、棄之可惜，許多高手已放假觀望。",
+ "industries": [
+  {
+   "name": "伺服器",
+   "stance": "看多",
+   "view": "伺服器類股在行情困難時仍硬挺，如嘉澤創新高，產業營收展望不錯。"
+  },
+  {
+   "name": "遊戲開發",
+   "stance": "看多",
+   "view": "Apple vs Epic判決若定局，遊戲開發商（如動視暴雪、EA、Take-Two、Roblox）將因降低蘋果抽成而大幅受惠。"
+  },
+  {
+   "name": "約會軟體",
+   "stance": "看多",
+   "view": "約會軟體（如Bumble、Match）因in-app purchase佔比大，將受惠於蘋果抽成降低。"
+  },
+  {
+   "name": "串流音樂/影音",
+   "stance": "看多",
+   "view": "Spotify、Netflix等開發商同樣因蘋果抽成降低而受惠。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "成長性與資本支出明確，下檔空間有限，但股價已反映利多。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "若天璣2000跑分勝過高通驍龍898，可能帶動台股上兩萬。"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "伺服器產業營收展望不錯，但股價是否上漲不確定。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "中性",
+   "argument": "判決導致營收損失5-8%，但高品質營收受損，整體影響有限。"
+  },
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "看多",
+   "argument": "透過Ray-Ban眼鏡布局AR與資料蒐集，2022年可能成為前十大甚至更前部位。"
+  },
+  {
+   "symbol": "ATVI",
+   "name": "動視暴雪",
+   "market": "US",
+   "stance": "看多",
+   "argument": "受惠於蘋果抽成降低，營收與毛利將改善。"
+  },
+  {
+   "symbol": "EA",
+   "name": "Electronic Arts",
+   "market": "US",
+   "stance": "看多",
+   "argument": "受惠於蘋果抽成降低。"
+  },
+  {
+   "symbol": "TTWO",
+   "name": "Take-Two Interactive",
+   "market": "US",
+   "stance": "看多",
+   "argument": "受惠於蘋果抽成降低。"
+  },
+  {
+   "symbol": "RBLX",
+   "name": "Roblox",
+   "market": "US",
+   "stance": "看多",
+   "argument": "受惠於蘋果抽成降低。"
+  },
+  {
+   "symbol": "BMBL",
+   "name": "Bumble",
+   "market": "US",
+   "stance": "看多",
+   "argument": "約會軟體in-app purchase佔比大，受惠於蘋果抽成降低。"
+  },
+  {
+   "symbol": "MTCH",
+   "name": "Match Group",
+   "market": "US",
+   "stance": "看多",
+   "argument": "旗下Tinder等約會軟體受惠於蘋果抽成降低。"
+  },
+  {
+   "symbol": "SPOT",
+   "name": "Spotify",
+   "market": "US",
+   "stance": "看多",
+   "argument": "開發商受惠於蘋果抽成降低。"
+  },
+  {
+   "symbol": "NFLX",
+   "name": "Netflix",
+   "market": "US",
+   "stance": "看多",
+   "argument": "開發商受惠於蘋果抽成降低。"
+  },
+  {
+   "symbol": "AFRM",
+   "name": "Affirm",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "IPO買進後一度腰斬，近期已回漲獲利，可能成為開發商替代金流服務。"
+  }
+ ],
+ "quotes": [
+  "成功並沒有犯法（Success is not illegal），一個東西做得好，並不是它的錯。",
+  "真正在業界有壟斷地位的公司，不會在外面講自己多屌；反之在紅海裡的才會一直強調自己封頂。",
+  "這是一個打群架的時代，一個人打績效真的不會比一群人打來得好。"
+ ],
+ "ep_key": "EP174",
+ "title": "EP174 | 路上的皮卡丘",
+ "pubdate": "2021-09-11",
+ "duration_s": 2417,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

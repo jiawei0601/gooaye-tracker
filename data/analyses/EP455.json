@@ -1,0 +1,139 @@
+{
+ "summary": "本集主持人謝孟恭從微軟Copilot+ PC活動切入，認為AI PC將帶動PC產業價量齊揚，並以高通X Elite首發為觀察起點，後續有AMD、Intel、Apple M4等強勁對手接棒，整體邊緣運算題材已浮現。他也分享對Windows on Arm生態系的看法，認為聯發科與NVIDIA合作的筆電值得期待。此外，他回應聽眾提問，解釋13F選擇權合約價值與權利金的差異、如何研究個股、以及生命週期投資法使用槓桿的注意事項。節目中也穿插家庭生活、流浪動物送養、政治討論與聽眾互動。",
+ "topics": [
+  "微軟Copilot+ PC與AI PC產業展望",
+  "高通X Elite首發與Windows on Arm生態系",
+  "聯發科與NVIDIA合作筆電的潛力",
+  "x86陣營（Intel Lunar Lake/Arrow Lake、AMD Strix Point）的後續競爭",
+  "生命週期投資法與槓桿工具（0050正二、台指期貨）的風險",
+  "如何研究個股：法說會、年報、上下游驗證與投資人關係",
+  "家庭生活與流浪動物送養",
+  "政治討論與聽眾互動"
+ ],
+ "market_view": "AI PC將帶動PC產業價量齊揚，邊緣運算題材已浮現，整體市場往正向發展。",
+ "industries": [
+  {
+   "name": "AI PC",
+   "stance": "看多",
+   "view": "微軟Copilot+ PC定義40 TOPS以上NPU為AI PC，將帶動換機潮與價量齊揚，2025年進入高潮。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "高通X Elite首發卡位時間點漂亮，但後續AMD、Intel、Apple M4將加入競爭，整體生態系持續擴張。"
+  },
+  {
+   "name": "筆電代工",
+   "stance": "看多",
+   "view": "AI PC規格提升有助於組裝廠毛利提高，仁寶等代工廠已獲市場關注。"
+  },
+  {
+   "name": "品牌PC",
+   "stance": "看多",
+   "view": "技嘉、華碩等品牌廠受惠AI PC題材，市場初步表態。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "QCOM",
+   "name": "高通",
+   "market": "US",
+   "stance": "看多",
+   "argument": "X Elite首發AI PC，卡位時間點漂亮，若Windows on Arm成功將開啟新跑道，股價新高可能只是開始。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "與NVIDIA合作的Windows on Arm筆電預計2024年底或2025年推出，有機會打開PC與車載新市場，帶動評價上修。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "與聯發科合作筆電晶片，但尚未有具體產品時程。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Strix Point與Strix Halo將加入AI PC競爭，是後續觀察重點。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "英特爾",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Lunar Lake與Arrow Lake將在台積電生產，消費性筆電是其主場，表現值得關注。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "M4晶片將應用於筆電與Mac，是AI PC競爭的重要對手。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Copilot+ PC活動成功點燃AI PC需求，但未明確表態多空。"
+  },
+  {
+   "symbol": "2324",
+   "name": "仁寶",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "AI PC題材帶動代工廠表現，但主持人僅提及盤中表現，未深入分析。"
+  },
+  {
+   "symbol": "2376",
+   "name": "技嘉",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "品牌廠受惠AI PC題材，但主持人僅提及盤中表現。"
+  },
+  {
+   "symbol": "2357",
+   "name": "華碩",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "品牌廠受惠AI PC題材，但主持人僅提及盤中表現。"
+  },
+  {
+   "symbol": "6187",
+   "name": "萬潤",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CoWoS設備概念股，但主持人僅回應聽眾提問，未表態多空。"
+  },
+  {
+   "symbol": "3583",
+   "name": "辛耘",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CoWoS設備概念股，純度較高，但主持人僅提及名稱。"
+  },
+  {
+   "symbol": "3252",
+   "name": "弘塑",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CoWoS設備概念股，純度較高，但主持人僅提及名稱。"
+  }
+ ],
+ "quotes": [
+  "就算高通的東西最終面不是特別好，也不重要，因為後面有太多重量級選手跟上，熱度與討論度會一直維持。",
+  "新高就是一個新的開始，後面一路走大多頭都是有可能的。",
+  "體諒別人的過程中是原諒自己，生氣半天也不會改善，不如盡量不要生氣。"
+ ],
+ "ep_key": "EP455",
+ "title": "EP455 | ⛲",
+ "pubdate": "2024-05-22",
+ "duration_s": 3136,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

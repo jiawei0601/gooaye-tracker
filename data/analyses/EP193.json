@@ -1,0 +1,155 @@
+{
+ "summary": "本集主持人謝孟恭分享近期影集觀後感，並回覆聽眾提問。總經方面認為市場行情仍佳，但難以預測。主要論點包括：台股看好聯發科、聯詠等IC設計，以及伺服器供應鏈；美股則關注電動車族群（Rivian、Lucid）的高估值現象。主持人也分享自己將資金轉向網通與記憶體等缺貨受害股，認為缺貨問題終將緩解，但需耐心等待。此外，他強調主動投資需具備本金、抗壓性、現金流、槓桿運用與樂觀心態，並建議創業者若風險可控應避免找股東。",
+ "topics": [
+  "影集推薦與觀後感",
+  "結構型商品FCN與金融圈談判文化",
+  "台股IC設計（聯發科、聯詠）與伺服器供應鏈",
+  "美股電動車（特斯拉、Rivian、Lucid）估值討論",
+  "網通與記憶體產業的缺貨受害股邏輯",
+  "主動投資的五大要素",
+  "創業與槓桿運用建議"
+ ],
+ "market_view": "市場行情仍佳，但年初預期常被推翻，只能見機行事。",
+ "industries": [
+  {
+   "name": "IC設計",
+   "stance": "看多",
+   "view": "看好聯發科、聯詠等中系手機與ISP晶片題材，認為反彈力道強。"
+  },
+  {
+   "name": "伺服器",
+   "stance": "觀察",
+   "view": "供應鏈（信驊、譜瑞、緯穎、嘉澤）創新高，但換機潮看法分歧，需觀察。"
+  },
+  {
+   "name": "網通",
+   "stance": "看多",
+   "view": "屬缺貨受害股，基期低，待缺貨緩解後有望報復性出貨。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "同為缺貨受害股，基期相對低，但法人看法分歧，需耐心等待。"
+  },
+  {
+   "name": "電動車",
+   "stance": "觀察",
+   "view": "Rivian與Lucid估值極高，襯托其他標的便宜，但合理性由市場決定。"
+  },
+  {
+   "name": "能源",
+   "stance": "中性",
+   "view": "傳統石化不會變壁紙，因海運、航空仍有剛需，且業者正轉型。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "天璣2000晶片對標高通S898，有機會挑戰歷史新高，但需注意手機廠自研晶片風險。"
+  },
+  {
+   "symbol": "3034",
+   "name": "聯詠",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "切入ISP晶片與中國手機廠合作，為未來看點。"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "伺服器晶片供應鏈，股價創新高，但換機潮看法分歧。"
+  },
+  {
+   "symbol": "4966",
+   "name": "譜瑞-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "高速傳輸IC，伺服器供應鏈之一，股價創新高。"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "伺服器組裝廠，股價創新高。"
+  },
+  {
+   "symbol": "3533",
+   "name": "嘉澤",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CPU Socket供應商，伺服器供應鏈之一，股價創新高。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "漲價與所有理由仍好，期待攻過歷史高點。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "三大權王之一，期待被發哥帶動表現。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "經歷修正後續噴，Elon Musk持續賣股但股價仍漲。"
+  },
+  {
+   "symbol": "RIVN",
+   "name": "Rivian",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "市值已超Ford、GM，但產量極低，估值極高。"
+  },
+  {
+   "symbol": "LCID",
+   "name": "Lucid Motors",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "市值已超Ford，直追GM，估值偏高。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "財報健康但股價下跌，建議守好成本並用財報驗證看法。"
+  },
+  {
+   "symbol": "SE",
+   "name": "Sea Limited",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Soros出清持股，但公司財報與展望健康，實體擴張積極。"
+  },
+  {
+   "symbol": "SCYX",
+   "name": "SCYNEXIS",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Michael Burry新買進的生技股，股價低市值小。"
+  }
+ ],
+ "quotes": [
+  "金融圈裡面的東西很多都是可以談的，你今天下的單量比較大，你一定就是買到比較漂亮的價格。",
+  "你買到的股票都是別人賣給你的，沒有人會沒事把股票賣給你，他的賣給你一定就是他沒那麼看好。",
+  "主動投資最重要的五件事：本金、抗壓性、持續的現金流、槓桿的運用、保持樂觀。"
+ ],
+ "ep_key": "EP193",
+ "title": "EP193 | =≠！",
+ "pubdate": "2021-11-17",
+ "duration_s": 2802,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

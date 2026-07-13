@@ -1,0 +1,69 @@
+{
+ "summary": "本集主持人以刮刮樂經驗比喻投資中的期望值與賭徒心態，強調適量與理性。深入分析文藝復興科技（Renaissance Technologies）旗下對外基金鉅額虧損，對比大獎章基金驚人績效，探討量化交易本質、胃納量限制及可能的抬轎疑慮。主持人重申自身偏重基本面研究，但肯定量化交易在市場中的主流地位。最後回應聽眾提問，分享對金融科技股（PayPal、Square、Affirm）的看好邏輯，並提醒資訊焦慮與加密貨幣放貸風險。",
+ "topics": [
+  "刮刮樂的期望值與賭徒心態",
+  "文藝復興科技（Renaissance Technologies）績效分析與量化交易探討",
+  "基本面投資 vs 量化投資的差異",
+  "金融科技股（PayPal、Square、Affirm）比較",
+  "台幣匯率與糧商炒匯手法",
+  "Starlink 在台灣的實用性與投資心態"
+ ],
+ "market_view": "市場主流交易量來自量化投資，但主持人仍偏好基本面研究，認為長期投資應忽略短期雜訊。",
+ "industries": [
+  {
+   "name": "量化交易",
+   "stance": "觀察",
+   "view": "量化交易雖為市場主流，但文藝復興科技對外基金鉅虧顯示其策略並非萬能，需持續觀察。"
+  },
+  {
+   "name": "金融科技",
+   "stance": "看多",
+   "view": "看好能靠利息賺錢的公司，如 Square、PayPal、Affirm，生態系完整且具前瞻性。"
+  },
+  {
+   "name": "加密貨幣",
+   "stance": "中性",
+   "view": "放貸年化利率雖高，但需注意平台保險機制與流動性風險，不建議重押。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "權值股沉寂四個月後近期復活，主持人感到高興。"
+  },
+  {
+   "symbol": "SQ",
+   "name": "Square",
+   "market": "US",
+   "stance": "看多",
+   "argument": "看好其 Cash App 生態系與中小企業支付整合，兼具比特幣概念。"
+  },
+  {
+   "symbol": "PYPL",
+   "name": "PayPal",
+   "market": "US",
+   "stance": "看多",
+   "argument": "支付平台龍頭，切入比特幣交易，與 Square、Affirm 組成自組 ETF。"
+  },
+  {
+   "symbol": "AFRM",
+   "name": "Affirm",
+   "market": "US",
+   "stance": "看多",
+   "argument": "先買後付的放貸公司，創辦人為 PayPal Mafia 成員，看好其利息收入模式。"
+  }
+ ],
+ "quotes": [
+  "不要有資訊焦慮，大多數資訊在我們這個年代就是雜訊。",
+  "投資的門派很多，十年河東、十年河西，沒有絕對正確的方法。",
+  "刮刮樂的極限差不多就是5到10張，超過就會變得很痛苦。"
+ ],
+ "ep_key": "EP114",
+ "title": "EP114 | 🧧🧧🧧",
+ "pubdate": "2021-02-13",
+ "duration_s": 2384,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

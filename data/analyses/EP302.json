@@ -1,0 +1,94 @@
+{
+ "summary": "主持人謝孟恭在本集討論市場情緒與籌碼面，指出融資水位仍低（約1600億），壽險買盤尚未大舉回補，因此認為台股仍有上漲空間。他提醒聽眾注意美國PTP稅務政策，建議年底前賣出可能被課10%交易稅的標的（如商品期貨ETF、波動率期貨ETF）。他也分享對航運股長期不看好，並在QA中回答資產配置、選擇權操作、黃牛現象等問題，強調市場經濟與個人選擇。",
+ "topics": [
+  "融資水位與壽險買盤對台股的影響",
+  "美國PTP稅務政策與應對建議",
+  "航運股前景看法",
+  "選擇權操作與風險提醒",
+  "資產配置（股票vs房貸）",
+  "黃牛現象與市場經濟觀點"
+ ],
+ "market_view": "台股籌碼面仍有空間，融資與壽險買盤尚未大舉進場，但基本面衰退風險不明，應保持謹慎偏多。",
+ "industries": [
+  {
+   "name": "航運",
+   "stance": "看空",
+   "view": "航運無特殊技術壁壘，除非再現全球供應鏈斷鏈，否則難回高點。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "USO",
+   "name": "United States Oil Fund",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "可能被課PTP 10%交易稅，建議賣出。"
+  },
+  {
+   "symbol": "UNG",
+   "name": "United States Natural Gas Fund",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "可能被課PTP 10%交易稅，建議賣出。"
+  },
+  {
+   "symbol": "UVXY",
+   "name": "ProShares Ultra VIX Short-Term Futures ETF",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "波動率期貨ETF，可能被課PTP 10%交易稅，建議賣出。"
+  },
+  {
+   "symbol": "SVXY",
+   "name": "ProShares Short VIX Short-Term Futures ETF",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "波動率期貨ETF，可能被課PTP 10%交易稅，建議賣出。"
+  },
+  {
+   "symbol": "VXX",
+   "name": "Barclays iPath Series B S&P 500 VIX Short-Term Futures ETN",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "波動率期貨ETN，可能被課PTP 10%交易稅，建議賣出。"
+  },
+  {
+   "symbol": "SOYB",
+   "name": "Teucrium Soybean Fund",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "商品期貨ETF，可能被課PTP 10%交易稅，建議賣出。"
+  },
+  {
+   "symbol": "CORN",
+   "name": "Teucrium Corn Fund",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "商品期貨ETF，可能被課PTP 10%交易稅，建議賣出。"
+  },
+  {
+   "symbol": "WEAT",
+   "name": "Teucrium Wheat Fund",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "商品期貨ETF，可能被課PTP 10%交易稅，建議賣出。"
+  },
+  {
+   "symbol": "SCO",
+   "name": "ProShares UltraShort Bloomberg Crude Oil",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "槓桿原油ETF，可能被課PTP 10%交易稅，建議賣出。"
+  }
+ ],
+ "quotes": [
+  "成熟的定義是你可以『扒』的時候選擇不扒，有力量但選擇收斂。",
+  "融資水位在2000億以下是悲觀情緒，但長期在低檔買進通常是贏家。",
+  "黃牛存在是因為票價定太低，市場經濟會自然調節，不爽不要看。"
+ ],
+ "ep_key": "EP302",
+ "title": "EP302 | 🕯️",
+ "pubdate": "2022-12-03",
+ "duration_s": 3008,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

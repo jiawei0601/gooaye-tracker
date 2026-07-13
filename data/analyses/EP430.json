@@ -1,0 +1,97 @@
+{
+ "summary": "主持人分享在義大利的生活觀察，並分析Nvidia財報後的AI產業動向。他認為Nvidia財報符合預期，但下一季因產品迭代（B100、GB200）可能出現訂單遞延，導致營收預測難度增加，但全年營收仍上看1000億美元以上。他提醒注意lead time縮短可能引發的供需疑慮，但強調目前未見overbooking。此外，他討論資安股（Palo Alto Networks、CrowdStrike、Zscaler）的下跌機會，並分享對育兒、感情專一的個人觀點。",
+ "topics": [
+  "Nvidia財報與AI產業展望",
+  "產品迭代（B100、GB200）對供應鏈的影響",
+  "資安股（Palo Alto Networks、CrowdStrike、Zscaler）的投資機會",
+  "育兒觀念與教育選擇",
+  "感情專一的個人體悟",
+  "旅遊與生活觀察"
+ ],
+ "market_view": "大盤受Nvidia財報帶動上漲，但後續因產品迭代可能出現波動，整體仍偏多但需留意高檔風險。",
+ "industries": [
+  {
+   "name": "AI半導體",
+   "stance": "看多",
+   "view": "Nvidia全年營收可望破千億美元，但產品迭代可能導致短期訂單遞延，長期需求仍強勁。"
+  },
+  {
+   "name": "資安軟體",
+   "stance": "中性",
+   "view": "近期股價修正提供審視機會，但需求下修應為短期現象，長期支出仍必要。"
+  },
+  {
+   "name": "散熱",
+   "stance": "觀察",
+   "view": "B100採氣冷、GB系列採水冷，相關供應鏈已漲多，需留意後續訂單切換影響。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "Nvidia",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "最大持股，財報符合預期，但下一季因產品迭代可能出現營收遞延，長期仍看好。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "Super Micro Computer",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "AI財報後ODM股反彈，但未明確表態。"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "AI財報後ODM股反彈，但未明確表態。"
+  },
+  {
+   "symbol": "FTNT",
+   "name": "Fortinet",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "已減碼換股至Dell，出場時間點幸運。"
+  },
+  {
+   "symbol": "DELL",
+   "name": "Dell Technologies",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "從Fortinet換股後表現強勁。"
+  },
+  {
+   "symbol": "PANW",
+   "name": "Palo Alto Networks",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "股價大跌後值得關注，但需觀察產品調整成效。"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike Holdings",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "端點防護領域領先，若資金足夠會考慮買入。"
+  },
+  {
+   "symbol": "ZS",
+   "name": "Zscaler",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "雲端/SASE領域表現佳，但未明確表態。"
+  }
+ ],
+ "quotes": [
+  "如果你不是龍，你怎麼會覺得你生出來的小朋友是龍？",
+  "感情專一非常重要，不要為了滿足肉體慾求而傷害別人，那些愧疚可能會跟你一輩子。",
+  "加碼的原則：有賺錢才加碼，加碼後不要再讓自己賠錢。"
+ ],
+ "ep_key": "EP430",
+ "title": "EP430 | ✨",
+ "pubdate": "2024-02-24",
+ "duration_s": 3060,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

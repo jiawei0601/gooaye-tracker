@@ -1,0 +1,120 @@
+{
+ "summary": "主持人分享新年生活反思與投資心態調整，強調記錄淨值與生活平衡的重要性。針對AI產業，澄清急單抽單為假消息，並分析受惠環節包括邊緣運算、記憶體(HBM)及ASIC，點名特斯拉為AI潛力股。AMD財報顯示Data Center表現優於Intel，PC已打底。回答聽眾QA時討論加碼停損策略、無限轉倉台指期的懶人投資法、理專推銷基金與ETF的比較，以及iPhone改款預測。",
+ "topics": [
+  "AI產業受惠分析：邊緣運算、記憶體、ASIC",
+  "AMD財報解讀與半導體展望",
+  "特斯拉在AI領域的潛力",
+  "投資心態與生活平衡",
+  "台指期無限轉倉策略與改良",
+  "理專推銷基金 vs ETF的比較",
+  "iPhone改款預測與供應鏈觀察"
+ ],
+ "market_view": "PC已打底，顯卡止跌回升，Data Center僅Intel表現不佳，整體半導體展望仍正向。",
+ "industries": [
+  {
+   "name": "AI",
+   "stance": "看多",
+   "view": "AI受惠環節包括邊緣運算、記憶體(HBM)及ASIC，特斯拉也是重要AI公司。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電因AI趨勢與穩定現金流受巴菲特青睞，AMD在Data Center市占持續提升。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "AI運算增加高速記憶體需求，HBM 3D堆疊記憶體有機會，但主軸在美商與韓商。"
+  },
+  {
+   "name": "ASIC",
+   "stance": "觀察",
+   "view": "未來雲端服務商可能大量採用ASIC晶片，創意與世芯為潛在受惠者。"
+  },
+  {
+   "name": "PC",
+   "stance": "中性",
+   "view": "PC已打底，但復甦時間不明確。"
+  },
+  {
+   "name": "信用卡",
+   "stance": "中性",
+   "view": "美國運通服務體驗佳，但福利改弱可能影響競爭力。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "看多",
+   "argument": "自駕與Optimus機器人將驅動AI成長，2025-2026投片量可能暴增。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI晶片與CUDA生態系為核心受惠者。"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電",
+   "market": "US",
+   "stance": "看多",
+   "argument": "巴菲特買入主因是AI趨勢與穩定現金流，為所有AI晶片投片的最終受惠者。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Data Center市占持續提升，PC已打底，財報優於預期。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "英特爾",
+   "market": "US",
+   "stance": "看空",
+   "argument": "Data Center表現乏善可陳，市占被AMD蠶食。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "因投資OpenAI可能受惠AI趨勢。"
+  },
+  {
+   "symbol": "AXP",
+   "name": "美國運通",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "服務體驗佳，但福利改弱可能影響競爭力。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "切入AI ASIC與HBM相關產品線，有機會受惠。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "ASIC公司，但中國客戶單可能受制裁影響。"
+  }
+ ],
+ "quotes": [
+  "對的事情重複做，錯的事情趕快修正它。",
+  "大多數理專推的東西就是抽成越多的東西，大家越會推。",
+  "配息可能是來自於你的本金，拿自己的本金配給自己，跟低能兒沒有什麼兩樣。"
+ ],
+ "ep_key": "EP319",
+ "title": "EP319 | 👑",
+ "pubdate": "2023-02-01",
+ "duration_s": 2999,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

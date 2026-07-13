@@ -1,0 +1,110 @@
+{
+ "summary": "本集主持人謝孟恭分享聽眾故事，強調同理心與知足，並呼籲關心身邊有困難的人。市場方面，指出台股消費性電子（如聯詠、PMIC）強勢，但基本面未明顯好轉；蘋果iPhone預購優於預期，為消費性注入強心針。傳統伺服器開始拉貨，明年估有4-5%年成長。AI股休息，下一波關注輝達B100，建議尋找未炒過的受惠股。美股前十大持股以輝達、博通、Marvell、Lattice、特斯拉、高通、美光為主，近期加碼Celestica。提醒投資者找到自身優勢，避免大賠。",
+ "topics": [
+  "聽眾故事與同理心分享",
+  "台股消費性電子強勢但基本面未好轉",
+  "蘋果iPhone預購優於預期",
+  "傳統伺服器拉貨與明年成長預估",
+  "AI股休息，下一波關注B100",
+  "美股持股與投資策略分享",
+  "投資心法：找到優勢、避免大賠"
+ ],
+ "market_view": "整體大環境不佳，但消費性電子與蘋果供應鏈可能成為下半年撐盤浮木。",
+ "industries": [
+  {
+   "name": "消費性電子",
+   "stance": "觀察",
+   "view": "股價強勢但基本面未明顯好轉，下檔有限，需觀察補庫存動能。"
+  },
+  {
+   "name": "傳統伺服器",
+   "stance": "看多",
+   "view": "開始拉貨，明年估有4-5%年成長，資金回流。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "大領頭休息，下一波關注B100，尋找未炒過的受惠股。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "消費性IC如聯詠創高，但整體復甦平緩。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI領頭羊，已吃過兩次腰斬，設有停損機制。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI相關，估值高但公司強勁。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI相關，估值高但公司強勁。"
+  },
+  {
+   "symbol": "LSCC",
+   "name": "Lattice",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "半導體部位之一。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "已非最大部位，半導體比重較高。"
+  },
+  {
+   "symbol": "QCOM",
+   "name": "高通",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "美股前十大持股之一。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "美股前十大持股之一，看好HBM規格提升。"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "幫Google做伺服器，拉貨狀況好，近期加碼至第四五大。"
+  },
+  {
+   "symbol": "2382",
+   "name": "廣達",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "AI ODM龍頭指標，位階漂亮，但股價盤整。"
+  }
+ ],
+ "quotes": [
+  "不要大賠是整個市場裡最重要的，因為賺的放進大盤都會賺，但遇到腰斬要站回來就很難。",
+  "你要先找到你到底是靠什麼在賺錢，是資訊、籌碼還是短線？找到優勢後好好耕耘。",
+  "股市要預判你的預判，看到iPhone規格提升才買概念股通常太晚了。"
+ ],
+ "ep_key": "EP384",
+ "title": "EP384 | 🧈",
+ "pubdate": "2023-09-16",
+ "duration_s": 3187,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

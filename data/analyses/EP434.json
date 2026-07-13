@@ -1,0 +1,98 @@
+{
+ "summary": "主持人分享歐洲旅行趣事（誤送貓食給義大利人），隨後進入市場分析。美股與台股創新高，但出現典型垃圾盤（中小型股殺盤），建議降槓桿並觀察後續。AI 仍是市場主軸，Marvell 與 Broadcom 財報皆顯示 AI 獨強、其他業務疲弱，但谷底將至。Marvell 基期偏低、有機會創新高；Broadcom 重申 AI 營收展望，ASIC 客戶 Google 與 Meta 訂單穩固。特斯拉看法不變，等待降息與 Robotaxi/Optimus 題材。提醒聽眾勿過度槓桿、勿短線賭博，並批評高股息 ETF 溢價問題。",
+ "topics": [
+  "美股與台股創高後的修正風險",
+  "AI 產業獨強，其他科技業務復甦緩慢",
+  "Marvell 與 Broadcom 財報比較與 ASIC 展望",
+  "特斯拉長期持有邏輯：Robotaxi 與 Optimus",
+  "台股高股息 ETF 溢價與市場套利現象",
+  "投資心態：避免短線賭博與過度槓桿"
+ ],
+ "market_view": "短線有修正風險，但中長期仍有上攻機會，AI 仍是資金主軸。",
+ "industries": [
+  {
+   "name": "AI 伺服器",
+   "stance": "看多",
+   "view": "AI 是唯一高成長領域，相關公司營收年增 45% 以上，資金持續追捧。"
+  },
+  {
+   "name": "ASIC",
+   "stance": "看多",
+   "view": "Marvell 與 Broadcom 的 ASIC 業務展望佳，谷底將至，後續逐季成長。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "中性",
+   "view": "走出不錯報酬，但成長幅度不如 AI。"
+  },
+  {
+   "name": "電動車",
+   "stance": "中性",
+   "view": "中國電動車削價競爭，但特斯拉產品定位不同，長期看 Robotaxi 與 Optimus。"
+  },
+  {
+   "name": "被動元件",
+   "stance": "觀察",
+   "view": "整體仍偏軟，等待大復甦機會。"
+  },
+  {
+   "name": "貨櫃航運",
+   "stance": "觀察",
+   "view": "紅海危機影響，但長榮多頭排列，需觀察後續。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI 業務強勁，基期偏低尚未創新高，Forward PE 約 30 倍不算貴，有機會後續創高。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI 營收展望 10B，ASIC 客戶 Google/Meta 訂單穩固，其他業務雖疲弱但 AI 足以支撐估值。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "Advanced Micro Devices",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "估值已達 50-60 倍，看不懂，已減碼轉向加碼 ASIC 相關。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "車子業務保底，重點在 Robotaxi 與 Optimus 長期題材，持續持有。"
+  },
+  {
+   "symbol": "3036",
+   "name": "文曄",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "老闆很摳但對股東有利，ETF 永動機可能抬轎。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "外資可能倒貨，影響市場信心。"
+  }
+ ],
+ "quotes": [
+  "蠢蛋就是蠢蛋，低能兒就是低能兒，這種人就是沒有辦法救。這世界是需要韭菜的，不然一些你不想要做的工作，要誰去做？",
+  "不用錢是最貴的，這個不是一個嘴巴上隨便講講的東西。",
+  "你越早遇到挫折，其實你是越容易去建立你的觀念跟一些風險的概念。"
+ ],
+ "ep_key": "EP434",
+ "title": "EP434 | 🅰️",
+ "pubdate": "2024-03-09",
+ "duration_s": 2994,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

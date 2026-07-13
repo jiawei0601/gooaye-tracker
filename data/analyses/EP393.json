@@ -1,0 +1,88 @@
+{
+ "summary": "本集聚焦美國對中國新一輪AI晶片禁令的衝擊，主持人認為此禁令超乎預期地嚴格，幾乎全面封殺中國先進運算能力，包括H100、A800、L40S甚至RTX 4090等晶片均受影響。他對美股昨日V型反彈表示不解，認為市場可能低估利空，因此轉向保守，計劃減碼並增加現金水位。長期仍看好AI趨勢，但短期需謹慎，尤其注意ASIC、光通等相關供應鏈可能受波及。他也分享個人投資心態調整，強調尊重市場價格、不預設立場，並提醒聽眾勿挑戰美國政府底線。",
+ "topics": [
+  "美國對中國AI晶片禁令升級與影響分析",
+  "NVIDIA、AMD、Intel等晶片廠受衝擊程度",
+  "ASIC設計公司（Broadcom、Marvell、聯發科）潛在風險",
+  "中國AI算力租賃業者可能受惠",
+  "台股軍工股投機性與基本面差異",
+  "個人投資心態與風險管理建議"
+ ],
+ "market_view": "市場可能低估禁令嚴重性，短期保守看待，準備在指數測前低時減碼。",
+ "industries": [
+  {
+   "name": "AI晶片",
+   "stance": "看空",
+   "view": "美國新禁令幾乎全面封殺中國先進運算晶片，NVIDIA、AMD、Intel均受重創，短期營收影響有限但長線市場縮減。"
+  },
+  {
+   "name": "ASIC設計",
+   "stance": "觀察",
+   "view": "Broadcom、Marvell、聯發科雖非直接受罰，但美國可能進一步封鎖ASIC，需高度警戒。"
+  },
+  {
+   "name": "光通模組",
+   "stance": "中性",
+   "view": "中國data center建置受阻可能影響800G/400G需求，但台廠主要出貨美國，影響有限。"
+  },
+  {
+   "name": "軍工",
+   "stance": "中性",
+   "view": "台股多數軍工股題材投機性強，實際基本面薄弱，不建議基本面投資人參與。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看空",
+   "argument": "H100、A800、L40S等全線晶片被封殺，雖短期供不應求，但長線失去中國市場將下修營收目標。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "客戶百度崑崙可能受禁令影響，且美國可能進一步封鎖ASIC，需小心。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell Technology",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "同為AI-ASIC設計公司，可能面臨與Broadcom相似的風險。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "AI-ASIC業務可能被美國政府盯上，需關注後續發展。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "看空",
+   "argument": "Gaudi2因算力過強被新禁令封殺，中國市場銷售將受打擊。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "看空",
+   "argument": "新禁令涵蓋其高效能晶片，中國市場出貨受阻。"
+  }
+ ],
+ "quotes": [
+  "不要去挑戰美國政府的一個底線，我會盡可能地把劇本都想到比較壞的，用最保守的方式去估價。",
+  "一個人講再多，你直接看他動作是什麼，那個是遠大於他講什麼。",
+  "你已經在滑倒了，然後那邊亂抓東西亂踢，最後就真的溺水，一路往下沉。"
+ ],
+ "ep_key": "EP393",
+ "title": "EP393 | 🙈",
+ "pubdate": "2023-10-18",
+ "duration_s": 3157,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

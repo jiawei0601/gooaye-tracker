@@ -1,0 +1,116 @@
+{
+ "summary": "本集主持人先推薦 Amazon Prime Video 影集《異塵餘生》，並討論微軟遊戲布局。市場方面，分析蘋果 M4 iPad Pro 的 AI 定位與高價策略，認為需搭配殺手級應用才能說服消費者。Computex 前輝達財報預期樂觀，因 H100 訂單補上空窗期且黃仁勳來台加持。更新輝達大禮包概念股（Vertiv、Fabrinet、Lumentum 等）的 CPO 進展，但提醒股價已反映遠期故事。深入探討輝達可能切入 HBM logic die 設計，影響記憶體供應鏈版圖。下半年關注輝達與聯發科合作的 AI PC 筆電。最後回應聽眾 QA，包含央行政策、房市供需、鴻海展望、記憶體產能排擠等議題。",
+ "topics": [
+  "蘋果 M4 iPad Pro 發表與 AI 裝置定位",
+  "Computex 前輝達財報預期與股價修正",
+  "輝達大禮包（Vertiv、Fabrinet、Lumentum）CPO 進度更新",
+  "輝達可能切入 HBM logic die 設計對記憶體產業的影響",
+  "下半年輝達與聯發科合作 AI PC 筆電的潛力",
+  "房市供需與央行政策評論",
+  "記憶體產能排擠（DDR3/DDR4 轉單）題材討論",
+  "鴻海 GB200 伺服器與營收展望"
+ ],
+ "market_view": "Computex 前輝達財報預期樂觀，H100 訂單補上空窗期，加上黃仁勳來台加持，股價修正後浮額已清洗，短期風險降低。",
+ "industries": [
+  {
+   "name": "AI 伺服器",
+   "stance": "看多",
+   "view": "輝達 H100 訂單持續強勁，空窗期被補上，Computex 前財報預期樂觀，下半年 GB200 將帶動鴻海等供應鏈營收顯著成長。"
+  },
+  {
+   "name": "光通訊",
+   "stance": "觀察",
+   "view": "CPO（光電共封裝）為遠期故事，Vertiv、Fabrinet、Lumentum 等有機會，但股價已反映未來，且輝達可能改設計，需密切追蹤驗證進度。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "HBM 產能已被預訂至明年，DDR3/DDR4 因產能排擠可能出現轉單機會，但需觀察原廠是否正式退出市場；輝達切入 logic die 設計可能改變供應鏈版圖。"
+  },
+  {
+   "name": "AI PC",
+   "stance": "觀察",
+   "view": "輝達與聯發科合作的筆電方案不是單純 Chromebook，可能成為下半年重要產品線，但需等 Computex 後確認需求與消費復甦狀況。"
+  },
+  {
+   "name": "消費電子",
+   "stance": "中性",
+   "view": "蘋果 M4 iPad Pro 價格高昂，需搭配殺手級 AI 應用才能說服消費者，目前尚未看到具體方案，供應鏈以韓國為主，台系機會有限。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "看多",
+   "argument": "H100 訂單補上空窗期，Computex 前財報預期樂觀，下半年與聯發科合作 AI PC 筆電將拓展 To C 市場。"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "CPO 進度有機會今年完成驗證，但 ASP 可能下調，股價已反映遠期故事，需調整預期。"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "800G/1.6T 光通表現好，但主要故事在 CPO fiber，股價已反映明後年，且輝達可能改設計。"
+  },
+  {
+   "symbol": "LITE",
+   "name": "Lumentum",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "CPO 相關應用有機會，但市值較大，影響幅度待觀察。"
+  },
+  {
+   "symbol": "COHR",
+   "name": "Coherent",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "同線產品在 CPO 領域可能有斬獲，但影響程度未知。"
+  },
+  {
+   "symbol": "3363",
+   "name": "上詮",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "光通接頭解決方案與台積電合作，營收尚未出來但股價已先反映，波動大。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "與輝達合作的 AI PC 筆電方案不是單純 Chromebook，下半年可能成為重要產品線。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "GB200 伺服器整機出貨將帶動營收顯著成長，但獲利認列地點與比例仍不確定。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "中性",
+   "argument": "M4 iPad Pro 算力強但價格過高，需搭配殺手級 AI 應用才能說服消費者，目前尚未看到具體方案。"
+  }
+ ],
+ "quotes": [
+  "你是一個上市公司，最後面就是要跟市場的一些主流的東西去做一些接觸，不能夠說什麼我們都是完全在做自己的。",
+  "做一行怨一行很正常，你不管拿薪水多高，一定也是在靠北，可是他就是每天在那邊做，因為別的地方拿不到這個薪水。",
+  "買大盤，你真的買出興趣，或是做出一些心得，想要去做一些主動投資，試試看可不可以加強報酬。還是要強調，有些人做主動投資反而報酬變得更爛。"
+ ],
+ "ep_key": "EP451",
+ "title": "EP451 | 🦧",
+ "pubdate": "2024-05-08",
+ "duration_s": 2998,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

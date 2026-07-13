@@ -1,0 +1,108 @@
+{
+ "summary": "本集主持人謝孟恭探討後疫情時代的投資布局，認為明年下半年第一世界可望脫離疫情影響，但病毒將長期共存。他聚焦於受疫情重創的傳產復甦機會，特別分析OTA（線上旅遊平台）產業，指出Airbnb IPO後市值已接近Booking Holdings與Expedia總和，認為此現象可能帶來配對交易機會。他看好Booking Holdings因集團優勢（含Agoda、Kayak等）可能補漲，同時點名Starbucks與Hilton等大型集團可望在疫情後收割市占。主持人也分享省錢與時間管理心得，強調減少不必要的訂閱開支，並建議將資金投入市場而非閒置。最後回應聽眾提問，討論台積電ADR溢價、金融股股利迷思、力積電等議題。",
+ "topics": [
+  "後疫情時代的傳產復甦與布局",
+  "OTA（線上旅遊平台）產業分析與配對交易",
+  "訂閱制經濟對消費者本金的消耗",
+  "時間管理與資訊攝取效率（臉書vs Twitter）",
+  "台積電ADR溢價與套利限制",
+  "股利迷思與保留盈餘的財務觀點",
+  "力積電（力晶）的傳奇歷史與投資風險"
+ ],
+ "market_view": "主持人認為明年下半年第一世界可望脫離疫情影響，但病毒將長期共存，傳統經濟不會消失，但會融入數位轉型。",
+ "industries": [
+  {
+   "name": "OTA（線上旅遊平台）",
+   "stance": "看多",
+   "view": "整體旅遊市場持續擴大，OTA平台因集中效應難以被取代，看好Booking Holdings與Expedia的補漲機會。"
+  },
+  {
+   "name": "飯店",
+   "stance": "看多",
+   "view": "大型集團如Hilton可在疫情後收割倒閉小業者的市占，報復旅遊潮將帶來機會。"
+  },
+  {
+   "name": "咖啡連鎖",
+   "stance": "看多",
+   "view": "Starbucks在中國因競爭對手瑞幸咖啡倒閉及小店退出，有機會趁機拓店擴大市占。"
+  },
+  {
+   "name": "郵輪",
+   "stance": "觀察",
+   "view": "復甦可能最晚，因防疫標準更高，但確定復甦後漲勢可能最猛，風險較大。"
+  },
+  {
+   "name": "晶圓代工",
+   "stance": "觀察",
+   "view": "產能緊俏可能持續到明年上半年，但股價已領先反映，需注意循環修正。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "ABNB",
+   "name": "Airbnb",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "市值已接近Booking Holdings與Expedia總和，主持人認為偏貴，但尊重市場價格，買了幾股感受氣氛。"
+  },
+  {
+   "symbol": "BKNG",
+   "name": "Booking Holdings",
+   "market": "US",
+   "stance": "看多",
+   "view": "集團包含Agoda、Kayak等，市占大但市值低於Airbnb，若Airbnb維持高價，BKNG有補漲空間。"
+  },
+  {
+   "symbol": "EXPE",
+   "name": "Expedia",
+   "market": "US",
+   "stance": "看多",
+   "view": "專注住宿，歐洲表現不錯，與BKNG同受惠於Airbnb高估值帶來的比價效應。"
+  },
+  {
+   "symbol": "HLT",
+   "name": "Hilton Worldwide",
+   "market": "US",
+   "stance": "看多",
+   "view": "大型飯店集團可在疫情後收割倒閉業者的市占，報復旅遊潮有利。"
+  },
+  {
+   "symbol": "SBUX",
+   "name": "Starbucks",
+   "market": "US",
+   "stance": "看多",
+   "view": "中國市場因瑞幸咖啡倒閉及小店退出，有機會趁機拓點擴大市占。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "view": "ADR溢價因轉換困難無法套利，長期方向一致但短期波動難測。"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電ADR",
+   "market": "US",
+   "stance": "中性",
+   "view": "與台股現股存在溢價，但無法直接套利，長期方向與2330相同。"
+  },
+  {
+   "symbol": "2303",
+   "name": "聯電",
+   "market": "TW",
+   "stance": "觀察",
+   "view": "晶圓代工產能緊俏，但股價已領先反映，需注意循環修正。"
+  }
+ ],
+ "quotes": [
+  "你承受越大的風險，你可能就獲得越大的報酬。",
+  "人最脆弱的時候，其實是相信感情的時候。當你很相信某件事情的時候，是最容易被騙的。",
+  "殖利率真的是大家迷信過久，但其實它不是一個必要的東西，因為他就是把你的錢從左手換到右手。"
+ ],
+ "ep_key": "EP96",
+ "title": "EP96 | 飯店？",
+ "pubdate": "2020-12-12",
+ "duration_s": 2649,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

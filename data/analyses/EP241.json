@@ -1,0 +1,98 @@
+{
+ "summary": "本集討論聯準會升息預期、市場已反映最悲觀情境，並分析供應鏈與能源端對通膨的影響。主持人認為FOMC後可能出現反彈，但中長線仍須觀察俄烏戰爭與中國清零政策。介紹巴菲特近期加碼Activision Blizzard的套利機會，並比較Twitter收購案的風險報酬。引用Michael Burry與Bill Gurley的空方觀點，提醒估值與現金流的重要性。最後回應聽眾關於自信、結婚、買房與加密貨幣的提問，強調勿以特例當通例。",
+ "topics": [
+  "聯準會升息預期與市場定價",
+  "巴菲特收購套利策略（Activision Blizzard、Twitter）",
+  "空方觀點分析（Michael Burry、Bill Gurley）",
+  "中國清零政策對供應鏈的影響",
+  "俄烏戰爭與勝利日潛在風險",
+  "加密貨幣作為通膨對沖工具的迷思",
+  "買房決策與資產屬性討論"
+ ],
+ "market_view": "市場已pricing in最悲觀情境，FOMC後有機會反彈，但中長線仍須謹慎。",
+ "industries": [
+  {
+   "name": "能源",
+   "stance": "看多",
+   "view": "巴菲特加碼西方石油與雪佛龍，顯示能源股在通膨環境下具價值。"
+  },
+  {
+   "name": "科技",
+   "stance": "中性",
+   "view": "成長股估值仍高，需關注獲利與現金流品質，但部分個股如高通、Intel已接近10倍本益比。"
+  },
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "高通、Intel本益比約10倍，但成長性受限；Nvidia、AMD估值仍高，需等待修正。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "ATVI",
+   "name": "Activision Blizzard",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "巴菲特加碼至近10%部位，收購價95美元與現價有利差，下檔有限，適合現股套利。"
+  },
+  {
+   "symbol": "TWTR",
+   "name": "Twitter",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "馬斯克收購價54美元，肉較少且下檔風險較高，到期日2022年10月24日。"
+  },
+  {
+   "symbol": "OXY",
+   "name": "西方石油",
+   "market": "US",
+   "stance": "看多",
+   "argument": "巴菲特近期大舉買進，看好能源股在通膨環境下的表現。"
+  },
+  {
+   "symbol": "CVX",
+   "name": "雪佛龍",
+   "market": "US",
+   "stance": "看多",
+   "argument": "巴菲特加碼，能源股具備現金流與價值優勢。"
+  },
+  {
+   "symbol": "HPQ",
+   "name": "惠普",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "巴菲特買入，市場推估看重現金流，但主持人對筆電產業前景存疑。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "看多",
+   "argument": "巴菲特開始買進，表態認為價格已夠便宜。"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "主持人持有台股大盤指數ETF，作為被動投資部位。"
+  },
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人長期買進美國科技股指數，但部位不大。"
+  }
+ ],
+ "quotes": [
+  "多軍最好的避險就是減碼，未必要去做空市場。",
+  "你不可以拿特例當通例，休學成功的比爾蓋茲是極端值。",
+  "結婚的目的就是生小孩，如果你沒有要生小孩就不需要結婚。"
+ ],
+ "ep_key": "EP241",
+ "title": "EP241 | 👸",
+ "pubdate": "2022-05-04",
+ "duration_s": 3031,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

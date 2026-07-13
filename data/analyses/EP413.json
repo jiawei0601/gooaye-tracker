@@ -1,0 +1,125 @@
+{
+ "summary": "主持人回顧2023年投資表現，對今年市場整體感到滿意，並分享個人策略調整：從2022年的大回檔中學到需更積極停利與平衡配置，以確保金流穩健。今年小型股布局（6進5持）在1.2-1.3倍槓桿下貢獻近50%報酬，大型權值股如聯發科、台積電表現亮眼。展望明年，看好MCU（如新唐）在循環低點的復甦機會，並持續聚焦GPU與ASIC（NVIDIA、AMD），同時留意PMIC等族群已提前反應。他也強調投資應以心理舒適為前提，避免過度集中單一標的。",
+ "topics": [
+  "2023年投資回顧與策略調整",
+  "小型股布局與類創投角色",
+  "大型權值股（聯發科、台積電）表現",
+  "PMIC與MCU循環展望",
+  "美國市場配置（GPU、ASIC、ODM）",
+  "CES展與動能機會",
+  "育兒與家庭財務規劃建議"
+ ],
+ "market_view": "2023年市場整體表現很好，但2024年展望難以預測，應聚焦短中期可掌握的趨勢。",
+ "industries": [
+  {
+   "name": "PMIC",
+   "stance": "觀察",
+   "view": "基本面尚未真正打底復甦，但股價已提前強勢，需留意後續資金動向。"
+  },
+  {
+   "name": "MCU",
+   "stance": "看多",
+   "view": "處於循環低點，有望複製面板、記憶體等爛貨反彈的報酬，是明年動能鎖定方向。"
+  },
+  {
+   "name": "GPU",
+   "stance": "看多",
+   "view": "持續持有NVIDIA與AMD，但小幅調整權重，整體配置不變。"
+  },
+  {
+   "name": "ASIC",
+   "stance": "看多",
+   "view": "持續增加配置，看好其長期趨勢。"
+  },
+  {
+   "name": "ODM",
+   "stance": "看多",
+   "view": "持有Celestica，財報後加碼，P/E仍低；Super Micro因可能募資先跳過。"
+  },
+  {
+   "name": "博弈手遊",
+   "stance": "中性",
+   "view": "台灣無法開賭場，可考慮買新象作為替代，但非喊盤。"
+  },
+  {
+   "name": "高利貸/租賃",
+   "stance": "中性",
+   "view": "中租類似合法高利貸，但非推薦買進。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "股價重回千金，長期持有搭配股息已獲利。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "從三百多反彈至近六百，表現不錯。"
+  },
+  {
+   "symbol": "4919",
+   "name": "新唐",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "MCU處於爛循環，但BMC業務有亮點，等待復甦。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "持續持有，但小幅調降權重轉至AMD。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "看多",
+   "argument": "從NVIDIA轉入部分資金，增加配置。"
+  },
+  {
+   "symbol": "CLS",
+   "name": "Celestica",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "財報後加碼，P/E仍低，不再加碼。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "Super Micro",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "可能發行股票募資，先跳過。"
+  },
+  {
+   "symbol": "IWM",
+   "name": "iShares羅素2000 ETF",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "先前買進後最近賣出，轉向更看好的標的。"
+  },
+  {
+   "symbol": "5871",
+   "name": "中租-KY",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "比喻為合法高利貸，但非推薦買進。"
+  }
+ ],
+ "quotes": [
+  "不要整天在那邊靠北靠母，因為那個沒有太大意義。",
+  "最好的報酬會出現在最爛的地方。",
+  "你一定要先成為一個快樂跟健康的人，然後可能才可以把事情做得更好。"
+ ],
+ "ep_key": "EP413",
+ "title": "EP413 | 🧑",
+ "pubdate": "2023-12-27",
+ "duration_s": 3022,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

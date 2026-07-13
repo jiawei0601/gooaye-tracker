@@ -1,0 +1,57 @@
+{
+ "summary": "本集探討巴菲特與Cathie Wood的投資風格差異，主持人認為兩者因資金來源與風險承受度不同而無需互相比較。他分析巴菲特因浮存金限制而保守，2020年績效受政府紓困干擾；Cathie Wood的ARK基金波動大，Sortino ratio顯示其報酬可能來自高風險而非選股Alpha。主持人強調投資應依自身條件選擇策略，並提醒風險控管與去槓桿的重要性。他也分享對Discovery串流服務的看好，認為其知識型內容具利基優勢，但提醒勿追高。最後建議資產配置以被動為主、主動為輔，並將ARK歸類為主動部位。",
+ "topics": [
+  "巴菲特與Cathie Wood的投資風格比較",
+  "Sortino ratio與風險調整後報酬",
+  "Discovery串流媒體的成長潛力",
+  "風險控管與去槓桿的重要性",
+  "資產配置策略：被動為主、主動為輔",
+  "Lidar產業趨勢與代工廠投資邏輯"
+ ],
+ "market_view": "主持人認為美股已初步止跌，對前景持續看好，但提醒勿追高並注意風險。",
+ "industries": [
+  {
+   "name": "串流媒體",
+   "stance": "看多",
+   "view": "Discovery+知識型內容具利基優勢，退訂率低，成長暴力，但短期股價已漲多需謹慎。"
+  },
+  {
+   "name": "光達",
+   "stance": "看多",
+   "view": "看好Lidar趨勢，但個別品牌難預測，建議投資代工廠（如砷化鎵、氮化鎵相關）以降低風險。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "DISCA",
+   "name": "Discovery",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "串流服務Discovery+兩個月達1200萬訂戶，退訂率低，但股價已大幅上漲，短期追高風險高。"
+  },
+  {
+   "symbol": "LAZR",
+   "name": "Luminar Technologies",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾持有，但主持人未明確表態，僅表示看好Lidar趨勢但個股難選。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir Technologies",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾持有，主持人未明確表態。"
+  }
+ ],
+ "quotes": [
+  "你遇到任何的一個崩盤，你只要看到它開始崩了，你就先把手上的槓桿都去掉就對了，這個是一個最基本的風險控管的事情。",
+  "本金多的人，不管你玩什麼勝率都是高。一個窮小孩，他爸爸給他50萬，就是畢生積蓄讓你創業，你就是一次失敗機會而已。",
+  "如果你看好任何一個串流媒體，你看到Netflix你就買Netflix，不要買中華電信；你看好Disney+，你買Disney，你不要買台灣大哥大。"
+ ],
+ "ep_key": "EP119",
+ "title": "EP119 | 探索發財頻道",
+ "pubdate": "2021-03-03",
+ "duration_s": 2445,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

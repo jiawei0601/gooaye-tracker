@@ -1,0 +1,87 @@
+{
+ "summary": "主持人分享台股小型股策略的學習歷程，從初期坐過山車到學會在爆量時調節籌碼，並與財報狗Jeff交流驗證做法。總經方面，認為台灣住宿價格過高是因人口密集、假期集中及民眾有錢，出國潮可能迫使業者降價。市場方面，指出AI股已知資訊已反映，應關注下一代B100及散熱、電供等新機會。看好Meta Quest 3與AI整合，認為ASIC陣營（如Amazon投資Anthropic）將加速三分天下格局。",
+ "topics": [
+  "台股小型股策略：長期持有與動能調節的平衡",
+  "台灣國旅住宿價格過高與需求破壞",
+  "Amazon投資Anthropic對ASIC產業的影響",
+  "Meta開發者大會：Quest 3與AI應用",
+  "AI股投資轉向下一代技術（B100、散熱）",
+  "ETF發行與市場FOMO現象",
+  "穩懋與南電的產業現況"
+ ],
+ "market_view": "AI股已知資訊已充分反映，應轉向下一代技術尋找機會。",
+ "industries": [
+  {
+   "name": "ASIC",
+   "stance": "看多",
+   "view": "Amazon投資Anthropic將加速ASIC採用，三分天下格局更明確。"
+  },
+  {
+   "name": "VR/MR",
+   "stance": "看多",
+   "view": "Meta Quest 3價格實惠且遊戲整合佳，有助滲透率提升。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "B100供應鏈多為重複，需關注下一代技術帶來的散熱與電供機會。"
+  },
+  {
+   "name": "化合物半導體",
+   "stance": "觀察",
+   "view": "穩懋受手機稼動率低迷影響，Wi-Fi 7可能帶來轉機。"
+  },
+  {
+   "name": "ABF載板",
+   "stance": "觀察",
+   "view": "南電未打入AI供應鏈，需觀察網通庫存復甦。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "受惠Amazon投資Anthropic，ASIC需求可期，但估值已高。"
+  },
+  {
+   "symbol": "3105",
+   "name": "穩懋",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "手機稼動率極低，Wi-Fi 7可能帶來表現機會。"
+  },
+  {
+   "symbol": "8046",
+   "name": "南電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "未打入AI供應鏈，需觀察網通庫存復甦。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Quest 3與AI整合將加速滲透，看好長期發展。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "Amazon",
+   "market": "US",
+   "stance": "看多",
+   "argument": "投資Anthropic將推動自家ASIC晶片採用。"
+  }
+ ],
+ "quotes": [
+  "小型股爆量時一定要送幸福，站在賣方調節籌碼。",
+  "當一個東西大家都知道，每個環節誰做都已經知道，肉就會變很少。",
+  "ETF發行時常是該主題的高點，FOMO通常不會有好下場。"
+ ],
+ "ep_key": "EP388",
+ "title": "EP388 | 🥗",
+ "pubdate": "2023-09-30",
+ "duration_s": 3218,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

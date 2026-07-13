@@ -1,0 +1,95 @@
+{
+ "summary": "主持人分享回台後因確診被送醫隔離的經歷，感嘆台灣防疫極端與資源浪費。市場方面，認為美股止跌反彈是右側交易者佈局訊號，並分析俄烏邊境緊張對油氣價格的影響。13F報告中索羅斯減碼QQQ、抄底Rivian與Peloton；波克夏新建倉動視暴雪引發內線聯想。特斯拉空頭David Einhorn再度進場，主持人看多特斯拉成長性。QA討論ETF借券、停利策略、股債配置等，強調能力圈與長期持有成長股。",
+ "topics": [
+  "主持人回台確診隔離經驗與台灣防疫現況",
+  "美股止跌反彈與右側交易策略",
+  "俄烏邊境緊張對油氣價格與俄羅斯經濟的影響",
+  "13F報告分析：索羅斯、波克夏最新持股變動",
+  "特斯拉空頭David Einhorn再度進場與成長股估值邏輯",
+  "聽眾QA：ETF借券、停利方法、股債配置、績效比較"
+ ],
+ "market_view": "美股出現止跌反彈跡象，可視為右側交易者開始佈局的參考訊號。",
+ "industries": [
+  {
+   "name": "科技股",
+   "stance": "中性",
+   "view": "索羅斯減碼QQQ閃過跌幅，但成長股需緊盯成長性，估值高低非唯一標準。"
+  },
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "特斯拉空頭回歸提供燃料，成長性撐住估值，持續看好。"
+  },
+  {
+   "name": "低軌道衛星",
+   "stance": "看多",
+   "view": "衛星耗損率高，對供應鏈（如華通）有利。"
+  },
+  {
+   "name": "消費日用品",
+   "stance": "看多",
+   "view": "通膨環境下，PG等大型消費股穩健向上。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "QQQ",
+   "name": "Invesco QQQ Trust",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "索羅斯大幅減碼，閃過科技股跌幅。"
+  },
+  {
+   "symbol": "RIVN",
+   "name": "Rivian Automotive",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "索羅斯抄底但可能已砍掉，注意Archegos教訓。"
+  },
+  {
+   "symbol": "PTON",
+   "name": "Peloton Interactive",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "索羅斯小量買進，但股價續跌。"
+  },
+  {
+   "symbol": "ATVI",
+   "name": "Activision Blizzard",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "波克夏新建倉，買在微軟收購前，時間點引發內線聯想。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "Tesla",
+   "market": "US",
+   "stance": "看多",
+   "argument": "空頭David Einhorn再度進場，成長性撐住估值，看好後續。"
+  },
+  {
+   "symbol": "PG",
+   "name": "Procter & Gamble",
+   "market": "US",
+   "stance": "看多",
+   "argument": "通膨環境下消費品股穩健，長期向上。"
+  },
+  {
+   "symbol": "2313",
+   "name": "華通",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "低軌道衛星耗損率高，獨家衛星板供應商受惠。"
+  }
+ ],
+ "quotes": [
+  "你不需要了解到市場上什麼五十支標的，抓你自己最有把握的幾支來做，光這樣就可以賺錢。",
+  "只要你的物慾沒有限縮，錢都是不夠的，永遠不會覺得夠，心靈上的滿足很重要。",
+  "特斯拉有趣的地方，就是沒有空軍不會漲，一定要有人做空，然後他就會一路尬上去。"
+ ],
+ "ep_key": "EP219",
+ "title": "EP219 | 宇宙大勃盤",
+ "pubdate": "2022-02-16",
+ "duration_s": 2852,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

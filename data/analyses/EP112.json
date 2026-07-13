@@ -1,0 +1,57 @@
+{
+ "summary": "本集主持人謝孟恭分享Clubhouse使用心得，認為即時音訊技術雖有熱潮，但短期追高風險高，長期可關注聲網等相關機會。深入解析Mark Cuban的「Cuban Collar」選擇權策略，說明其如何在科技泡沫中鎖定獲利、成功出場，並強調投資時避免「輸不得、錢袋不夠、時間壓力」三大錯誤。QA環節討論動能ETF MTUM、PCB股博智的週期特性，以及定期定額ETF的獲利來源（股利+價差），提醒聽眾勿暈船、注意風險控管。",
+ "topics": [
+  "Clubhouse與即時音訊技術的市場觀察",
+  "Mark Cuban的Cuban Collar（無成本領口策略）解析",
+  "投資三大錯誤：輸不得、錢袋不夠、時間壓力",
+  "動能ETF MTUM的特性與比較",
+  "PCB產業（博智）的週期性與風險",
+  "定期定額ETF的獲利來源（股利+價差）"
+ ],
+ "market_view": "短期市場處於熱潮高峰，追高容易套牢，但長期仍可關注結構性成長機會。",
+ "industries": [
+  {
+   "name": "即時音訊技術",
+   "stance": "觀察",
+   "view": "短期有流量紅利但可能降溫，長期受惠於即時語音互動需求成長，聲網為主要受惠者。"
+  },
+  {
+   "name": "印刷電路板",
+   "stance": "中性",
+   "view": "PCB產業具週期性，一波一波的訂單驅動，非品牌中間財廠商需注意風險。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "API",
+   "name": "聲網",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "即時音訊技術受惠者，但短期已大漲，不建議追高，可長期關注。"
+  },
+  {
+   "symbol": "MTUM",
+   "name": "iShares MSCI美國動能因子ETF",
+   "market": "US",
+   "stance": "中性",
+   "argument": "動能策略ETF，表現常優於大盤，但本質不同，適合大者恆大環境。"
+  },
+  {
+   "symbol": "8155",
+   "name": "博智",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "PCB股，具週期性，伺服器板為主，需注意客戶Intel表現及訂單變化。"
+  }
+ ],
+ "quotes": [
+  "如果你買進是因為需要價格上漲來解決財務困境，那正是最錯誤的交易時機。",
+  "避險都是有成本的，Cuban Collar雖能鎖定價格區間，但也犧牲了超額上漲空間。",
+  "投資最怕的是急需用錢時遇到空頭，被迫砍在最低點。"
+ ],
+ "ep_key": "EP112",
+ "title": "EP112 | Cubanㄉ領口策略",
+ "pubdate": "2021-02-06",
+ "duration_s": 2427,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

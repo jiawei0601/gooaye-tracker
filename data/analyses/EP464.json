@@ -1,0 +1,135 @@
+{
+ "summary": "主持人分享小舅子打電動的親子教育觀點，並分析市場回調與資金輪動。他認為硬體股漲多後進入看不懂的階段，開始減碼轉向軟體股，核心看好微軟與蘋果，並關注美國中小型SaaS股與台灣的To B軟體、資服代理商。他也討論了Nvidia與CSP的博弈、AMD的追趕進度、美光HBM驗證問題、蘋果在歐盟的AI策略，以及網通、MCU等族群的復甦機會。",
+ "topics": [
+  "市場回調與資金輪動",
+  "硬體股減碼與軟體股佈局",
+  "Nvidia與CSP的博弈關係",
+  "AMD的追趕與殺價角色",
+  "美光HBM3E驗證問題",
+  "蘋果在歐盟的AI策略",
+  "台灣軟體股與資服代理商的機會",
+  "網通與MCU族群的復甦"
+ ],
+ "market_view": "市場回調是健康的，資金從熱門股轉向冷門股，開始出現漲跌互見的局面。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "硬體股漲多後進入高效市場，後續可能變成動能戰場，但大故事不變。"
+  },
+  {
+   "name": "網通",
+   "stance": "看多",
+   "view": "Cisco法說會確認底部，庫存有望在Q4前清完，開始有資金關注。"
+  },
+  {
+   "name": "MCU",
+   "stance": "觀察",
+   "view": "長期被當廢物，近期開始有法人資金進場，但主持人嘗試過兩次失敗。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "中性",
+   "view": "美光後里廠失火影響不大，但HBM3E驗證問題可能帶來短期波動。"
+  },
+  {
+   "name": "軟體",
+   "stance": "看多",
+   "view": "核心看好微軟與蘋果，美國中小型SaaS股與台灣To B軟體、資服代理商有機會。"
+  },
+  {
+   "name": "封測",
+   "stance": "觀察",
+   "view": "FOPLP話題被重新炒作，但需要深蹲，較難做夢。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "看多",
+   "argument": "軟體股的核心，直接接觸消費者，將推出更多AI應用。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "看多",
+   "argument": "將AI套皮後可收割市場，不用投入太多Capex，是軟體受惠者。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "毛利極高會被挑戰，CSP開始博弈，但短期仍主導供應鏈。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "專業痴漢，375晶片2025年可能放量，有機會成為殺價工具。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "HBM3E驗證出問題，可能需賠款，但市場之前沒反應。"
+  },
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "主持人已有持股，作為軟體小眼睛的亂槍打鳥標的。"
+  },
+  {
+   "symbol": "ADBE",
+   "name": "Adobe",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "先插旗看看，但對主持人來說太大，不如買微軟或蘋果。"
+  },
+  {
+   "symbol": "ORCL",
+   "name": "Oracle",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "太大，不如買微軟或蘋果。"
+  },
+  {
+   "symbol": "2486",
+   "name": "零壹科技",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "資服代理商，若國外軟體導入台灣，可能第一波受惠。"
+  },
+  {
+   "symbol": "6838",
+   "name": "微創軟體",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "資服代理商，有機會受惠國外軟體落地。"
+  },
+  {
+   "symbol": "6112",
+   "name": "邁達特",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "資服代理商，可能因國外軟體導入而受益。"
+  }
+ ],
+ "quotes": [
+  "硬體的減碼是我最主要的核心，因為已經做了快一兩年，後面開始進入我看不懂的局面。",
+  "毛利極高的地方一定會被挑戰，絕對會被挑戰，大家不可能讓你賺這麼多錢。",
+  "股票買了不賣是可以的，它依然會變成你的金雞母，像大老闆們也不會整天空手。"
+ ],
+ "ep_key": "EP464",
+ "title": "EP464 | 🧈",
+ "pubdate": "2024-06-22",
+ "duration_s": 2998,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

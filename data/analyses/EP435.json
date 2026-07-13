@@ -1,0 +1,95 @@
+{
+ "summary": "主持人分享北歐旅行心得，並指出市場熱度明顯上升，散戶開戶與申購高股息ETF熱絡，提醒注意槓桿與過熱風險。深入分析NVIDIA下一代產品線，從傳統高U數AI伺服器（H100/B100）轉向低U數、水冷為主的GB200架構（Grace CPU+B100 GPU），帶動散熱零件（Cold Plate、Manifold、CDU）市場規模大幅擴張，可能使滑軌與機殼廠商受衝擊。QA環節回應聽眾對特斯拉、川普當選影響、個人理財與生活規劃等提問。",
+ "topics": [
+  "北歐旅行（挪威、瑞典）心得與推薦",
+  "市場過熱跡象與高股息ETF風險",
+  "NVIDIA下一代AI伺服器產品線變化（傳統 vs. GB200）",
+  "水冷散熱技術與供應鏈機會（Cold Plate、Manifold、CDU）",
+  "AI伺服器供應鏈廠商可能受惠與受害方向",
+  "聽眾QA：特斯拉看法、川普當選影響、個人理財與生活規劃"
+ ],
+ "market_view": "市場熱度持續上升，散戶開戶與申購高股息ETF過熱，需注意槓桿比例與潛在回檔風險。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "NVIDIA GB200新架構將帶動水冷散熱需求，但傳統高U數伺服器仍存在，供應鏈可能出現搬風。"
+  },
+  {
+   "name": "散熱",
+   "stance": "看多",
+   "view": "從氣冷轉向水冷，Cold Plate、Manifold、CDU等零件單價大幅提升，整體TAM擴大，帶動散熱股re-rate。"
+  },
+  {
+   "name": "機殼",
+   "stance": "觀察",
+   "view": "若GB200大量採用低U數伺服器，傳統高U數機殼與滑軌需求可能受影響，但部分業者仍有轉型機會。"
+  },
+  {
+   "name": "滑軌",
+   "stance": "觀察",
+   "view": "同機殼產業，低U數伺服器可能使滑軌規格回歸傳統，競爭加劇，需觀察業者應變能力。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "中東資金可能因Sam Altman的7兆美元投資計畫而買進台積電，但主持人未明確表態多空。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "下一代GB200架構（Grace CPU+B100 GPU）將成為主流，推動水冷散熱需求與供應鏈變化。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "近期表現偏軟，但認為可能因Robotaxi、Optimus或FSD訂閱制等題材反彈，目前不建議抄底。"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "market": "US",
+   "stance": "看多",
+   "argument": "海外散熱龍頭，在水冷時代是最大受惠者之一，已取得驗證。"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "氣冷時代贏家，水冷時代也已取得驗證，但需觀察實際訂單。"
+  },
+  {
+   "symbol": "3324",
+   "name": "雙鴻",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "水冷時代已取得驗證，但實際訂單狀況待確認。"
+  },
+  {
+   "symbol": "8996",
+   "name": "高力",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "氣冷時代受惠，水冷時代也已取得驗證。"
+  }
+ ],
+ "quotes": [
+  "一般高股息跟高成長是背離的，最終衡量基礎是含息報酬。",
+  "在AI時代，不要太鐵齒，有些莫名其妙的人站在對的地方，突然就被吹起來了。",
+  "先爽完之後再說，或覺得爽一個階段之後再進入下一個階段（生小孩），因為後悔讓小孩受不好待遇不公平。"
+ ],
+ "ep_key": "EP435",
+ "title": "EP435 | 🌲",
+ "pubdate": "2024-03-13",
+ "duration_s": 2999,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

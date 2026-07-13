@@ -1,0 +1,124 @@
+{
+ "summary": "主持人謝孟恭分析大盤已從齊漲進入個股分化階段，中小型股（羅素2000、台股櫃買）受傷慘重，考驗主動投資人實力。他認為長期投資者應買股不配債，本金大者直接買ETF即可。本集重點討論川普擬禁TikTok並強迫出售給美國公司，主持人判斷微軟最可能接手但會毀掉TikTok，反而對Facebook、Google有利。另提及Garmin遭駭事件對股價影響短暫，Twilio財報佳卻大跌反映短線無須找理由。最後分享Kodak妖股風險、大立光保守展望、蘋果股票拆分等議題。",
+ "topics": [
+  "大盤進入個股分化階段，中小型股表現疲弱",
+  "川普擬禁TikTok並強迫出售，微軟為最可能買家",
+  "Garmin遭俄羅斯勒索軟體攻擊，股價短空長多",
+  "Twilio財報優於預期卻大跌，短線漲跌無須過度解讀",
+  "Kodak因取得政府貸款轉型製藥股價暴漲，屬妖股不宜重押",
+  "大立光技術領先但股價停滯，主因老闆保守展望",
+  "蘋果1:4股票拆分讓更多投資人參與"
+ ],
+ "market_view": "大盤從亂買亂賺轉為個股表現，中小型股已破底，選股難度提高。",
+ "industries": [
+  {
+   "name": "社群媒體",
+   "stance": "觀察",
+   "view": "TikTok若被微軟收購可能失去年輕用戶，對Facebook、Google有利"
+  },
+  {
+   "name": "航運",
+   "stance": "中性",
+   "view": "未明確表態，僅提及Garmin遭駭事件對股價影響短暫"
+  },
+  {
+   "name": "光學鏡頭",
+   "stance": "中性",
+   "view": "大立光技術領先但老闆保守，股價停滯；玉晶光表現較佳"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "Nvidia財報即將公布，預期表現強勁"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "PINS",
+   "name": "Pinterest",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "群組分享後上車，一天漲30幾趴"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "最可能買下TikTok，但老人牌可能毀掉平台"
+  },
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "看多",
+   "argument": "若微軟買TikTok，Facebook可望受惠重返榮耀"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "若微軟買TikTok，Google的YouTube有機會受益"
+  },
+  {
+   "symbol": "GRMN",
+   "name": "Garmin",
+   "market": "US",
+   "stance": "看多",
+   "argument": "遭駭事件造成短線下殺，但中長線影響有限，是介入機會"
+  },
+  {
+   "symbol": "TWLO",
+   "name": "Twilio",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "財報優於預期卻大跌，短線無須找理由"
+  },
+  {
+   "symbol": "KODK",
+   "name": "Kodak",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "妖股暴漲暴跌，不適合大眾投資"
+  },
+  {
+   "symbol": "3008",
+   "name": "大立光",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "技術領先但老闆保守，股價停滯"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "中性",
+   "argument": "1:4股票拆分讓更多人參與"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "與006208類似，長期定期投資可選"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "費用較低、價格較便宜，適合長期定期投資"
+  }
+ ],
+ "quotes": [
+  "短線上你根本不需要去為漲跌去找理由，財報漂亮卻大跌是常態，等一季再看股價終會還公道。",
+  "如果你本金夠大，根本不會選擇主動選股，買ETF跟著市場走就夠了。",
+  "不要去做自己能力不及的東西，想玩妖股丟一股兩股當樂透就好，千萬別all in。"
+ ],
+ "ep_key": "EP58",
+ "title": "EP58 | Tiktok 獎落誰家",
+ "pubdate": "2020-08-01",
+ "duration_s": 2424,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,103 @@
+{
+ "summary": "主持人出國旅遊期間，台股與美股半導體迎來預期中的反彈，目前美股呈現強勁多頭排列，台股則因均線扣抵位置將面臨壓力，需觀察能否緩漲或直接攻堅。產業方面，主持人看好 Marvell 與 AWS 在 Trainium 上的合作，預期其數據將擊敗賣方預期；對 Intel 前執行長的領導風格表達不認同，並建議其拆分晶圓代工部門，甚至點名 Sam Altman 可趁機收購。針對市場傳言微軟砍單 GB200，主持人澄清這是市場先前過度樂觀上修數字後的下修藉口，實際需求依然強勁，但市場預期過高將面臨修正。聽眾問答中，主持人表示不碰中國與越南相關標的，並分享對匯率、選股盲區及生活旅遊的看法。",
+ "topics": [
+  "洛杉磯旅遊生活分享",
+  "台股與美股大盤反彈與技術面壓力",
+  "Marvell 與 AWS 合作展望",
+  "Intel 執行長異動與晶圓代工拆分",
+  "微軟砍單 GB200 傳言與 NVIDIA 預期下修",
+  "中國與越南股市避開操作",
+  "美股出入金與匯率考量"
+ ],
+ "market_view": "美股呈現強勁多頭排列，台股反彈後將面臨月線及季線扣抵壓力，需觀察能否緩漲或直接打上去以證明攻高實力。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "美股半導體強勢跟上反彈，Marvell 與 AWS 合作數據有望擊敗賣方預期。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "市場對 Blackwell 供應鏈預期過度樂觀並開始下修，但實際需求依然強勁且有供需失衡狀態。"
+  },
+  {
+   "name": "晶圓代工",
+   "stance": "觀察",
+   "view": "Intel 應拆分晶圓代工部門，若 Sam Altman 真需大型晶圓廠，直接收購 Intel 是比從零建立更合理的選項。"
+  },
+  {
+   "name": "網通類股",
+   "stance": "觀察",
+   "view": "雖然市場傳聞未來狀況不佳，但仍買入一些中型網通類股等待看得懂的局面出現。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "看多",
+   "argument": "與 AWS 在 Trainium 等產品合作順暢，未來數字有望明顯超越市場共識預期。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "Intel",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "前執行長愛放炮且非真正強者，公司最佳解方是拆分晶圓代工部門，待新老闆上任再觀察。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "市場對下季營收與 Blackwell 供應鏈預期過高，雖然需求強勁但預期下修過程將造成短線衝擊。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "微軟",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "並未砍單 GB200，而是市場自行將數字喊太高後找理由下修，公司本身擴張計畫未變。"
+  },
+  {
+   "symbol": "SOUN",
+   "name": "SoundHound AI",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾詢問的語音辨識軟體股，主持人直言看不懂且認為買這會賠錢。"
+  },
+  {
+   "symbol": "ALAB",
+   "name": "Astera Labs",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "聽眾詢問的 AI Data Center 傳輸晶片公司，主持人認為其風格與 Ayar Labs 相似，掌握特定消息後猛打。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "SMCI",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "公司本質沒問題但會計帳目有爭議，即便知道本質沒問題也不會去抄底。"
+  },
+  {
+   "symbol": "HSI",
+   "name": "恆生指數",
+   "market": "other",
+   "stance": "看空",
+   "argument": "人治社會且打擊資本家，即便跌深也不會去抄底，現在有更好的選擇。"
+  }
+ ],
+ "quotes": [
+  "強者真的沒有空去屌弱者，整天去踩別人公司的老闆一般都不是真正的強者。",
+  "市場先把數字喊得震天高，後面再慢慢下修甚至 overshoot，實際上故事一直都沒有改變，這就是做股票的宿命。",
+  "絕大多數我們後悔的事情，不是我們做過的事情，而是我們沒有做的事情。"
+ ],
+ "ep_key": "EP511",
+ "title": "EP511 | 🍸",
+ "pubdate": "2024-12-04",
+ "duration_s": 2986,
+ "analysis_source": "text/whatmkreallysaid"
+}

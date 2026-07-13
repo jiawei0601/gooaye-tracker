@@ -1,0 +1,135 @@
+{
+ "summary": "本集主要討論台灣0403大地震對半導體與記憶體產業的影響，主持人認為地震對晶圓廠影響可控，但記憶體廠（如美光）可能藉機拉抬報價。美股方面，主持人分析近期下跌主因來自地緣政治（北約擴張）與聯準會官員鷹派談話，但強調應專注公司長期故事。重點關注機器人題材（輝達GR00T、特斯拉Optimus），認為2024下半年至2025年將發酵。主持人分享近期操作：減碼Dell、HPE、記憶體股，轉向輝達供應鏈（Vertiv、Fabrinet、Amphenol）並考慮加碼特斯拉，看好FSD訂閱與機器人前景。",
+ "topics": [
+  "台灣0403大地震對半導體與記憶體產業的影響",
+  "美股近期下跌原因（地緣政治、聯準會鷹派）",
+  "機器人題材（輝達GR00T、特斯拉Optimus）與台股概念股",
+  "特斯拉FSD V12表現與訂閱制策略",
+  "主持人操作策略：減碼OEM/記憶體，轉向輝達供應鏈與特斯拉",
+  "投資心法：專注長期故事、眼見為憑、機會成本考量"
+ ],
+ "market_view": "市場偏貴，期待回檔以便加碼，但需留意短線震盪與地緣政治風險。",
+ "industries": [
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "地震導致產線受損，美光暫停報價，合約價格有望上漲。"
+  },
+  {
+   "name": "半導體先進製程",
+   "stance": "中性",
+   "view": "地震影響可控，保險cover，短線供需微幅擾動。"
+  },
+  {
+   "name": "面板",
+   "stance": "中性",
+   "view": "地震影響極小。"
+  },
+  {
+   "name": "機器人",
+   "stance": "看多",
+   "view": "輝達與特斯拉帶動，2024下半年至2025年將正式發酵。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "輝達供應鏈仍強，但競爭加劇，需留意價格變化。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "FSD V12評價正面，訂閱制可望帶來高毛利收入；機器人Optimus為長期催化劑。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI需求強勁，但股價已高，觀察後續動能。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "地震後暫停報價，合約價可能上漲，但短線已反應。"
+  },
+  {
+   "symbol": "DELL",
+   "name": "戴爾",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "已減碼作為資金來源。"
+  },
+  {
+   "symbol": "HPE",
+   "name": "慧與科技",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "已減碼作為資金來源。"
+  },
+  {
+   "symbol": "STX",
+   "name": "希捷",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "已減碼作為資金來源。"
+  },
+  {
+   "symbol": "WDC",
+   "name": "威騰電子",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "已減碼作為資金來源。"
+  },
+  {
+   "symbol": "VRT",
+   "name": "Vertiv",
+   "market": "US",
+   "stance": "看多",
+   "argument": "輝達供應鏈，產品拆解後看好。"
+  },
+  {
+   "symbol": "FN",
+   "name": "Fabrinet",
+   "market": "US",
+   "stance": "看多",
+   "argument": "光纖通訊，輝達供應鏈。"
+  },
+  {
+   "symbol": "APH",
+   "name": "Amphenol",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Co-packaged optics與LPCAMM socket，輝達供應鏈。"
+  },
+  {
+   "symbol": "2359",
+   "name": "所羅門",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "輝達GR00T發表會曝光，機器人視覺方案題材，但貢獻未知。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "IP股波動大，不適合新手。"
+  }
+ ],
+ "quotes": [
+  "有時候不要只看點，要看線跟面。",
+  "很多人在寫的時候反而是我們會開始擔心的時候。",
+  "錢可以解決超多問題，只是錢不能解決所有問題。"
+ ],
+ "ep_key": "EP442",
+ "title": "EP442 | 🤞🏻",
+ "pubdate": "2024-04-06",
+ "duration_s": 2992,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,107 @@
+{
+ "summary": "主持人謝孟恭討論台灣清零政策與疫苗共存思維，批評過度焦慮的社會氛圍，並延伸至投資心態。他分享美股券商注意事項（SIPC保護、帳戶閒置風險），以及居高思危時的資金配置策略，包括使用SPAC、大盤ETF、股債配置ETF（如AOA）或低Beta個股（如微軟）作為暫時現金替代。QA環節回應外匯看法（美元看升）、GME/AMC事件（非陰謀論）、定期定額鈍化迷思、Rivian估值過高但可小額參與，以及eToro平台風險。",
+ "topics": [
+  "清零政策與疫苗共存思維",
+  "投資心態與焦慮管理",
+  "美股券商帳戶安全與閒置風險",
+  "居高思危的資金配置策略",
+  "外匯市場與美元走勢",
+  "GME/AMC軋空事件解析",
+  "定期定額投資的鈍化迷思",
+  "Rivian電動車公司估值分析",
+  "eToro平台風險與長期投資"
+ ],
+ "market_view": "主持人認為美股持續走高但需居高思危，建議透過股債配置或低波動工具保護部位，而非持有大量現金。",
+ "industries": [
+  {
+   "name": "電動車",
+   "stance": "觀察",
+   "view": "看好供應鏈與成熟公司，對新品牌如Rivian估值過高持保留態度，僅小額參與。"
+  },
+  {
+   "name": "半導體",
+   "stance": "中性",
+   "view": "終端需求（NB/PC）出現減緩，可能向上游傳導，但未明確表態。"
+  },
+  {
+   "name": "面板",
+   "stance": "看空",
+   "view": "較早警告終端需求減緩。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "VTI",
+   "name": "Vanguard Total Stock Market ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "可作為現金替代部位，避免錯過大盤漲幅。"
+  },
+  {
+   "symbol": "VOO",
+   "name": "Vanguard S&P 500 ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "同VTI，適合風險耐受度較高的投資人。"
+  },
+  {
+   "symbol": "AOA",
+   "name": "iShares Core Aggressive Allocation ETF",
+   "market": "US",
+   "stance": "看多",
+   "argument": "全球股債配置，下檔保護較強，適合當現金替代。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft Corporation",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Beta小於一，波動較低，可作為暫時現金託管標的。"
+  },
+  {
+   "symbol": "RIVN",
+   "name": "Rivian Automotive Inc.",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "估值已達2019年特斯拉水準，但尚未量產，僅小額參與氣氛。"
+  },
+  {
+   "symbol": "GME",
+   "name": "GameStop Corp.",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "認為是機構對決，非陰謀論，主持人未明確表態。"
+  },
+  {
+   "symbol": "AMC",
+   "name": "AMC Entertainment Holdings Inc.",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "同GME，主持人未明確表態。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣卓越50基金",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "定期定額無鈍化問題，應視為獨立事件。"
+  },
+  {
+   "symbol": "006208",
+   "name": "富邦台50基金",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "同0050，適合長期定期定額。"
+  }
+ ],
+ "quotes": [
+  "焦慮是一個最糟糕的情緒，焦慮不會為你帶來任何好處，因為最終你還是要解決問題。",
+  "減碼之後下個問題是，那你要加碼什麼？你這個錢下一步是什麼？而不是說我減碼了，然後就退休了。",
+  "本金小的人，要把本金往上拉，最快的方式真的就是直接去打工。"
+ ],
+ "ep_key": "EP172",
+ "title": "EP172 | 借停一下",
+ "pubdate": "2021-09-04",
+ "duration_s": 2485,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,175 @@
+{
+ "summary": "主持人回顧2023上半年市場走勢，指出年初普遍預期盤整但AI爆發帶動驚人漲幅，強調不要預設立場、避免空手。深入分析AI伺服器供應鏈，釐清鴻海搶單傳言實為打板而非組裝，重申緯創仍為系統出貨贏家。討論嘉澤因H100無socket跌停屬過度反應，信驊BMC晶片在GPU伺服器用量未必減少，美光HBM尚未打入H100與MI300。提醒AI長多趨勢中仍有回檔風險，市場已進入估值炒作階段，建議做好資金配置。",
+ "topics": [
+  "市場回顧與心態：年初預期盤整卻大漲，AI從半信半疑到全面認同",
+  "AI伺服器供應鏈解析：鴻海搶單傳言釐清、緯創角色、打板與系統組裝差異",
+  "個股討論：嘉澤(3533)跌停過度反應、信驊BMC、美光HBM進度",
+  "網通與交換器：博通與Marvell展望、CPO技術尚遠",
+  "ASIC趨勢：特斯拉Dojo明年第一季放量，博通仍看好通用GPU",
+  "投資策略：再平衡、定期定額個股風險、退休提領規劃"
+ ],
+ "market_view": "市場已從AI半信半疑轉為全面認同，進入估值炒作階段，長多趨勢中須注意回檔風險。",
+ "industries": [
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "長多趨勢明確，但短期已進入估值炒作，回檔風險增加。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "AI帶動GPU與先進封裝需求，台積電CoWoS擴產待觀察。"
+  },
+  {
+   "name": "網通交換器",
+   "stance": "看多",
+   "view": "博通與Marvell受惠AI，光收發模組與光纖需求同步成長。"
+  },
+  {
+   "name": "遊戲",
+   "stance": "觀察",
+   "view": "暑假題材影響有限，博弈遊戲主要客層為35-54歲。"
+  },
+  {
+   "name": "散熱",
+   "stance": "觀察",
+   "view": "液冷與浸沒式技術先進但短期不會大量採用。"
+  },
+  {
+   "name": "光電共封裝(CPO)",
+   "stance": "觀察",
+   "view": "技術先進，最快2024年底至2025年才開始看到，放量需更久。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI GPU龍頭，H100需求強勁，但估值已高，回檔風險需注意。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI營收占比可達25%，網通交換器受惠AI趨勢。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "看多",
+   "argument": "與博通同為網通交換器受惠者，AI貢獻顯著。"
+  },
+  {
+   "symbol": "AMZN",
+   "name": "亞馬遜",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "長期看好權值股，但定期定額需注意汰弱留強。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "長期看好權值股，但定期定額需注意汰弱留強。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Dojo ASIC明年第一季放量，但短期仍依賴輝達。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "谷歌",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "長期看好權值股，但定期定額需注意汰弱留強。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "長期看好權值股，但定期定額需注意汰弱留強。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "HBM尚未打入H100與MI300，預期不符可能降低曝險。"
+  },
+  {
+   "symbol": "2317",
+   "name": "鴻海",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "傳言搶下H100打板九成單，但系統組裝仍以緯創為主。"
+  },
+  {
+   "symbol": "3231",
+   "name": "緯創",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "AI伺服器系統出貨最大贏家，不受打板搶單影響。"
+  },
+  {
+   "symbol": "3533",
+   "name": "嘉澤",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "H100無socket為已知，跌停屬過度反應，MI300有機會。"
+  },
+  {
+   "symbol": "5274",
+   "name": "信驊",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "BMC晶片在GPU伺服器用量未必減少，影響待釐清。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "CoWoS擴產狀況待6/26法說會釐清。"
+  },
+  {
+   "symbol": "3293",
+   "name": "鈊象",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "遊戲股，暑假題材影響有限。"
+  },
+  {
+   "symbol": "6180",
+   "name": "橘子",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "遊戲股，將切入博弈相關，暑假題材帶動。"
+  },
+  {
+   "symbol": "6235",
+   "name": "華孚",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "經典飆股，等待馬鞍山產能開出。"
+  }
+ ],
+ "quotes": [
+  "在半信半疑之間，那是市場最容易海撈到錢的地方。",
+  "不要整天想要空手，因為市場總是會給你一個Surprise。",
+  "不花錢的是最貴的，花錢排解慾望反而比較安全。"
+ ],
+ "ep_key": "EP354",
+ "title": "EP354 | 🦪",
+ "pubdate": "2023-06-03",
+ "duration_s": 3084,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

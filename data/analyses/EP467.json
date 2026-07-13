@@ -1,0 +1,74 @@
+{
+ "summary": "主持人分享《活俠傳》遊戲體驗，強調台灣團隊值得支持，並批評社群刻薄文化。市場方面，特斯拉大漲10%後，認為股價驅動來自Robotaxi等未來夢想而非交車數據，看好FSD拐點與2026年量產。車用庫存改善但復甦需待降息，已提前布局。伺服器方面，傳統伺服器復甦但AI伺服器才是估值關鍵，儲存伺服器可關注。提醒比較心態是地獄捷徑，建議專注自身進步。",
+ "topics": [
+  "《活俠傳》遊戲體驗與台灣團隊支持",
+  "特斯拉大漲與Robotaxi夢想驅動股價",
+  "車用庫存改善與降息後復甦預期",
+  "傳統伺服器復甦但AI伺服器為估值核心",
+  "儲存伺服器與HBM排擠效應的潛在機會",
+  "比較心態與投資心理建議"
+ ],
+ "market_view": "市場多頭故事仍多，但需提前布局景氣週期，特斯拉表態可能帶動車用提早復甦。",
+ "industries": [
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "庫存改善且FSD拐點出現，Robotaxi量產將帶動長期成長。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "估值核心在AI，傳統伺服器復甦但非主要驅動力。"
+  },
+  {
+   "name": "儲存伺服器",
+   "stance": "觀察",
+   "view": "HBM排擠可能導致DDR4/3供不應求，關注Pure Storage等。"
+  },
+  {
+   "name": "半導體設備",
+   "stance": "觀察",
+   "view": "已提早漲，9月半導體展劇本需調整。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "Robotaxi夢想驅動股價，FSD拐點出現，2026年量產前需注意短線波動。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "HBM為估值關鍵，DRAM/NAND報價上漲但非核心。"
+  },
+  {
+   "symbol": "PSTG",
+   "name": "Pure Storage",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "儲存伺服器需求可能受惠HBM排擠效應。"
+  },
+  {
+   "symbol": "NTAP",
+   "name": "NetApp",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "同為儲存伺服器潛在受惠者。"
+  }
+ ],
+ "quotes": [
+  "比較是通往地獄的捷徑，要跟昨天的自己比，不要跟別人比。",
+  "股價一漲，故事就會自己寫出來；重點是後面的夢，不是當下的數字。",
+  "第一代白手起家很難，但把資源傳給下一代，小朋友就會輕鬆一點。"
+ ],
+ "ep_key": "EP467",
+ "title": "EP467 | 🐟",
+ "pubdate": "2024-07-03",
+ "duration_s": 3123,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

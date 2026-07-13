@@ -1,0 +1,166 @@
+{
+ "summary": "主持人分享新加坡旅遊心得，強調樟宜機場即可滿足食宿玩樂。市場方面，認為股市漲勢過於舒適，需警惕修正。他計劃在修正時調整持股，從AI伺服器轉向記憶體、消費性電子（特別是手機射頻與CIS）及車用。總經上，提醒降息未必是利多，可能隱含經濟問題。他看好記憶體（HBM、NAND、DRAM）漲價趨勢，並關注電動車品牌（如Tesla）及受利率壓抑的小型股。",
+ "topics": [
+  "新加坡旅遊建議",
+  "股市修正風險與策略調整",
+  "記憶體（HBM、NAND、DRAM）供需與漲價",
+  "消費性電子（手機射頻、CIS）基期遊戲",
+  "車用與電動車（Tesla Cybertruck）展望",
+  "降息預期與市場陷阱",
+  "小型股與受利率壓抑資產",
+  "IDM整併rumor與Intel spin-off"
+ ],
+ "market_view": "市場漲勢過於舒適，需警惕修正，但不會預測時間點，等眼見為憑。",
+ "industries": [
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "HBM持續短缺，NAND與DRAM漲價趨勢明確，明年第一季續漲，是佈局重點。"
+  },
+  {
+   "name": "射頻",
+   "stance": "觀察",
+   "view": "過去表現極差，明年可望因基期遊戲出現虧轉盈題材，資金可能流入。"
+  },
+  {
+   "name": "CIS",
+   "stance": "觀察",
+   "view": "與射頻類似，處於打底階段，有望受惠基期遊戲。"
+  },
+  {
+   "name": "消費性電子",
+   "stance": "中性",
+   "view": "PC/NB偏弱，手機剛復甦，避開筆電與電視，但手機射頻與CIS可留意。"
+  },
+  {
+   "name": "車用",
+   "stance": "看多",
+   "view": "若降息且經濟未爆，車用將明顯受惠，可先卡位品牌再轉零組件。"
+  },
+  {
+   "name": "電動車",
+   "stance": "看多",
+   "view": "Tesla Cybertruck推出，搭配Model Y改款，有望在降息背景下帶動銷量。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "中性",
+   "view": "已從輝達系轉向AMD系，台股ODM與散熱已出清，轉向其他族群。"
+  },
+  {
+   "name": "IDM",
+   "stance": "觀察",
+   "view": "海外IDM有整併rumor，Intel可能spin-off，先觀察品牌端拉貨再介入。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "NVDA",
+   "name": "輝達",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "美股AI持股已大量從輝達系轉向AMD系。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "超微",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "市場rumor轉向AMD系，是少數仍在右側交易的動能股。"
+  },
+  {
+   "symbol": "SMCI",
+   "name": "Super Micro",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "已從輝達系轉出。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "看多",
+   "argument": "HBM產量明年可達300-500萬顆，記憶體漲價趨勢明確。"
+  },
+  {
+   "symbol": "000660",
+   "name": "SK海力士",
+   "market": "KR",
+   "stance": "看多",
+   "argument": "HBM獨供地位，明年產量應遠高於公開數字。"
+  },
+  {
+   "symbol": "3105",
+   "name": "穩懋",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "射頻PA族群中最強，稼動率仍不佳但有望打底。"
+  },
+  {
+   "symbol": "8086",
+   "name": "宏捷科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "二廠重啟，稼動率回升，射頻族群有望復甦。"
+  },
+  {
+   "symbol": "4968",
+   "name": "立積",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "射頻相關，主持人表示會稍微關注。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Cybertruck推出，訂單量大，搭配降息有望帶動銷量。"
+  },
+  {
+   "symbol": "IWM",
+   "name": "iShares羅素2000 ETF",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "作為參與小型股的工具，受惠降息預期。"
+  },
+  {
+   "symbol": "CFLT",
+   "name": "Confluent",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "勉強算小型股，但非純小型股。"
+  },
+  {
+   "symbol": "PSTG",
+   "name": "Pure Storage",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "過去一段時間買入，勉強算小型股。"
+  },
+  {
+   "symbol": "NTAP",
+   "name": "NetApp",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "勉強算小型股，但非純小型股。"
+  },
+  {
+   "symbol": "INTC",
+   "name": "英特爾",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "可能spin-off，明年第一季有後續發展。"
+  }
+ ],
+ "quotes": [
+  "升息代表經濟好，降息可能隱含東西要爆炸，不要直覺認為降息就是利多。",
+  "永遠要給自己留餘裕，不要精算到極限，因為意外總是想不到。",
+  "去找那種大家都說很爛、但其實沒有那麼爛的股票，預期差距就是獲利來源。"
+ ],
+ "ep_key": "EP406",
+ "title": "EP406 | 🦀",
+ "pubdate": "2023-12-02",
+ "duration_s": 3017,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

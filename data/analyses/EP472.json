@@ -1,0 +1,117 @@
+{
+ "summary": "本集主要討論2024年7月市場回檔與CrowdStrike大當機事件。主持人認為回檔屬健康修正，但警告散戶槓桿過高風險，建議降槓桿保部位。對台積電法說持正面看法，認為EPS上修至50元、PE約20倍不算貴，但短期不再加碼。AI硬體H100庫存開始堆積，留意轉單至B100的影響。Apple iPhone因AI功能加單，預估出貨約8700萬台。CrowdStrike事件雖是買點但需觀察微軟趁機搶市。整體偏多但保留現金等待反彈確認。",
+ "topics": [
+  "CrowdStrike大當機事件分析與資安產業影響",
+  "台積電法說重點：EPS上修、Capex保守、先進封裝動能強",
+  "市場回檔與散戶槓桿風險警告",
+  "AI硬體H100庫存堆積與轉單至B100的觀察",
+  "Apple iPhone因AI功能加單，出貨預估8700萬台",
+  "財富效應與消費可能因股市修正而惡性循環",
+  "個人投資心態：直上消費破壞體驗、模型公仔收藏心得"
+ ],
+ "market_view": "短期先反彈但需觀察反彈強度，整體偏多但保留現金等待確認，不認為會全面崩盤。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "台積電先進封裝CoWoS/SoIC供不應求，設備商持續受惠但需注意景氣循環風險。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "H100庫存開始堆積，留意轉單至B100的影響，硬體股可能面臨修正。"
+  },
+  {
+   "name": "資安軟體",
+   "stance": "觀察",
+   "view": "CrowdStrike事件後需觀察微軟是否趁機搶市，以及客戶是否轉向地端備援方案。"
+  },
+  {
+   "name": "手機",
+   "stance": "看多",
+   "view": "iPhone因AI功能加單，出貨預估8700萬台，優於年初預期。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "CRWD",
+   "name": "CrowdStrike",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "長期雲端端點防護龍頭，但事件後需觀察賠償與微軟競爭，已小量加碼但暫不重押。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "EPS上修至50元，PE約20倍不算貴，但短期不再加碼，長期看好先進封裝動能。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "Apple",
+   "market": "US",
+   "stance": "看多",
+   "argument": "AI功能帶動換機，出貨預估8700萬台，優於年初悲觀預期。"
+  },
+  {
+   "symbol": "MSFT",
+   "name": "Microsoft",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "資安業務成長快，可能趁CrowdStrike事件搶市。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "H100庫存堆積，需觀察轉單至B100的影響。"
+  },
+  {
+   "symbol": "AMD",
+   "name": "AMD",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "估值一度高於NVIDIA，需注意AI硬體轉換風險。"
+  },
+  {
+   "symbol": "ARM",
+   "name": "Arm",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "目前市場最貴的AI相關股票，需留意估值修正。"
+  },
+  {
+   "symbol": "CFLT",
+   "name": "Confluent",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "本波有下跌，但屬軟體股，相對硬體抗跌。"
+  },
+  {
+   "symbol": "DDOG",
+   "name": "Datadog",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "本波上漲，抵消部分軟體股跌幅。"
+  },
+  {
+   "symbol": "S",
+   "name": "SentinelOne",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "本波小跌，但非CrowdStrike直接競爭對手。"
+  }
+ ],
+ "quotes": [
+  "停損的話可能會痛，但這個痛是好事，至少你還有得痛。如果說你不停損的話，你搞不好就會直接爆炸，下次你要停損也沒有機會了。",
+  "科學的盡頭就是玄學，努力到某個極限之後，只好求神拜佛。",
+  "買大盤，你贏過平均值，等於你贏過絕大多數的人。大盤絕對是一個可敬的對手，不是什麼沒有夢想的人跑去買大盤。"
+ ],
+ "ep_key": "EP472",
+ "title": "EP472 | 🦏",
+ "pubdate": "2024-07-20",
+ "duration_s": 3087,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,111 @@
+{
+ "summary": "主持人回顧過去兩三週的市場動盪與個人健康挑戰，已完成大規模部位調整，將期貨與槓桿ETF獲利了結轉入現股，目前槓桿1.57倍為今年最高。他認為本波修正主因是日圓carry trade平倉連鎖反應，但日央喊話暫緩後風險未完全解除。總經面觀察到AI貧富差距擴大，非AI產業復甦延後至2025，但庫存與需求未崩壞，因此維持偏多持倉。針對美國大選，分析Kamala Harris政策對製藥、食品業的價格管制風險，以及對 affordable housing 的撒錢機會，強調無論誰當選都不應退出美股。",
+ "topics": [
+  "日圓carry trade平倉引發的市場波動與後續風險",
+  "AI產業與非AI產業的貧富差距（L型復甦）",
+  "美國大選：Kamala Harris政策對產業的影響（價格管制 vs 撒錢）",
+  "個人投資組合調整：從期貨/槓桿ETF轉入現股，維持高槓桿",
+  "對市場修正的態度：不為下跌強找理由，專注基本面",
+  "合作投資的風險與個人原則",
+  "伴侶溝通與生活雜事的平衡"
+ ],
+ "market_view": "市場短期波動已告一段落，但日圓政策與地緣政治風險仍在，整體偏多但需控制槓桿。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "AI相關半導體仍為市場主力，修正後有機會繼續走升。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "觀察",
+   "view": "硬體股反彈但未全面轉強，廣達相對強、緯穎相對弱，需觀察主流是否浮現。"
+  },
+  {
+   "name": "製藥",
+   "stance": "看空",
+   "view": "Kamala Harris的價格管制政策將直接壓抑獲利。"
+  },
+  {
+   "name": "食品",
+   "stance": "看空",
+   "view": "同樣面臨價格管制風險，毛利可能受擠壓。"
+  },
+  {
+   "name": "住宅營建",
+   "stance": "看多",
+   "view": "Harris投入 affordable housing 預算，相關公司可望受惠。"
+  },
+  {
+   "name": "軟體",
+   "stance": "觀察",
+   "view": "個股表現分歧，Confluent偏弱、Palantir強勢，無明確主流。"
+  },
+  {
+   "name": "矽晶圓",
+   "stance": "中性",
+   "view": "環球晶/中美晶預期復甦延至2025，目前L型底部。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "CFLT",
+   "name": "Confluent",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "表現相對弱勢，但主持人仍持有。"
+  },
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "股價直接噴出，表現強勢。"
+  },
+  {
+   "symbol": "2382",
+   "name": "廣達",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "AI伺服器指標股，反彈相對強。"
+  },
+  {
+   "symbol": "6669",
+   "name": "緯穎",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "AI伺服器指標股，反彈相對弱。"
+  },
+  {
+   "symbol": "6488",
+   "name": "環球晶",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "復甦預期延後至2025，目前L型。"
+  },
+  {
+   "symbol": "5483",
+   "name": "中美晶",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "與環球晶同集團，看法一致。"
+  },
+  {
+   "symbol": "3218",
+   "name": "大學光",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "基本面財報不錯但股價下跌，可能與海外市場衰退有關，主持人未明確表態。"
+  }
+ ],
+ "quotes": [
+  "不要為了符合敘事而強說愁，看到跌就一定要找理由，有時候只是市場自然運作。",
+  "槓桿是雙面刃，控制槓桿比例比預測漲跌更重要。",
+  "無論美國誰當選，中長期美股都會回到成長軌跡，不要因政治偏好退出市場。"
+ ],
+ "ep_key": "EP480",
+ "title": "EP480 | 🎨",
+ "pubdate": "2024-08-17",
+ "duration_s": 3065,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

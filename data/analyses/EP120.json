@@ -1,0 +1,153 @@
+{
+ "summary": "本集討論市場兩極化現象，美股與中國科技股修正，但台股相對強勢。主持人強調去槓桿的重要性，並以去年3月經驗提醒聽眾注意風險。他分析ARK基金與波克夏的績效差異，指出ARK波動大但長期仍勝出，並批評Chamath Palihapitiya在GME事件中的行為。他重申投資紀律，建議七成被動、三成主動配置，並提醒高股息ETF績效不如大盤。最後以「This too shall pass」鼓勵聽眾在修正中調整心態與配置。",
+ "topics": [
+  "市場兩極化：美股修正 vs 台股強勢",
+  "去槓桿與風險管理",
+  "ARK基金 vs 波克夏績效比較",
+  "Chamath Palihapitiya與SPAC風險",
+  "投資紀律與配置建議",
+  "高股息ETF的缺點",
+  "郵輪股與博弈股的風險分析"
+ ],
+ "market_view": "美股高估值科技股修正，但大盤跌幅有限，台股相對強勢但需警惕跟跌風險。",
+ "industries": [
+  {
+   "name": "半導體",
+   "stance": "觀察",
+   "view": "台積電震盪但台股整體強勢，PCB族群因iPhone布局而上漲。"
+  },
+  {
+   "name": "PCB",
+   "stance": "看多",
+   "view": "因iPhone新一代設計布局，PCB族群整體上漲。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "觀察",
+   "view": "報價上漲帶動股價噴出，但主持人未明確表態。"
+  },
+  {
+   "name": "破壞式創新",
+   "stance": "觀察",
+   "view": "ARK相關高估值科技股大幅修正，但長期績效仍佳。"
+  },
+  {
+   "name": "廣告科技",
+   "stance": "看空",
+   "view": "Google與Apple政策改變，影響精準廣告投放，相關公司如The Trade Desk、Magnite下修。"
+  },
+  {
+   "name": "博弈",
+   "stance": "觀察",
+   "view": "新象獲利佳但未來展望保守，股價暴跌。"
+  },
+  {
+   "name": "郵輪",
+   "stance": "看空",
+   "view": "疫情風險高，上檔有限下檔損失大，建議避開。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "震盪但台股整體強勢，護國神山地位不變。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "高估值科技股，獲利回吐但長期看好。"
+  },
+  {
+   "symbol": "SQ",
+   "name": "Square",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "高估值科技股，獲利回吐但長期看好。"
+  },
+  {
+   "symbol": "ARKK",
+   "name": "ARK Innovation ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "波動大但長期績效勝過波克夏與三倍做多NASDAQ，需注意流動性風險。"
+  },
+  {
+   "symbol": "BRK.B",
+   "name": "波克夏海瑟威",
+   "market": "US",
+   "stance": "中性",
+   "argument": "績效穩定，適合保守投資人，但長期可能打不贏大盤。"
+  },
+  {
+   "symbol": "TQQQ",
+   "name": "ProShares三倍做多納斯達克指數ETF",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "三倍槓桿ETF，波動極大，不適合長期持有。"
+  },
+  {
+   "symbol": "SPCE",
+   "name": "Virgin Galactic",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Chamath相關SPAC，股價從高點大幅下跌。"
+  },
+  {
+   "symbol": "OPEN",
+   "name": "Opendoor Technologies",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Chamath相關SPAC，房地產相關，股價一日暴跌。"
+  },
+  {
+   "symbol": "CLOV",
+   "name": "Clover Health Investments",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Chamath相關SPAC，股價持續下跌。"
+  },
+  {
+   "symbol": "FB",
+   "name": "Facebook",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Chamath放空臉書，因廣告政策受影響。"
+  },
+  {
+   "symbol": "CCL",
+   "name": "嘉年華郵輪",
+   "market": "US",
+   "stance": "看空",
+   "argument": "疫情風險高，上檔有限下檔損失大，建議避開。"
+  },
+  {
+   "symbol": "00878",
+   "name": "國泰永續高股息ETF",
+   "market": "TW",
+   "stance": "看空",
+   "argument": "高股息ETF績效不如大盤市值ETF，股息左手配右手。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50 ETF",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "樸實無華且枯燥的大盤市值ETF，長期績效優於高股息。"
+  }
+ ],
+ "quotes": [
+  "投資的核心是買未來的現金流，不是買過去；財報只是驗證，業績指引才是關鍵。",
+  "This too shall pass，所有東西回頭看都是雲淡風輕。",
+  "你不可能每一次都無套，然後之後不會有小孩，你最後就會中獎。"
+ ],
+ "ep_key": "EP120",
+ "title": "EP120 | this too shall pass",
+ "pubdate": "2021-03-06",
+ "duration_s": 2686,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

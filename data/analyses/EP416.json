@@ -1,0 +1,114 @@
+{
+ "summary": "主持人謝孟恭認為2024是半導體復甦年，晶圓代工稼動率將從六、七成拉至八、九成，偏向多方思維。重點討論ASIC產業鏈，點出創意(Alchip)在CoWoS投片的重要性高於世芯(GUC)，並看好Marvell在AWS Trainium 2的成長潛力。也提及Vision Pro供應鏈的copycat效應、特斯拉FSD的體驗問題與AI版圖的彎道超車機會。QA環節分享小鬼股選股邏輯（市值<30億、跑道長、老闆訪談），並對車用半導體(ON、Wolfspeed)表達觀察立場。",
+ "topics": [
+  "2024半導體復甦與晶圓代工稼動率展望",
+  "ASIC產業鏈分析：創意、世芯、Marvell、博通",
+  "Vision Pro出貨預估與copycat效應",
+  "特斯拉FSD體驗與AI彎道超車機會",
+  "小鬼股選股策略：市值、跑道、老闆訪談",
+  "車用半導體(ON、Wolfspeed)現況與展望"
+ ],
+ "market_view": "2024偏向多方思維，半導體復甦年，但需留意高利率風險。",
+ "industries": [
+  {
+   "name": "半導體(晶圓代工)",
+   "stance": "看多",
+   "view": "稼動率將從六、七成拉至八、九成，2025有望回到滿載。"
+  },
+  {
+   "name": "ASIC",
+   "stance": "看多",
+   "view": "ASIC在AI應用持續有機會，創意、世芯、Marvell、博通皆為重要玩家。"
+  },
+  {
+   "name": "MR/VR",
+   "stance": "觀察",
+   "view": "Vision Pro出貨預估70萬台，平價版將帶動copycat效應，供應鏈有營收上修故事。"
+  },
+  {
+   "name": "電動車",
+   "stance": "觀察",
+   "view": "特斯拉交車略低預期，但Cybertruck放量與FSD/AI進展是未來關鍵。"
+  },
+  {
+   "name": "車用半導體",
+   "stance": "觀察",
+   "view": "車用半導體修正較慢，復甦也較慢，但今年有望好轉，ON較穩健，Wolfspeed偏成長股。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "ASIC領域有機會拿下Google等客戶訂單，為喜歡的IC設計公司之一。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "博通",
+   "market": "US",
+   "stance": "看多",
+   "argument": "TPU系列從一代到六代確定為其生意，Meta MTIA晶片合作夥伴。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AWS Trainium 2五奈米晶片將有顯著量能，CoWoS投片成長率最高，但股價尚未反應。"
+  },
+  {
+   "symbol": "3661",
+   "name": "世芯-KY",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "做較多中小型客戶，有Nvidia Go-A、阿里巴巴平頭哥、Microsoft Athena等合作，但Habana Gaudi受中國封殺影響待觀察。"
+  },
+  {
+   "symbol": "3443",
+   "name": "創意",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "在CoWoS投片為重要客戶，AWS Inferentia、Meta、Sony、Tesla資料中心晶片等客戶使其AI佔比高。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "直接受惠於ASIC與AI晶片投片，Graviton、DoJo、FSD HW 5.0等皆在台積電生產。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "交車略低預期，但Cybertruck放量與FSD/AI進展是未來關鍵，FSD體驗有改進空間。"
+  },
+  {
+   "symbol": "ON",
+   "name": "安森美",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "車用半導體穩健，有被併購八卦，位階與展望有機會。"
+  },
+  {
+   "symbol": "WOLF",
+   "name": "Wolfspeed",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "技術領先但財務狀況不佳，偏向成長股角色，僅適合賭爆擊。"
+  }
+ ],
+ "quotes": [
+  "有時候成長性最好的東西，它本身就是一個防禦性類股，它其實是跌不下來的。",
+  "AI版圖不一定已定，如果領先者變得太聰明、想太多，反而可能被後進者彎道超車。",
+  "研究小鬼股時，老闆的訪談內容與態度是重要指標，因為你是在相信這個人。"
+ ],
+ "ep_key": "EP416",
+ "title": "EP416 | 🦜",
+ "pubdate": "2024-01-06",
+ "duration_s": 3208,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

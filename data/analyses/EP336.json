@@ -1,0 +1,116 @@
+{
+ "summary": "本集主持人分享在羅馬遭扒手經驗，並藉台端踩雷奧峰基金事件，強烈警示聽眾遠離高配息老鼠會與任何代操，強調錢要自己管。隨後剖析美光財報，確認半導體底部已到，AI伺服器將帶動記憶體與供應鏈升級。他回顧第一季操作，加碼NVIDIA、Broadcom等半導體股，減碼Square，並預告第二季可能關注原物料與散裝航運的重建題材。最後回應聽眾QA，討論戰爭應變、拒絕推銷等話題。",
+ "topics": [
+  "歐洲防扒與詐騙手法分享",
+  "台端踩雷奧峰基金與高配息陷阱警示",
+  "美光財報解析與半導體底部確認",
+  "AI伺服器對記憶體與台系供應鏈的影響",
+  "第一季操作回顧與第二季布局方向",
+  "聽眾QA：戰爭應變、拒絕推銷、特斯拉儲能"
+ ],
+ "market_view": "半導體底部已到，但復甦強度待觀察，通膨環境會讓指數墊高，不易回到前低。",
+ "industries": [
+  {
+   "name": "記憶體",
+   "stance": "看多",
+   "view": "美光財報確認底部，Data Center已觸底，AI應用將帶動HBM與DRAM需求。"
+  },
+  {
+   "name": "AI伺服器",
+   "stance": "看多",
+   "view": "AI伺服器用料規格提升，對PCB、電源、散熱等台系供應鏈有利。"
+  },
+  {
+   "name": "連接器",
+   "stance": "觀察",
+   "view": "台端因踩雷奧峰基金認列巨虧，本業已不行，可能走向下市。"
+  },
+  {
+   "name": "原物料",
+   "stance": "觀察",
+   "view": "烏俄重建、土耳其地震、中美基建可能帶動原物料與散裝航運機會。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "看多",
+   "argument": "財報顯示底部已到，Data Center觸底，AI應用帶動記憶體需求。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "AI伺服器需求爆發，已加碼且表現亮眼。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "新增部位，看好半導體反彈。"
+  },
+  {
+   "symbol": "FTNT",
+   "name": "Fortinet",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "新增部位，看好網安需求。"
+  },
+  {
+   "symbol": "LSCC",
+   "name": "Lattice Semiconductor",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "新增部位，看好半導體反彈。"
+  },
+  {
+   "symbol": "ASML",
+   "name": "ASML",
+   "market": "US",
+   "stance": "持有中",
+   "argument": "新增部位，看好半導體設備需求。"
+  },
+  {
+   "symbol": "SQ",
+   "name": "Block (Square)",
+   "market": "US",
+   "stance": "已出場",
+   "argument": "因Apple切入Buy Now, Pay Later，認為小玩家沒戲，已減碼。"
+  },
+  {
+   "symbol": "TSLA",
+   "name": "特斯拉",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "儲能業務成長性佳，但車子出貨量非重點。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "大型權值股，聽眾持有但主持人未明確表態。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "大型權值股，聽眾持有但主持人未明確表態。"
+  }
+ ],
+ "quotes": [
+  "高配息之於台灣人，就像是捕蚊燈之於蚊子，聽到高配息就直接動不了。",
+  "錢永遠在自己手上，不要給別人代操，不要把錢給任何人。",
+  "第二季是小型股的現形季，很多資金塞進去的小型股開財報時會現形。"
+ ],
+ "ep_key": "EP336",
+ "title": "EP336 | 😍",
+ "pubdate": "2023-04-01",
+ "duration_s": 3019,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}
