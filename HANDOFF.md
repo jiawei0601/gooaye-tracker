@@ -1,5 +1,15 @@
 # HANDOFF — gooaye-tracker
 
+## RAG 系統 = ✅ 最終完成（2026-07-14 01:10）
+**50,695 塊全量入庫、向量 100%、孤兒已清**。六類抽取 678 集全完成（DeepSeek 官方，
+零失敗，成本 ~US$3）。各類：transcript 23,751/qa 4,669/ticker 4,158/wisdom 3,897/
+joke 3,473/chat 3,454/industry 2,578/quote 2,016/macro 1,350/summary 678/market_view 671。
+查詢：`python scripts/rag_query.py --q "..." [--kind --category --symbol --industry --stance
+--since --until --ep] [--mode keyword|semantic|hybrid]`。
+維運：新集數由 VM 排程產分析；六類抽取與 RAG 更新目前**手動**（extract_extras.py
+--provider deepseek → build_rag_chunks.py → rag_build_index.py，全冪等），可併入 run_vm.sh（選配）。
+下一步選配：接進 gooaye-perspective skill 的 Step 2（讓分身引用本機檢索回答）。
+
 ## 六類抽取整合進 RAG（2026-07-14，整合 agent 交付）
 ✅ `scripts/build_rag_chunks.py`／`rag_build_index.py`／`rag_query.py` 已擴充，
 把 `data/extras/EPxxx.json` 六類（qa/chat/joke/wisdom/macro，ads 依上一條政策排除）
