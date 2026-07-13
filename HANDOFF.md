@@ -22,6 +22,13 @@
 ✅ 2026-07-13 使用者已解除專案帳單連結，免費層實測復活；vertex-sa.json 已刪，
    系統進入最終形態：VM 免費層全自動、$0 長期營運。
 
+## RAG 語料切塊（2026-07-13，階段 1 完成）
+✅ `scripts/build_rag_chunks.py`（sonnet 實作、haiku read-back 全過）→ `data/rag/`（gitignore，僅本機）：
+- transcript_chunks.jsonl：23,751 塊（own 126 集帶時間戳優先、wmrs 552 集補），~700字/塊+100重疊
+- analysis_chunks.jsonl：2,606 塊（摘要/大盤/標的立場/產業/金句 一語意一塊）
+⚠️ NIM 全歷史回填完成後要**重跑本腳本**納入新增分析（analysis_chunks 會長到 ~9k 塊）。
+下一階段待使用者拍板：embedding 模型、索引落點（本機 vs Hetzner 比照 civil-rag）、查詢介面。
+
 ## 公開發佈（2026-07-13）
 ✅ GitHub 公開 repo：https://github.com/jiawei0601/gooaye-tracker（MIT）
 ✅ 儀表板 GitHub Pages：https://jiawei0601.github.io/gooaye-tracker/data/dashboard.html
