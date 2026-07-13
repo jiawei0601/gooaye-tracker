@@ -1,5 +1,13 @@
 # HANDOFF — gooaye-tracker
 
+## 公開發佈（2026-07-13）
+✅ GitHub 公開 repo：https://github.com/jiawei0601/gooaye-tracker（MIT）
+✅ 儀表板 GitHub Pages：https://jiawei0601.github.io/gooaye-tracker/data/dashboard.html
+⚠️ **逐字稿僅存本機**（版權考量已從 git 歷史整批清除、gitignore 排除）——
+   dashboard 的「📄 逐字稿」連結只在本機開有效，公開版 404 屬預期行為。
+   絕不能把 data/transcripts/ 重新加入版控。
+- 排程每日自動 commit＋push（run_daily.bat），公開資料每晚保持最新。
+
 - 最後更新：Claude Code / 2026-07-12
 
 ## 任務 / 目標
