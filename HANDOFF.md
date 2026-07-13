@@ -8,7 +8,8 @@
   push 走 deploy key（repo 設定 hermes-vm-daily-push）。
 - 本機 GooayeDaily 排程**已停用**（避免雙邊 push 衝突）；本機要手動跑先 `git pull`。
 - 公開版 dashboard 由 VM 產出（無逐字稿連結）；本機看逐字稿直接開 data/transcripts/。
-⚠️ VM 走免費層金鑰：**專案帳單解除連結前，免費層是 429 壞的**——見下方待辦。
+✅ 2026-07-13 使用者已解除專案帳單連結，免費層實測復活；vertex-sa.json 已刪，
+   系統進入最終形態：VM 免費層全自動、$0 長期營運。
 
 ## 公開發佈（2026-07-13）
 ✅ GitHub 公開 repo：https://github.com/jiawei0601/gooaye-tracker（MIT）
@@ -41,10 +42,8 @@ Flash 直接吃音檔 → analyses/EPxxx.json) → `aggregate.py`(tickers.json /
 ## Vertex 衝刺 = ✅ 完成（2026-07-13）
 160/160 集全數完成（2025-01-01 起），排程已恢復。EP605 模型怪癖（MAX_TOKENS 空回應）
 用「無逐字稿降級」處理，是唯一沒有逐字稿的 Vertex 集數（另 EP678 之前的 33 集也無）。
-⚠️ **過渡狀態**：帳單仍連著專案 → GenLang 免費層不存在（會 429 預付點數錯誤），
-所以 `vertex-sa.json` 先保留、日常排程暫走 Vertex（無新集數時零成本）。
-**待使用者解除專案帳單連結後**：刪 vertex-sa.json → 驗證免費層回歸 → 回到 $0 常態。
-使用者屆時可順手刪 gooaye-vertex 服務帳戶與多餘的第三支 API 金鑰。
+✅ 收尾完成（2026-07-13）：帳單已解除、免費層驗證復活、vertex-sa.json 已刪。
+選配清理（使用者自便）：主控台刪 gooaye-vertex 服務帳戶與多餘的第三支 API 金鑰。
 
 ## 進行中 / 卡點
 ✅ 金鑰到位（2026-07-12，新版 AI Studio 金鑰為 **AQ. 開頭**，已填 .env）。
