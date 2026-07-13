@@ -50,7 +50,7 @@
  ],
  "tickers": [
   {
-   "symbol": "德州儀器",
+   "symbol": "TXN",
    "name": "德州儀器",
    "market": "US",
    "stance": "觀察",
@@ -64,7 +64,7 @@
    "argument": "作為IDM大廠，其功率半導體產品交期長，是市場需求旺盛的指標之一。"
   },
   {
-   "symbol": "安森美",
+   "symbol": "ON",
    "name": "安森美",
    "market": "US",
    "stance": "觀察",

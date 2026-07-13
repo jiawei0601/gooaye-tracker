@@ -33,21 +33,21 @@
  ],
  "tickers": [
   {
-   "symbol": "Tesla",
-   "name": "特斯拉",
+   "symbol": "TSLA",
+   "name": "Tesla",
    "market": "US",
    "stance": "觀察",
    "argument": "其 AI Cluster 需使用自建的電力系統進行供應。"
   },
   {
-   "symbol": "Amphenol",
-   "name": "安費諾",
+   "symbol": "APH",
+   "name": "Amphenol",
    "market": "US",
    "stance": "觀察",
    "argument": "銅線相關標的，在市場炒作光通訊時容易被殺，但實際業績依然良好。"
   },
   {
-   "symbol": "Credo",
+   "symbol": "CRDO",
    "name": "Credo",
    "market": "US",
    "stance": "觀察",

@@ -59,7 +59,7 @@
   },
   {
    "symbol": "FLY",
-   "name": "Flywire",
+   "name": "Firefly Aerospace",
    "market": "US",
    "stance": "已出場",
    "argument": "SpaceX上市後，相關衛星/火箭概念股出現獲利了結賣壓。"
@@ -79,8 +79,8 @@
    "argument": "被動元件漲價趨勢下，券商報告開始上修目標價。"
   },
   {
-   "symbol": "Nvidia",
-   "name": "輝達",
+   "symbol": "NVDA",
+   "name": "Nvidia",
    "market": "US",
    "stance": "觀察",
    "argument": "在被動元件供應鏈中，其需求與定價策略影響產業。"
@@ -107,7 +107,7 @@
    "argument": "其CEO Sam Altman被批評不了解外界對其AI發展的看法。"
   },
   {
-   "symbol": "Palantir",
+   "symbol": "PLTR",
    "name": "Palantir",
    "market": "US",
    "stance": "觀察",

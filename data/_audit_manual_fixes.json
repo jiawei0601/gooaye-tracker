@@ -1,0 +1,34 @@
+[
+ {
+  "ep": "EP641",
+  "old_symbol": "LUMN",
+  "new_symbol": "LITE",
+  "old_name": "Lumen",
+  "new_name": "Lumentum",
+  "evidence": "argument'在美股光通訊佈局中，屬於看得到客戶與出貨量的確定性標的'=Lumentum光通訊業務，LUMN實為Lumen Technologies(電信業，無關)真實代號，真實代號應為LITE（第二輪fuzzy比對補漏）"
+ },
+ {
+  "ep": "EP449",
+  "old_symbol": "NXP",
+  "new_symbol": "NXPI",
+  "old_name": "恩智浦",
+  "new_name": "恩智浦",
+  "evidence": "資料庫另4集(EP104/169/196/474)已有正確NXPI記錄；NXP非真實代號格式，真實代號NXPI（第二輪fuzzy比對補漏）"
+ },
+ {
+  "ep": "EP328",
+  "old_symbol": "IFX",
+  "new_symbol": "IFNNY",
+  "old_name": "Infineon",
+  "new_name": "Infineon",
+  "evidence": "IFX為Infineon法蘭克福證交所代號；market欄位標US，資料庫EP135已有正確美股OTC ADR代號IFNNY，本集market既標US故統一為IFNNY（第二輪fuzzy比對補漏）"
+ },
+ {
+  "ep": "EP670",
+  "old_symbol": "FLY",
+  "new_symbol": "FLY",
+  "old_name": "Firefly Aerospace",
+  "new_name": "Firefly Aerospace",
+  "evidence": "逐字稿：'RKLB、ASTS 或是 Fly，就是這些跟衛星或是通訊有關係的股票'，WebSearch確認FLY為Firefly Aerospace(2025-08上市)真實代號，非Flywire(支付公司)"
+ }
+]

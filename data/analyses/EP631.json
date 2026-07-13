@@ -35,8 +35,8 @@
  ],
  "tickers": [
   {
-   "symbol": "Tesla",
-   "name": "特斯拉",
+   "symbol": "TSLA",
+   "name": "Tesla",
    "market": "US",
    "stance": "持有中",
    "view": "作為美股持股之一，目前美股整體表現較為疲弱，多數持股在水面之下。"

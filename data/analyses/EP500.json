@@ -48,22 +48,22 @@
    "argument": "明年iPhone 17有望降低對高通與博通的依賴，擴大採用自家通訊與WiFi晶片。"
   },
   {
-   "symbol": "Qualcomm",
-   "name": "高通",
+   "symbol": "QCOM",
+   "name": "Qualcomm",
    "market": "US",
    "stance": "觀察",
    "argument": "Apple自研晶片趨勢逐漸明確，未來部分通訊晶片可能被捨棄。"
   },
   {
-   "symbol": "Broadcom",
-   "name": "博通",
+   "symbol": "AVGO",
+   "name": "Broadcom",
    "market": "US",
    "stance": "觀察",
    "argument": "Apple過去因技術無法突破而續簽長約，但未來WiFi晶片可能全系列改用自家產品以降低依賴。"
   },
   {
-   "symbol": "Microsoft",
-   "name": "微軟",
+   "symbol": "MSFT",
+   "name": "Microsoft",
    "market": "US",
    "stance": "觀察",
    "argument": "已設計KPI驗證AI投資效益，持續投入CAPEX是正確方向，但短期仍難明確看到收益換肉。"

@@ -28,21 +28,21 @@
  ],
  "tickers": [
   {
-   "symbol": "Zillow",
+   "symbol": "Z",
    "name": "Zillow",
    "market": "US",
    "stance": "觀察",
    "argument": "房地產相關股票在好消息後進入修正。"
   },
   {
-   "symbol": "Opendoor",
+   "symbol": "OPEN",
    "name": "Opendoor",
    "market": "US",
    "stance": "觀察",
    "argument": "房地產相關股票在好消息後進入修正。"
   },
   {
-   "symbol": "Redfin",
+   "symbol": "RDFN",
    "name": "Redfin",
    "market": "US",
    "stance": "觀察",
