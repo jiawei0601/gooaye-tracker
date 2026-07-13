@@ -1285,7 +1285,8 @@
   "duration_s": 2997,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/dddbacee-8f4d-49c0-bdf0-7909ecb7d5e4/rssFileVip.mp3?timestamp=1735371265751",
   "guid": "dddbacee-8f4d-49c0-bdf0-7909ecb7d5e4",
-  "status": "skipped"
+  "status": "done",
+  "via": "wmrs-text"
  },
  "EP517": {
   "title": "EP517 | 🐧",

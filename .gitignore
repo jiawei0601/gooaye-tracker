@@ -6,3 +6,4 @@ __pycache__/
 vertex-sa.json
 data/transcripts/
 data/transcripts_web/
+data/external/
