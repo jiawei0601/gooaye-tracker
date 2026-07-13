@@ -6,6 +6,18 @@
 markdown 排版、800 token 未收尾）；GLM-5.2 未參測（端點卡死中，恢復後可再試）。
 分身路由＝NIM v4-pro 主力（timeout 40s）→ DeepSeek 官方備援，同血緣聲線一致。
 
+## 股癌 AI 分身 = ✅ 上線（2026-07-14 02:05）
+手機/電腦開 dashboard「AI 分身」分頁 → 輸入通行碼 `主委現在有脖子` → 對談。
+- 後端：Hermes VM systemd `gooaye-twin`（FastAPI:8788）＋Caddy TLS，端點
+  `https://35-254-138-132.sslip.io/gooaye`（實際 35-254-238-132）。RAG 檢索＋人格提示
+  ＋LLM（NIM deepseek-v4-pro 主力→DeepSeek 官方備援）。每 IP 10 則/分限流。
+- 端到端實測通過：401 認證、繁中口語回覆＋8 筆集數出處、channel=nim。
+- ⚠️ 事故教訓（2026-07-14）：VM SSH 逾時**不是防火牆**，是 sshd 卡死/資源→單純重啟即解
+  （曾誤判為 ufw 自鎖，幸被安全機制擋下）。真正缺的是 GCP 從未開 80/443→已建規則
+  `allow-https-gooaye`（tcp:80,443 from 0.0.0.0/0）。Caddy 憑證因開埠前失敗 5 次觸發 LE
+  限流，窗口過後重啟即發證成功。通行碼中文→標頭需 encodeURIComponent/unquote。
+- 通行碼安全：梗語、圈外難猜；要更嚴改 .env GOOAYE_TWIN_TOKEN 一行＋重啟服務。
+
 ## RAG 系統 = ✅ 最終完成（2026-07-14 01:10）
 **50,695 塊全量入庫、向量 100%、孤兒已清**。六類抽取 678 集全完成（DeepSeek 官方，
 零失敗，成本 ~US$3）。各類：transcript 23,751/qa 4,669/ticker 4,158/wisdom 3,897/
