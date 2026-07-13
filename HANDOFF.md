@@ -1,5 +1,10 @@
 # HANDOFF — gooaye-tracker
 
+## RAG 整理政策（2026-07-14 使用者指示）
+- **業配（ad）不進 RAG**：切塊層排除、庫中 508 塊已清（含向量與 FTS rebuild）；
+  原始 sponsor 紀錄留在 data/extras/ 備查。日後改政策把 build_rag_chunks.py 的
+  ads 段落還原即可。
+
 ## Embedding 災備路線（2026-07-14 查證）
 主通道=NIM `baai/bge-m3`（免費）。若 NIM embedding 卡死（比照 GLM-5.2 前例）：
 OpenRouter 2025-11 起支援 embeddings（`https://openrouter.ai/api/v1/embeddings`，OpenAI 相容格式），
