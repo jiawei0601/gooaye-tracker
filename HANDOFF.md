@@ -1,5 +1,18 @@
 # HANDOFF — gooaye-tracker
 
+## 美股ticker代號誤植審計（2026-07-13）
+✅ 用 `data/external/wmrs/transcripts.json`（678集逐字稿）比對全庫美股ticker，
+修正 51 筆誤植（39集）→ `git 962fd7f`。報告見 `data/audit_us_symbols.md`。
+兩類主因：(1) symbol欄位誤填公司全名而非真實代號（如 Qualcomm→應為QCOM）；
+(2) 少數集數用了錯誤但真實存在的代號（如 LUMN 誤植為 Lumentum，LUMN實為
+不相關的 Lumen Technologies，真實代號應為 LITE）。已跑 aggregate/build_dashboard/
+build_rag_chunks，tickers.json 807→782檔（消除孤兒重複）。
+⚠️ 14 筆待裁決未動（私人公司如SpaceX/Anthropic無代號、非美股market誤標如CATL/
+Hynix/Kering）清單在報告內，需使用者拍板是否處理。
+⚠️ 未跑 rag_build_index.py（避免撞embedding背景程序寫gooaye.db），索引更新待下次整合。
+⚠️ 發現 EP565.json 的 tickers 是扁平字串陣列而非物件陣列（既有schema異常，僅1集），
+本輪未修，記錄提醒。
+
 ## 網路逐字稿源（2026-07-13）
 ✅ 發現粉絲站 **whatmkreallysaid.com**：678 集全集逐字稿，站方以 `transcripts.json.br`
 單檔打包（前端搜尋用），一個請求全拿。已寫 `scripts/fetch_web_transcripts.py`
