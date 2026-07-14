@@ -96,3 +96,5 @@
 - EP165 300750(CATL)/EP402 Hynix/EP171 KERING → market=other（非美股）
 - EP565 tickers 扁平字串 schema 異常 → DeepSeek 官方重新分析取代（5 檔正常物件）
 - 彙整後 781→758 檔（EP565 舊字串垃圾鍵清除＋合併）
+
+| EP677 | CLSK | NET | CleanSpark | Cloudflare | 使用者指正：原文「Palantir、CrowdStrike 跟 CloudFlare 這幾支我最愛」，Gemini 音訊把 CloudFlare 誤聽為 CleanSpark |

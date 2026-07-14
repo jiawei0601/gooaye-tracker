@@ -25240,6 +25240,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP677",
+    "date": "2026-07-08",
+    "stance": "持有中",
+    "argument": "個人最喜歡的軟體股之一，形態良好，若持續上漲會考慮加碼。"
+   },
+   {
     "ep": "EP660",
     "date": "2026-05-09",
     "stance": "中性",
@@ -25444,9 +25450,9 @@
     "argument": "雲端概念股之一，屬於主持人配置的族群。"
    }
   ],
-  "mentions": 34,
-  "latest_stance": "中性",
-  "latest_date": "2026-05-09"
+  "mentions": 35,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-08"
  },
  "DDOG": {
   "name": "DataDog",
@@ -30595,21 +30601,6 @@
   "mentions": 1,
   "latest_stance": "看多",
   "latest_date": "2026-07-01"
- },
- "CLSK": {
-  "name": "CleanSpark",
-  "market": "US",
-  "timeline": [
-   {
-    "ep": "EP677",
-    "date": "2026-07-08",
-    "stance": "持有中",
-    "argument": "個人最喜歡的軟體股之一，形態良好，若持續上漲會考慮加碼。"
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "持有中",
-  "latest_date": "2026-07-08"
  },
  "NCNO": {
   "name": "nCino",
