@@ -157,6 +157,12 @@
     "argument": "毛利率不減反增，在企業導入 AI 工具時，其端點安全與合規防護具備不可替代性。"
    },
    {
+    "ep": "EP576",
+    "date": "2025-07-19",
+    "stance": "持有中",
+    "argument": "與 Palantir 類似，屬於高成長且估值難以精準預測的標的。"
+   },
+   {
     "ep": "EP472",
     "date": "2024-07-20",
     "stance": "持有中",
@@ -277,7 +283,7 @@
     "argument": "Falcon Platform採用零信任網路概念，是優秀的資安公司，未來表現看好。"
    }
   ],
-  "mentions": 29,
+  "mentions": 30,
   "latest_stance": "持有中",
   "latest_date": "2026-07-08"
  },
@@ -3376,6 +3382,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP568",
+    "date": "2025-06-21",
+    "stance": "看多",
+    "argument": "提供全球市場的廣泛分散投資，適合不想花時間研究個股的投資人。"
+   },
+   {
     "ep": "EP509",
     "date": "2024-11-27",
     "stance": "看多",
@@ -3430,9 +3442,9 @@
     "argument": "全市場ETF，包含特斯拉。"
    }
   ],
-  "mentions": 9,
+  "mentions": 10,
   "latest_stance": "看多",
-  "latest_date": "2024-11-27"
+  "latest_date": "2025-06-21"
  },
  "VOO": {
   "name": "Vanguard標普500指數ETF",
@@ -3526,12 +3538,6 @@
   "market": "US",
   "timeline": [
    {
-    "ep": "EP568",
-    "date": "2025-06-21",
-    "stance": "看多",
-    "argument": "提供全球市場的廣泛分散投資，適合不想花時間研究個股的投資人。"
-   },
-   {
     "ep": "EP429",
     "date": "2024-02-21",
     "stance": "看多",
@@ -3568,9 +3574,9 @@
     "argument": "一次投資全球約八九千家公司的懶人配置。"
    }
   ],
-  "mentions": 7,
+  "mentions": 6,
   "latest_stance": "看多",
-  "latest_date": "2025-06-21"
+  "latest_date": "2024-02-21"
  },
  "VXUS": {
   "name": "Vanguard總體國際股票ETF",
@@ -13606,6 +13612,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP616",
+    "date": "2025-12-06",
+    "stance": "看多",
+    "argument": ""
+   },
+   {
     "ep": "EP605",
     "date": "2025-10-29",
     "stance": "持有中",
@@ -13690,9 +13702,9 @@
     "argument": "與華為高度相關，禁令導致股價跌停後反彈，但後續仍需觀察。"
    }
   ],
-  "mentions": 14,
-  "latest_stance": "持有中",
-  "latest_date": "2025-10-29"
+  "mentions": 15,
+  "latest_stance": "看多",
+  "latest_date": "2025-12-06"
  },
  "3189": {
   "name": "景碩",
@@ -25336,12 +25348,6 @@
     "argument": "財報表現優異且成功卡位 AI 時代的防爬蟲與內容變現新規則，雖然估值昂貴但敘事符合市場喜好。"
    },
    {
-    "ep": "EP576",
-    "date": "2025-07-19",
-    "stance": "持有中",
-    "argument": "與 Palantir 類似，屬於高成長且估值難以精準預測的標的。"
-   },
-   {
     "ep": "EP530",
     "date": "2025-02-08",
     "stance": "觀察",
@@ -25450,7 +25456,7 @@
     "argument": "雲端概念股之一，屬於主持人配置的族群。"
    }
   ],
-  "mentions": 35,
+  "mentions": 34,
   "latest_stance": "持有中",
   "latest_date": "2026-07-08"
  },
@@ -25708,18 +25714,6 @@
     "argument": "近期開出的展望較為保守，是個人軟體配置中唯一表現未達預期的標的。"
    },
    {
-    "ep": "EP532",
-    "date": "2025-02-15",
-    "stance": "持有中",
-    "argument": "屬於表現極佳的軟體持股之一，買點不錯且持續獲利中。"
-   },
-   {
-    "ep": "EP527",
-    "date": "2025-01-29",
-    "stance": "觀察",
-    "argument": ""
-   },
-   {
     "ep": "EP518",
     "date": "2024-12-28",
     "stance": "持有中",
@@ -25762,7 +25756,7 @@
     "argument": "勉強算小型股，但非純小型股。"
    }
   ],
-  "mentions": 15,
+  "mentions": 13,
   "latest_stance": "持有中",
   "latest_date": "2025-12-24"
  },
@@ -27772,15 +27766,21 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP532",
+    "date": "2025-02-15",
+    "stance": "持有中",
+    "argument": "屬於表現極佳的軟體持股之一，買點不錯且持續獲利中。"
+   },
+   {
     "ep": "EP510",
     "date": "2024-11-30",
     "stance": "看多",
     "argument": "是Agentic AI自動化服務的關鍵提供者之一。"
    }
   ],
-  "mentions": 1,
-  "latest_stance": "看多",
-  "latest_date": "2024-11-30"
+  "mentions": 2,
+  "latest_stance": "持有中",
+  "latest_date": "2025-02-15"
  },
  "SOUN": {
   "name": "SoundHound AI",
@@ -28150,21 +28150,6 @@
   "mentions": 3,
   "latest_stance": "中性",
   "latest_date": "2025-06-11"
- },
- "BILL": {
-  "name": "Bill Holdings",
-  "market": "US",
-  "timeline": [
-   {
-    "ep": "EP532",
-    "date": "2025-02-15",
-    "stance": "持有中",
-    "argument": "先前表現不錯，但近期公布財報後股價重挫 30%，主持人有承受此跌幅。"
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "持有中",
-  "latest_date": "2025-02-15"
  },
  "HIMX": {
   "name": "Himax (奇景光電)",
@@ -29257,21 +29242,6 @@
  },
  "AMKR": {
   "name": "Amkor",
-  "market": "US",
-  "timeline": [
-   {
-    "ep": "EP616",
-    "date": "2025-12-06",
-    "stance": "看多",
-    "argument": ""
-   }
-  ],
-  "mentions": 1,
-  "latest_stance": "看多",
-  "latest_date": "2025-12-06"
- },
- "ONTO": {
-  "name": "Onto Innovation",
   "market": "US",
   "timeline": [
    {

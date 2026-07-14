@@ -33,13 +33,6 @@
  ],
  "tickers": [
   {
-   "symbol": "BILL",
-   "name": "Bill Holdings",
-   "market": "US",
-   "stance": "持有中",
-   "argument": "先前表現不錯，但近期公布財報後股價重挫 30%，主持人有承受此跌幅。"
-  },
-  {
    "symbol": "PLTR",
    "name": "Palantir",
    "market": "US",
@@ -47,8 +40,8 @@
    "argument": "屬於表現極佳的軟體持股之一，買點不錯且持續獲利中。"
   },
   {
-   "symbol": "CFLT",
-   "name": "Confluent",
+   "symbol": "HUBS",
+   "name": "HubSpot",
    "market": "US",
    "stance": "持有中",
    "argument": "屬於表現極佳的軟體持股之一，買點不錯且持續獲利中。"

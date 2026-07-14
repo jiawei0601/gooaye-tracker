@@ -44,8 +44,8 @@
    "argument": "美股大盤指數型基金，適合做為長期資產配置的基礎。"
   },
   {
-   "symbol": "VT",
-   "name": "Vanguard全世界股票ETF",
+   "symbol": "VTI",
+   "name": "Vanguard整體股市ETF",
    "market": "US",
    "stance": "看多",
    "argument": "提供全球市場的廣泛分散投資，適合不想花時間研究個股的投資人。"
