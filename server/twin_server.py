@@ -26,6 +26,7 @@ import time
 import urllib.error
 import urllib.request
 from collections import defaultdict, deque
+from datetime import datetime, timezone
 from pathlib import Path
 from types import SimpleNamespace
 from typing import List, Optional
@@ -48,6 +49,11 @@ logger = logging.getLogger("gooaye-twin")
 
 DB_PATH = ROOT / "data" / "rag" / "gooaye.db"
 PERSONA_PATH = Path(__file__).resolve().parent / "persona_system.md"
+USAGE_LOG_PATH = ROOT / "data" / "twin_usage.jsonl"
+
+# DeepSeek 官方牌價（deepseek-chat，2026-07 查價；僅 deepseek channel 計費，nim 為 $0）
+DEEPSEEK_PRICE_PER_M_INPUT = 0.28
+DEEPSEEK_PRICE_PER_M_OUTPUT = 0.42
 
 RATE_LIMIT_PER_MIN = 10
 RATE_WINDOW_SEC = 60.0
@@ -190,7 +196,8 @@ def _post_chat(url, api_key, model, messages, timeout):
     )
     with urllib.request.urlopen(req, timeout=timeout) as resp:
         body = json.loads(resp.read().decode("utf-8"))
-    return body["choices"][0]["message"]["content"]
+    usage = body.get("usage") or {}
+    return body["choices"][0]["message"]["content"], usage
 
 
 def call_nim_chat(messages):
@@ -207,16 +214,37 @@ def call_deepseek_chat(messages):
     return _post_chat(DEEPSEEK_CHAT_URL, api_key, DEEPSEEK_CHAT_MODEL, messages, timeout=60)
 
 
+def log_usage(channel: str, usage: dict) -> None:
+    """append 一行用量紀錄；寫檔失敗不可影響回應。"""
+    try:
+        USAGE_LOG_PATH.parent.mkdir(parents=True, exist_ok=True)
+        entry = {
+            "ts": datetime.now(timezone.utc).isoformat(),
+            "channel": channel,
+            "prompt_tokens": int(usage.get("prompt_tokens", 0) or 0),
+            "completion_tokens": int(usage.get("completion_tokens", 0) or 0),
+        }
+        with USAGE_LOG_PATH.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(entry, ensure_ascii=False) + "\n")
+    except Exception as e:
+        logger.warning("寫入用量紀錄失敗（%s），不影響回應", e)
+
+
 def generate_reply(messages):
     """主力 NIM，逾時/429/5xx/任何錯誤都退 DeepSeek 官方。回傳 (text, channel)。"""
     try:
-        return call_nim_chat(messages), "nim"
+        text, usage = call_nim_chat(messages)
+        channel = "nim"
     except Exception as e:
         logger.warning("NIM 主力生成失敗（%s），退 DeepSeek 官方", e)
         try:
-            return call_deepseek_chat(messages), "deepseek"
+            text, usage = call_deepseek_chat(messages)
+            channel = "deepseek"
         except Exception as e2:
             raise RuntimeError(f"雙通道皆失敗：NIM={e}；DeepSeek={e2}") from e2
+
+    log_usage(channel, usage)
+    return text, channel
 
 
 # ---------------------------------------------------------------------------
@@ -333,6 +361,54 @@ def chat(req: ChatRequest, request: Request):
         raise HTTPException(status_code=502, detail="upstream LLM failed") from e
 
     return {"reply": reply, "sources": sources, "channel": channel}
+
+
+@app.get("/usage")
+def usage(request: Request):
+    auth_header = request.headers.get("authorization")
+    if not verify_token(auth_header):
+        raise HTTPException(status_code=401, detail="invalid token")
+
+    since = None
+    total_requests = 0
+    by_channel = {
+        "nim": {"requests": 0, "prompt_tokens": 0, "completion_tokens": 0},
+        "deepseek": {"requests": 0, "prompt_tokens": 0, "completion_tokens": 0},
+    }
+
+    if USAGE_LOG_PATH.exists():
+        with USAGE_LOG_PATH.open("r", encoding="utf-8") as f:
+            for line in f:
+                line = line.strip()
+                if not line:
+                    continue
+                try:
+                    entry = json.loads(line)
+                except Exception:
+                    continue
+                ts = entry.get("ts")
+                if ts and (since is None or ts < since):
+                    since = ts
+                channel = entry.get("channel")
+                if channel not in by_channel:
+                    by_channel[channel] = {"requests": 0, "prompt_tokens": 0, "completion_tokens": 0}
+                by_channel[channel]["requests"] += 1
+                by_channel[channel]["prompt_tokens"] += int(entry.get("prompt_tokens", 0) or 0)
+                by_channel[channel]["completion_tokens"] += int(entry.get("completion_tokens", 0) or 0)
+                total_requests += 1
+
+    ds = by_channel.get("deepseek", {"prompt_tokens": 0, "completion_tokens": 0})
+    deepseek_est_usd = (
+        ds.get("prompt_tokens", 0) / 1_000_000 * DEEPSEEK_PRICE_PER_M_INPUT
+        + ds.get("completion_tokens", 0) / 1_000_000 * DEEPSEEK_PRICE_PER_M_OUTPUT
+    )
+
+    return {
+        "since": since,
+        "total_requests": total_requests,
+        "by_channel": by_channel,
+        "deepseek_est_usd": round(deepseek_est_usd, 6),
+    }
 
 
 if __name__ == "__main__":
