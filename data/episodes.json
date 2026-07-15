@@ -5939,5 +5939,13 @@
   "guid": "f013eaf1-af60-48f2-9976-9ec7b5583e88",
   "status": "done",
   "via": "wmrs-text"
+ },
+ "EP679": {
+  "title": "EP679 | 🧌",
+  "pubdate": "2026-07-15",
+  "duration_s": 3234,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/23fa0bcd-2051-41e5-b7a8-ae58366f43a7/rssFileVip.mp3?timestamp=1784104099193",
+  "guid": "23fa0bcd-2051-41e5-b7a8-ae58366f43a7",
+  "status": "pending"
  }
 }
