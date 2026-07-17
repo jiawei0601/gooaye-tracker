@@ -76,6 +76,7 @@ def trim_loop(transcript):
 
 
 def download(url, dest):
+    dest.parent.mkdir(parents=True, exist_ok=True)  # data/audio/ 為 gitignore，新 clone 需自建
     if dest.exists() and dest.stat().st_size > 1_000_000:
         return
     req = urllib.request.Request(url, headers={"User-Agent": "gooaye-tracker/1.0"})
