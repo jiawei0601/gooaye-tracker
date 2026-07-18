@@ -2785,6 +2785,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP680",
+    "date": "2026-07-18",
+    "stance": "持有中",
+    "argument": "在大盤回檔時作為防守與參與大盤整體表現的工具。"
+   },
+   {
     "ep": "EP678",
     "date": "2026-07-11",
     "stance": "持有中",
@@ -3157,9 +3163,9 @@
     "argument": "適合指數投資者，成交量較大，長期報酬優於0056。"
    }
   ],
-  "mentions": 62,
+  "mentions": 63,
   "latest_stance": "持有中",
-  "latest_date": "2026-07-11"
+  "latest_date": "2026-07-18"
  },
  "SPY": {
   "name": "SPDR S&P 500 ETF",
@@ -3993,6 +3999,12 @@
   "name": "台積電",
   "market": "TW",
   "timeline": [
+   {
+    "ep": "EP680",
+    "date": "2026-07-18",
+    "stance": "持有中",
+    "argument": "第二季財報與未來展望皆優於預期，資本支出上調，基本面強勁但股價遭市場不理性殺盤。"
+   },
    {
     "ep": "EP679",
     "date": "2026-07-15",
@@ -5716,9 +5728,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 287,
-  "latest_stance": "看多",
-  "latest_date": "2026-07-15"
+  "mentions": 288,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-18"
  },
  "3443": {
   "name": "創意電子",
@@ -15943,6 +15955,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP680",
+    "date": "2026-07-18",
+    "stance": "觀察",
+    "argument": "其先進封裝技術若能做好，有助於緩解台積電後端產能吃緊的問題。"
+   },
+   {
     "ep": "EP664",
     "date": "2026-05-23",
     "stance": "觀察",
@@ -16243,9 +16261,9 @@
     "argument": "本益比穩定，公司成熟，成長空間有限。"
    }
   ],
-  "mentions": 50,
+  "mentions": 51,
   "latest_stance": "觀察",
-  "latest_date": "2026-05-23"
+  "latest_date": "2026-07-18"
  },
  "QQQ": {
   "name": "Invesco那斯達克100指數ETF",
@@ -23233,6 +23251,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP680",
+    "date": "2026-07-18",
+    "stance": "持有中",
+    "argument": "法說會後 ADR 出現回檔，屬於市場預期過高後的短期震盪，長期看好趨勢不變。"
+   },
+   {
     "ep": "EP670",
     "date": "2026-06-13",
     "stance": "觀察",
@@ -23347,9 +23371,9 @@
     "argument": ""
    }
   ],
-  "mentions": 19,
-  "latest_stance": "觀察",
-  "latest_date": "2026-06-13"
+  "mentions": 20,
+  "latest_stance": "持有中",
+  "latest_date": "2026-07-18"
  },
  "9904": {
   "name": "寶成",
