@@ -5952,8 +5952,16 @@
   "title": "EP680 | 💔",
   "pubdate": "2026-07-18",
   "duration_s": 3142,
-  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/07b58c03-5a1b-4cf9-b87f-3354f50c3cde/rssFileVip.mp3?timestamp=1784361221779",
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/07b58c03-5a1b-4cf9-b87f-3354f50c3cde/rssFileVip.mp3?timestamp=1784400657418",
   "guid": "07b58c03-5a1b-4cf9-b87f-3354f50c3cde",
+  "status": "done"
+ },
+ "EP681": {
+  "title": "EP681 | 🦉",
+  "pubdate": "2026-07-22",
+  "duration_s": 3069,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/d18db2fa-bdd7-4c88-91ed-3b37648e0707/rssFileVip.mp3?timestamp=1784706021739",
+  "guid": "d18db2fa-bdd7-4c88-91ed-3b37648e0707",
   "status": "done"
  }
 }

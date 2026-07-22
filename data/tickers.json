@@ -3835,6 +3835,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "觀察",
+    "argument": "聽眾問及對其減資再增資的看法，主持人認為這是資本市場常見的洗股東手段，不喜歡可以選擇不參與。"
+   },
+   {
     "ep": "EP674",
     "date": "2026-06-27",
     "stance": "觀察",
@@ -3991,9 +3997,9 @@
     "argument": "MLCC漲價概念股，因前妻賣股引發賣壓，後雖有主權基金買入但股價仍套牢。"
    }
   ],
-  "mentions": 26,
+  "mentions": 27,
   "latest_stance": "觀察",
-  "latest_date": "2026-06-27"
+  "latest_date": "2026-07-22"
  },
  "2330": {
   "name": "台積電",
@@ -6559,6 +6565,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "觀察",
+    "argument": "年底前將發表 Venice（SP7平台 CPU），在伺服器市佔率持續看好，但需注意供應鏈出貨瓶頸。"
+   },
+   {
     "ep": "EP664",
     "date": "2026-05-23",
     "stance": "觀察",
@@ -7105,9 +7117,9 @@
     "argument": "持股獲利約50%，放給它跑。"
    }
   ],
-  "mentions": 91,
+  "mentions": 92,
   "latest_stance": "觀察",
-  "latest_date": "2026-05-23"
+  "latest_date": "2026-07-22"
  },
  "KEYS": {
   "name": "是德科技",
@@ -12625,6 +12637,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "中性",
+    "argument": "即將公布財報，市場預期不高，只要不開出負面消息即可以中性態度看待；其自研晶片對營收佔比極小，不需因此過度關注母公司股價。"
+   },
+   {
     "ep": "EP674",
     "date": "2026-06-27",
     "stance": "看多",
@@ -12985,9 +13003,9 @@
     "argument": "不依賴消費者上門，但股價仍隨大盤下跌。"
    }
   ],
-  "mentions": 60,
-  "latest_stance": "看多",
-  "latest_date": "2026-06-27"
+  "mentions": 61,
+  "latest_stance": "中性",
+  "latest_date": "2026-07-22"
  },
  "MCHI": {
   "name": "iShares MSCI中國ETF",
@@ -19984,6 +20002,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "觀察",
+    "argument": "市場傳出其為 Google 設計 Frozen V2（TPU Inference Accelerator）晶片，此消息已為市場熟知，對股價刺激效果待觀察。"
+   },
+   {
     "ep": "EP673",
     "date": "2026-06-24",
     "stance": "觀察",
@@ -20290,9 +20314,9 @@
     "argument": "通訊營收佔比約40%，是通訊產業重點標的。"
    }
   ],
-  "mentions": 51,
+  "mentions": 52,
   "latest_stance": "觀察",
-  "latest_date": "2026-06-24"
+  "latest_date": "2026-07-22"
  },
  "ON": {
   "name": "安森美半導體",
@@ -30619,6 +30643,36 @@
   "mentions": 1,
   "latest_stance": "看多",
   "latest_date": "2026-07-01"
+ },
+ "INTEL": {
+  "name": "英特爾",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "觀察",
+    "argument": "年底將推出 Oakstream 平台（Diamond Rapids 與 Clearwater Forest CPU），但放量時程可能較 AMD 稍晚。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-22"
+ },
+ "NVIDIA": {
+  "name": "輝達",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "觀察",
+    "argument": "GPU 需求依然強勁，但市場開始關注 CPU 在 AI 工作流中的重要性提升，以及 CUDA 護城河是否被 AMD 的高性價比硬體與軟體整合削弱。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-22"
  },
  "NCNO": {
   "name": "nCino",

@@ -8905,6 +8905,12 @@
  "遊戲開發": {
   "timeline": [
    {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "看多",
+    "view": "支持台灣優秀開發團隊貝果遊戲，看好《紅弦路比》等作品在 Steam 上的表現。"
+   },
+   {
     "ep": "EP675",
     "date": "2026-07-01",
     "stance": "看多",
@@ -8929,9 +8935,9 @@
     "view": "Apple vs Epic判決若定局，遊戲開發商（如動視暴雪、EA、Take-Two、Roblox）將因降低蘋果抽成而大幅受惠。"
    }
   ],
-  "mentions": 4,
+  "mentions": 5,
   "latest_stance": "看多",
-  "latest_date": "2026-07-01"
+  "latest_date": "2026-07-22"
  },
  "約會軟體": {
   "timeline": [
@@ -20425,6 +20431,45 @@
   "mentions": 1,
   "latest_stance": "中性",
   "latest_date": "2020-09-05"
+ },
+ "AI伺服器與半導體": {
+  "timeline": [
+   {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "觀察",
+    "view": "下半年有多個新平台（如 AMD Venice, Intel Oakstream）將陸續放量，業績預期良好，但需注意股價修正與基本面開出的時間差。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-22"
+ },
+ "老AI股（如ODM）": {
+  "timeline": [
+   {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "觀察",
+    "view": "近期資金有從中小型股流向防守型、有業績支撐且本益比相對較低的老 AI 股（如本益比約10倍的 ODM 廠）的現象。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-22"
+ },
+ "800V高壓平台與功率元件": {
+  "timeline": [
+   {
+    "ep": "EP681",
+    "date": "2026-07-22",
+    "stance": "觀察",
+    "view": "800V 相關功率元件下半年營收看好，但美股市場反應尚未明顯，建議拉一包相關個股觀察集體表態時機。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-22"
  },
  "健身器材": {
   "timeline": [
