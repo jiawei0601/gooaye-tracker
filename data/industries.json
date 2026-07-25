@@ -1322,6 +1322,12 @@
  "半導體": {
   "timeline": [
    {
+    "ep": "EP682",
+    "date": "2026-07-25",
+    "stance": "觀察",
+    "view": "費城半導體指數已從高點回落近三成，市場出現普遍性修正。"
+   },
+   {
     "ep": "EP680",
     "date": "2026-07-18",
     "stance": "看多",
@@ -2588,9 +2594,9 @@
     "view": "台積電赴美設廠是政治妥協，但先進製程仍留在台灣，矽盾短期無虞。"
    }
   ],
-  "mentions": 211,
-  "latest_stance": "看多",
-  "latest_date": "2026-07-18"
+  "mentions": 212,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-25"
  },
  "加密貨幣": {
   "timeline": [
@@ -4696,6 +4702,12 @@
  "記憶體": {
   "timeline": [
    {
+    "ep": "EP682",
+    "date": "2026-07-25",
+    "stance": "中性",
+    "view": "預期第四季到明年第一季價格漲幅將趨於平緩，可能與大廠良心發現或產能調整有關。"
+   },
+   {
     "ep": "EP678",
     "date": "2026-07-11",
     "stance": "看多",
@@ -5332,9 +5344,9 @@
     "view": "報價上漲帶動股價噴出，但主持人未明確表態。"
    }
   ],
-  "mentions": 106,
-  "latest_stance": "看多",
-  "latest_date": "2026-07-11"
+  "mentions": 107,
+  "latest_stance": "中性",
+  "latest_date": "2026-07-25"
  },
  "廣告科技": {
   "timeline": [
@@ -9945,6 +9957,12 @@
  "功率半導體": {
   "timeline": [
    {
+    "ep": "EP682",
+    "date": "2026-07-25",
+    "stance": "看多",
+    "view": "德州儀器釋出全面性復甦訊號，車用與資料中心表現佳，產業持續轉好。"
+   },
+   {
     "ep": "EP667",
     "date": "2026-06-03",
     "stance": "觀察",
@@ -9963,9 +9981,9 @@
     "view": "電動車用量大增，IDM廠（如NXP、Infineon、ST、onsemi）受惠。"
    }
   ],
-  "mentions": 3,
-  "latest_stance": "觀察",
-  "latest_date": "2026-06-03"
+  "mentions": 4,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-25"
  },
  "被動元件（MLCC）": {
   "timeline": [

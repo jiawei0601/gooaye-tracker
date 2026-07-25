@@ -397,6 +397,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP682",
+    "date": "2026-07-25",
+    "stance": "觀察",
+    "argument": "大舉投資於 Physical AI 與機器人，雖然市場短期因擔憂回報而害怕，但長期來看是必須做的投資。"
+   },
+   {
     "ep": "EP677",
     "date": "2026-07-08",
     "stance": "持有中",
@@ -1825,9 +1831,9 @@
     "argument": "長期看好但已減碼，短期不追買，等回檔後再考慮。"
    }
   ],
-  "mentions": 238,
-  "latest_stance": "持有中",
-  "latest_date": "2026-07-08"
+  "mentions": 239,
+  "latest_stance": "觀察",
+  "latest_date": "2026-07-25"
  },
  "AAPL": {
   "name": "蘋果",
@@ -6565,6 +6571,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP682",
+    "date": "2026-07-25",
+    "stance": "觀察",
+    "argument": "舉辦 Advancing AI 活動，相關概念股有機會帶來正報酬。"
+   },
+   {
     "ep": "EP681",
     "date": "2026-07-22",
     "stance": "觀察",
@@ -7117,9 +7129,9 @@
     "argument": "持股獲利約50%，放給它跑。"
    }
   ],
-  "mentions": 92,
+  "mentions": 93,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-22"
+  "latest_date": "2026-07-25"
  },
  "KEYS": {
   "name": "是德科技",
@@ -12637,6 +12649,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP682",
+    "date": "2026-07-25",
+    "stance": "看多",
+    "argument": "財報非常優秀且證明 AI 可以賺錢，因資本支出導致現金流轉負而被殺單是不合理的。"
+   },
+   {
     "ep": "EP681",
     "date": "2026-07-22",
     "stance": "中性",
@@ -13003,9 +13021,9 @@
     "argument": "不依賴消費者上門，但股價仍隨大盤下跌。"
    }
   ],
-  "mentions": 61,
-  "latest_stance": "中性",
-  "latest_date": "2026-07-22"
+  "mentions": 62,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-25"
  },
  "MCHI": {
   "name": "iShares MSCI中國ETF",
@@ -17911,6 +17929,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP682",
+    "date": "2026-07-25",
+    "stance": "看多",
+    "argument": "法說會釋出全面性復甦與漲價的樂觀訊號，對功率半導體產業是好消息。"
+   },
+   {
     "ep": "EP672",
     "date": "2026-06-20",
     "stance": "觀察",
@@ -17965,9 +17989,9 @@
     "argument": "IDM廠，在功率半導體領域有影響力。"
    }
   ],
-  "mentions": 9,
-  "latest_stance": "觀察",
-  "latest_date": "2026-06-20"
+  "mentions": 10,
+  "latest_stance": "看多",
+  "latest_date": "2026-07-25"
  },
  "STM": {
   "name": "意法半導體",
