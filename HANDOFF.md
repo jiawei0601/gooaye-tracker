@@ -1,5 +1,38 @@
 # HANDOFF — gooaye-tracker
 
+## Embedding 災備已實作＋RAG 補到 EP682（2026-07-27）
+⚠️ **NIM `baai/bge-m3` 目前故障中（HTTP 500）**；候選表第二個 `nvidia/llama-3.2-nv-embedqa-1b-v2`
+已下架（410 Gone），只剩 `nvidia/nv-embedqa-e5-v5` 可用——但**那是不同模型、向量空間不相容，不可混用**。
+
+✅ **災備路線從「文件查證」升級為「實測＋已實作」**。`scripts/rag_build_index.py` 新增兩個環境變數
+（預設仍走 NIM，未設定行為完全不變）：
+```bash
+GOOAYE_EMBED_URL="https://openrouter.ai/api/v1/embeddings" \
+GOOAYE_EMBED_KEY_ENV="OPENROUTER_API_KEY" python scripts/rag_build_index.py
+```
+**三家供應商實測等價**（取庫內 3 塊已有向量的文字重嵌，與庫存 float16 向量比餘弦）：
+| 來源 | 餘弦 vs 庫存 |
+|---|---|
+| OpenRouter `baai/bge-m3` | 0.999987 / 0.999988 / 0.999982 |
+| 本機 sentence-transformers `BAAI/bge-m3` | 0.999987 / 0.999988 / 0.999984 |
+
+差異僅 float16 量化雜訊 → **新舊向量可混用，不必全庫重嵌**。優先序＝OpenRouter（不吃 RAM）
+→ 本機（完全不依賴 API，模型 2.2GB，`sentence_transformers` 本機已裝、bge-m3 已快取）。
+
+✅ **RAG 已更新**：50,600 → **50,790 塊，向量 100%**（190 筆新向量走 OpenRouter 補完）。
+- 結構化層（industry/market_view/quote/summary/ticker）＝ **EP682**
+- 逐字稿層（transcript/qa/joke/chat/wisdom/macro）＝ **EP680**（粉絲站尚未出 EP681/682 稿，非錯誤）
+- ⚠️ **`extract_extras.py` 讀的是 `data/external/wmrs/transcripts.json` 打包檔，不是 `data/transcripts_web/`**。
+  `fetch_web_transcripts.py` 只寫 .md、**不更新該打包檔** → 補新集數前必須先重新下載
+  `{SITE}/transcripts.json.br` 覆蓋它，否則會顯示「待抽取 0 集」。本次已更新至 680 集（舊檔留 .bak）。
+
+## 第一篇公開文章（2026-07-27）
+`docs/article-01-podcast-to-database.md`——〈我把 682 集《股癌》變成資料庫…〉，約 3,900 中文字。
+定位：GitHub Pages 正本 + FB 導流；漏斗式（前 20% 零門檻、後 80% 技術）。
+**立場引用一律停在 2022 年**（避投顧法灰帶）。開場＝航運 38 次零看多；第二例＝PLTR 2022 空窗 574 天。
+⚠️ 待作者校準：第二節動機的「難為情／工作忙」與第六節 NIM 降速的心理描寫**是代筆想像、非本人陳述**。
+⚠️ 文內數字綁 EP682／50,790 塊，已加「數據截止」聲明；日後重測需同步更新。
+
 ## 分身 LLM 選型對測（2026-07-14）
 同題人格測試（記憶體擁擠度問答＋真實檢索塊）：**NIM deepseek-v4-pro 勝**（18秒、
 口語還原高、繁中零污染）；qwen3.5-397b-a17b 淘汰（35秒、漏簡體字「定价/这样」、

@@ -33,6 +33,12 @@ ANALYSIS_JSONL = RAG_DIR / "analysis_chunks.jsonl"
 EXTRAS_JSONL = RAG_DIR / "extras_chunks.jsonl"
 
 NIM_URL = "https://integrate.api.nvidia.com/v1/embeddings"
+# 災備切換：NIM 故障時改走 OpenRouter 的同款 bge-m3（2026-07-27 實測與 NIM 向量餘弦
+# 0.99998，本機 sentence-transformers 亦同 → 三者向量空間相容，混用不必全庫重嵌）。
+#   GOOAYE_EMBED_URL=https://openrouter.ai/api/v1/embeddings
+#   GOOAYE_EMBED_KEY_ENV=OPENROUTER_API_KEY
+EMBED_URL = os.environ.get("GOOAYE_EMBED_URL", NIM_URL)
+EMBED_KEY_ENV = os.environ.get("GOOAYE_EMBED_KEY_ENV", "NVIDIA_NIM_API_KEY")
 # (model, 是否需要 input_type 參數)；依序試，第一個能用的就採用。
 CANDIDATE_MODELS = [
     ("baai/bge-m3", False),
@@ -135,10 +141,10 @@ def _post(model, texts, input_type):
         payload["input_type"] = input_type
     data = json.dumps(payload, ensure_ascii=False).encode("utf-8")
     req = urllib.request.Request(
-        NIM_URL,
+        EMBED_URL,
         data=data,
         headers={
-            "Authorization": f"Bearer {os.environ['NVIDIA_NIM_API_KEY']}",
+            "Authorization": f"Bearer {os.environ[EMBED_KEY_ENV]}",
             "Content-Type": "application/json",
         },
         method="POST",
@@ -187,8 +193,8 @@ def probe_model():
 
 def build_embeddings(conn):
     load_env()
-    if not os.environ.get("NVIDIA_NIM_API_KEY"):
-        print("未設定 NVIDIA_NIM_API_KEY，略過 embedding，交付純 FTS5 版。")
+    if not os.environ.get(EMBED_KEY_ENV):
+        print(f"未設定 {EMBED_KEY_ENV}，略過 embedding，交付純 FTS5 版。")
         return
 
     row = conn.execute("SELECT value FROM meta WHERE key='model'").fetchone()
