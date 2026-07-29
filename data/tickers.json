@@ -4012,6 +4012,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP683",
+    "date": "2026-07-29",
+    "stance": "持有中",
+    "argument": "作為多軍最後堡壘，在此波回檔中跌幅最少，但仍隨大盤回吐部分漲幅。"
+   },
+   {
     "ep": "EP680",
     "date": "2026-07-18",
     "stance": "持有中",
@@ -5740,9 +5746,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 288,
+  "mentions": 289,
   "latest_stance": "持有中",
-  "latest_date": "2026-07-18"
+  "latest_date": "2026-07-29"
  },
  "3443": {
   "name": "創意電子",
@@ -6571,6 +6577,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP683",
+    "date": "2026-07-29",
+    "stance": "觀察",
+    "argument": "新推出的 Helios 平台採用 Epic Zen CPU 搭配 MI 系列 GPU，維持 1:4 的配比。"
+   },
+   {
     "ep": "EP682",
     "date": "2026-07-25",
     "stance": "觀察",
@@ -7129,9 +7141,9 @@
     "argument": "持股獲利約50%，放給它跑。"
    }
   ],
-  "mentions": 93,
+  "mentions": 94,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-25"
+  "latest_date": "2026-07-29"
  },
  "KEYS": {
   "name": "是德科技",
@@ -9952,6 +9964,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP683",
+    "date": "2026-07-29",
+    "stance": "看多",
+    "argument": "與台積電同為最便宜的AI核心股，其 Grace CPU 產品線在推論市場有潛在放量機會。"
+   },
+   {
     "ep": "EP678",
     "date": "2026-07-11",
     "stance": "看多",
@@ -11596,9 +11614,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 274,
+  "mentions": 275,
   "latest_stance": "看多",
-  "latest_date": "2026-07-11"
+  "latest_date": "2026-07-29"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -18931,6 +18949,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP683",
+    "date": "2026-07-29",
+    "stance": "觀察",
+    "argument": "受中國自主研發 DUV 消息影響，近期設備股股價出現劇烈殺盤。"
+   },
+   {
     "ep": "EP632",
     "date": "2026-01-31",
     "stance": "觀察",
@@ -19009,9 +19033,9 @@
     "argument": "提及股價從800跌到600變便宜，但未表態。"
    }
   ],
-  "mentions": 13,
+  "mentions": 14,
   "latest_stance": "觀察",
-  "latest_date": "2026-01-31"
+  "latest_date": "2026-07-29"
  },
  "6213": {
   "name": "聯茂",
