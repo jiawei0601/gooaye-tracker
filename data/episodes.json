@@ -5976,8 +5976,16 @@
   "title": "EP683 | 🚑",
   "pubdate": "2026-07-29",
   "duration_s": 3075,
-  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/067686d8-d739-40ff-bbb9-5d2e7558b6ee/rssFileVip.mp3?timestamp=1785310973317",
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/067686d8-d739-40ff-bbb9-5d2e7558b6ee/rssFileVip.mp3?timestamp=1785350426635",
   "guid": "067686d8-d739-40ff-bbb9-5d2e7558b6ee",
   "status": "done"
+ },
+ "EP684": {
+  "title": "EP684 | 🔦",
+  "pubdate": "2026-08-01",
+  "duration_s": 2950,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/40e92e32-94d9-44b5-a683-8bc2d8fcc8c2/rssFileVip.mp3?timestamp=1785561162042",
+  "guid": "40e92e32-94d9-44b5-a683-8bc2d8fcc8c2",
+  "status": "pending"
  }
 }
