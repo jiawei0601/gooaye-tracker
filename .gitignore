@@ -1,6 +1,7 @@
 .env
 data/audio/
 data/daily.log
+data/web_sync.log
 data/analyses/.last_processed.json
 __pycache__/
 vertex-sa.json
