@@ -45,7 +45,15 @@ GOOAYE_EMBED_KEY_ENV="OPENROUTER_API_KEY" python scripts/rag_build_index.py
 markdown 排版、800 token 未收尾）；GLM-5.2 未參測（端點卡死中，恢復後可再試）。
 分身路由＝NIM v4-pro 主力（timeout 40s）→ DeepSeek 官方備援，同血緣聲線一致。
 
-## 股癌 AI 分身 = ✅ 上線（2026-07-14 02:05）
+## 股癌 AI 分身 = 🛑 已下線（2026-08-07，改為只保留本機使用）
+> **現況**：VM 上 `gooaye-twin` 已 `systemctl stop` + `disable`，port 8788 無監聽；
+> GCP 防火牆規則 `allow-https-gooaye` 已刪除，公開端點不再可用（Caddy 路由刻意保留未動）。
+> 資料完全保留（`~/gooaye-tracker` 662MB，含 RAG 索引 436MB），要復原：
+> `sudo systemctl enable --now gooaye-twin` ＋重建防火牆規則。
+> 下線理由：對外流量極低（3 週僅個位數 /chat 請求），且 Hermes VM 整體遷往 Hetzner。
+> ⚠️ 週三/六 17:05+20:05 的 gooaye-tracker 分析 cron **不受影響**，是獨立 crontab job。
+
+以下為下線前的架構紀錄（保留供復原參考）：
 手機/電腦開 dashboard「AI 分身」分頁 → 輸入通行碼 `主委現在有脖子` → 對談。
 - 後端：Hermes VM systemd `gooaye-twin`（FastAPI:8788）＋Caddy TLS，端點
   `https://35-254-138-132.sslip.io/gooaye`（實際 35-254-238-132）。RAG 檢索＋人格提示
