@@ -6000,8 +6000,16 @@
   "title": "EP686 | 🕸️",
   "pubdate": "2026-08-08",
   "duration_s": 3002,
-  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/0e0b7654-dec7-479d-8edd-b5d51f76126d/rssFileVip.mp3?timestamp=1786173057832",
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/0e0b7654-dec7-479d-8edd-b5d51f76126d/rssFileVip.mp3?timestamp=1786215027859",
   "guid": "0e0b7654-dec7-479d-8edd-b5d51f76126d",
+  "status": "pending"
+ },
+ "EP687": {
+  "title": "EP687 | 🐧",
+  "pubdate": "2026-08-12",
+  "duration_s": 3145,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/63275cd6-e7a5-4ece-8432-e39884d94ae2/rssFileVip.mp3?timestamp=1786520467850",
+  "guid": "63275cd6-e7a5-4ece-8432-e39884d94ae2",
   "status": "pending"
  }
 }
