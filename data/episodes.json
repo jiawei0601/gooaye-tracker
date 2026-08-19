@@ -6016,8 +6016,16 @@
   "title": "EP688 | 🥽",
   "pubdate": "2026-08-15",
   "duration_s": 3089,
-  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/986db49f-de3d-49e4-9ef7-dd721bdc240c/rssFileVip.mp3?timestamp=1786777917093",
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/986db49f-de3d-49e4-9ef7-dd721bdc240c/rssFileVip.mp3?timestamp=1786820250575",
   "guid": "986db49f-de3d-49e4-9ef7-dd721bdc240c",
+  "status": "pending"
+ },
+ "EP689": {
+  "title": "EP689 | 🏐",
+  "pubdate": "2026-08-19",
+  "duration_s": 3056,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/2b09a713-b103-4bf6-8cb8-745034ef0531/rssFileVip.mp3?timestamp=1787129226150",
+  "guid": "2b09a713-b103-4bf6-8cb8-745034ef0531",
   "status": "pending"
  }
 }
