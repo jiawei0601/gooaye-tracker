@@ -1,0 +1,114 @@
+{
+ "summary": "本集先從兒子五歲生日談起，分享教養心態與時代差異，並悼念黃崇仁逝世，感嘆有錢要有命花。市場方面，解析近期台股、美股史詩級反彈與下殺主因，認為是槓桿與流動性問題，核心事件為 AI 基金 Situational Awareness 爆倉，類似 Archegos 事件，導致全市場降槓桿，熱門股超跌。主持人強調流動性對大部位的重要性，批評處置股制度，並建議投資人應以生活改善為目標，適時獲利了結，而非追求紙上富貴。",
+ "topics": [
+  "兒子五歲生日與教養反思",
+  "黃崇仁逝世與有錢要有命花",
+  "市場下殺主因：降槓桿與流動性危機",
+  "Situational Awareness 爆倉事件分析",
+  "處置股制度與流動性重要性",
+  "AI 泡沫與出場策略",
+  "FIRE 退休規劃的陷阱"
+ ],
+ "market_view": "這波下殺是全市場降槓桿與流動性問題，核心事件為 AI 基金爆倉，後續影響將逐漸減弱，市場會慢慢恢復。",
+ "industries": [
+  {
+   "name": "AI",
+   "stance": "中性",
+   "view": "AI 相關類股漲多後回檔，但長期趨勢仍看好，需留意未來可能出現更大的修正。"
+  },
+  {
+   "name": "軟體",
+   "stance": "觀察",
+   "view": "軟體股在這次事件中被做空，但反彈力道強，顯示市場資金有輪動跡象。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "未明確表態，僅在討論市場時提及。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "聯發科上修財測，為市場提供新動能。"
+  },
+  {
+   "symbol": "6770",
+   "name": "力積電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "主持人曾靠力積電賺錢，但未對目前股價表態。"
+  },
+  {
+   "symbol": "6533",
+   "name": "愛普",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "主持人曾靠愛普賺錢，但未對目前股價表態。"
+  },
+  {
+   "symbol": "NBIS",
+   "name": "Nebius",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+  },
+  {
+   "symbol": "SNDK",
+   "name": "SanDisk",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+  },
+  {
+   "symbol": "IREN",
+   "name": "Iren",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+  },
+  {
+   "symbol": "BE",
+   "name": "Bloom Energy",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+  },
+  {
+   "symbol": "000660",
+   "name": "SK海力士",
+   "market": "KR",
+   "stance": "觀察",
+   "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "長期投資標的，但主持人提醒需注意生活品質與適時獲利了結。"
+  }
+ ],
+ "quotes": [
+  "有錢還是要有命花，希望大家還是要好好照顧自己的身體。",
+  "投資的目的就是為了改善生活，而不是不停地去累積紙上的富貴。",
+  "流動性充沛是很重要的一件事情，要讓大家隨時要買都買得到、要跑都跑得掉。"
+ ],
+ "ep_key": "EP684",
+ "title": "EP684 | 🔦",
+ "pubdate": "2026-08-01",
+ "duration_s": 2950,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

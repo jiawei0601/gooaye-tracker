@@ -1,0 +1,83 @@
+{
+ "summary": "主持人分享北海道家庭旅遊與育兒反思，強調珍惜當下與控制物質慾望。市場方面，認為盤勢震盪但具備發展下一波多頭的條件。討論Anthropic與Salesforce合作，駁斥SaaSpocalypse，認為軟體價值仍在。Marvell上修財測，看好光通與XPU。NVIDIA憑藉供應鏈優勢與快速迭代，仍具強大競爭力，ASIC雖搶市佔但受供應鏈限制。整體看好AI相關供應鏈，如光通、載板等。",
+ "topics": [
+  "北海道旅遊與家庭生活分享",
+  "育兒觀念與多巴胺控制",
+  "Anthropic與Salesforce合作（Cloudforce）",
+  "Marvell財測上修與光通訊展望",
+  "NVIDIA競爭優勢與供應鏈卡位",
+  "ASIC與GPU的競爭態勢",
+  "醫療與長照制度討論",
+  "聽眾QA（職涯選擇、投資、社群推薦）"
+ ],
+ "market_view": "盤勢震盪但已具備發展下一波多頭的條件，AI相關供應鏈機會眾多。",
+ "industries": [
+  {
+   "name": "AI軟體",
+   "stance": "看多",
+   "view": "AI不會消滅軟體公司，Salesforce等具數據與know-how的企業仍有價值。"
+  },
+  {
+   "name": "光通訊",
+   "stance": "看多",
+   "view": "受惠於Scale up光互聯需求，族群強勢，有望持續上攻。"
+  },
+  {
+   "name": "半導體",
+   "stance": "看多",
+   "view": "NVIDIA憑藉供應鏈優勢與快速迭代，仍具強大競爭力。"
+  },
+  {
+   "name": "載板",
+   "stance": "看多",
+   "view": "供應缺口大，為戰略物資，價格可能持續上漲。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "CRM",
+   "name": "Salesforce",
+   "market": "US",
+   "stance": "看多",
+   "argument": "與Anthropic合作，掌握企業數據與know-how，轉型迅速，價值未被AI侵蝕。"
+  },
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "看多",
+   "argument": "上修財測，受惠於XPU與光通訊需求。"
+  },
+  {
+   "symbol": "NVDA",
+   "name": "NVIDIA",
+   "market": "US",
+   "stance": "看多",
+   "argument": "供應鏈卡位與快速迭代，競爭優勢強大，ASIC短期難撼動。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Alphabet",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "其ASIC（XPU）為Marvell客戶，但主持人未明確表態。"
+  },
+  {
+   "symbol": "TSM",
+   "name": "台積電",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "NVIDIA下單量大，但主持人未直接評論。"
+  }
+ ],
+ "quotes": [
+  "東西好沒有用，你要有人幫你做出來。",
+  "不管你有多少錢，你都還是會有一樣的困擾，你就只會想要有更多錢。",
+  "當你把這些東西都理出來之後，你還是會拉回來知道說，這個世界大家某個程度上都還是有一些面具的存在。"
+ ],
+ "ep_key": "EP692",
+ "title": "EP692 | 🍺",
+ "pubdate": "2026-08-29",
+ "duration_s": 2999,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1033,6 +1033,18 @@
  "被動元件": {
   "timeline": [
    {
+    "ep": "EP688",
+    "date": "2026-08-15",
+    "stance": "看多",
+    "view": "營收持續創高且獲利成長高於營收，AI領域漲價趨勢明確，但需區分車用/消費電子的漲價僅是排擠效應。"
+   },
+   {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "觀察",
+    "view": "漲價故事真實，營收已反映，但五六月漲多回檔，需等輪動再起。"
+   },
+   {
     "ep": "EP679",
     "date": "2026-07-15",
     "stance": "觀察",
@@ -1315,12 +1327,24 @@
     "view": "以國巨歷史案例提醒機會財股票不要看財報抱股。"
    }
   ],
-  "mentions": 47,
-  "latest_stance": "觀察",
-  "latest_date": "2026-07-15"
+  "mentions": 49,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-15"
  },
  "半導體": {
   "timeline": [
+   {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "看多",
+    "view": "NVIDIA憑藉供應鏈優勢與快速迭代，仍具強大競爭力。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "中性",
+    "view": "HBM降規與TPU遞延屬成本考量與彈性調整，不影響長線AI趨勢。"
+   },
    {
     "ep": "EP683",
     "date": "2026-07-29",
@@ -2600,9 +2624,9 @@
     "view": "台積電赴美設廠是政治妥協，但先進製程仍留在台灣，矽盾短期無虞。"
    }
   ],
-  "mentions": 213,
-  "latest_stance": "觀察",
-  "latest_date": "2026-07-29"
+  "mentions": 215,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-29"
  },
  "加密貨幣": {
   "timeline": [
@@ -4708,6 +4732,18 @@
  "記憶體": {
   "timeline": [
    {
+    "ep": "EP689",
+    "date": "2026-08-19",
+    "stance": "看多",
+    "view": "記憶體是最缺且展望最明確的族群，若股價無法維持強勢，將影響其他零組件表現。"
+   },
+   {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "中性",
+    "view": "第三四季報價漲幅趨緩，但需求未受影響，SanDisk guidance已驗證。"
+   },
+   {
     "ep": "EP683",
     "date": "2026-07-29",
     "stance": "看多",
@@ -5356,9 +5392,9 @@
     "view": "報價上漲帶動股價噴出，但主持人未明確表態。"
    }
   ],
-  "mentions": 108,
+  "mentions": 110,
   "latest_stance": "看多",
-  "latest_date": "2026-07-29"
+  "latest_date": "2026-08-19"
  },
  "廣告科技": {
   "timeline": [
@@ -5437,6 +5473,12 @@
  },
  "生技": {
   "timeline": [
+   {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "觀察",
+    "view": "新藥股非常難做，臨床過關也不代表賣得好，不打算深入研究。"
+   },
    {
     "ep": "EP366",
     "date": "2023-07-15",
@@ -5552,9 +5594,9 @@
     "view": "生技股增資拉股價是常見現象，需注意疫情後風險。"
    }
   ],
-  "mentions": 19,
+  "mentions": 20,
   "latest_stance": "觀察",
-  "latest_date": "2023-07-15"
+  "latest_date": "2026-08-22"
  },
  "權證": {
   "timeline": [
@@ -5584,6 +5626,12 @@
  },
  "遊戲": {
   "timeline": [
+   {
+    "ep": "EP689",
+    "date": "2026-08-19",
+    "stance": "看多",
+    "view": "透過蕭南資本投資台灣遊戲團隊，希望證明台灣遊戲開發能獲利。"
+   },
    {
     "ep": "EP485",
     "date": "2024-09-04",
@@ -5747,9 +5795,9 @@
     "view": "遊戲橘子曾利用《天堂M》題材炒股，股價在利多實現後崩跌，小股本遊戲股需高度警戒。"
    }
   ],
-  "mentions": 27,
-  "latest_stance": "看空",
-  "latest_date": "2024-09-04"
+  "mentions": 28,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-19"
  },
  "面板": {
   "timeline": [
@@ -5972,6 +6020,12 @@
  "IC設計": {
   "timeline": [
    {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "看多",
+    "view": "除博通外，其他設計夥伴（如 Marvell、聯發科）未來市場想像空間反而增加。"
+   },
+   {
     "ep": "EP675",
     "date": "2026-07-01",
     "stance": "看多",
@@ -6128,9 +6182,9 @@
     "view": "本益比高因毛利高且具智慧財產優勢，但空頭時評價可能大幅下修。"
    }
   ],
-  "mentions": 26,
+  "mentions": 27,
   "latest_stance": "看多",
-  "latest_date": "2026-07-01"
+  "latest_date": "2026-08-22"
  },
  "NB筆電": {
   "timeline": [
@@ -7387,6 +7441,12 @@
  "載板": {
   "timeline": [
    {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "看多",
+    "view": "供應缺口大，為戰略物資，價格可能持續上漲。"
+   },
+   {
     "ep": "EP679",
     "date": "2026-07-15",
     "stance": "看多",
@@ -7405,9 +7465,9 @@
     "view": "IC載板族群表現強勢，是台股資金匯聚的重點之一。"
    }
   ],
-  "mentions": 3,
+  "mentions": 4,
   "latest_stance": "看多",
-  "latest_date": "2026-07-15"
+  "latest_date": "2026-08-29"
  },
  "觸控驅動IC": {
   "timeline": [
@@ -11260,6 +11320,18 @@
  "散熱": {
   "timeline": [
    {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "看多",
+    "view": "持續布局，看好其表現。"
+   },
+   {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "看多",
+    "view": "散熱跟隨光通轉強，有機會成為新一波主流，但需觀察能否攻新高。"
+   },
+   {
     "ep": "EP665",
     "date": "2026-05-27",
     "stance": "看多",
@@ -11440,9 +11512,9 @@
     "view": "銅價若回調，散熱廠毛利可望改善，現在反而是可以注意的時候。"
    }
   ],
-  "mentions": 30,
+  "mentions": 32,
   "latest_stance": "看多",
-  "latest_date": "2026-05-27"
+  "latest_date": "2026-08-12"
  },
  "電子支付": {
   "timeline": [
@@ -12396,6 +12468,12 @@
  "AI": {
   "timeline": [
    {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "中性",
+    "view": "AI 相關類股漲多後回檔，但長期趨勢仍看好，需留意未來可能出現更大的修正。"
+   },
+   {
     "ep": "EP670",
     "date": "2026-06-13",
     "stance": "觀察",
@@ -12468,9 +12546,9 @@
     "view": "ChatGPT等AI工具是重大催化劑，將加速產業變革，帶來投資機會。"
    }
   ],
-  "mentions": 12,
-  "latest_stance": "觀察",
-  "latest_date": "2026-06-13"
+  "mentions": 13,
+  "latest_stance": "中性",
+  "latest_date": "2026-08-01"
  },
  "自行車": {
   "timeline": [
@@ -12539,6 +12617,12 @@
  "AI晶片": {
   "timeline": [
    {
+    "ep": "EP688",
+    "date": "2026-08-15",
+    "stance": "觀察",
+    "view": "Cerebras的SRAM方案在reasoning時代的decode環節理論上有優勢，但需觀察籌碼釋出後的表現。"
+   },
+   {
     "ep": "EP622",
     "date": "2025-12-27",
     "stance": "看多",
@@ -12581,9 +12665,9 @@
     "view": "未來一兩年AI需求放量，輝達已打出底部，願意開始加碼。"
    }
   ],
-  "mentions": 7,
-  "latest_stance": "看多",
-  "latest_date": "2025-12-27"
+  "mentions": 8,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-15"
  },
  "原油期貨": {
   "timeline": [
@@ -14914,6 +14998,24 @@
  "軟體": {
   "timeline": [
    {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "看多",
+    "view": "美股資金明顯回流軟體，Palantir、Cloudflare財報後大漲，資安股也偏貴但資金願意湧入。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "看多",
+    "view": "AI不會消滅軟體，反而增加成本，但具數據整合與穩定性的軟體公司仍具價值，如Palantir。"
+   },
+   {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "view": "軟體股在這次事件中被做空，但反彈力道強，顯示市場資金有輪動跡象。"
+   },
+   {
     "ep": "EP644",
     "date": "2026-03-14",
     "stance": "中性",
@@ -15052,9 +15154,9 @@
     "view": "輕資產的以色列軟體公司（如CyberArk）受戰爭直接影響小，下殺可視為機會。"
    }
   ],
-  "mentions": 23,
-  "latest_stance": "中性",
-  "latest_date": "2026-03-14"
+  "mentions": 26,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-08"
  },
  "ODM": {
   "timeline": [
@@ -15335,15 +15437,21 @@
  "封裝測試": {
   "timeline": [
    {
+    "ep": "EP689",
+    "date": "2026-08-19",
+    "stance": "觀察",
+    "view": "封裝測試是瓶頸交易，若股價無法再推升，可能代表瓶頸交易暫時休息。"
+   },
+   {
     "ep": "EP408",
     "date": "2023-12-09",
     "stance": "看多",
     "view": "日月光、京元電等封測廠將顯著受惠於 AI 晶片放量。"
    }
   ],
-  "mentions": 1,
-  "latest_stance": "看多",
-  "latest_date": "2023-12-09"
+  "mentions": 2,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-19"
  },
  "PCB 載板": {
   "timeline": [
@@ -16159,6 +16267,18 @@
  "光通訊": {
   "timeline": [
    {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "看多",
+    "view": "受惠於Scale up光互聯需求，族群強勢，有望持續上攻。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "看多",
+    "view": "中國光通元件可能被禁的影響有限，因主要廠商海外出貨，且供應鏈關鍵材料使美國難以全面封殺。"
+   },
+   {
     "ep": "EP680",
     "date": "2026-07-18",
     "stance": "觀察",
@@ -16309,9 +16429,9 @@
     "view": "800G光通訊有故事但股價不一定立即反應，需靠營收驗證。"
    }
   ],
-  "mentions": 25,
-  "latest_stance": "觀察",
-  "latest_date": "2026-07-18"
+  "mentions": 27,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-29"
  },
  "記憶體控制 IC": {
   "timeline": [
@@ -16637,6 +16757,12 @@
  "AI軟體": {
   "timeline": [
    {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "看多",
+    "view": "AI不會消滅軟體公司，Salesforce等具數據與know-how的企業仍有價值。"
+   },
+   {
     "ep": "EP666",
     "date": "2026-05-30",
     "stance": "看多",
@@ -16679,9 +16805,9 @@
     "view": "軟體展後若市場興趣未升，可能維持盤整，但資金有機會流入。"
    }
   ],
-  "mentions": 7,
+  "mentions": 8,
   "latest_stance": "看多",
-  "latest_date": "2026-05-30"
+  "latest_date": "2026-08-29"
  },
  "IPC": {
   "timeline": [
@@ -16763,15 +16889,21 @@
  "設備": {
   "timeline": [
    {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "觀察",
+    "view": "本波僅買一點點，中性看待。"
+   },
+   {
     "ep": "EP482",
     "date": "2024-08-24",
     "stance": "觀察",
     "view": "CoWoS供應鏈需求旺到明年，但股價已高，追高風險大。"
    }
   ],
-  "mentions": 1,
+  "mentions": 2,
   "latest_stance": "觀察",
-  "latest_date": "2024-08-24"
+  "latest_date": "2026-08-12"
  },
  "遊戲軟體": {
   "timeline": [
@@ -20239,6 +20371,12 @@
  "功率元件": {
   "timeline": [
    {
+    "ep": "EP688",
+    "date": "2026-08-15",
+    "stance": "看多",
+    "view": "GaN供給開始吃緊，SiC與IGBT在800V power center階段將受惠。"
+   },
+   {
     "ep": "EP678",
     "date": "2026-07-11",
     "stance": "看多",
@@ -20269,9 +20407,9 @@
     "view": "受AI資料中心高密度需求帶動，表現轉好，未來需求將持續增加。"
    }
   ],
-  "mentions": 5,
+  "mentions": 6,
   "latest_stance": "看多",
-  "latest_date": "2026-07-11"
+  "latest_date": "2026-08-15"
  },
  "紅酒": {
   "timeline": [
@@ -20432,15 +20570,27 @@
  "光通": {
   "timeline": [
    {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "看多",
+    "view": "本波布局較多，看好其成長。"
+   },
+   {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "看多",
+    "view": "光通是第一個休息也第一個轉強的族群，台股光通雖多為Tier2/3但連帶受惠，上游氧化鋁基板缺料是關鍵。"
+   },
+   {
     "ep": "EP676",
     "date": "2026-07-04",
     "stance": "觀察",
     "view": "目前市場資金未明顯流入，雖是好產業但非當前熱點。"
    }
   ],
-  "mentions": 1,
-  "latest_stance": "觀察",
-  "latest_date": "2026-07-04"
+  "mentions": 3,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-12"
  },
  "資安股": {
   "timeline": [
@@ -20506,6 +20656,84 @@
   "mentions": 1,
   "latest_stance": "觀察",
   "latest_date": "2026-07-22"
+ },
+ "power": {
+  "timeline": [
+   {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "看多",
+    "view": "美系大AI player訂單往800V走，帶動power supply、BBU等規格與ASP提升，光寶已率先反應，後續Delta有機會跟動。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-08"
+ },
+ "AI雲端/算力": {
+  "timeline": [
+   {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "看多",
+    "view": "算力是數位時代的基礎設施，Google與Meta可能轉型為算力房東，長期有利。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-12"
+ },
+ "AI電源": {
+  "timeline": [
+   {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "看多",
+    "view": "屬於AI基建股，持續布局。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-12"
+ },
+ "PCB載板": {
+  "timeline": [
+   {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "觀察",
+    "view": "已做過且擁擠，興趣較低。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-12"
+ },
+ "電力": {
+  "timeline": [
+   {
+    "ep": "EP688",
+    "date": "2026-08-15",
+    "stance": "看多",
+    "view": "800V DC架構演進是必須解決的物理瓶頸，相關供應鏈在股價修正後有重新評價機會。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-15"
+ },
+ "客製化晶片": {
+  "timeline": [
+   {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "看多",
+    "view": "Google 加速走向 COT 模式，將開出更多新案，整體 IC 設計夥伴可望受惠。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-22"
  },
  "健身器材": {
   "timeline": [

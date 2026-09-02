@@ -1,5 +1,26 @@
 # HANDOFF — gooaye-tracker
 
+## 語料補到 EP692＋VM Gemini 額度耗盡（2026-09-03，Claude Code）
+⚠️ **VM 音訊分析管線自 EP684 起全數 429**：Gemini 回 `prepayment credits are depleted`
+（AI Studio 預付額度用完，非免費層日限）。cron 仍每週三/六跑、每次 commit「彙整 683 集」
+但零新增。**要恢復音訊管線需使用者到 https://ai.studio/projects 儲值或換金鑰**；
+在那之前本機可用文字管線補（本次做法，見下）。EP693 粉絲站尚無逐字稿，仍待分析。
+
+本次做的事（全部冪等，可重跑）：
+1. 本機 repo rebase 到 origin/master（VM 13 個 daily commit）。
+2. `fetch_web_transcripts.py` → `data/transcripts_web/` 684→**692 集**。
+3. 重抓 `data/external/wmrs/transcripts.json.br` 覆蓋打包檔（→692 集，舊檔 .bak）。
+4. `extract_extras.py --provider deepseek` 抽 EP681-692 六類（12 集零失敗）。
+5. `analyze_text.py --provider deepseek --ep EPnnn` 逐集補 EP684-692 標的分析
+   （腳本只吃 `--ep` 單集或 status=skipped，pending 集要用 for 迴圈逐集指定）。
+6. `aggregate.py` → **692 集／762 檔標的／760 個產業**；`build_dashboard.py` 已更新。
+7. `build_rag_chunks.py` → `rag_build_index.py`（OpenRouter bge-m3）：**51,661 塊、向量 100%**
+   （transcript 24,301／analysis 10,198／extras 17,162）。
+
+✅ **本機排程 GooayeWebSync 修好**：repo 搬到 `專案-投資\` 後兩支 .bat 的 `cd` 仍指舊路徑，
+每晚 23:00 都失敗（LastTaskResult=1），逐字稿卡在 EP684 一個月。本次 commit 路徑修正，
+手動 Start-ScheduledTask 驗證 result=0、log 正常寫入。
+
 ## Embedding 災備已實作＋RAG 補到 EP682（2026-07-27）
 ⚠️ **NIM `baai/bge-m3` 目前故障中（HTTP 500）**；候選表第二個 `nvidia/llama-3.2-nv-embedqa-1b-v2`
 已下架（410 Gone），只剩 `nvidia/nv-embedqa-e5-v5` 可用——但**那是不同模型、向量空間不相容，不可混用**。

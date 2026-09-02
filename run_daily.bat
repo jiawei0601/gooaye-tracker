@@ -1,6 +1,6 @@
 @echo off
-cd /d C:\CLAUDE\gooaye-tracker
+cd /d C:\CLAUDE\±M®×-§ë¸ê\gooaye-tracker
 python scripts\daily.py --limit 20 >> data\daily.log 2>&1
 git add -A >nul 2>&1
-git commit -q -m "daily: æŽ’ç¨‹è‡ªå‹•å…¥åº«åˆ†æž/å„€è¡¨æ¿" >nul 2>&1
+git commit -q -m "daily: ±Æµ{¦Û°Ê¤J®w¤ÀªR/»öªíªO" >nul 2>&1
 git push -q origin master >nul 2>&1

@@ -1840,6 +1840,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "觀察",
+    "argument": "蘋果在AI投資相對保守，但市場給予正面肯定，顯示AI投資不一定直接反映在股價。"
+   },
+   {
     "ep": "EP677",
     "date": "2026-07-08",
     "stance": "觀察",
@@ -2458,9 +2464,9 @@
     "argument": "強勢科技公司，下殺時可考慮加碼。"
    }
   ],
-  "mentions": 103,
+  "mentions": 104,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-08"
+  "latest_date": "2026-08-12"
  },
  "SQ": {
   "name": "Square",
@@ -2790,6 +2796,18 @@
   "name": "元大台灣50 ETF",
   "market": "TW",
   "timeline": [
+   {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "持有中",
+    "argument": "作為指數投資核心，適合長期持有。"
+   },
+   {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "中性",
+    "argument": "長期投資標的，但主持人提醒需注意生活品質與適時獲利了結。"
+   },
    {
     "ep": "EP680",
     "date": "2026-07-18",
@@ -3169,9 +3187,9 @@
     "argument": "適合指數投資者，成交量較大，長期報酬優於0056。"
    }
   ],
-  "mentions": 63,
+  "mentions": 65,
   "latest_stance": "持有中",
-  "latest_date": "2026-07-18"
+  "latest_date": "2026-08-12"
  },
  "SPY": {
   "name": "SPDR S&P 500 ETF",
@@ -4011,6 +4029,24 @@
   "name": "台積電",
   "market": "TW",
   "timeline": [
+   {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "持有中",
+    "argument": "作為核心持股，適合長期持有。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "觀察",
+    "argument": "法說會後暴跌，但近期反彈漲停，為市場重要指標。"
+   },
+   {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "未明確表態，僅在討論市場時提及。"
+   },
    {
     "ep": "EP683",
     "date": "2026-07-29",
@@ -5746,9 +5782,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 289,
+  "mentions": 292,
   "latest_stance": "持有中",
-  "latest_date": "2026-07-29"
+  "latest_date": "2026-08-12"
  },
  "3443": {
   "name": "創意電子",
@@ -6577,6 +6613,18 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP688",
+    "date": "2026-08-15",
+    "stance": "中性",
+    "argument": "與Cerebras合作disaggregated inference架構，並收購將模型邏輯寫入晶片的公司，布局推論效率。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "觀察",
+    "argument": "財報後仍跌，表現相對弱勢。"
+   },
+   {
     "ep": "EP683",
     "date": "2026-07-29",
     "stance": "觀察",
@@ -7141,9 +7189,9 @@
     "argument": "持股獲利約50%，放給它跑。"
    }
   ],
-  "mentions": 94,
-  "latest_stance": "觀察",
-  "latest_date": "2026-07-29"
+  "mentions": 96,
+  "latest_stance": "中性",
+  "latest_date": "2026-08-15"
  },
  "KEYS": {
   "name": "是德科技",
@@ -8260,6 +8308,18 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "看多",
+    "argument": "財報後大漲，代表資金回流軟體。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "看多",
+    "argument": "財報亮眼且市場願意反映，若能撐住高估值，將帶動其他軟體股上修。"
+   },
+   {
     "ep": "EP677",
     "date": "2026-07-08",
     "stance": "持有中",
@@ -8560,9 +8620,9 @@
     "argument": "IPO後最多拿5%資金投入，市場熱度高勿All-in。"
    }
   ],
-  "mentions": 50,
-  "latest_stance": "持有中",
-  "latest_date": "2026-07-08"
+  "mentions": 52,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-08"
  },
  "AMC": {
   "name": "AMC Entertainment",
@@ -8703,6 +8763,30 @@
   "name": "聯發科",
   "market": "TW",
   "timeline": [
+   {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "看多",
+    "argument": "市場將其視為 Marvell 協議的利空是反應過度，因為 Marvell 拿到的並非其既有 roadmap 的產品。"
+   },
+   {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "中性",
+    "argument": "Micro LED解決方案跑得前面，但量產需數年。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "觀察",
+    "argument": "TPU遞延消息影響不大，Roadmap不變。"
+   },
+   {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "看多",
+    "argument": "聯發科上修財測，為市場提供新動能。"
+   },
    {
     "ep": "EP673",
     "date": "2026-06-24",
@@ -9442,9 +9526,9 @@
     "argument": "受華為制裁影響股價修正，但可能受惠於小米、Oppo轉單，不宜放空。"
    }
   ],
-  "mentions": 123,
-  "latest_stance": "觀察",
-  "latest_date": "2026-06-24"
+  "mentions": 127,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-22"
  },
  "2303": {
   "name": "聯電",
@@ -9691,6 +9775,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "主持人曾靠力積電賺錢，但未對目前股價表態。"
+   },
+   {
     "ep": "EP679",
     "date": "2026-07-15",
     "stance": "觀察",
@@ -9739,9 +9829,9 @@
     "argument": "老闆黃崇仁有爭議，但晶圓市況確實不錯。"
    }
   ],
-  "mentions": 8,
+  "mentions": 9,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-15"
+  "latest_date": "2026-08-01"
  },
  "3529": {
   "name": "力旺",
@@ -9963,6 +10053,30 @@
   "name": "NVIDIA",
   "market": "US",
   "timeline": [
+   {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "看多",
+    "argument": "供應鏈卡位與快速迭代，競爭優勢強大，ASIC短期難撼動。"
+   },
+   {
+    "ep": "EP689",
+    "date": "2026-08-19",
+    "stance": "觀察",
+    "argument": "輝達透過供應商融資與買設備等方式改善瓶頸，但場外槓桿是潛在風險。"
+   },
+   {
+    "ep": "EP688",
+    "date": "2026-08-15",
+    "stance": "中性",
+    "argument": "800V DC白皮書帶動電力族群討論，CPX方案則有雷聲大雨點小的跡象。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "觀察",
+    "argument": "光通元件為決勝點，若被封鎖將積極解決。"
+   },
    {
     "ep": "EP683",
     "date": "2026-07-29",
@@ -11614,9 +11728,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 275,
+  "mentions": 279,
   "latest_stance": "看多",
-  "latest_date": "2026-07-29"
+  "latest_date": "2026-08-29"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -12667,6 +12781,30 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "觀察",
+    "argument": "其ASIC（XPU）為Marvell客戶，但主持人未明確表態。"
+   },
+   {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "看多",
+    "argument": "透過取得 Marvell 認股權證，更加決心走向 COT 模式，並積極往硬體租賃方向發展，可能成為非常賺錢的存在。"
+   },
+   {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "看多",
+    "argument": "Google可能轉型為AI算力基礎設施提供者，波克夏投資邏輯清晰，短期人事變動不一定是利空。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "觀察",
+    "argument": "財報後跌又漲回，顯示市場情緒轉變。"
+   },
+   {
     "ep": "EP682",
     "date": "2026-07-25",
     "stance": "看多",
@@ -13039,9 +13177,9 @@
     "argument": "不依賴消費者上門，但股價仍隨大盤下跌。"
    }
   ],
-  "mentions": 62,
-  "latest_stance": "看多",
-  "latest_date": "2026-07-25"
+  "mentions": 66,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-29"
  },
  "MCHI": {
   "name": "iShares MSCI中國ETF",
@@ -14224,6 +14362,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "主持人曾靠愛普賺錢，但未對目前股價表態。"
+   },
+   {
     "ep": "EP415",
     "date": "2024-01-03",
     "stance": "觀察",
@@ -14260,9 +14404,9 @@
     "argument": "晶心科做RISC-V ISA設計，號稱即將獲利，市場給予高本益比，股價表現強勁。"
    }
   ],
-  "mentions": 6,
+  "mentions": 7,
   "latest_stance": "觀察",
-  "latest_date": "2024-01-03"
+  "latest_date": "2026-08-01"
  },
  "2357": {
   "name": "華碩",
@@ -14376,6 +14520,12 @@
   "name": "臉書",
   "market": "US",
   "timeline": [
+   {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "看多",
+    "argument": "Meta也可能走向算力租賃與模型API的組合，類似CoreWeave加AWS。"
+   },
    {
     "ep": "EP678",
     "date": "2026-07-11",
@@ -14617,9 +14767,9 @@
     "argument": "下跌時可考慮撿的標的之一。"
    }
   ],
-  "mentions": 40,
+  "mentions": 41,
   "latest_stance": "看多",
-  "latest_date": "2026-07-11"
+  "latest_date": "2026-08-12"
  },
  "BIDU": {
   "name": "百度",
@@ -15736,6 +15886,24 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "持有中",
+    "argument": "AI電源供應商，持續布局。"
+   },
+   {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "觀察",
+    "argument": "線型弱但公司強，若power族群輪動有機會跟動。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "中性",
+    "argument": "800V電源遞延但終將採用，短線消息不需過度反應。"
+   },
+   {
     "ep": "EP640",
     "date": "2026-02-28",
     "stance": "觀察",
@@ -15850,9 +16018,9 @@
     "argument": "電源供應器，PS5/Xbox概念股。"
    }
   ],
-  "mentions": 19,
-  "latest_stance": "觀察",
-  "latest_date": "2026-02-28"
+  "mentions": 22,
+  "latest_stance": "持有中",
+  "latest_date": "2026-08-12"
  },
  "6531": {
   "name": "普瑞",
@@ -16534,6 +16702,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "中性",
+    "argument": "喜歡這家公司，但未對股價表態。"
+   },
+   {
     "ep": "EP666",
     "date": "2026-05-30",
     "stance": "觀察",
@@ -16678,9 +16852,9 @@
     "argument": "潘建成買股常是低點，可參考其業績指引。"
    }
   ],
-  "mentions": 24,
-  "latest_stance": "觀察",
-  "latest_date": "2026-05-30"
+  "mentions": 25,
+  "latest_stance": "中性",
+  "latest_date": "2026-08-08"
  },
  "TLT": {
   "name": "iShares 20+ Year Treasury Bond ETF",
@@ -16822,6 +16996,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "觀察",
+    "argument": "對新藥股沒有特別看法，認為非常難做，臨床過關也不代表最終會成功。"
+   },
+   {
     "ep": "EP145",
     "date": "2021-06-02",
     "stance": "觀察",
@@ -16834,9 +17014,9 @@
     "argument": "主持人以80多美元買進，短時間內翻倍，驗證短期漲跌難找理由。"
    }
   ],
-  "mentions": 2,
+  "mentions": 3,
   "latest_stance": "觀察",
-  "latest_date": "2021-06-02"
+  "latest_date": "2026-08-22"
  },
  "BNTX": {
   "name": "BioNTech",
@@ -17073,6 +17253,24 @@
   "name": "美光",
   "market": "US",
   "timeline": [
+   {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "觀察",
+    "argument": "分紅政策非常小氣，在搶人時期可能不是好決策。"
+   },
+   {
+    "ep": "EP689",
+    "date": "2026-08-19",
+    "stance": "觀察",
+    "argument": "聽眾提問美光分紅問題，主持人表示不清楚，但認為美光近期應不至於太小氣。"
+   },
+   {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+   },
    {
     "ep": "EP666",
     "date": "2026-05-30",
@@ -17368,9 +17566,9 @@
     "argument": "財報數字漂亮但股價隔日跌5%，市場可能對未來保守，但或許是Alpha機會。"
    }
   ],
-  "mentions": 49,
+  "mentions": 52,
   "latest_stance": "觀察",
-  "latest_date": "2026-05-30"
+  "latest_date": "2026-08-22"
  },
  "4919": {
   "name": "新唐",
@@ -19153,6 +19351,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "持有中",
+    "argument": "AI基建股，持續布局。"
+   },
+   {
     "ep": "EP592",
     "date": "2025-09-13",
     "stance": "觀察",
@@ -19243,9 +19447,9 @@
     "argument": "網通族群，8/20 後相對強勢，表現不錯。"
    }
   ],
-  "mentions": 15,
-  "latest_stance": "觀察",
-  "latest_date": "2025-09-13"
+  "mentions": 16,
+  "latest_stance": "持有中",
+  "latest_date": "2026-08-12"
  },
  "2314": {
   "name": "台揚",
@@ -20050,6 +20254,18 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "看多",
+    "argument": "上修財測，受惠於XPU與光通訊需求。"
+   },
+   {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "看多",
+    "argument": "與 Google 簽訂客製化晶片協議，拿下的是全新案子的周邊晶片，並非掠奪既有夥伴訂單，反而受惠於 Google 擴大開案。"
+   },
+   {
     "ep": "EP681",
     "date": "2026-07-22",
     "stance": "觀察",
@@ -20362,9 +20578,9 @@
     "argument": "通訊營收佔比約40%，是通訊產業重點標的。"
    }
   ],
-  "mentions": 52,
-  "latest_stance": "觀察",
-  "latest_date": "2026-07-22"
+  "mentions": 54,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-29"
  },
  "ON": {
   "name": "安森美半導體",
@@ -20758,6 +20974,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "看多",
+    "argument": "林口之光，被放利空時是好機會。"
+   },
+   {
     "ep": "EP633",
     "date": "2026-02-04",
     "stance": "看多",
@@ -20806,9 +21028,9 @@
     "argument": "均熱片/散熱廠，PS5/Xbox概念股。"
    }
   ],
-  "mentions": 8,
+  "mentions": 9,
   "latest_stance": "看多",
-  "latest_date": "2026-02-04"
+  "latest_date": "2026-08-08"
  },
  "3042": {
   "name": "晶技",
@@ -21178,6 +21400,18 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "看多",
+    "argument": "財報後直接噴出，可能帶動power相關公司。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "中性",
+    "argument": "800V電源遞延但終將採用，短線消息不需過度反應。"
+   },
+   {
     "ep": "EP446",
     "date": "2024-04-20",
     "stance": "觀察",
@@ -21202,9 +21436,9 @@
     "argument": "電源供應器，PS5/Xbox概念股。"
    }
   ],
-  "mentions": 4,
-  "latest_stance": "觀察",
-  "latest_date": "2024-04-20"
+  "mentions": 6,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-08"
  },
  "WOLF": {
   "name": "Wolfspeed",
@@ -21925,6 +22159,18 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP690",
+    "date": "2026-08-22",
+    "stance": "觀察",
+    "argument": "Google 走向 COT 將壓縮其 turnkey 生意模式的空間，市場對其負面解讀是合理的。"
+   },
+   {
+    "ep": "EP685",
+    "date": "2026-08-05",
+    "stance": "觀察",
+    "argument": "TPU遞延消息影響不大，Roadmap不變。"
+   },
+   {
     "ep": "EP673",
     "date": "2026-06-24",
     "stance": "觀察",
@@ -22351,9 +22597,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 71,
+  "mentions": 73,
   "latest_stance": "觀察",
-  "latest_date": "2026-06-24"
+  "latest_date": "2026-08-22"
  },
  "3491": {
   "name": "昇達科",
@@ -23323,6 +23569,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "觀察",
+    "argument": "NVIDIA下單量大，但主持人未直接評論。"
+   },
+   {
     "ep": "EP680",
     "date": "2026-07-18",
     "stance": "持有中",
@@ -23443,9 +23695,9 @@
     "argument": ""
    }
   ],
-  "mentions": 20,
-  "latest_stance": "持有中",
-  "latest_date": "2026-07-18"
+  "mentions": 21,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-29"
  },
  "9904": {
   "name": "寶成",
@@ -24901,6 +25153,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "持有中",
+    "argument": "散熱族群代表，持續布局。"
+   },
+   {
     "ep": "EP598",
     "date": "2025-10-04",
     "stance": "看多",
@@ -24949,9 +25207,9 @@
     "argument": "AI伺服器散熱供應鏈，但營收占比僅個位數。"
    }
   ],
-  "mentions": 8,
-  "latest_stance": "看多",
-  "latest_date": "2025-10-04"
+  "mentions": 9,
+  "latest_stance": "持有中",
+  "latest_date": "2026-08-12"
  },
  "AAOI": {
   "name": "Applied Optoelectronics",
@@ -25366,6 +25624,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "看多",
+    "argument": "財報後噴出，顯示資金願意買貴的軟體股。"
+   },
+   {
     "ep": "EP677",
     "date": "2026-07-08",
     "stance": "持有中",
@@ -25570,9 +25834,9 @@
     "argument": "雲端概念股之一，屬於主持人配置的族群。"
    }
   ],
-  "mentions": 34,
-  "latest_stance": "持有中",
-  "latest_date": "2026-07-08"
+  "mentions": 35,
+  "latest_stance": "看多",
+  "latest_date": "2026-08-08"
  },
  "DDOG": {
   "name": "DataDog",
@@ -25777,15 +26041,21 @@
   "market": "KR",
   "timeline": [
    {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+   },
+   {
     "ep": "EP406",
     "date": "2023-12-02",
     "stance": "看多",
     "argument": "HBM獨供地位，明年產量應遠高於公開數字。"
    }
   ],
-  "mentions": 1,
-  "latest_stance": "看多",
-  "latest_date": "2023-12-02"
+  "mentions": 2,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-01"
  },
  "CFLT": {
   "name": "Confluent",
@@ -27232,6 +27502,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP687",
+    "date": "2026-08-12",
+    "stance": "持有中",
+    "argument": "AI基建股，持續布局。"
+   },
+   {
     "ep": "EP641",
     "date": "2026-03-04",
     "stance": "看多",
@@ -27280,9 +27556,9 @@
     "argument": "KY股範例。"
    }
   ],
-  "mentions": 8,
-  "latest_stance": "看多",
-  "latest_date": "2026-03-04"
+  "mentions": 9,
+  "latest_stance": "持有中",
+  "latest_date": "2026-08-12"
  },
  "UBER": {
   "name": "Uber",
@@ -27802,6 +28078,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP692",
+    "date": "2026-08-29",
+    "stance": "看多",
+    "argument": "與Anthropic合作，掌握企業數據與know-how，轉型迅速，價值未被AI侵蝕。"
+   },
+   {
     "ep": "EP666",
     "date": "2026-05-30",
     "stance": "看多",
@@ -27844,9 +28126,9 @@
     "argument": "希斯洛機場導入其服務讓27%客服由AI達成，成熟企業採用將帶動業界變化。"
    }
   ],
-  "mentions": 7,
+  "mentions": 8,
   "latest_stance": "看多",
-  "latest_date": "2026-05-30"
+  "latest_date": "2026-08-29"
  },
  "NOW": {
   "name": "ServiceNow",
@@ -29815,6 +30097,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+   },
+   {
     "ep": "EP646",
     "date": "2026-03-21",
     "stance": "觀察",
@@ -29827,9 +30115,9 @@
     "argument": "氫能源相關，受Nikola題材帶動，但基本面不穩。"
    }
   ],
-  "mentions": 2,
+  "mentions": 3,
   "latest_stance": "觀察",
-  "latest_date": "2026-03-21"
+  "latest_date": "2026-08-01"
  },
  "6451": {
   "name": "訊芯-KY",
@@ -30721,6 +31009,81 @@
   "mentions": 1,
   "latest_stance": "觀察",
   "latest_date": "2026-07-22"
+ },
+ "NBIS": {
+  "name": "Nebius",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-01"
+ },
+ "SNDK": {
+  "name": "SanDisk",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-01"
+ },
+ "IREN": {
+  "name": "Iren",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP684",
+    "date": "2026-08-01",
+    "stance": "觀察",
+    "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-01"
+ },
+ "6239": {
+  "name": "力成",
+  "market": "TW",
+  "timeline": [
+   {
+    "ep": "EP686",
+    "date": "2026-08-08",
+    "stance": "觀察",
+    "argument": "聽眾砍在阿呆谷後公司宣布買回股份，主持人未明確表態。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-08"
+ },
+ "CBRS": {
+  "name": "Cerebras",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP688",
+    "date": "2026-08-15",
+    "stance": "觀察",
+    "argument": "SRAM方案在decode環節理論上有搞頭，產能擴張迅速，但需觀察大量解禁籌碼釋出後的市場反應。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-08-15"
  },
  "NCNO": {
   "name": "nCino",

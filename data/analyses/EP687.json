@@ -1,0 +1,120 @@
+{
+ "summary": "主持人分享峇里島度假與下單經驗，感嘆有錢人與常人生活差異不大。討論處置股新制下假單橫行、市場失去信賴的現象。針對Google人事大搬風，提出波克夏投資Google的觀點：Google可能轉型為AI算力基礎設施提供者（數位時代的鐵路與電網），而非輸掉AI競賽，Meta也有類似布局。最後回答聽眾問題，包含選股策略、槓桿心態、人生卡關建議等。整體對大盤看法相對樂觀，認為盤勢可做但需忍受震盪。",
+ "topics": [
+  "處置股新制與市場假單現象",
+  "Google人事變動與AI策略轉向",
+  "波克夏投資Google的邏輯",
+  "AI算力基礎設施投資觀點",
+  "台股選股與輪動策略",
+  "槓桿使用與風險心態",
+  "人生卡關與運動建議"
+ ],
+ "market_view": "整體相對樂觀，盤勢可做，但市場缺乏信賴感，過程會比較震盪。",
+ "industries": [
+  {
+   "name": "AI雲端/算力",
+   "stance": "看多",
+   "view": "算力是數位時代的基礎設施，Google與Meta可能轉型為算力房東，長期有利。"
+  },
+  {
+   "name": "光通",
+   "stance": "看多",
+   "view": "本波布局較多，看好其成長。"
+  },
+  {
+   "name": "AI電源",
+   "stance": "看多",
+   "view": "屬於AI基建股，持續布局。"
+  },
+  {
+   "name": "散熱",
+   "stance": "看多",
+   "view": "持續布局，看好其表現。"
+  },
+  {
+   "name": "設備",
+   "stance": "觀察",
+   "view": "本波僅買一點點，中性看待。"
+  },
+  {
+   "name": "PCB載板",
+   "stance": "觀察",
+   "view": "已做過且擁擠，興趣較低。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "GOOGL",
+   "name": "Google",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Google可能轉型為AI算力基礎設施提供者，波克夏投資邏輯清晰，短期人事變動不一定是利空。"
+  },
+  {
+   "symbol": "META",
+   "name": "Meta",
+   "market": "US",
+   "stance": "看多",
+   "argument": "Meta也可能走向算力租賃與模型API的組合，類似CoreWeave加AWS。"
+  },
+  {
+   "symbol": "AAPL",
+   "name": "蘋果",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "蘋果在AI投資相對保守，但市場給予正面肯定，顯示AI投資不一定直接反映在股價。"
+  },
+  {
+   "symbol": "2330",
+   "name": "台積電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "作為核心持股，適合長期持有。"
+  },
+  {
+   "symbol": "0050",
+   "name": "元大台灣50",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "作為指數投資核心，適合長期持有。"
+  },
+  {
+   "symbol": "3017",
+   "name": "奇鋐",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "散熱族群代表，持續布局。"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "AI電源供應商，持續布局。"
+  },
+  {
+   "symbol": "2345",
+   "name": "智邦",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "AI基建股，持續布局。"
+  },
+  {
+   "symbol": "3665",
+   "name": "貿聯-KY",
+   "market": "TW",
+   "stance": "持有中",
+   "argument": "AI基建股，持續布局。"
+  }
+ ],
+ "quotes": [
+  "算力就是數位時代的鐵路跟電網，它就是某種非常重要的基礎設施。",
+  "宙斯法則已經不適用了，大家開好營收就拿來出貨，互相算計。",
+  "當你發現自己變成國際專家（熟悉地緣政治）的時候，你可能哪裡有做錯。"
+ ],
+ "ep_key": "EP687",
+ "title": "EP687 | 🐧",
+ "pubdate": "2026-08-12",
+ "duration_s": 3145,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

@@ -1,0 +1,114 @@
+{
+ "summary": "本集先祝地方爸爸父親節快樂，並分享當爸後對家庭、男性壓力與世代治癒的體悟。市場方面，台股在季線橫盤，認為再崩機率低，但7月修正屬籌碼屠殺，提醒未來基本面轉變時跌幅會更大，因此保本重於賺更多，開始思考long short與配置。產業上，美股資金回流軟體與光通，台股光通、散熱轉強，點名下一棒可能為power（800V）。Q&A回應交易慣性、面試、Micro LED等話題。",
+ "topics": [
+  "父親節與當爸體悟",
+  "台股橫盤與7月修正檢討",
+  "保本重於賺更多的配置思維",
+  "美股軟體與光通族群轉強",
+  "台股光通、散熱、被動元件、power輪動",
+  "矽電容與800V power趨勢",
+  "Micro LED在光通的應用",
+  "交易慣性與心態調整"
+ ],
+ "market_view": "台股在季線橫盤，再崩機率低，但7月修正屬籌碼屠殺，未來基本面轉變時跌幅會更大，需注意保本。",
+ "industries": [
+  {
+   "name": "軟體",
+   "stance": "看多",
+   "view": "美股資金明顯回流軟體，Palantir、Cloudflare財報後大漲，資安股也偏貴但資金願意湧入。"
+  },
+  {
+   "name": "光通",
+   "stance": "看多",
+   "view": "光通是第一個休息也第一個轉強的族群，台股光通雖多為Tier2/3但連帶受惠，上游氧化鋁基板缺料是關鍵。"
+  },
+  {
+   "name": "散熱",
+   "stance": "看多",
+   "view": "散熱跟隨光通轉強，有機會成為新一波主流，但需觀察能否攻新高。"
+  },
+  {
+   "name": "被動元件",
+   "stance": "觀察",
+   "view": "漲價故事真實，營收已反映，但五六月漲多回檔，需等輪動再起。"
+  },
+  {
+   "name": "power",
+   "stance": "看多",
+   "view": "美系大AI player訂單往800V走，帶動power supply、BBU等規格與ASP提升，光寶已率先反應，後續Delta有機會跟動。"
+  },
+  {
+   "name": "記憶體",
+   "stance": "中性",
+   "view": "第三四季報價漲幅趨緩，但需求未受影響，SanDisk guidance已驗證。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "PLTR",
+   "name": "Palantir",
+   "market": "US",
+   "stance": "看多",
+   "argument": "財報後大漲，代表資金回流軟體。"
+  },
+  {
+   "symbol": "NET",
+   "name": "Cloudflare",
+   "market": "US",
+   "stance": "看多",
+   "argument": "財報後噴出，顯示資金願意買貴的軟體股。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "Micro LED解決方案跑得前面，但量產需數年。"
+  },
+  {
+   "symbol": "2308",
+   "name": "台達電",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "線型弱但公司強，若power族群輪動有機會跟動。"
+  },
+  {
+   "symbol": "2301",
+   "name": "光寶科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "財報後直接噴出，可能帶動power相關公司。"
+  },
+  {
+   "symbol": "3653",
+   "name": "健策",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "林口之光，被放利空時是好機會。"
+  },
+  {
+   "symbol": "6239",
+   "name": "力成",
+   "market": "TW",
+   "stance": "觀察",
+   "argument": "聽眾砍在阿呆谷後公司宣布買回股份，主持人未明確表態。"
+  },
+  {
+   "symbol": "8299",
+   "name": "群聯",
+   "market": "TW",
+   "stance": "中性",
+   "argument": "喜歡這家公司，但未對股價表態。"
+  }
+ ],
+ "quotes": [
+  "保本重於賺更多，寧願報酬低一點，但drawdown少一點，痛苦指數低一點。",
+  "7月修正只是警鐘，未來基本面真的改變時，傷害會是幾個X。",
+  "每次股災，如果你沒有辦法活下來，不會有人同情你，也不會有人記得你。"
+ ],
+ "ep_key": "EP686",
+ "title": "EP686 | 🕸️",
+ "pubdate": "2026-08-08",
+ "duration_s": 3002,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

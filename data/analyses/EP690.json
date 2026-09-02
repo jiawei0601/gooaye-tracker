@@ -1,0 +1,83 @@
+{
+ "summary": "本集先分享電影《極限返航》與紅酒品飲心得，強調平價黑皮諾也能有高品質體驗。隨後進入市場話題，認為大盤雖黏但健康，失土持續收復中。主軸是分析 Marvell 與 Google 的客製化晶片協議，解讀為 Google 加速走向 COT 模式，對 IC 設計夥伴整體是利多，但對博通（Broadcom）的 turnkey 生意模式構成潛在威脅。最後回覆聽眾來信，涵蓋離婚、健身、全職投資、生技股等議題。",
+ "topics": [
+  "電影《極限返航》與影集《尼古貓貓》推薦",
+  "紅酒（黑皮諾）品飲心得與平價替代選擇",
+  "大盤走勢觀察：黏但健康，持續收復失土",
+  "Marvell 與 Google 客製化晶片協議解析",
+  "Google 走向 COT 模式對 IC 設計產業的影響",
+  "聽眾 Q&A：離婚、健身、全職投資、生技股等"
+ ],
+ "market_view": "大盤雖然黏但健康，失土持續收復中，整體偏樂觀。",
+ "industries": [
+  {
+   "name": "客製化晶片",
+   "stance": "看多",
+   "view": "Google 加速走向 COT 模式，將開出更多新案，整體 IC 設計夥伴可望受惠。"
+  },
+  {
+   "name": "IC設計",
+   "stance": "看多",
+   "view": "除博通外，其他設計夥伴（如 Marvell、聯發科）未來市場想像空間反而增加。"
+  },
+  {
+   "name": "生技",
+   "stance": "觀察",
+   "view": "新藥股非常難做，臨床過關也不代表賣得好，不打算深入研究。"
+  }
+ ],
+ "tickers": [
+  {
+   "symbol": "MRVL",
+   "name": "Marvell",
+   "market": "US",
+   "stance": "看多",
+   "argument": "與 Google 簽訂客製化晶片協議，拿下的是全新案子的周邊晶片，並非掠奪既有夥伴訂單，反而受惠於 Google 擴大開案。"
+  },
+  {
+   "symbol": "GOOGL",
+   "name": "Google (Alphabet)",
+   "market": "US",
+   "stance": "看多",
+   "argument": "透過取得 Marvell 認股權證，更加決心走向 COT 模式，並積極往硬體租賃方向發展，可能成為非常賺錢的存在。"
+  },
+  {
+   "symbol": "AVGO",
+   "name": "Broadcom",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "Google 走向 COT 將壓縮其 turnkey 生意模式的空間，市場對其負面解讀是合理的。"
+  },
+  {
+   "symbol": "2454",
+   "name": "聯發科",
+   "market": "TW",
+   "stance": "看多",
+   "argument": "市場將其視為 Marvell 協議的利空是反應過度，因為 Marvell 拿到的並非其既有 roadmap 的產品。"
+  },
+  {
+   "symbol": "MRNA",
+   "name": "莫德納",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "對新藥股沒有特別看法，認為非常難做，臨床過關也不代表最終會成功。"
+  },
+  {
+   "symbol": "MU",
+   "name": "美光",
+   "market": "US",
+   "stance": "觀察",
+   "argument": "分紅政策非常小氣，在搶人時期可能不是好決策。"
+  }
+ ],
+ "quotes": [
+  "戒菸是生命中最棒的一個決定。",
+  "在每個人的眼中會有他的價值之存在。你去笑別人，你覺得別人是笑話，別人其實也覺得某個方面的你是笑話。",
+  "全職投資就是變成另一種工作，你變成是被市場幹。"
+ ],
+ "ep_key": "EP690",
+ "title": "EP690 | ⛳",
+ "pubdate": "2026-08-22",
+ "duration_s": 2999,
+ "analysis_source": "text/whatmkreallysaid+deepseek"
+}

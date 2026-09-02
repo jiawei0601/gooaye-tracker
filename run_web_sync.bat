@@ -1,5 +1,5 @@
 @echo off
-rem æ¯æ™š 23:00 å¢žé‡åŒæ­¥ whatmkreallysaid.com é€å­—ç¨¿ï¼ˆç„¡æ–°é›†æ•¸å°±åªæŠ“ä¸€å€‹å°ç´¢å¼•æª”ï¼‰
-cd /d C:\CLAUDE\gooaye-tracker
+rem ¨C±ß 23:00 ¼W¶q¦P¨B whatmkreallysaid.com ³v¦r½Z¡]µL·s¶°¼Æ´N¥u§ì¤@­Ó¤p¯Á¤ÞÀÉ¡^
+cd /d C:\CLAUDE\±M®×-§ë¸ê\gooaye-tracker
 set PYTHONIOENCODING=utf-8
 python scripts\fetch_web_transcripts.py >> data\web_sync.log 2>&1
