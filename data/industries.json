@@ -16267,6 +16267,12 @@
  "光通訊": {
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "看多",
+    "view": "相關類股持續強勢，市場雖曾擔憂光銅之爭或降規風險，但基本面營收獲利仍持續開出。"
+   },
+   {
     "ep": "EP692",
     "date": "2026-08-29",
     "stance": "看多",
@@ -16429,9 +16435,9 @@
     "view": "800G光通訊有故事但股價不一定立即反應，需靠營收驗證。"
    }
   ],
-  "mentions": 27,
+  "mentions": 28,
   "latest_stance": "看多",
-  "latest_date": "2026-08-29"
+  "latest_date": "2026-09-02"
  },
  "記憶體控制 IC": {
   "timeline": [
@@ -20621,15 +20627,21 @@
  "AI伺服器與半導體": {
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "看多",
+    "view": "AI發展仍在非常前期且整體潛在市場持續擴大，各廠商互相競合但多數皆能從中受惠。"
+   },
+   {
     "ep": "EP681",
     "date": "2026-07-22",
     "stance": "觀察",
     "view": "下半年有多個新平台（如 AMD Venice, Intel Oakstream）將陸續放量，業績預期良好，但需注意股價修正與基本面開出的時間差。"
    }
   ],
-  "mentions": 1,
-  "latest_stance": "觀察",
-  "latest_date": "2026-07-22"
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-02"
  },
  "老AI股（如ODM）": {
   "timeline": [
@@ -20734,6 +20746,19 @@
   "mentions": 1,
   "latest_stance": "看多",
   "latest_date": "2026-08-22"
+ },
+ "客製化晶片(ASIC/XPU)": {
+  "timeline": [
+   {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "看多",
+    "view": "各大CSP廠持續投入自研晶片，推動聯發科等設計服務業者與互連架構周邊零組件商機。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-02"
  },
  "健身器材": {
   "timeline": [

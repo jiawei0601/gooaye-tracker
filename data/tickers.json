@@ -4030,6 +4030,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "看多",
+    "argument": "無論是自研晶片、GPU還是未來NVHBM Base Die委外製造，台積電都將是核心受惠者。"
+   },
+   {
     "ep": "EP687",
     "date": "2026-08-12",
     "stance": "持有中",
@@ -5782,9 +5788,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 292,
-  "latest_stance": "持有中",
-  "latest_date": "2026-08-12"
+  "mentions": 293,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-02"
  },
  "3443": {
   "name": "創意電子",
@@ -8188,6 +8194,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "觀察",
+    "argument": "與大立光同為光學鏡頭族群，在資金輪動中展現強勢表現。"
+   },
+   {
     "ep": "EP530",
     "date": "2025-02-08",
     "stance": "觀察",
@@ -8242,9 +8254,9 @@
     "argument": "聽眾提及LiDAR概念股，主持人未表態。"
    }
   ],
-  "mentions": 9,
+  "mentions": 10,
   "latest_stance": "觀察",
-  "latest_date": "2025-02-08"
+  "latest_date": "2026-09-02"
  },
  "GME": {
   "name": "GameStop",
@@ -8763,6 +8775,12 @@
   "name": "聯發科",
   "market": "TW",
   "timeline": [
+   {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "看多",
+    "argument": "發行ECB獲NVIDIA與Alphabet等大咖認購，深化AI客製化晶片與架構合作，長線發展正向。"
+   },
    {
     "ep": "EP690",
     "date": "2026-08-22",
@@ -9526,9 +9544,9 @@
     "argument": "受華為制裁影響股價修正，但可能受惠於小米、Oppo轉單，不宜放空。"
    }
   ],
-  "mentions": 127,
+  "mentions": 128,
   "latest_stance": "看多",
-  "latest_date": "2026-08-22"
+  "latest_date": "2026-09-02"
  },
  "2303": {
   "name": "聯電",
@@ -10053,6 +10071,12 @@
   "name": "NVIDIA",
   "market": "US",
   "timeline": [
+   {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "看多",
+    "argument": "就算客戶自研XPU，也能透過NVLink Fusion、ETL機架及NVHBM等周邊解決方案持續吃肉喝湯。"
+   },
    {
     "ep": "EP692",
     "date": "2026-08-29",
@@ -11728,9 +11752,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 279,
+  "mentions": 280,
   "latest_stance": "看多",
-  "latest_date": "2026-08-29"
+  "latest_date": "2026-09-02"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -12781,6 +12805,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "觀察",
+    "argument": "身為聯發科TPU專案重要客戶，參與認購ECB顯示其在客製化算力上的持續布局。"
+   },
+   {
     "ep": "EP692",
     "date": "2026-08-29",
     "stance": "觀察",
@@ -13177,9 +13207,9 @@
     "argument": "不依賴消費者上門，但股價仍隨大盤下跌。"
    }
   ],
-  "mentions": 66,
+  "mentions": 67,
   "latest_stance": "觀察",
-  "latest_date": "2026-08-29"
+  "latest_date": "2026-09-02"
  },
  "MCHI": {
   "name": "iShares MSCI中國ETF",
@@ -14065,6 +14095,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "觀察",
+    "argument": "近期股價表現強勁，屬於盤面資金輪動與評價修復的受惠標的之一。"
+   },
+   {
     "ep": "EP623",
     "date": "2025-12-31",
     "stance": "觀察",
@@ -14179,9 +14215,9 @@
     "argument": "技術領先但老闆保守，股價停滯"
    }
   ],
-  "mentions": 19,
+  "mentions": 20,
   "latest_stance": "觀察",
-  "latest_date": "2025-12-31"
+  "latest_date": "2026-09-02"
  },
  "3034": {
   "name": "聯詠",
@@ -15280,6 +15316,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "觀察",
+    "argument": "先前曾獲亞馬遜入股，為市場上客製化ASIC設計服務的重要代表廠商之一。"
+   },
+   {
     "ep": "EP659",
     "date": "2026-05-06",
     "stance": "看多",
@@ -15430,9 +15472,9 @@
     "argument": "ASIC設計公司，營收表現好但客戶集中中國，受美國制裁影響股價跌停。"
    }
   ],
-  "mentions": 25,
-  "latest_stance": "看多",
-  "latest_date": "2026-05-06"
+  "mentions": 26,
+  "latest_stance": "觀察",
+  "latest_date": "2026-09-02"
  },
  "8255": {
   "name": "朋程",
@@ -20254,6 +20296,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "觀察",
+    "argument": "近期同樣積極搶進AI ASIC與網通市場，試圖瓜分博通等大廠的市場份額。"
+   },
+   {
     "ep": "EP692",
     "date": "2026-08-29",
     "stance": "看多",
@@ -20578,9 +20626,9 @@
     "argument": "通訊營收佔比約40%，是通訊產業重點標的。"
    }
   ],
-  "mentions": 54,
-  "latest_stance": "看多",
-  "latest_date": "2026-08-29"
+  "mentions": 55,
+  "latest_stance": "觀察",
+  "latest_date": "2026-09-02"
  },
  "ON": {
   "name": "安森美半導體",
@@ -22159,6 +22207,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP693",
+    "date": "2026-09-02",
+    "stance": "觀察",
+    "argument": "雖然市場競爭對手紛紛瞄準其網通與ASIC市占，但其在客製化晶片的設計與統整能力仍極具強大競爭力。"
+   },
+   {
     "ep": "EP690",
     "date": "2026-08-22",
     "stance": "觀察",
@@ -22597,9 +22651,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 73,
+  "mentions": 74,
   "latest_stance": "觀察",
-  "latest_date": "2026-08-22"
+  "latest_date": "2026-09-02"
  },
  "3491": {
   "name": "昇達科",
