@@ -1,5 +1,15 @@
 # HANDOFF — gooaye-tracker
 
+## Vertex 通道復活＋模型改 3.8-flash（2026-09-03 晚，Claude Code）
+✅ VM 音訊分析改走 **Vertex**：借用 civil-rag 試用專案的服務帳戶，複製到
+`~/gooaye-tracker/vertex-sa.json`（chang:600，.gitignore 已排除）；analyze.py 偵測到即自動切換。
+✅ `analyze.py` MODEL 改 **gemini-3.8-flash**（使用者指定，Vertex canary 驗證可用）。
+✅ VM 補裝 ffmpeg（Vertex 通道壓 24k 音檔必需，先前缺此檔失敗）。
+✅ EP693 端到端驗證通過：9 檔標的、3 個產業、Telegram 已推播，693 集全數入庫。
+⚠️ **civil-rag 的 Vertex 試用 2026-10-11 到期**，到期後本管線同步斷線；屆時要嘛儲值
+AI Studio 換回 `GOOAYE_GEMINI_KEY` 通道（刪 vertex-sa.json 即退回），要嘛換新 Vertex 專案。
+⚠️ VM 上 `civil-rag` 服務照使用者指示完全未動（模型仍 3.7-flash）。
+
 ## 語料補到 EP692＋VM Gemini 額度耗盡（2026-09-03，Claude Code）
 ⚠️ **VM 音訊分析管線自 EP684 起全數 429**：Gemini 回 `prepayment credits are depleted`
 （AI Studio 預付額度用完，非免費層日限）。cron 仍每週三/六跑、每次 commit「彙整 683 集」
