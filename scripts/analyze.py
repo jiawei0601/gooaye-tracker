@@ -16,7 +16,7 @@ import urllib.request
 from common import (ANALYSES, AUDIO, ROOT, TRANSCRIPTS, gemini_key,
                     load_episodes, save_episodes)
 
-MODEL = "gemini-3.5-flash"  # 2.5-flash 已不開放給新帳號（2026-07 換帳號時發現）
+MODEL = "gemini-3.8-flash"  # 2026-09-03 使用者指定；Vertex（civil-rag 試用專案）已驗證可用
 PAUSE_S = 30  # 免費層 TPM 有限，一集約 10 萬 token，逐集間隔避免 429
 
 # 有 vertex-sa.json 就走 Vertex 付費通道（吃 GCP 試用額度、無 20 集/天限制）。
