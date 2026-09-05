@@ -6068,5 +6068,13 @@
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/8523446e-c80a-4aac-a9cd-34adad88e4c2/rssFileVip.mp3?timestamp=1788375131040",
   "guid": "8523446e-c80a-4aac-a9cd-34adad88e4c2",
   "status": "done"
+ },
+ "EP694": {
+  "title": "EP694 | 🥖",
+  "pubdate": "2026-09-05",
+  "duration_s": 3040,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/bfdf7f30-6031-4eef-a689-16129f261d10/rssFileVip.mp3?timestamp=1788593849557",
+  "guid": "bfdf7f30-6031-4eef-a689-16129f261d10",
+  "status": "done"
  }
 }

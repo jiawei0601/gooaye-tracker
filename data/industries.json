@@ -19231,15 +19231,21 @@
  "AI 晶片與 ASIC": {
   "timeline": [
    {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "看多",
+    "view": "長線需求強勁，大廠如 Broadcom 給出的中長期指引與微軟 CapEx 均持續看好。"
+   },
+   {
     "ep": "EP590",
     "date": "2025-09-06",
     "stance": "觀察",
     "view": "Broadcom 與 Nvidia 的下一代晶片（如 Rubbin、OpenAI ASIC）在量產時程上可能因技術複雜度而面臨延遲或良率挑戰。"
    }
   ],
-  "mentions": 1,
-  "latest_stance": "觀察",
-  "latest_date": "2025-09-06"
+  "mentions": 2,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-05"
  },
  "碳化矽 (SiC)": {
   "timeline": [
@@ -20759,6 +20765,32 @@
   "mentions": 1,
   "latest_stance": "看多",
   "latest_date": "2026-09-02"
+ },
+ "遊戲與內容 IP": {
+  "timeline": [
+   {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "看多",
+    "view": "AI 帶來內容通膨但反而凸顯優質原創 IP 價值，藉由 AI 工具與 Steam 平台可大幅放大槓桿。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-05"
+ },
+ "企業軟體與資料治理": {
+  "timeline": [
+   {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "看多",
+    "view": "資料治理與模型路由（Router）機制成為關鍵，FDE 等複合型人才需求快速增長。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-05"
  },
  "健身器材": {
   "timeline": [

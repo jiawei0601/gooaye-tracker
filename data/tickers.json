@@ -397,6 +397,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "觀察",
+    "argument": "Cybercab 傳出馬達完全不使用稀土，展現強大工程實力，供應鏈題材值得留意。"
+   },
+   {
     "ep": "EP682",
     "date": "2026-07-25",
     "stance": "觀察",
@@ -1831,9 +1837,9 @@
     "argument": "長期看好但已減碼，短期不追買，等回檔後再考慮。"
    }
   ],
-  "mentions": 239,
+  "mentions": 240,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-25"
+  "latest_date": "2026-09-05"
  },
  "AAPL": {
   "name": "蘋果",
@@ -8776,6 +8782,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "看多",
+    "argument": "被 Broadcom 執行長公開點名為競爭對手，代表其在 ASIC 領域實力已獲一線王者認可。"
+   },
+   {
     "ep": "EP693",
     "date": "2026-09-02",
     "stance": "看多",
@@ -9544,9 +9556,9 @@
     "argument": "受華為制裁影響股價修正，但可能受惠於小米、Oppo轉單，不宜放空。"
    }
   ],
-  "mentions": 128,
+  "mentions": 129,
   "latest_stance": "看多",
-  "latest_date": "2026-09-02"
+  "latest_date": "2026-09-05"
  },
  "2303": {
   "name": "聯電",
@@ -10071,6 +10083,12 @@
   "name": "NVIDIA",
   "market": "US",
   "timeline": [
+   {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "看多",
+    "argument": "產業領頭羊地位穩固，隨市場情緒修正後終將回歸基本面趨勢。"
+   },
    {
     "ep": "EP693",
     "date": "2026-09-02",
@@ -11752,9 +11770,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 280,
+  "mentions": 281,
   "latest_stance": "看多",
-  "latest_date": "2026-09-02"
+  "latest_date": "2026-09-05"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -12418,6 +12436,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "看多",
+    "argument": "市場傳聞明年 CapEx 將持續開得很高，顯示在 AI 基礎建設的投資完全沒有停歇跡象。"
+   },
+   {
     "ep": "EP674",
     "date": "2026-06-27",
     "stance": "觀察",
@@ -12796,9 +12820,9 @@
     "argument": "Teams視訊軟體會員數因遠距工作飆升。"
    }
   ],
-  "mentions": 63,
-  "latest_stance": "觀察",
-  "latest_date": "2026-06-27"
+  "mentions": 64,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-05"
  },
  "GOOGL": {
   "name": "谷歌",
@@ -14950,6 +14974,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "看多",
+    "argument": "財報成績上調，在企業 AI 協作、資料治理及模型路由分流上具備優秀毛利與競爭力。"
+   },
+   {
     "ep": "EP666",
     "date": "2026-05-30",
     "stance": "看多",
@@ -15004,9 +15034,9 @@
     "argument": "基本面優異但價格太貴，僅小量試單，理想買點在100-110美元附近。"
    }
   ],
-  "mentions": 9,
+  "mentions": 10,
   "latest_stance": "看多",
-  "latest_date": "2026-05-30"
+  "latest_date": "2026-09-05"
  },
  "ZS": {
   "name": "Zscaler",
@@ -22207,6 +22237,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP694",
+    "date": "2026-09-05",
+    "stance": "看多",
+    "argument": "財報表現與中長期指引極佳，雖股價短期未大漲但長線基本面與 ASIC/網通需求無虞。"
+   },
+   {
     "ep": "EP693",
     "date": "2026-09-02",
     "stance": "觀察",
@@ -22651,9 +22687,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 74,
-  "latest_stance": "觀察",
-  "latest_date": "2026-09-02"
+  "mentions": 75,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-05"
  },
  "3491": {
   "name": "昇達科",
