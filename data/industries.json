@@ -20792,6 +20792,32 @@
   "latest_stance": "看多",
   "latest_date": "2026-09-05"
  },
+ "AI伺服器/ASIC供應鏈": {
+  "timeline": [
+   {
+    "ep": "EP695",
+    "date": "2026-09-09",
+    "stance": "看多",
+    "view": "自研 ASIC 晶片回收期縮短至一年內，CSP 擴大資本支出意願強烈，硬體零件需求依然極度強勁。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-09"
+ },
+ "CPO/光通訊": {
+  "timeline": [
+   {
+    "ep": "EP695",
+    "date": "2026-09-09",
+    "stance": "觀察",
+    "view": "題材早期價值鏈分配尚不明朗，若看好建議廣撒包裹布局，等待實際量產獲利與 Bottleneck 環節浮現。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-09-09"
+ },
  "健身器材": {
   "timeline": [
    {

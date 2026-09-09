@@ -6073,8 +6073,16 @@
   "title": "EP694 | 🥖",
   "pubdate": "2026-09-05",
   "duration_s": 3040,
-  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/bfdf7f30-6031-4eef-a689-16129f261d10/rssFileVip.mp3?timestamp=1788593849557",
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/bfdf7f30-6031-4eef-a689-16129f261d10/rssFileVip.mp3?timestamp=1788631582241",
   "guid": "bfdf7f30-6031-4eef-a689-16129f261d10",
+  "status": "done"
+ },
+ "EP695": {
+  "title": "EP695 | 🍊",
+  "pubdate": "2026-09-09",
+  "duration_s": 2995,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/184c0e0e-4e66-4273-a4ab-111451d2993d/rssFileVip.mp3?timestamp=1788941955158",
+  "guid": "184c0e0e-4e66-4273-a4ab-111451d2993d",
   "status": "done"
  }
 }

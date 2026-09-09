@@ -4036,6 +4036,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP695",
+    "date": "2026-09-09",
+    "stance": "看多",
+    "argument": "身為先進製程核心瓶頸，但定價採與客戶共榮策略未過度漲價，長期獲利持續穩定進帳。"
+   },
+   {
     "ep": "EP693",
     "date": "2026-09-02",
     "stance": "看多",
@@ -5794,9 +5800,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 293,
+  "mentions": 294,
   "latest_stance": "看多",
-  "latest_date": "2026-09-02"
+  "latest_date": "2026-09-09"
  },
  "3443": {
   "name": "創意電子",
@@ -8326,6 +8332,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP695",
+    "date": "2026-09-09",
+    "stance": "觀察",
+    "argument": "政府與軍工軟體市場規模會持續擴大並非零和賽局，無需過度擔憂 Google DeepMind 競爭威脅。"
+   },
+   {
     "ep": "EP686",
     "date": "2026-08-08",
     "stance": "看多",
@@ -8638,9 +8650,9 @@
     "argument": "IPO後最多拿5%資金投入，市場熱度高勿All-in。"
    }
   ],
-  "mentions": 52,
-  "latest_stance": "看多",
-  "latest_date": "2026-08-08"
+  "mentions": 53,
+  "latest_stance": "觀察",
+  "latest_date": "2026-09-09"
  },
  "AMC": {
   "name": "AMC Entertainment",
@@ -10083,6 +10095,12 @@
   "name": "NVIDIA",
   "market": "US",
   "timeline": [
+   {
+    "ep": "EP695",
+    "date": "2026-09-09",
+    "stance": "看多",
+    "argument": "雖面臨自研 ASIC 競爭，但整體 AI 算力需求極其旺盛，依然為業界標準硬體供應商。"
+   },
    {
     "ep": "EP694",
     "date": "2026-09-05",
@@ -11770,9 +11788,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 281,
+  "mentions": 282,
   "latest_stance": "看多",
-  "latest_date": "2026-09-05"
+  "latest_date": "2026-09-09"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -12829,6 +12847,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP695",
+    "date": "2026-09-09",
+    "stance": "看多",
+    "argument": "AI 伺服器與自研 TPU 回收期極短展現強大變現能力，擴大 CapEx 投資具高 ROI 正當性。"
+   },
+   {
     "ep": "EP693",
     "date": "2026-09-02",
     "stance": "觀察",
@@ -13231,9 +13255,9 @@
     "argument": "不依賴消費者上門，但股價仍隨大盤下跌。"
    }
   ],
-  "mentions": 67,
-  "latest_stance": "觀察",
-  "latest_date": "2026-09-02"
+  "mentions": 68,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-09"
  },
  "MCHI": {
   "name": "iShares MSCI中國ETF",
@@ -22237,6 +22261,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP695",
+    "date": "2026-09-09",
+    "stance": "看多",
+    "argument": "法說會明確展現全力投入 ASIC 客製化晶片的決心，受惠雲端巨頭自研晶片爆發潮。"
+   },
+   {
     "ep": "EP694",
     "date": "2026-09-05",
     "stance": "看多",
@@ -22687,9 +22717,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 75,
+  "mentions": 76,
   "latest_stance": "看多",
-  "latest_date": "2026-09-05"
+  "latest_date": "2026-09-09"
  },
  "3491": {
   "name": "昇達科",
