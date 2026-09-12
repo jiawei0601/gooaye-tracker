@@ -6084,5 +6084,13 @@
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/184c0e0e-4e66-4273-a4ab-111451d2993d/rssFileVip.mp3?timestamp=1788941955158",
   "guid": "184c0e0e-4e66-4273-a4ab-111451d2993d",
   "status": "done"
+ },
+ "EP696": {
+  "title": "EP696 | 🎖️",
+  "pubdate": "2026-09-12",
+  "duration_s": 3151,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/8001cf1a-4104-4db2-b349-447f2866da76/rssFileVip.mp3?timestamp=1789195978520",
+  "guid": "8001cf1a-4104-4db2-b349-447f2866da76",
+  "status": "done"
  }
 }

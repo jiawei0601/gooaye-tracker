@@ -20818,6 +20818,45 @@
   "latest_stance": "觀察",
   "latest_date": "2026-09-09"
  },
+ "折疊智慧型手機": {
+  "timeline": [
+   {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "看多",
+    "view": "Apple 藉由出色的軟硬整合與具競爭力的定價切入，預期整體折疊機市場滲透率將顯著提升。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-12"
+ },
+ "手機供應鏈/零組件": {
+  "timeline": [
+   {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "中性",
+    "view": "雖有折疊機等新題材，但 Apple 壓抑供應鏈毛利的慣性仍在，且成長性難以匹敵 AI 族群。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "中性",
+  "latest_date": "2026-09-12"
+ },
+ "AI 資料中心與雲端運算": {
+  "timeline": [
+   {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "看多",
+    "view": "需求依然極為強勁，但短期需密切留意電力取得瓶頸與地方政治反對聲浪所帶來的建置延遲風險。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-12"
+ },
  "健身器材": {
   "timeline": [
    {

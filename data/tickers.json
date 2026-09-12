@@ -1846,6 +1846,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "看多",
+    "argument": "強大的 UI/UX 整合與定價優勢能有效留住客群，垂直整合實力將多數利潤保留在自身身上。"
+   },
+   {
     "ep": "EP687",
     "date": "2026-08-12",
     "stance": "觀察",
@@ -2470,9 +2476,9 @@
     "argument": "強勢科技公司，下殺時可考慮加碼。"
    }
   ],
-  "mentions": 104,
-  "latest_stance": "觀察",
-  "latest_date": "2026-08-12"
+  "mentions": 105,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-12"
  },
  "SQ": {
   "name": "Square",
@@ -10096,6 +10102,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "看多",
+    "argument": "晶片供不應求且具備可替代性與耐久性，利多發酵下長期競爭優勢依舊穩固。"
+   },
+   {
     "ep": "EP695",
     "date": "2026-09-09",
     "stance": "看多",
@@ -11788,9 +11800,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 282,
+  "mentions": 283,
   "latest_stance": "看多",
-  "latest_date": "2026-09-09"
+  "latest_date": "2026-09-12"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -15304,6 +15316,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "觀察",
+    "argument": "為折疊機軸承主要供應商之一，但因與鴻海拆帳且受 Apple 壓價影響，股價動能相對受抑。"
+   },
+   {
     "ep": "EP591",
     "date": "2025-09-10",
     "stance": "觀察",
@@ -15328,9 +15346,9 @@
     "argument": "AirPods充電盒軸承供應商，毛利高，但短期受消費市場衝擊影響。"
    }
   ],
-  "mentions": 4,
+  "mentions": 5,
   "latest_stance": "觀察",
-  "latest_date": "2025-09-10"
+  "latest_date": "2026-09-12"
  },
  "3548": {
   "name": "兆利",
@@ -16798,6 +16816,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "觀察",
+    "argument": "早期即切入 aiDAPTIV+ 方案協助企業將運算移往地端降本增效，概念領先但需觀察客戶實際採用普及度。"
+   },
+   {
     "ep": "EP686",
     "date": "2026-08-08",
     "stance": "中性",
@@ -16948,9 +16972,9 @@
     "argument": "潘建成買股常是低點，可參考其業績指引。"
    }
   ],
-  "mentions": 25,
-  "latest_stance": "中性",
-  "latest_date": "2026-08-08"
+  "mentions": 26,
+  "latest_stance": "觀察",
+  "latest_date": "2026-09-12"
  },
  "TLT": {
   "name": "iShares 20+ Year Treasury Bond ETF",
@@ -23689,6 +23713,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "看多",
+    "argument": "受惠先進製程獨佔地位，即便利多頻傳後短線股價震盪，長線成長趨勢未變。"
+   },
+   {
     "ep": "EP692",
     "date": "2026-08-29",
     "stance": "觀察",
@@ -23815,9 +23845,9 @@
     "argument": ""
    }
   ],
-  "mentions": 21,
-  "latest_stance": "觀察",
-  "latest_date": "2026-08-29"
+  "mentions": 22,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-12"
  },
  "9904": {
   "name": "寶成",
@@ -24439,6 +24469,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "觀察",
+    "argument": "曾與群聯攜手合作地端邊緣 AI 方案，後續商業化放量狀況仍待時間驗證。"
+   },
+   {
     "ep": "EP449",
     "date": "2024-05-01",
     "stance": "看多",
@@ -24463,9 +24499,9 @@
     "argument": "工業電腦領導廠商，規模大，成長性佳。"
    }
   ],
-  "mentions": 4,
-  "latest_stance": "看多",
-  "latest_date": "2024-05-01"
+  "mentions": 5,
+  "latest_stance": "觀察",
+  "latest_date": "2026-09-12"
  },
  "6414": {
   "name": "樺漢",
@@ -26830,6 +26866,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "觀察",
+    "argument": "美系軸承與連接器大廠，受惠於新折疊機規格導入但整體消費端題材吸引力稍遜於 AI。"
+   },
+   {
     "ep": "EP623",
     "date": "2025-12-31",
     "stance": "觀察",
@@ -26854,9 +26896,9 @@
     "argument": "Co-packaged optics與LPCAMM socket，輝達供應鏈。"
    }
   ],
-  "mentions": 4,
+  "mentions": 5,
   "latest_stance": "觀察",
-  "latest_date": "2025-12-31"
+  "latest_date": "2026-09-12"
  },
  "2359": {
   "name": "所羅門",
@@ -27250,6 +27292,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP696",
+    "date": "2026-09-12",
+    "stance": "觀察",
+    "argument": "營收成長亮眼且預收款充沛，但透過客戶預付與融資槓桿擴張，需防範未來景氣反轉的虛胖風險。"
+   },
+   {
     "ep": "EP643",
     "date": "2026-03-11",
     "stance": "觀察",
@@ -27298,9 +27346,9 @@
     "argument": "在TikTok收購案中可能獲利，但主持人未明確表態多空。"
    }
   ],
-  "mentions": 8,
+  "mentions": 9,
   "latest_stance": "觀察",
-  "latest_date": "2026-03-11"
+  "latest_date": "2026-09-12"
  },
  "6838": {
   "name": "微創軟體",
