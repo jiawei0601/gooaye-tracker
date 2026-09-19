@@ -4042,6 +4042,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP698",
+    "date": "2026-09-19",
+    "stance": "看多",
+    "argument": "先進製程供不應求且具備定價權，調漲報價以反映成本相當合理。"
+   },
+   {
     "ep": "EP695",
     "date": "2026-09-09",
     "stance": "看多",
@@ -5806,9 +5812,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 294,
+  "mentions": 295,
   "latest_stance": "看多",
-  "latest_date": "2026-09-09"
+  "latest_date": "2026-09-19"
  },
  "3443": {
   "name": "創意電子",
@@ -6637,6 +6643,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP698",
+    "date": "2026-09-19",
+    "stance": "觀察",
+    "argument": "市場傳聞其代工成本轉嫁漲價，但實際價格變動主因包含記憶體等零組件漲幅。"
+   },
+   {
     "ep": "EP688",
     "date": "2026-08-15",
     "stance": "中性",
@@ -7213,9 +7225,9 @@
     "argument": "持股獲利約50%，放給它跑。"
    }
   ],
-  "mentions": 96,
-  "latest_stance": "中性",
-  "latest_date": "2026-08-15"
+  "mentions": 97,
+  "latest_stance": "觀察",
+  "latest_date": "2026-09-19"
  },
  "KEYS": {
   "name": "是德科技",
@@ -10102,6 +10114,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP698",
+    "date": "2026-09-19",
+    "stance": "看多",
+    "argument": "以整套平台（GPU搭配記憶體等元件）出售，終端顯卡與伺服器價格隨零組件成本上漲自然反映。"
+   },
+   {
     "ep": "EP696",
     "date": "2026-09-12",
     "stance": "看多",
@@ -11800,9 +11818,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 283,
+  "mentions": 284,
   "latest_stance": "看多",
-  "latest_date": "2026-09-12"
+  "latest_date": "2026-09-19"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -17038,6 +17056,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP698",
+    "date": "2026-09-19",
+    "stance": "觀察",
+    "argument": "過去曾透過該股票獲利，肯定GTA系列遊戲的影響力與娛樂價值。"
+   },
+   {
     "ep": "EP351",
     "date": "2023-05-23",
     "stance": "看多",
@@ -17092,9 +17116,9 @@
     "argument": "GTA等遊戲受歡迎，但股價未因疫情上漲。"
    }
   ],
-  "mentions": 9,
-  "latest_stance": "看多",
-  "latest_date": "2023-05-23"
+  "mentions": 10,
+  "latest_stance": "觀察",
+  "latest_date": "2026-09-19"
  },
  "6547": {
   "name": "高端疫苗",
