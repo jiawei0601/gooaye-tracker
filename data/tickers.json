@@ -6643,6 +6643,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP699",
+    "date": "2026-09-23",
+    "stance": "看多",
+    "argument": "受惠於Agentic工作流提升CPU對GPU配比，伺服器CPU需求持續受推動。"
+   },
+   {
     "ep": "EP698",
     "date": "2026-09-19",
     "stance": "觀察",
@@ -7225,9 +7231,9 @@
     "argument": "持股獲利約50%，放給它跑。"
    }
   ],
-  "mentions": 97,
-  "latest_stance": "觀察",
-  "latest_date": "2026-09-19"
+  "mentions": 98,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-23"
  },
  "KEYS": {
   "name": "是德科技",
@@ -14596,6 +14602,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP699",
+    "date": "2026-09-23",
+    "stance": "看空",
+    "argument": "在AI時代明顯落隊缺乏核心產品，管理層對AI零組件不缺貨的發言與業界實際狀況有落差。"
+   },
+   {
     "ep": "EP410",
     "date": "2023-12-16",
     "stance": "觀察",
@@ -14626,14 +14638,20 @@
     "argument": "股價長期低迷因營收獲利不佳，需革命性產品才能帶動。"
    }
   ],
-  "mentions": 5,
-  "latest_stance": "觀察",
-  "latest_date": "2023-12-16"
+  "mentions": 6,
+  "latest_stance": "看空",
+  "latest_date": "2026-09-23"
  },
  "META": {
   "name": "臉書",
   "market": "US",
   "timeline": [
+   {
+    "ep": "EP699",
+    "date": "2026-09-23",
+    "stance": "看多",
+    "argument": "推出Mues等Agentic AI應用推動產業發展，引領市場對AI代理人的重新關注。"
+   },
    {
     "ep": "EP687",
     "date": "2026-08-12",
@@ -14881,9 +14899,9 @@
     "argument": "下跌時可考慮撿的標的之一。"
    }
   ],
-  "mentions": 41,
+  "mentions": 42,
   "latest_stance": "看多",
-  "latest_date": "2026-08-12"
+  "latest_date": "2026-09-23"
  },
  "BIDU": {
   "name": "百度",
@@ -16309,6 +16327,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP699",
+    "date": "2026-09-23",
+    "stance": "觀察",
+    "argument": "具備伺服器CPU供貨能力，部分長期合作客戶庫存水位仍屬穩定。"
+   },
+   {
     "ep": "EP680",
     "date": "2026-07-18",
     "stance": "觀察",
@@ -16615,9 +16639,9 @@
     "argument": "本益比穩定，公司成熟，成長空間有限。"
    }
   ],
-  "mentions": 51,
+  "mentions": 52,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-18"
+  "latest_date": "2026-09-23"
  },
  "QQQ": {
   "name": "Invesco那斯達克100指數ETF",
@@ -20398,6 +20422,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP699",
+    "date": "2026-09-23",
+    "stance": "看多",
+    "argument": "身為主要DSP大廠，受惠於高速光模組缺貨與潛在漲價題材。"
+   },
+   {
     "ep": "EP693",
     "date": "2026-09-02",
     "stance": "觀察",
@@ -20728,9 +20758,9 @@
     "argument": "通訊營收佔比約40%，是通訊產業重點標的。"
    }
   ],
-  "mentions": 55,
-  "latest_stance": "觀察",
-  "latest_date": "2026-09-02"
+  "mentions": 56,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-23"
  },
  "ON": {
   "name": "安森美半導體",
@@ -31276,6 +31306,21 @@
   "mentions": 1,
   "latest_stance": "觀察",
   "latest_date": "2026-08-15"
+ },
+ "MXL": {
+  "name": "MaxLinear",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP699",
+    "date": "2026-09-23",
+    "stance": "看多",
+    "argument": "受惠於光模組傳輸速率拉高及DSP供需吃緊引發的漲價趨勢。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-09-23"
  },
  "NCNO": {
   "name": "nCino",
