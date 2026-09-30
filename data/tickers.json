@@ -397,6 +397,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP701",
+    "date": "2026-09-30",
+    "stance": "持有中",
+    "argument": "近期訂購了延宕已久的Roadster，並看好10月發表會可能帶來的進一步訊息。"
+   },
+   {
     "ep": "EP694",
     "date": "2026-09-05",
     "stance": "觀察",
@@ -1837,9 +1843,9 @@
     "argument": "長期看好但已減碼，短期不追買，等回檔後再考慮。"
    }
   ],
-  "mentions": 240,
-  "latest_stance": "觀察",
-  "latest_date": "2026-09-05"
+  "mentions": 241,
+  "latest_stance": "持有中",
+  "latest_date": "2026-09-30"
  },
  "AAPL": {
   "name": "蘋果",
@@ -22363,6 +22369,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP701",
+    "date": "2026-09-30",
+    "stance": "持有中",
+    "argument": "先前重押美股部位遭遇較大幅度回檔，但晶片設計能力強勁且受惠客製化晶片趨勢。"
+   },
+   {
     "ep": "EP695",
     "date": "2026-09-09",
     "stance": "看多",
@@ -22819,9 +22831,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 76,
-  "latest_stance": "看多",
-  "latest_date": "2026-09-09"
+  "mentions": 77,
+  "latest_stance": "持有中",
+  "latest_date": "2026-09-30"
  },
  "3491": {
   "name": "昇達科",
@@ -23791,6 +23803,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP701",
+    "date": "2026-09-30",
+    "stance": "看多",
+    "argument": "傳出評估赴德州設廠，在美擴產符合美方客戶在地製造需求且基礎建設充足。"
+   },
+   {
     "ep": "EP696",
     "date": "2026-09-12",
     "stance": "看多",
@@ -23923,9 +23941,9 @@
     "argument": ""
    }
   ],
-  "mentions": 22,
+  "mentions": 23,
   "latest_stance": "看多",
-  "latest_date": "2026-09-12"
+  "latest_date": "2026-09-30"
  },
  "9904": {
   "name": "寶成",
