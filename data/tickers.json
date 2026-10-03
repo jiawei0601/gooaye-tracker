@@ -4048,6 +4048,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP702",
+    "date": "2026-10-03",
+    "stance": "看多",
+    "argument": ""
+   },
+   {
     "ep": "EP700",
     "date": "2026-09-26",
     "stance": "觀察",
@@ -5824,9 +5830,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 296,
-  "latest_stance": "觀察",
-  "latest_date": "2026-09-26"
+  "mentions": 297,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-03"
  },
  "3443": {
   "name": "創意電子",
@@ -8836,6 +8842,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP702",
+    "date": "2026-10-03",
+    "stance": "中性",
+    "argument": ""
+   },
+   {
     "ep": "EP694",
     "date": "2026-09-05",
     "stance": "看多",
@@ -9610,9 +9622,9 @@
     "argument": "受華為制裁影響股價修正，但可能受惠於小米、Oppo轉單，不宜放空。"
    }
   ],
-  "mentions": 129,
-  "latest_stance": "看多",
-  "latest_date": "2026-09-05"
+  "mentions": 130,
+  "latest_stance": "中性",
+  "latest_date": "2026-10-03"
  },
  "2303": {
   "name": "聯電",
@@ -13960,6 +13972,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP702",
+    "date": "2026-10-03",
+    "stance": "觀察",
+    "argument": ""
+   },
+   {
     "ep": "EP616",
     "date": "2025-12-06",
     "stance": "看多",
@@ -14050,9 +14068,9 @@
     "argument": "與華為高度相關，禁令導致股價跌停後反彈，但後續仍需觀察。"
    }
   ],
-  "mentions": 15,
-  "latest_stance": "看多",
-  "latest_date": "2025-12-06"
+  "mentions": 16,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-03"
  },
  "3189": {
   "name": "景碩",
@@ -20452,6 +20470,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP702",
+    "date": "2026-10-03",
+    "stance": "看多",
+    "argument": ""
+   },
+   {
     "ep": "EP699",
     "date": "2026-09-23",
     "stance": "看多",
@@ -20788,9 +20812,9 @@
     "argument": "通訊營收佔比約40%，是通訊產業重點標的。"
    }
   ],
-  "mentions": 56,
+  "mentions": 57,
   "latest_stance": "看多",
-  "latest_date": "2026-09-23"
+  "latest_date": "2026-10-03"
  },
  "ON": {
   "name": "安森美半導體",
@@ -22369,6 +22393,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP702",
+    "date": "2026-10-03",
+    "stance": "看多",
+    "argument": ""
+   },
+   {
     "ep": "EP701",
     "date": "2026-09-30",
     "stance": "持有中",
@@ -22831,9 +22861,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 77,
-  "latest_stance": "持有中",
-  "latest_date": "2026-09-30"
+  "mentions": 78,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-03"
  },
  "3491": {
   "name": "昇達科",
@@ -28690,6 +28720,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP702",
+    "date": "2026-10-03",
+    "stance": "觀察",
+    "argument": ""
+   },
+   {
     "ep": "EP663",
     "date": "2026-05-20",
     "stance": "觀察",
@@ -28702,9 +28738,9 @@
     "argument": ""
    }
   ],
-  "mentions": 2,
+  "mentions": 3,
   "latest_stance": "觀察",
-  "latest_date": "2026-05-20"
+  "latest_date": "2026-10-03"
  },
  "雷亞光電": {
   "name": "雷亞光電",
@@ -31384,15 +31420,21 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP702",
+    "date": "2026-10-03",
+    "stance": "看多",
+    "argument": ""
+   },
+   {
     "ep": "EP699",
     "date": "2026-09-23",
     "stance": "看多",
     "argument": "受惠於光模組傳輸速率拉高及DSP供需吃緊引發的漲價趨勢。"
    }
   ],
-  "mentions": 1,
+  "mentions": 2,
   "latest_stance": "看多",
-  "latest_date": "2026-09-23"
+  "latest_date": "2026-10-03"
  },
  "NCNO": {
   "name": "nCino",
