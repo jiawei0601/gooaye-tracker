@@ -4048,6 +4048,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP703",
+    "date": "2026-10-07",
+    "stance": "看多",
+    "argument": "台積電未來一到三年的 EPS 可推算度高，訂單短期難見雪崩，為台股指數評價的定海神針。"
+   },
+   {
     "ep": "EP702",
     "date": "2026-10-03",
     "stance": "看多",
@@ -5830,9 +5836,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 297,
+  "mentions": 298,
   "latest_stance": "看多",
-  "latest_date": "2026-10-03"
+  "latest_date": "2026-10-07"
  },
  "3443": {
   "name": "創意電子",
@@ -10150,6 +10156,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP703",
+    "date": "2026-10-07",
+    "stance": "持有中",
+    "argument": "早年因顯卡買入後隨業務轉型為 AI 龍頭，持股至今每天都在做是否續抱的理性決策。"
+   },
+   {
     "ep": "EP698",
     "date": "2026-09-19",
     "stance": "看多",
@@ -11854,9 +11866,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 284,
-  "latest_stance": "看多",
-  "latest_date": "2026-09-19"
+  "mentions": 285,
+  "latest_stance": "持有中",
+  "latest_date": "2026-10-07"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -18535,6 +18547,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP703",
+    "date": "2026-10-07",
+    "stance": "觀察",
+    "argument": "聽眾提及有朋友遺忘持股十張後直接原地退休的伺服器管理晶片龍頭。"
+   },
+   {
     "ep": "EP523",
     "date": "2025-01-15",
     "stance": "觀察",
@@ -18613,9 +18631,9 @@
     "argument": "BMC晶片公司，雖100%投片台積電但競爭低，有轉嫁能力。"
    }
   ],
-  "mentions": 13,
+  "mentions": 14,
   "latest_stance": "觀察",
-  "latest_date": "2025-01-15"
+  "latest_date": "2026-10-07"
  },
  "5269": {
   "name": "祥碩",
@@ -31345,15 +31363,21 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP703",
+    "date": "2026-10-07",
+    "stance": "觀察",
+    "argument": "由原俄羅斯 Yandex 轉型之 AI 雲端公司，雖有大漲十倍潛力但屬高風險題材。"
+   },
+   {
     "ep": "EP684",
     "date": "2026-08-01",
     "stance": "觀察",
     "argument": "為 Situational Awareness 基金持股之一，主持人未直接評論。"
    }
   ],
-  "mentions": 1,
+  "mentions": 2,
   "latest_stance": "觀察",
-  "latest_date": "2026-08-01"
+  "latest_date": "2026-10-07"
  },
  "SNDK": {
   "name": "SanDisk",
