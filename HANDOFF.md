@@ -1,5 +1,8 @@
 # HANDOFF — gooaye-tracker
 
+> ⚠️ **2026-10-09 GCP 專案刪除**：使用者已刪除兩個 Google 帳號的全部 18 個 GCP 專案，並將自行重建、取得新金鑰（約 2026-11-08 前可 `gcloud projects undelete <id>` 還原，專案 ID 不可重用）。下文的專案 ID、服務帳號、Vertex 試用到期日與金鑰都是刪除前的紀錄；專案清單與新金鑰要放回的位置見 `C:\CLAUDE\專案-投資\HANDOFF-hetzner.md`。主機上的 `vertex-sa.json`（`civil-ra-505506` 的 civil-rag-vertex 服務帳號）已失效，換新金鑰前排程會失敗；「2026-10-11 到期」不再適用。
+
+
 > ⚠️ **2026-10-09 本機排程刪除**：使用者已刪除本機 Windows 工作排程器的自有排程，GooayeDaily、GooayeWebSync 不再執行。Hetzner cron 不受影響。下文的排程時間與「已註冊／運作中」字樣是刪除前的紀錄。定義備份在 `C:\CLAUDE\tools\scheduled-task-backup-20261009\`，還原用 `schtasks /create /tn <名稱> /xml <檔>`（`Enable-ScheduledTask` 已無效）；現況見 `C:\CLAUDE\專案-投資\ROUTINES.md`。
 
 
