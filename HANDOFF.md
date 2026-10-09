@@ -1,5 +1,8 @@
 # HANDOFF — gooaye-tracker
 
+> ⚠️ **2026-10-09 本機排程刪除**：使用者已刪除本機 Windows 工作排程器的自有排程，GooayeDaily、GooayeWebSync 不再執行。Hetzner cron 不受影響。下文的排程時間與「已註冊／運作中」字樣是刪除前的紀錄。定義備份在 `C:\CLAUDE\tools\scheduled-task-backup-20261009\`，還原用 `schtasks /create /tn <名稱> /xml <檔>`（`Enable-ScheduledTask` 已無效）；現況見 `C:\CLAUDE\專案-投資\ROUTINES.md`。
+
+
 ## Vertex 通道復活＋模型改 3.8-flash（2026-09-03 晚，Claude Code）
 ✅ VM 音訊分析改走 **Vertex**：借用 civil-rag 試用專案的服務帳戶，複製到
 `~/gooaye-tracker/vertex-sa.json`（chang:600，.gitignore 已排除）；analyze.py 偵測到即自動切換。
