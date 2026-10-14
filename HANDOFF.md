@@ -14,7 +14,7 @@
 - 修法（使用者同意）：備份檔移到 VM `~/.key-backups/`；`.gitignore` 改 `vertex-sa.json*`；兩個未推 commit
   以 `reset --soft origin/master` 重整為 2e8e897 後一般 push；Pages build 2e8e897 已上線含 EP705。
   VM 留有含舊 commit 的本地分支 `backup/pre-secret-fix-20261014`（只在 VM、勿 push），確認無誤可刪。
-- ⚠️ chu-podcast-tracker（私有 repo）同一備份檔已推上 origin（dfb983e），待使用者決定處理方式。
+- chu-podcast-tracker（私有 repo）同一備份檔曾推上 origin（dfb983e），已於 d92bf05 移除追蹤（未改寫歷史），見該 repo HANDOFF。
 - ⚠️ 自動化之外：粉絲站逐字稿同步（GooayeWebSync 已隨本機排程刪除）與六類抽取／RAG 仍停在 EP692 附近。
 
 ## Vertex 通道復活＋模型改 3.8-flash（2026-09-03 晚，Claude Code）
