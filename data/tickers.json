@@ -4048,6 +4048,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP705",
+    "date": "2026-10-14",
+    "stance": "觀察",
+    "argument": "聽眾問及是否因喜歡虛擬主播而 All-in 台積電，孟恭認為此邏輯連結較為牽強。"
+   },
+   {
     "ep": "EP703",
     "date": "2026-10-07",
     "stance": "看多",
@@ -5836,9 +5842,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 298,
-  "latest_stance": "看多",
-  "latest_date": "2026-10-07"
+  "mentions": 299,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-14"
  },
  "3443": {
   "name": "創意電子",
@@ -10156,6 +10162,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP705",
+    "date": "2026-10-14",
+    "stance": "看多",
+    "argument": "評價相對不貴且近期開始轉強，年底將推出衛星相關的解決方案板卡。"
+   },
+   {
     "ep": "EP703",
     "date": "2026-10-07",
     "stance": "持有中",
@@ -11866,9 +11878,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 285,
-  "latest_stance": "持有中",
-  "latest_date": "2026-10-07"
+  "mentions": 286,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-14"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -17803,6 +17815,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP704",
+    "date": "2026-10-10",
+    "stance": "中性",
+    "argument": "過去曾佈局其 BMC 轉機題材，但實質營收貢獻極小，營收主力仍以 MCU 為主。"
+   },
+   {
     "ep": "EP516",
     "date": "2024-12-21",
     "stance": "已出場",
@@ -17833,9 +17851,9 @@
     "argument": "併購Panasonic半導體業務，營收亮眼但EPS低，需觀察整併綜效而非短期財報。"
    }
   ],
-  "mentions": 5,
-  "latest_stance": "已出場",
-  "latest_date": "2024-12-21"
+  "mentions": 6,
+  "latest_stance": "中性",
+  "latest_date": "2026-10-10"
  },
  "4938": {
   "name": "和碩",
@@ -18547,6 +18565,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP704",
+    "date": "2026-10-10",
+    "stance": "中性",
+    "argument": "Marvell 發表資料中心管理晶片引發市場擔憂競爭，但整體市場 TAM 有可能擴大，不必過度恐慌。"
+   },
+   {
     "ep": "EP703",
     "date": "2026-10-07",
     "stance": "觀察",
@@ -18631,9 +18655,9 @@
     "argument": "BMC晶片公司，雖100%投片台積電但競爭低，有轉嫁能力。"
    }
   ],
-  "mentions": 14,
-  "latest_stance": "觀察",
-  "latest_date": "2026-10-07"
+  "mentions": 15,
+  "latest_stance": "中性",
+  "latest_date": "2026-10-10"
  },
  "5269": {
   "name": "祥碩",
@@ -18703,6 +18727,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP705",
+    "date": "2026-10-14",
+    "stance": "觀察",
+    "argument": "聽眾看信昌電漲而買華新科卻沒動靜，孟恭指出若聯想題材未如預期發酵應考慮出場修正。"
+   },
+   {
     "ep": "EP661",
     "date": "2026-05-13",
     "stance": "看多",
@@ -18745,9 +18775,9 @@
     "argument": "連接器供應商，PS5/Xbox概念股。"
    }
   ],
-  "mentions": 7,
-  "latest_stance": "看多",
-  "latest_date": "2026-05-13"
+  "mentions": 8,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-14"
  },
  "LVMUY": {
   "name": "LVMH",
@@ -20488,6 +20518,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP704",
+    "date": "2026-10-10",
+    "stance": "看多",
+    "argument": "Investor Day 全面大幅上修營收展望，強調光通訊與連接架構為核心主菜，自研與客製化晶片潛力顯著。"
+   },
+   {
     "ep": "EP702",
     "date": "2026-10-03",
     "stance": "看多",
@@ -20830,9 +20866,9 @@
     "argument": "通訊營收佔比約40%，是通訊產業重點標的。"
    }
   ],
-  "mentions": 57,
+  "mentions": 58,
   "latest_stance": "看多",
-  "latest_date": "2026-10-03"
+  "latest_date": "2026-10-10"
  },
  "ON": {
   "name": "安森美半導體",
@@ -22411,6 +22447,18 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP705",
+    "date": "2026-10-14",
+    "stance": "看多",
+    "argument": "以明年預估 EPS 推算本益比僅十倍出頭，且前沿模型公司對其 XPU 需求持續強勁。"
+   },
+   {
+    "ep": "EP704",
+    "date": "2026-10-10",
+    "stance": "看多",
+    "argument": "作為產業領頭羊目前股價表現低調，但在同業大幅上修的背景下，後續也有機會釋出好消息。"
+   },
+   {
     "ep": "EP702",
     "date": "2026-10-03",
     "stance": "看多",
@@ -22879,9 +22927,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 78,
+  "mentions": 80,
   "latest_stance": "看多",
-  "latest_date": "2026-10-03"
+  "latest_date": "2026-10-14"
  },
  "3491": {
   "name": "昇達科",
@@ -31540,6 +31588,21 @@
   "mentions": 1,
   "latest_stance": "觀察",
   "latest_date": "2020-09-12"
+ },
+ "SPCX": {
+  "name": "CrossingBridge Pre-Merge SPAC ETF",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP705",
+    "date": "2026-10-14",
+    "stance": "持有中",
+    "argument": "聽眾問及高PE族群配置，孟恭提到部位中有押注近兩成，持股不以單純高低PE做唯一衡量。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "持有中",
+  "latest_date": "2026-10-14"
  },
  "6633": {
   "name": "晶心科",

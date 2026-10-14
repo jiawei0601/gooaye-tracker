@@ -6145,8 +6145,24 @@
   "title": "EP703 | 🏈",
   "pubdate": "2026-10-07",
   "duration_s": 3044,
-  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/0b071f57-45ba-47d3-9f15-2129a0c645a8/rssFileVip.mp3?timestamp=1791361603563",
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/0b071f57-45ba-47d3-9f15-2129a0c645a8/rssFileVip.mp3?timestamp=1791449599201",
   "guid": "0b071f57-45ba-47d3-9f15-2129a0c645a8",
+  "status": "done"
+ },
+ "EP704": {
+  "title": "EP704 | 🐘",
+  "pubdate": "2026-10-10",
+  "duration_s": 3016,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/e6664835-0084-491c-acfb-f35535f2c121/rssFileVip.mp3?timestamp=1791695628590",
+  "guid": "e6664835-0084-491c-acfb-f35535f2c121",
+  "status": "done"
+ },
+ "EP705": {
+  "title": "EP705 | 🎀",
+  "pubdate": "2026-10-14",
+  "duration_s": 2998,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/8d310d75-919d-4cc9-9530-75ac4dd6a7b9/rssFileVip.mp3?timestamp=1791963534808",
+  "guid": "8d310d75-919d-4cc9-9530-75ac4dd6a7b9",
   "status": "done"
  }
 }

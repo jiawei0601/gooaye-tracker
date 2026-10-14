@@ -4750,6 +4750,12 @@
  "記憶體": {
   "timeline": [
    {
+    "ep": "EP705",
+    "date": "2026-10-14",
+    "stance": "觀察",
+    "view": "理論上為最缺且漲價的零組件，但近期股價相對弱勢，需觀察後續財報表現與市場轉向。"
+   },
+   {
     "ep": "EP689",
     "date": "2026-08-19",
     "stance": "看多",
@@ -5410,9 +5416,9 @@
     "view": "報價上漲帶動股價噴出，但主持人未明確表態。"
    }
   ],
-  "mentions": 110,
-  "latest_stance": "看多",
-  "latest_date": "2026-08-19"
+  "mentions": 111,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-14"
  },
  "廣告科技": {
   "timeline": [
@@ -10684,6 +10690,12 @@
  "半導體設備": {
   "timeline": [
    {
+    "ep": "EP705",
+    "date": "2026-10-14",
+    "stance": "觀察",
+    "view": "部分小型設備股籌碼過於擁擠、開出利多不漲，反而是基本面次要但籌碼乾淨的標的漲勢較強。"
+   },
+   {
     "ep": "EP642",
     "date": "2026-03-07",
     "stance": "看多",
@@ -10786,9 +10798,9 @@
     "view": "ASML 受惠於先進製程資本支出，但成熟製程可能供過於求，相關設備商如應材、科林需注意影響。"
    }
   ],
-  "mentions": 17,
-  "latest_stance": "看多",
-  "latest_date": "2026-03-07"
+  "mentions": 18,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-14"
  },
  "軍工": {
   "timeline": [
@@ -21066,6 +21078,58 @@
   "mentions": 1,
   "latest_stance": "觀察",
   "latest_date": "2026-10-07"
+ },
+ "光通訊 / Interconnect": {
+  "timeline": [
+   {
+    "ep": "EP704",
+    "date": "2026-10-10",
+    "stance": "看多",
+    "view": "連接技術為算力叢集擴展的主菜，800G 為目前主力，1.6T 正在 ramp，未來往 3.2T 發展，NPO 與 CPO 將並行推進。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-10"
+ },
+ "AI 晶片 / ASIC (XPU)": {
+  "timeline": [
+   {
+    "ep": "EP704",
+    "date": "2026-10-10",
+    "stance": "看多",
+    "view": "客製化運算晶片及周邊連接元件長期成長空間龐大，雖需注意短線過度炒作的預期修正風險。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-10"
+ },
+ "伺服器管理晶片 (BMC)": {
+  "timeline": [
+   {
+    "ep": "EP704",
+    "date": "2026-10-10",
+    "stance": "觀察",
+    "view": "Marvell 切入資料中心全域管理晶片並非單純搶傳統 BMC 市場，而是為了提供整包方案以克服摩爾定律瓶頸，市場潛在規模可能比想像中大。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-10"
+ },
+ "AI伺服器/ASIC": {
+  "timeline": [
+   {
+    "ep": "EP705",
+    "date": "2026-10-14",
+    "stance": "看多",
+    "view": "前沿模型需求持續供不應求至2029-2030年，企業大量消耗Token反倒有助於客製化晶片生態系。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-14"
  },
  "健身器材": {
   "timeline": [

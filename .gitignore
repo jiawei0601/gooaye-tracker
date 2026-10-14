@@ -4,7 +4,7 @@ data/daily.log
 data/web_sync.log
 data/analyses/.last_processed.json
 __pycache__/
-vertex-sa.json
+vertex-sa.json*
 data/transcripts/
 data/transcripts_web/
 data/external/
