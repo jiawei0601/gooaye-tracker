@@ -6,6 +6,17 @@
 > ⚠️ **2026-10-09 本機排程刪除**：使用者已刪除本機 Windows 工作排程器的自有排程，GooayeDaily、GooayeWebSync 不再執行。Hetzner cron 不受影響。下文的排程時間與「已註冊／運作中」字樣是刪除前的紀錄。定義備份在 `C:\CLAUDE\tools\scheduled-task-backup-20261009\`，還原用 `schtasks /create /tn <名稱> /xml <檔>`（`Enable-ScheduledTask` 已無效）；現況見 `C:\CLAUDE\專案-投資\ROUTINES.md`。
 
 
+## VM push 被 GitHub 擋下已解除（2026-10-14，Claude Code）
+- 現況：VM 走新帳號 Vertex（`project-8d62b62d-b445-4443-b61`，gemini-3.8-flash，global），EP705 分析＋推播正常。
+- 事故：10-10 換金鑰時舊檔改名 `vertex-sa.json.bak-20261010-deleted-project`，`.gitignore` 只排除精確檔名、
+  `run_vm.sh` 又是 `git add -A` → 被 commit（851861d）。公開 repo 的 push protection 擋下（金鑰未外流），
+  VM ahead 2、公開儀表板停在 10-07。
+- 修法（使用者同意）：備份檔移到 VM `~/.key-backups/`；`.gitignore` 改 `vertex-sa.json*`；兩個未推 commit
+  以 `reset --soft origin/master` 重整為 2e8e897 後一般 push；Pages build 2e8e897 已上線含 EP705。
+  VM 留有含舊 commit 的本地分支 `backup/pre-secret-fix-20261014`（只在 VM、勿 push），確認無誤可刪。
+- ⚠️ chu-podcast-tracker（私有 repo）同一備份檔已推上 origin（dfb983e），待使用者決定處理方式。
+- ⚠️ 自動化之外：粉絲站逐字稿同步（GooayeWebSync 已隨本機排程刪除）與六類抽取／RAG 仍停在 EP692 附近。
+
 ## Vertex 通道復活＋模型改 3.8-flash（2026-09-03 晚，Claude Code）
 ✅ VM 音訊分析改走 **Vertex**：借用 civil-rag 試用專案的服務帳戶，複製到
 `~/gooaye-tracker/vertex-sa.json`（chang:600，.gitignore 已排除）；analyze.py 偵測到即自動切換。
