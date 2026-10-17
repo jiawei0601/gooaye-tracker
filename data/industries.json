@@ -4750,6 +4750,12 @@
  "記憶體": {
   "timeline": [
    {
+    "ep": "EP706",
+    "date": "2026-10-17",
+    "stance": "中性",
+    "view": "韓國大盤破底顯示記憶體產業遭遇短期逆風，目前僅保留部分長期部位。"
+   },
+   {
     "ep": "EP705",
     "date": "2026-10-14",
     "stance": "觀察",
@@ -5416,9 +5422,9 @@
     "view": "報價上漲帶動股價噴出，但主持人未明確表態。"
    }
   ],
-  "mentions": 111,
-  "latest_stance": "觀察",
-  "latest_date": "2026-10-14"
+  "mentions": 112,
+  "latest_stance": "中性",
+  "latest_date": "2026-10-17"
  },
  "廣告科技": {
   "timeline": [
@@ -21130,6 +21136,32 @@
   "mentions": 1,
   "latest_stance": "看多",
   "latest_date": "2026-10-14"
+ },
+ "硬體與伺服器組裝": {
+  "timeline": [
+   {
+    "ep": "EP706",
+    "date": "2026-10-17",
+    "stance": "中性",
+    "view": "短期面臨估值下修與籌碼鬆動壓力，需觀察後續反彈力道。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "中性",
+  "latest_date": "2026-10-17"
+ },
+ "軟體服務 (SaaS)": {
+  "timeline": [
+   {
+    "ep": "EP706",
+    "date": "2026-10-17",
+    "stance": "看多",
+    "view": "近期資金有轉進跡象，若硬體漲勢受阻，軟體類股有望接棒引領風潮。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-17"
  },
  "健身器材": {
   "timeline": [

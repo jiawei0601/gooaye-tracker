@@ -397,6 +397,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP706",
+    "date": "2026-10-17",
+    "stance": "看多",
+    "argument": "發表會展現強大工程推進技術，具備劃時代產品吸引力。"
+   },
+   {
     "ep": "EP701",
     "date": "2026-09-30",
     "stance": "持有中",
@@ -1843,9 +1849,9 @@
     "argument": "長期看好但已減碼，短期不追買，等回檔後再考慮。"
    }
   ],
-  "mentions": 241,
-  "latest_stance": "持有中",
-  "latest_date": "2026-09-30"
+  "mentions": 242,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-17"
  },
  "AAPL": {
   "name": "蘋果",
@@ -4048,6 +4054,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP706",
+    "date": "2026-10-17",
+    "stance": "看多",
+    "argument": "基本面展望極佳但股價未能帶動大盤走高，短線面臨市場利多鈍化。"
+   },
+   {
     "ep": "EP705",
     "date": "2026-10-14",
     "stance": "觀察",
@@ -5842,9 +5854,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 299,
-  "latest_stance": "觀察",
-  "latest_date": "2026-10-14"
+  "mentions": 300,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-17"
  },
  "3443": {
   "name": "創意電子",
@@ -10162,6 +10174,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP706",
+    "date": "2026-10-17",
+    "stance": "看多",
+    "argument": "產業基本面依舊強勁，但短線需提防硬體族群整體評價回檔。"
+   },
+   {
     "ep": "EP705",
     "date": "2026-10-14",
     "stance": "看多",
@@ -11878,9 +11896,9 @@
     "argument": "護城河寬、體質強，是股災時值得加碼的科技龍頭。"
    }
   ],
-  "mentions": 286,
+  "mentions": 287,
   "latest_stance": "看多",
-  "latest_date": "2026-10-14"
+  "latest_date": "2026-10-17"
  },
  "SPCE": {
   "name": "Virgin Galactic",
@@ -17494,6 +17512,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP706",
+    "date": "2026-10-17",
+    "stance": "持有中",
+    "argument": "僅剩美光仍列入持股，其他記憶體部位多已於前波高點調節。"
+   },
+   {
     "ep": "EP690",
     "date": "2026-08-22",
     "stance": "觀察",
@@ -17806,9 +17830,9 @@
     "argument": "財報數字漂亮但股價隔日跌5%，市場可能對未來保守，但或許是Alpha機會。"
    }
   ],
-  "mentions": 52,
-  "latest_stance": "觀察",
-  "latest_date": "2026-08-22"
+  "mentions": 53,
+  "latest_stance": "持有中",
+  "latest_date": "2026-10-17"
  },
  "4919": {
   "name": "新唐",
@@ -22447,6 +22471,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP706",
+    "date": "2026-10-17",
+    "stance": "持有中",
+    "argument": "雖然掉市占或競爭加劇是常態，但仍具備優質基本面與長期成長空間。"
+   },
+   {
     "ep": "EP705",
     "date": "2026-10-14",
     "stance": "看多",
@@ -22927,9 +22957,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 80,
-  "latest_stance": "看多",
-  "latest_date": "2026-10-14"
+  "mentions": 81,
+  "latest_stance": "持有中",
+  "latest_date": "2026-10-17"
  },
  "3491": {
   "name": "昇達科",
