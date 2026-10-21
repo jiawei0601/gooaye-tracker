@@ -397,6 +397,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP707",
+    "date": "2026-10-21",
+    "stance": "看多",
+    "argument": "執行力與資料中心建置速度極強，被主持人視為長期看好的代表性巨頭。"
+   },
+   {
     "ep": "EP706",
     "date": "2026-10-17",
     "stance": "看多",
@@ -1849,9 +1855,9 @@
     "argument": "長期看好但已減碼，短期不追買，等回檔後再考慮。"
    }
   ],
-  "mentions": 242,
+  "mentions": 243,
   "latest_stance": "看多",
-  "latest_date": "2026-10-17"
+  "latest_date": "2026-10-21"
  },
  "AAPL": {
   "name": "蘋果",
@@ -4054,6 +4060,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP707",
+    "date": "2026-10-21",
+    "stance": "看多",
+    "argument": "即便處於歷史高檔區，長期基本面成長確定性仍極高。"
+   },
+   {
     "ep": "EP706",
     "date": "2026-10-17",
     "stance": "看多",
@@ -5854,9 +5866,9 @@
     "argument": "主持人僅提及台積電在大跌中下跌，未表態看法。"
    }
   ],
-  "mentions": 300,
+  "mentions": 301,
   "latest_stance": "看多",
-  "latest_date": "2026-10-17"
+  "latest_date": "2026-10-21"
  },
  "3443": {
   "name": "創意電子",
@@ -8866,6 +8878,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP707",
+    "date": "2026-10-21",
+    "stance": "觀察",
+    "argument": "過去漲幅已大，雖涉足 TPU 等次世代架構，但股價在山頂時常面臨雜音與修正考驗。"
+   },
+   {
     "ep": "EP702",
     "date": "2026-10-03",
     "stance": "中性",
@@ -9646,9 +9664,9 @@
     "argument": "受華為制裁影響股價修正，但可能受惠於小米、Oppo轉單，不宜放空。"
    }
   ],
-  "mentions": 130,
-  "latest_stance": "中性",
-  "latest_date": "2026-10-03"
+  "mentions": 131,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-21"
  },
  "2303": {
   "name": "聯電",
@@ -19435,6 +19453,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP707",
+    "date": "2026-10-21",
+    "stance": "觀察",
+    "argument": "電話會議中提及無塵室建置延遲影響出貨，反映供應鏈瓶頸而非單純需求消失。"
+   },
+   {
     "ep": "EP683",
     "date": "2026-07-29",
     "stance": "觀察",
@@ -19519,9 +19543,9 @@
     "argument": "提及股價從800跌到600變便宜，但未表態。"
    }
   ],
-  "mentions": 14,
+  "mentions": 15,
   "latest_stance": "觀察",
-  "latest_date": "2026-07-29"
+  "latest_date": "2026-10-21"
  },
  "6213": {
   "name": "聯茂",
@@ -22471,6 +22495,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP707",
+    "date": "2026-10-21",
+    "stance": "看多",
+    "argument": "參與次世代 TPU 載板與先進封裝規格演進，長期受惠高階算力需求。"
+   },
+   {
     "ep": "EP706",
     "date": "2026-10-17",
     "stance": "持有中",
@@ -22957,9 +22987,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 81,
-  "latest_stance": "持有中",
-  "latest_date": "2026-10-17"
+  "mentions": 82,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-21"
  },
  "3491": {
   "name": "昇達科",
@@ -30259,6 +30289,12 @@
   "market": "private",
   "timeline": [
    {
+    "ep": "EP707",
+    "date": "2026-10-21",
+    "stance": "看多",
+    "argument": "營收成長暴力且 Starlink 與 AI 運算業務表現驚人，展現強大執行力。"
+   },
+   {
     "ep": "EP674",
     "date": "2026-06-27",
     "stance": "持有中",
@@ -30295,9 +30331,9 @@
     "argument": ""
    }
   ],
-  "mentions": 6,
-  "latest_stance": "持有中",
-  "latest_date": "2026-06-27"
+  "mentions": 7,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-21"
  },
  "RYAAY": {
   "name": "Ryanair Holdings",
