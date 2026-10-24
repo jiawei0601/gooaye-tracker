@@ -2827,6 +2827,12 @@
   "market": "TW",
   "timeline": [
    {
+    "ep": "EP708",
+    "date": "2026-10-24",
+    "stance": "觀察",
+    "argument": ""
+   },
+   {
     "ep": "EP687",
     "date": "2026-08-12",
     "stance": "持有中",
@@ -3217,9 +3223,9 @@
     "argument": "適合指數投資者，成交量較大，長期報酬優於0056。"
    }
   ],
-  "mentions": 65,
-  "latest_stance": "持有中",
-  "latest_date": "2026-08-12"
+  "mentions": 66,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-24"
  },
  "SPY": {
   "name": "SPDR S&P 500 ETF",
@@ -14743,6 +14749,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP708",
+    "date": "2026-10-24",
+    "stance": "看多",
+    "argument": ""
+   },
+   {
     "ep": "EP700",
     "date": "2026-09-26",
     "stance": "看多",
@@ -15001,9 +15013,9 @@
     "argument": "下跌時可考慮撿的標的之一。"
    }
   ],
-  "mentions": 43,
+  "mentions": 44,
   "latest_stance": "看多",
-  "latest_date": "2026-09-26"
+  "latest_date": "2026-10-24"
  },
  "BIDU": {
   "name": "百度",

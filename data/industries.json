@@ -21215,6 +21215,45 @@
   "latest_stance": "看多",
   "latest_date": "2026-10-21"
  },
+ "半導體/晶片": {
+  "timeline": [
+   {
+    "ep": "EP708",
+    "date": "2026-10-24",
+    "stance": "觀察",
+    "view": "純靠缺貨與漲價拉抬估值的敘事動能減弱，需注意長線產能過剩與邊際定價下行的風險。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-24"
+ },
+ "軟體與資安 (Software/Cybersecurity)": {
+  "timeline": [
+   {
+    "ep": "EP708",
+    "date": "2026-10-24",
+    "stance": "看多",
+    "view": "近期走勢優於硬體族群，具備實質基本面與轉型效益的軟體股更具投資吸引力。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-24"
+ },
+ "記憶體與被動元件 (DRAM/MLCC)": {
+  "timeline": [
+   {
+    "ep": "EP708",
+    "date": "2026-10-24",
+    "stance": "觀察",
+    "view": "雖然目前存在供給瓶頸且毛利上升，但市場已開始質疑高毛利能否維持兩到三年。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-24"
+ },
  "健身器材": {
   "timeline": [
    {
