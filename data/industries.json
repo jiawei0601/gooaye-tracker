@@ -21254,6 +21254,58 @@
   "latest_stance": "觀察",
   "latest_date": "2026-10-24"
  },
+ "AI模型與軟體": {
+  "timeline": [
+   {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "看多",
+    "view": "Anthropic S1 顯示營收一季翻一倍以上，毛利達85%，客戶黏著度與算力轉換營收效率遠超預期。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-28"
+ },
+ "伺服器CPU與零組件": {
+  "timeline": [
+   {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "看多",
+    "view": "美股 CPU 相關預期持續上修，台股 BMC 與 Socket 等相關類股具備落後補漲或重新發動的機會。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-28"
+ },
+ "載板與漲價概念股": {
+  "timeline": [
+   {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "中性",
+    "view": "市場對其利多已知且數字已高度反映，純推估值缺乏進一步上修空間，傾向先行避開。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "中性",
+  "latest_date": "2026-10-28"
+ },
+ "資訊通訊安全": {
+  "timeline": [
+   {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "觀察",
+    "view": "美股資安股走勢強勁，台股供應資安硬體及伺服器的相關供應鏈值得列入觀察清單。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "觀察",
+  "latest_date": "2026-10-28"
+ },
  "健身器材": {
   "timeline": [
    {

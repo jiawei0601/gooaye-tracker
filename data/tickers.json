@@ -1864,6 +1864,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "持有中",
+    "argument": "硬體與軟體介面整合優異，Apple Duo摺疊機帶來極佳的操作流暢度。"
+   },
+   {
     "ep": "EP696",
     "date": "2026-09-12",
     "stance": "看多",
@@ -2494,9 +2500,9 @@
     "argument": "強勢科技公司，下殺時可考慮加碼。"
    }
   ],
-  "mentions": 105,
-  "latest_stance": "看多",
-  "latest_date": "2026-09-12"
+  "mentions": 106,
+  "latest_stance": "持有中",
+  "latest_date": "2026-10-28"
  },
  "SQ": {
   "name": "Square",
@@ -12166,6 +12172,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "持有中",
+    "argument": "持有大量Anthropic股權並提供雲端算力支持，為主要受惠巨頭。"
+   },
+   {
     "ep": "EP651",
     "date": "2026-04-08",
     "stance": "觀察",
@@ -12442,9 +12454,9 @@
     "argument": "網路電商與快遞到家，理論上應受惠於疫情，但股價仍隨大盤下跌。"
    }
   ],
-  "mentions": 46,
-  "latest_stance": "觀察",
-  "latest_date": "2026-04-08"
+  "mentions": 47,
+  "latest_stance": "持有中",
+  "latest_date": "2026-10-28"
  },
  "VZ": {
   "name": "Verizon",
@@ -12979,6 +12991,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "持有中",
+    "argument": "作為Anthropic主要算力提供者與金主之一，將直接受惠於其算力採購承諾。"
+   },
+   {
     "ep": "EP695",
     "date": "2026-09-09",
     "stance": "看多",
@@ -13387,9 +13405,9 @@
     "argument": "不依賴消費者上門，但股價仍隨大盤下跌。"
    }
   ],
-  "mentions": 68,
-  "latest_stance": "看多",
-  "latest_date": "2026-09-09"
+  "mentions": 69,
+  "latest_stance": "持有中",
+  "latest_date": "2026-10-28"
  },
  "MCHI": {
   "name": "iShares MSCI中國ETF",
@@ -22507,6 +22525,12 @@
   "market": "US",
   "timeline": [
    {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "持有中",
+    "argument": "與Anthropic簽有巨額TPU租賃合約，並接受以可換股借據形式收取房租。"
+   },
+   {
     "ep": "EP707",
     "date": "2026-10-21",
     "stance": "看多",
@@ -22999,9 +23023,9 @@
     "argument": "5G射頻元件股，主持人布局約一個月，已賺10-20%。"
    }
   ],
-  "mentions": 82,
-  "latest_stance": "看多",
-  "latest_date": "2026-10-21"
+  "mentions": 83,
+  "latest_stance": "持有中",
+  "latest_date": "2026-10-28"
  },
  "3491": {
   "name": "昇達科",
@@ -31681,6 +31705,21 @@
   "mentions": 1,
   "latest_stance": "持有中",
   "latest_date": "2026-10-14"
+ },
+ "ANT": {
+  "name": "Anthropic",
+  "market": "US",
+  "timeline": [
+   {
+    "ep": "EP709",
+    "date": "2026-10-28",
+    "stance": "看多",
+    "argument": "S1數據極為亮眼，營收倍增且毛利大幅改善，雖然算力資本承諾龐大，但其IPO預期將引發市場熱潮。"
+   }
+  ],
+  "mentions": 1,
+  "latest_stance": "看多",
+  "latest_date": "2026-10-28"
  },
  "6633": {
   "name": "晶心科",
