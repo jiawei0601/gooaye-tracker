@@ -6201,8 +6201,16 @@
   "title": "EP710 | 🍒",
   "pubdate": "2026-10-31",
   "duration_s": 3053,
-  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/0cee70ae-6178-47d5-8ef1-12225a833dc0/rssFileVip.mp3?timestamp=1793431238926",
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/0cee70ae-6178-47d5-8ef1-12225a833dc0/rssFileVip.mp3?timestamp=1793506122507",
   "guid": "0cee70ae-6178-47d5-8ef1-12225a833dc0",
+  "status": "pending"
+ },
+ "EP711": {
+  "title": "EP711 | 🕊️🐦🦚🦜🦉🦅🐦🐧",
+  "pubdate": "2026-11-04",
+  "duration_s": 2974,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/1eea6dc8-17a1-43a4-b3ef-1a2d20ff65b9/rssFileVip.mp3?timestamp=1793777092413",
+  "guid": "1eea6dc8-17a1-43a4-b3ef-1a2d20ff65b9",
   "status": "pending"
  }
 }
