@@ -6228,5 +6228,13 @@
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/5efa0892-4cb9-4f82-a1fc-21f0a49a2b9c/rssFileVip.mp3?timestamp=1794394898530",
   "guid": "5efa0892-4cb9-4f82-a1fc-21f0a49a2b9c",
   "status": "pending"
+ },
+ "EP714": {
+  "title": "EP714 | 🥏",
+  "pubdate": "2026-11-14",
+  "duration_s": 3049,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/52dc3b92-2b06-49b6-ae34-821a9d632754/rssFileVip.mp3?timestamp=1794641725086",
+  "guid": "52dc3b92-2b06-49b6-ae34-821a9d632754",
+  "status": "pending"
  }
 }
