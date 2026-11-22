@@ -22,7 +22,8 @@ load_env()
 TRANSCRIBER = os.environ.get("GOOAYE_TRANSCRIBER", "gemini")
 # gemini 通道遇額度／權限／帳單錯誤時，是否自動改走 Whisper 備援
 WHISPER_FALLBACK = os.environ.get("GOOAYE_WHISPER_FALLBACK", "1") == "1"
-FALLBACK_ERRORS = ("429", "RESOURCE_EXHAUSTED", "403", "PERMISSION_DENIED", "billing")
+FALLBACK_ERRORS = ("429", "RESOURCE_EXHAUSTED", "403", "PERMISSION_DENIED", "billing",
+                   "401", "UNAUTHENTICATED", "ACCOUNT_STATE_INVALID", "ffmpeg")  # ffmpeg：A1 缺 ffmpeg 時 Vertex 路徑整批失敗
 
 MODEL = "gemini-3.8-flash"  # 2026-09-03 使用者指定；Vertex（civil-rag 試用專案）已驗證可用
 # Whisper 路徑「文字分析」用的模型：claude-haiku-5-5（預設）／claude-sonnet-5-5／gemini
