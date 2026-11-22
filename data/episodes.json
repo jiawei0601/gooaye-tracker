@@ -6203,7 +6203,8 @@
   "duration_s": 3053,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/0cee70ae-6178-47d5-8ef1-12225a833dc0/rssFileVip.mp3?timestamp=1793506122507",
   "guid": "0cee70ae-6178-47d5-8ef1-12225a833dc0",
-  "status": "pending"
+  "status": "done",
+  "via": "whisper"
  },
  "EP711": {
   "title": "EP711 | 🕊️🐦🦚🦜🦉🦅🐦🐧",
@@ -6211,7 +6212,8 @@
   "duration_s": 2974,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/1eea6dc8-17a1-43a4-b3ef-1a2d20ff65b9/rssFileVip.mp3?timestamp=1794803346324",
   "guid": "1eea6dc8-17a1-43a4-b3ef-1a2d20ff65b9",
-  "status": "pending"
+  "status": "done",
+  "via": "whisper"
  },
  "EP712": {
   "title": "EP712 | 🦌",
@@ -6219,7 +6221,8 @@
   "duration_s": 3276,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/4fc7e5b8-4d4d-4e4c-ae20-96c2e0f9af45/rssFileVip.mp3?timestamp=1794036652001",
   "guid": "4fc7e5b8-4d4d-4e4c-ae20-96c2e0f9af45",
-  "status": "pending"
+  "status": "done",
+  "via": "whisper"
  },
  "EP713": {
   "title": "EP713 | 🌲",
@@ -6227,7 +6230,8 @@
   "duration_s": 3133,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/5efa0892-4cb9-4f82-a1fc-21f0a49a2b9c/rssFileVip.mp3?timestamp=1794394898530",
   "guid": "5efa0892-4cb9-4f82-a1fc-21f0a49a2b9c",
-  "status": "pending"
+  "status": "done",
+  "via": "whisper"
  },
  "EP714": {
   "title": "EP714 | 🥏",
@@ -6235,7 +6239,8 @@
   "duration_s": 3049,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/52dc3b92-2b06-49b6-ae34-821a9d632754/rssFileVip.mp3?timestamp=1794641725086",
   "guid": "52dc3b92-2b06-49b6-ae34-821a9d632754",
-  "status": "pending"
+  "status": "done",
+  "via": "whisper"
  },
  "EP715": {
   "title": "EP715 | 🥐",
@@ -6243,7 +6248,8 @@
   "duration_s": 3118,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/6e0d7037-eff5-4cc1-917e-dc43ef5dedbc/rssFileVip.mp3?timestamp=1794989947395",
   "guid": "6e0d7037-eff5-4cc1-917e-dc43ef5dedbc",
-  "status": "pending"
+  "status": "done",
+  "via": "whisper"
  },
  "EP716": {
   "title": "EP716 | 🍒",
@@ -6251,6 +6257,7 @@
   "duration_s": 3157,
   "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/9518e365-fb3b-498b-a7f7-fc1c56b33371/rssFileVip.mp3?timestamp=1795245484561",
   "guid": "9518e365-fb3b-498b-a7f7-fc1c56b33371",
-  "status": "pending"
+  "status": "done",
+  "via": "whisper"
  }
 }
