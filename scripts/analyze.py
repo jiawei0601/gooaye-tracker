@@ -334,7 +334,7 @@ def main():
 
     if TRANSCRIBER == "whisper":
         client, pause = None, 3  # 全程走 Whisper＋文字分析，不使用音訊 client
-        print("🎙️ Whisper 模式：Colab T4 轉錄 + Gemini 文字分析")
+        print(f"🎙️ Whisper 模式：Colab T4 轉錄 + 文字分析（{TEXT_MODEL}）")
     elif VERTEX_SA.exists():
         client = None  # Vertex 付費模式（見 VERTEX_SA 註解）
         pause = 3
