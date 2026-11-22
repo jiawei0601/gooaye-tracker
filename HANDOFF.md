@@ -8,7 +8,8 @@
   - 若 token 失效需重登：`sudo -u chang env PYTHON_KEYRING_BACKEND=keyrings.alt.file.PlaintextKeyring colab sessions`，印出授權網址後任何瀏覽器登入，把授權碼貼回同一個終端（複製貼上流程，不需 gcloud 或本機瀏覽器）。
   另：transcribe_whisper 已固定 session 名 `gooaye-<key>` 並在 finally 補 `colab stop`，本機程序被殺不會留 VM（2026-11-22 測試時曾因中止 colab run 留下一台 T4，手動關閉）。未完成前 A1 的 Whisper 備援不會生效（colab_available() 為 False 時維持原本 429 停批行為）。
 - Vertex 到期切換程序：A1 的 `.env` 加 `GOOAYE_TRANSCRIBER=whisper`；或刪 `vertex-sa.json` 讓自動備援接手（免費層 429 時改走 Whisper）。文字分析預設用 `GOOAYE_GEMINI_KEY`（有 vertex-sa.json 則走 Vertex）。
-- 驗證限制：本機 `GOOAYE_GEMINI_KEY` 回 401（綁定服務帳號已刪除），故 Gemini 文字模式只以 stub 驗證接線，未對真實 API 驗證 JSON 輸出；需有效金鑰後以 `analyze.py --ep EP678 --from-transcript data/transcripts/EP678.md` 補測。
+- 文字分析已對真實 API 驗證（2026-11-22，A1 上走 Vertex 通道）：`analyze.py --ep EP678 --from-transcript` 11.8 秒回傳合法 JSON，欄位齊全、無 transcript 殘留；tickers 7 檔（ADI/ALAB/APH/CRDO/META/NVDA/3231），與音訊版交集 5 檔，industries 5 個。
+- ⚠️ 免費層金鑰仍失效：本機與 A1 的 `.env` 內 `GOOAYE_GEMINI_KEY` 指紋相同（2026-07 版），對 generativelanguage API 回 401 ACCOUNT_STATE_INVALID（綁定服務帳號已刪除）。A1 有 `vertex-sa.json` 所以日常不受影響；Vertex 到期後若走免費層需先換新金鑰到 A1 `.env`。
 
 > ⚠️ **2026-10-09 GCP 專案刪除**：使用者已刪除兩個 Google 帳號的全部 18 個 GCP 專案，並將自行重建、取得新金鑰（約 2026-11-08 前可 `gcloud projects undelete <id>` 還原，專案 ID 不可重用）。下文的專案 ID、服務帳號、Vertex 試用到期日與金鑰都是刪除前的紀錄；專案清單與新金鑰要放回的位置見 `C:\CLAUDE\專案-投資\HANDOFF-hetzner.md`。主機上的 `vertex-sa.json`（`civil-ra-505506` 的 civil-rag-vertex 服務帳號）已失效，換新金鑰前排程會失敗；「2026-10-11 到期」不再適用。
 
