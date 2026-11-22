@@ -11,6 +11,10 @@
 - 文字分析已對真實 API 驗證（2026-11-22，A1 上走 Vertex 通道）：`analyze.py --ep EP678 --from-transcript` 11.8 秒回傳合法 JSON，欄位齊全、無 transcript 殘留；tickers 7 檔（ADI/ALAB/APH/CRDO/META/NVDA/3231），與音訊版交集 5 檔，industries 5 個。
 - ⚠️ 免費層金鑰仍失效：本機與 A1 的 `.env` 內 `GOOAYE_GEMINI_KEY` 指紋相同（2026-07 版），對 generativelanguage API 回 401 ACCOUNT_STATE_INVALID（綁定服務帳號已刪除）。A1 有 `vertex-sa.json` 所以日常不受影響；Vertex 到期後若走免費層需先換新金鑰到 A1 `.env`。
 
+- **文字分析預設改 Claude Haiku 5.5（2026-11-22）**：Whisper 路徑的 `analyze_text_only` 由 `GOOAYE_TEXT_MODEL` 選模型（`claude-haiku-5-5` 預設／`claude-sonnet-5-5`／`gemini`），`claude_text()` 以 urllib 直呼 Messages API；`--text-model` 可單集覆蓋。Gemini 音訊路徑不動。`analysis_source` 現為 `whisper-colab/large-v3+<實際模型>`。
+  - EP678 實測：Haiku 5.5 $0.0043、19.5 秒，標的 6 檔、與音訊版交集 5、無幻覺；Sonnet low $0.068、13.3 秒，交集 6；Gemini 文字版曾幻覺 3231。
+  - **待辦：本機與 A1 的 gooaye-tracker/.env 尚無 `ANTHROPIC_API_KEY`，未放之前文字分析會退回 gemini（A1 走 Vertex）。金鑰部署由使用者決定。**
+
 > ⚠️ **2026-10-09 GCP 專案刪除**：使用者已刪除兩個 Google 帳號的全部 18 個 GCP 專案，並將自行重建、取得新金鑰（約 2026-11-08 前可 `gcloud projects undelete <id>` 還原，專案 ID 不可重用）。下文的專案 ID、服務帳號、Vertex 試用到期日與金鑰都是刪除前的紀錄；專案清單與新金鑰要放回的位置見 `C:\CLAUDE\專案-投資\HANDOFF-hetzner.md`。主機上的 `vertex-sa.json`（`civil-ra-505506` 的 civil-rag-vertex 服務帳號）已失效，換新金鑰前排程會失敗；「2026-10-11 到期」不再適用。
 
 

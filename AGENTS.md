@@ -4,7 +4,7 @@
 > 一份規則，兩邊共用，不分叉。
 
 ## 專案慣例
-- 語言 / 框架：Python 3.11+，只用標準庫（唯一外部依賴 google-genai，僅 analyze.py 用）。
+- 語言 / 框架：Python 3.11+，只用標準庫（唯一外部依賴 google-genai，僅 analyze.py 用；Claude 文字分析以標準庫 urllib 直呼 Messages API，無新依賴）。
 - 風格 / 命名：腳本放 scripts/、資料放 data/；分析結果一集一檔 data/analyses/EPxxx.json，
   逐字稿一集一檔 data/transcripts/EPxxx.md。
 - 測試怎麼跑：`python scripts/fetch_feed.py && python scripts/aggregate.py &&
@@ -27,4 +27,5 @@ analyze.py 有三種狀態，依 repo .env／檔案決定：
    - 自動備援：gemini 通道遇 429／RESOURCE_EXHAUSTED／403／PERMISSION_DENIED／billing 且 colab 可用時，
      該集改走 Whisper（episodes.json `via=whisper-fallback`）；`GOOAYE_WHISPER_FALLBACK=0` 可關閉。
    - 需要 `colab` CLI（`uv tool install google-colab-cli`，登入須使用者本人；Windows 需 `PYTHONUTF8=1`），可用 `COLAB_BIN` 指定路徑。
+   - 文字分析模型由 `GOOAYE_TEXT_MODEL` 決定，預設 `claude-haiku-5-5`（可選 `claude-sonnet-5-5`／`gemini`），需 `ANTHROPIC_API_KEY`；缺金鑰自動退回 gemini。單集可用 `--text-model` 覆蓋。
    - 只測文字分析：`python scripts/analyze.py --ep EP678 --from-transcript <md>`（只印不寫）。

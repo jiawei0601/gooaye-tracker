@@ -25,6 +25,8 @@ WHISPER_FALLBACK = os.environ.get("GOOAYE_WHISPER_FALLBACK", "1") == "1"
 FALLBACK_ERRORS = ("429", "RESOURCE_EXHAUSTED", "403", "PERMISSION_DENIED", "billing")
 
 MODEL = "gemini-3.8-flash"  # 2026-09-03 使用者指定；Vertex（civil-rag 試用專案）已驗證可用
+# Whisper 路徑「文字分析」用的模型：claude-haiku-5-5（預設）／claude-sonnet-5-5／gemini
+TEXT_MODEL = os.environ.get("GOOAYE_TEXT_MODEL", "claude-haiku-5-5")
 PAUSE_S = 30  # 免費層 TPM 有限，一集約 10 萬 token，逐集間隔避免 429
 
 # 有 vertex-sa.json 就走 Vertex 付費通道（吃 GCP 試用額度、無 20 集/天限制）。
@@ -233,15 +235,55 @@ def gemini_text(prompt):
     return resp.text
 
 
+def claude_text(prompt, model):
+    """以標準庫 urllib 直呼 Anthropic Messages API（不裝 SDK），回傳文字。
+    不送 temperature／top_p／thinking；略過回應中的 thinking 區塊。"""
+    import urllib.error
+    body = {"model": model, "max_tokens": 8000,
+            "messages": [{"role": "user", "content": prompt}]}
+    req = urllib.request.Request(
+        "https://api.anthropic.com/v1/messages",
+        data=json.dumps(body).encode("utf-8"),
+        headers={"x-api-key": os.environ.get("ANTHROPIC_API_KEY", ""),
+                 "anthropic-version": "2023-06-01",
+                 "content-type": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=300) as r:
+            resp = json.load(r)
+    except urllib.error.HTTPError as e:
+        detail = e.read().decode("utf-8", "replace")[:1000]
+        raise RuntimeError(f"Anthropic API HTTP {e.code}: {detail}") from None
+    stop = resp.get("stop_reason")
+    if stop == "refusal":
+        raise RuntimeError("Claude 拒絕回應（stop_reason=refusal）")
+    if stop == "max_tokens":
+        raise RuntimeError("Claude 輸出達 max_tokens 上限被截斷，JSON 不完整")
+    usage = resp.get("usage") or {}
+    print(f"[claude_text] {model} input_tokens={usage.get('input_tokens')} "
+          f"output_tokens={usage.get('output_tokens')}", flush=True)
+    return "".join(b.get("text", "") for b in resp.get("content") or []
+                   if b.get("type") == "text")
+
+
+def text_llm(prompt):
+    """依 TEXT_MODEL 分派文字分析；回傳 (文字, 實際使用的模型名)。"""
+    if TEXT_MODEL.startswith("claude"):
+        if os.environ.get("ANTHROPIC_API_KEY"):
+            return claude_text(prompt, TEXT_MODEL), TEXT_MODEL
+        print("⚠️ 未設 ANTHROPIC_API_KEY，文字分析退回 gemini", flush=True)
+    return gemini_text(prompt), f"{MODEL}-text"
+
+
 def analyze_text_only(key, ep, transcript_text):
-    """逐字稿純文字 → Gemini 文字模式分析，回傳補齊欄位的 dict（不寫檔）。"""
+    """逐字稿純文字 → 文字模型分析（見 TEXT_MODEL），回傳補齊欄位的 dict（不寫檔）。"""
     from analyze_text import EXTRA_RULE, text_prompt
     prompt = f"{text_prompt(key, ep)}{EXTRA_RULE}\n\n=== 逐字稿全文 ===\n{transcript_text}"
-    result = parse_json(gemini_text(prompt))
+    text, used = text_llm(prompt)
+    result = parse_json(text)
     result.pop("transcript", None)
     result.update(ep_key=key, title=ep["title"], pubdate=ep["pubdate"],
                   duration_s=ep["duration_s"],
-                  analysis_source="whisper-colab/large-v3+gemini-3.8-flash-text")
+                  analysis_source=f"whisper-colab/large-v3+{used}")
     return result
 
 
@@ -252,7 +294,7 @@ def analyze_via_whisper(key, ep):
     md = whisper_transcript(key, ep["audio_url"])
     TRANSCRIPTS.mkdir(exist_ok=True)
     (TRANSCRIPTS / f"{key}.md").write_text(md, encoding="utf-8")
-    print(f"{key}: Gemini 文字分析中 ...", flush=True)
+    print(f"{key}: 文字分析中（{TEXT_MODEL}）...", flush=True)
     result = analyze_text_only(key, ep, transcript_to_text(md))
     (ANALYSES / f"{key}.json").write_text(
         json.dumps(result, ensure_ascii=False, indent=1), encoding="utf-8")
@@ -275,7 +317,11 @@ def main():
     ap.add_argument("--ep", help="指定單集，如 EP678")
     ap.add_argument("--from-transcript", metavar="PATH",
                     help="測試用：以現成逐字稿檔跑文字分析，只印不寫（需搭配 --ep）")
+    ap.add_argument("--text-model", help="覆蓋 GOOAYE_TEXT_MODEL（claude-haiku-5-5／claude-sonnet-5-5／gemini）")
     args = ap.parse_args()
+    if args.text_model:
+        global TEXT_MODEL
+        TEXT_MODEL = args.text_model
 
     if args.from_transcript:
         from transcribe_whisper import transcript_to_text
