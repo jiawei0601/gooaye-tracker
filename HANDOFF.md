@@ -1,5 +1,17 @@
 # HANDOFF — gooaye-tracker
 
+## Whisper 備援通道已實作（2026-11-22，Claude Code）
+- 新增 `scripts/transcribe_whisper.py`（本機呼叫 `colab run --gpu T4`）、`scripts/colab_whisper_job.py`（Colab 端 faster-whisper large-v3，含三個 Colab 環境修補）；`analyze.py` 加 `GOOAYE_TRANSCRIBER`／`GOOAYE_WHISPER_FALLBACK`、`analyze_via_whisper()`，gemini 通道遇 429／RESOURCE_EXHAUSTED／403／PERMISSION_DENIED／billing 自動備援。設定說明見 AGENTS.md「轉錄通道」與 `.env.example`。
+- EP678 驗證：53 分鐘音檔 T4 轉錄 616 秒、全程 685 秒、約 0.2 運算單位；漢字數 19228（Gemini 音訊版 19614），內容一致。
+- ⚠️ **A1（Oracle VM）尚未安裝 colab CLI 與認證**。待辦（使用者本人在 A1 以 chang 身分執行）：
+  1. `uv tool install google-colab-cli --with keyrings.alt`（A1 無桌面 keyring，需檔案後端存 token）；
+  2. `~/.bashrc` 與 crontab 環境加 `PYTHON_KEYRING_BACKEND=keyrings.alt.file.PlaintextKeyring`；
+  3. 執行 `PYTHON_KEYRING_BACKEND=keyrings.alt.file.PlaintextKeyring colab sessions`，CLI 會印出授權網址，任何瀏覽器（含手機）登入後把 Google 顯示的授權碼貼回終端（colab CLI 用 gcloud 同款複製貼上流程，不需本機瀏覽器或 gcloud，見 colab_cli/auth.py `_run_remote_flow`）；
+  4. 再跑一次 `colab sessions` 確認不再要求登入。
+  另：transcribe_whisper 已固定 session 名 `gooaye-<key>` 並在 finally 補 `colab stop`，本機程序被殺不會留 VM（2026-11-22 測試時曾因中止 colab run 留下一台 T4，手動關閉）。未完成前 A1 的 Whisper 備援不會生效（colab_available() 為 False 時維持原本 429 停批行為）。
+- Vertex 到期切換程序：A1 的 `.env` 加 `GOOAYE_TRANSCRIBER=whisper`；或刪 `vertex-sa.json` 讓自動備援接手（免費層 429 時改走 Whisper）。文字分析預設用 `GOOAYE_GEMINI_KEY`（有 vertex-sa.json 則走 Vertex）。
+- 驗證限制：本機 `GOOAYE_GEMINI_KEY` 回 401（綁定服務帳號已刪除），故 Gemini 文字模式只以 stub 驗證接線，未對真實 API 驗證 JSON 輸出；需有效金鑰後以 `analyze.py --ep EP678 --from-transcript data/transcripts/EP678.md` 補測。
+
 > ⚠️ **2026-10-09 GCP 專案刪除**：使用者已刪除兩個 Google 帳號的全部 18 個 GCP 專案，並將自行重建、取得新金鑰（約 2026-11-08 前可 `gcloud projects undelete <id>` 還原，專案 ID 不可重用）。下文的專案 ID、服務帳號、Vertex 試用到期日與金鑰都是刪除前的紀錄；專案清單與新金鑰要放回的位置見 `C:\CLAUDE\專案-投資\HANDOFF-hetzner.md`。主機上的 `vertex-sa.json`（`civil-ra-505506` 的 civil-rag-vertex 服務帳號）已失效，換新金鑰前排程會失敗；「2026-10-11 到期」不再適用。
 
 

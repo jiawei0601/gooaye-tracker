@@ -17,3 +17,14 @@
 - 交出前：測試綠 → commit 乾淨（絕不交髒工作區）→ 更新 HANDOFF.md → 更新 issue。
 - 接手前：clean tree + pull → 讀 HANDOFF.md / issue / git log / 本檔 → 先複述現況與下一步再動手。
 - 架構決策寫 docs/adr/；任務狀態走 issues。
+
+## 轉錄通道
+analyze.py 有三種狀態，依 repo .env／檔案決定：
+1. **Gemini 免費層**（預設）：無 `vertex-sa.json`，用 `GOOAYE_GEMINI_KEY` 直接聽音檔；有日額度限制。
+2. **Vertex 付費**：repo 根有 `vertex-sa.json` 即自動切換（無日限）。
+3. **Whisper**（Colab T4 faster-whisper 逐字稿 → Gemini 文字分析，`scripts/transcribe_whisper.py`）：
+   - 強制使用：`.env` 設 `GOOAYE_TRANSCRIBER=whisper`。
+   - 自動備援：gemini 通道遇 429／RESOURCE_EXHAUSTED／403／PERMISSION_DENIED／billing 且 colab 可用時，
+     該集改走 Whisper（episodes.json `via=whisper-fallback`）；`GOOAYE_WHISPER_FALLBACK=0` 可關閉。
+   - 需要 `colab` CLI（`uv tool install google-colab-cli`，登入須使用者本人；Windows 需 `PYTHONUTF8=1`），可用 `COLAB_BIN` 指定路徑。
+   - 只測文字分析：`python scripts/analyze.py --ep EP678 --from-transcript <md>`（只印不寫）。

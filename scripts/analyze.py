@@ -10,11 +10,19 @@ import argparse
 import json
 import re
 import sys
+import os
 import time
 import urllib.request
 
 from common import (ANALYSES, AUDIO, ROOT, TRANSCRIPTS, gemini_key,
-                    load_episodes, save_episodes)
+                    load_env, load_episodes, save_episodes)
+
+load_env()
+# 轉錄通道：gemini＝Gemini 直接聽音檔（預設）；whisper＝Colab Whisper 逐字稿＋Gemini 文字分析
+TRANSCRIBER = os.environ.get("GOOAYE_TRANSCRIBER", "gemini")
+# gemini 通道遇額度／權限／帳單錯誤時，是否自動改走 Whisper 備援
+WHISPER_FALLBACK = os.environ.get("GOOAYE_WHISPER_FALLBACK", "1") == "1"
+FALLBACK_ERRORS = ("429", "RESOURCE_EXHAUSTED", "403", "PERMISSION_DENIED", "billing")
 
 MODEL = "gemini-3.8-flash"  # 2026-09-03 使用者指定；Vertex（civil-rag 試用專案）已驗證可用
 PAUSE_S = 30  # 免費層 TPM 有限，一集約 10 萬 token，逐集間隔避免 429
@@ -192,13 +200,95 @@ def analyze_one(client, key, ep):
           f"{len(result.get('industries', []))} 個產業", flush=True)
 
 
+def gemini_text(prompt):
+    """文字模式呼叫 gemini：有 vertex-sa.json 走 Vertex，否則用免費金鑰（AI Studio）。"""
+    if VERTEX_SA.exists():
+        from google.auth.transport.requests import Request as GARequest
+        from google.oauth2 import service_account
+        creds = service_account.Credentials.from_service_account_file(
+            str(VERTEX_SA), scopes=["https://www.googleapis.com/auth/cloud-platform"])
+        creds.refresh(GARequest())
+        project = json.loads(VERTEX_SA.read_text())["project_id"]
+        body = {"contents": [{"role": "user", "parts": [{"text": prompt}]}],
+                "generationConfig": {"temperature": 0.2, "maxOutputTokens": 65536,
+                                     "thinkingConfig": {"thinkingBudget": 0}}}
+        url = (f"https://aiplatform.googleapis.com/v1/projects/{project}"
+               f"/locations/global/publishers/google/models/{MODEL}:generateContent")
+        req = urllib.request.Request(
+            url, data=json.dumps(body).encode(),
+            headers={"Content-Type": "application/json",
+                     "Authorization": f"Bearer {creds.token}"})
+        with urllib.request.urlopen(req, timeout=900) as r:
+            resp = json.load(r)
+        parts = (resp["candidates"][0].get("content") or {}).get("parts") or []
+        return "".join(p.get("text", "") for p in parts)
+    from google import genai
+    from google.genai import types
+    client = genai.Client(api_key=gemini_key())
+    resp = client.models.generate_content(
+        model=MODEL, contents=prompt,
+        config=types.GenerateContentConfig(
+            temperature=0.2, max_output_tokens=65536,
+            thinking_config=types.ThinkingConfig(thinking_budget=0)))
+    return resp.text
+
+
+def analyze_text_only(key, ep, transcript_text):
+    """逐字稿純文字 → Gemini 文字模式分析，回傳補齊欄位的 dict（不寫檔）。"""
+    from analyze_text import EXTRA_RULE, text_prompt
+    prompt = f"{text_prompt(key, ep)}{EXTRA_RULE}\n\n=== 逐字稿全文 ===\n{transcript_text}"
+    result = parse_json(gemini_text(prompt))
+    result.pop("transcript", None)
+    result.update(ep_key=key, title=ep["title"], pubdate=ep["pubdate"],
+                  duration_s=ep["duration_s"],
+                  analysis_source="whisper-colab/large-v3+gemini-3.8-flash-text")
+    return result
+
+
+def analyze_via_whisper(key, ep):
+    """Whisper 備援：Colab 轉錄 → 存逐字稿 md → 文字分析 → 存分析 JSON。不需下載音檔。"""
+    from transcribe_whisper import transcript_to_text, whisper_transcript
+    print(f"{key}: Colab Whisper 轉錄中（約 10-15 分鐘）...", flush=True)
+    md = whisper_transcript(key, ep["audio_url"])
+    TRANSCRIPTS.mkdir(exist_ok=True)
+    (TRANSCRIPTS / f"{key}.md").write_text(md, encoding="utf-8")
+    print(f"{key}: Gemini 文字分析中 ...", flush=True)
+    result = analyze_text_only(key, ep, transcript_to_text(md))
+    (ANALYSES / f"{key}.json").write_text(
+        json.dumps(result, ensure_ascii=False, indent=1), encoding="utf-8")
+    print(f"{key}: ✅ (whisper) {len(result.get('tickers', []))} 檔標的、"
+          f"{len(result.get('industries', []))} 個產業", flush=True)
+    return result
+
+
+def colab_available():
+    try:
+        from transcribe_whisper import find_colab
+        return bool(find_colab())
+    except Exception:
+        return False
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--limit", type=int, default=6)
     ap.add_argument("--ep", help="指定單集，如 EP678")
+    ap.add_argument("--from-transcript", metavar="PATH",
+                    help="測試用：以現成逐字稿檔跑文字分析，只印不寫（需搭配 --ep）")
     args = ap.parse_args()
 
-    if VERTEX_SA.exists():
+    if args.from_transcript:
+        from transcribe_whisper import transcript_to_text
+        ep = load_episodes()[args.ep]
+        text = open(args.from_transcript, encoding="utf-8").read()
+        print(json.dumps(analyze_text_only(args.ep, ep, transcript_to_text(text)),
+                         ensure_ascii=False, indent=1))
+        return 0
+
+    if TRANSCRIBER == "whisper":
+        client, pause = None, 3  # 全程走 Whisper＋文字分析，不使用音訊 client
+        print("🎙️ Whisper 模式：Colab T4 轉錄 + Gemini 文字分析")
+    elif VERTEX_SA.exists():
         client = None  # Vertex 付費模式（見 VERTEX_SA 註解）
         pause = 3
         print("⚡ Vertex 付費模式：吃 GCP 試用額度、無日額度限制")
@@ -223,12 +313,30 @@ def main():
     processed = []
     for i, key in enumerate(todo):
         try:
-            analyze_one(client, key, eps[key])
+            if TRANSCRIBER == "whisper":
+                analyze_via_whisper(key, eps[key])
+                eps[key]["via"] = "whisper"
+            else:
+                analyze_one(client, key, eps[key])
             eps[key]["status"] = "done"
             save_episodes(eps)  # 逐集存檔，中斷不丟進度
             processed.append(key)
         except Exception as e:
             print(f"{key}: ❌ {e}", flush=True)
+            if (TRANSCRIBER != "whisper" and WHISPER_FALLBACK and colab_available()
+                    and any(m in str(e) for m in FALLBACK_ERRORS)):
+                print(f"{key}: 改走 Whisper 備援通道", flush=True)
+                try:
+                    analyze_via_whisper(key, eps[key])
+                    eps[key]["status"] = "done"
+                    eps[key]["via"] = "whisper-fallback"
+                    save_episodes(eps)
+                    processed.append(key)
+                    if i < len(todo) - 1:
+                        time.sleep(pause)
+                    continue
+                except Exception as e2:
+                    print(f"{key}: ❌ Whisper 備援也失敗：{e2}", flush=True)
             if "429" in str(e) or "RESOURCE_EXHAUSTED" in str(e):
                 print("限流/額度耗盡，本批停止；剩餘集數留給下次排程", flush=True)
                 break
