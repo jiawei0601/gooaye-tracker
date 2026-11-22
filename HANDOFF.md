@@ -1,6 +1,12 @@
 # HANDOFF — gooaye-tracker
 
 ## Whisper 備援通道已實作（2026-11-22，Claude Code）
+
+### A1 已切為 Whisper 模式並補跑完成（2026-11-22 深夜）
+- A1 `.env` 設 `GOOAYE_TRANSCRIBER=whisper`（ffmpeg 缺失、使用者決定不裝，只走 Whisper＋Haiku）。
+- 補跑 EP710–EP716 共 7 集全部 ✅（whisper-colab/large-v3+claude-haiku-5-5），commit 15b1ed3；chu 同批 9 集亦完成。
+- Colab 結餘 597.81 units（補跑前 599.02，7＋9 集約 1.2 units）；`colab sessions` 無活動 VM。
+- 抽查 EP715：只抓到 1 檔標的（NVDA），逐字稿 1278 行、主題與原音相符（Jensen 不在的第一次 Earnings Call）；Whisper 輸出為簡體中文，Haiku 分析仍是繁體，可接受。
 - 新增 `scripts/transcribe_whisper.py`（本機呼叫 `colab run --gpu T4`）、`scripts/colab_whisper_job.py`（Colab 端 faster-whisper large-v3，含三個 Colab 環境修補）；`analyze.py` 加 `GOOAYE_TRANSCRIBER`／`GOOAYE_WHISPER_FALLBACK`、`analyze_via_whisper()`，gemini 通道遇 429／RESOURCE_EXHAUSTED／403／PERMISSION_DENIED／billing 自動備援。設定說明見 AGENTS.md「轉錄通道」與 `.env.example`。
 - EP678 驗證：53 分鐘音檔 T4 轉錄 616 秒、全程 685 秒、約 0.2 運算單位；漢字數 19228（Gemini 音訊版 19614），內容一致。
 - ✅ **A1（Oracle VM）colab CLI 已安裝並完成認證（2026-11-22 14:30 UTC）**：chang 帳號 `~/.local/bin/colab` 0.8.0；token 存 `~/.local/share/python_keyring/keyring_pass.cfg`（600，明文）；`PYTHON_KEYRING_BACKEND=keyrings.alt.file.PlaintextKeyring` 已加到 `~/.bashrc` 與 crontab 頂端（原 crontab 備份 `~/crontab.bak-20261122`）。以 `env -i` 模擬 cron 環境執行 `colab whoami` 可直接認證。A1 的自動備援自此生效。
