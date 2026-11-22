@@ -27,7 +27,8 @@ def setup_env():
     """安裝 faster-whisper 並修補 Colab 的 CUDA 版本錯位。"""
     log("pip install faster-whisper + cu12 runtime")
     subprocess.run([sys.executable, "-m", "pip", "install", "-q",
-                    "faster-whisper", "nvidia-cublas-cu12", "nvidia-cudnn-cu12"], check=True)
+                    "faster-whisper", "nvidia-cublas-cu12", "nvidia-cudnn-cu12",
+                    "opencc-python-reimplemented"], check=True)
     # --- 雷三：Colab 現為 CUDA 13，CTranslate2 wheel 連結 libcublas.so.12 / libcudnn.so.9。
     #     pip 裝的 cu12 .so 不在系統連結路徑，LD_LIBRARY_PATH 在程序啟動後設定無效，
     #     只能在 import 前用 ctypes RTLD_GLOBAL 預載。 ---
@@ -77,11 +78,15 @@ def main():
     segs, info = model.transcribe(
         audio, language="zh", beam_size=5, vad_filter=True,
         initial_prompt="歡迎收聽股癌，我是謝孟恭。台股、美股、台積電、輝達、聯準會。")
-    print(f"# {ep} | whisper {model_name} | audio {info.duration/60:.1f} min")
+    # Whisper 中文常輸出簡體（initial_prompt 壓不住），統一用 OpenCC s2twp 轉台灣繁體＋慣用詞。
+    from opencc import OpenCC
+    cc = OpenCC("s2twp")
+    print(f"# {ep} | whisper {model_name} | audio {info.duration/60:.1f} min | opencc s2twp")
     n = 0
     for s in segs:
         m, sec = divmod(int(s.start), 60)
-        print(f"[{m:02d}:{sec:02d}] {s.text.strip()}", flush=True); n += 1
+        # s2twp 會把「台」轉成「臺」，與本專案用字不符，統一回「台」。
+        print(f"[{m:02d}:{sec:02d}] {cc.convert(s.text.strip()).replace('臺', '台')}", flush=True); n += 1
     _alive = False
     log(f"done {n} segments, total {time.time()-T0:.0f}s, audio {info.duration:.0f}s")
     if n == 0:
