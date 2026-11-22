@@ -260,7 +260,7 @@ def claude_text(prompt, model):
         raise RuntimeError("Claude 輸出達 max_tokens 上限被截斷，JSON 不完整")
     usage = resp.get("usage") or {}
     print(f"[claude_text] {model} input_tokens={usage.get('input_tokens')} "
-          f"output_tokens={usage.get('output_tokens')}", flush=True)
+          f"output_tokens={usage.get('output_tokens')}", file=sys.stderr, flush=True)
     return "".join(b.get("text", "") for b in resp.get("content") or []
                    if b.get("type") == "text")
 
