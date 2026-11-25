@@ -6259,5 +6259,13 @@
   "guid": "9518e365-fb3b-498b-a7f7-fc1c56b33371",
   "status": "done",
   "via": "whisper"
+ },
+ "EP717": {
+  "title": "EP717 | 🦪",
+  "pubdate": "2026-11-25",
+  "duration_s": 3031,
+  "audio_url": "https://rss.soundon.fm/rssf/954689a5-3096-43a4-a80b-7810b219cef3/feedurl/3da75e11-4344-41d7-be41-55d516ec4991/rssFileVip.mp3?timestamp=1795593673199",
+  "guid": "3da75e11-4344-41d7-be41-55d516ec4991",
+  "status": "pending"
  }
 }
